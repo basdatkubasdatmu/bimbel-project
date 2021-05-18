@@ -34,8 +34,8 @@ namespace bimbel
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgvJadwalUjian = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalUjian)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -88,21 +88,21 @@ namespace bimbel
             this.button1.Text = "EDIT";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgvJadwalUjian
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 49);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(776, 306);
-            this.dataGridView1.TabIndex = 12;
+            this.dgvJadwalUjian.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvJadwalUjian.Location = new System.Drawing.Point(12, 49);
+            this.dgvJadwalUjian.Name = "dgvJadwalUjian";
+            this.dgvJadwalUjian.RowTemplate.Height = 25;
+            this.dgvJadwalUjian.Size = new System.Drawing.Size(776, 306);
+            this.dgvJadwalUjian.TabIndex = 12;
             // 
             // FormJadwalUjian
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 417);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvJadwalUjian);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
@@ -112,7 +112,7 @@ namespace bimbel
             this.Name = "FormJadwalUjian";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Jadwal Ujian";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalUjian)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,6 +125,6 @@ namespace bimbel
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvJadwalUjian;
     }
 }
