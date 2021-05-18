@@ -19,5 +19,8 @@
     <Compile Update="FormNilai.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormRuangZoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

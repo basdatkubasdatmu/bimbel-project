@@ -8,16 +8,11 @@ using System.Windows.Forms;
 
 namespace bimbel
 {
-    public partial class FormNilai : Form
+    public partial class FormRuangZoom : Form
     {
-        public FormNilai()
+        public FormRuangZoom()
         {
             InitializeComponent();
-        }
-
-        private void FormNilai_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
