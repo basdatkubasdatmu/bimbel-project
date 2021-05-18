@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Kuliah mang\\KULIAH SMT 3 TK2\\basdat\\bimbel-project\\bimbel\\bimbel.csproj": {}
+    "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj": {}
   },
   "projects": {
-    "E:\\Kuliah mang\\KULIAH SMT 3 TK2\\basdat\\bimbel-project\\bimbel\\bimbel.csproj": {
+    "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kuliah mang\\KULIAH SMT 3 TK2\\basdat\\bimbel-project\\bimbel\\bimbel.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
         "projectName": "bimbel",
-        "projectPath": "E:\\Kuliah mang\\KULIAH SMT 3 TK2\\basdat\\bimbel-project\\bimbel\\bimbel.csproj",
-        "packagesPath": "C:\\Users\\sunul\\.nuget\\packages\\",
-        "outputPath": "E:\\Kuliah mang\\KULIAH SMT 3 TK2\\basdat\\bimbel-project\\bimbel\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sunul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
