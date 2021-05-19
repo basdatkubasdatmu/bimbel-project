@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace bimbel
 {
-    public partial class FormInputKelas : Form
+    public partial class FormKelas : Form
     {
-        public FormInputKelas()
+        public FormKelas()
         {
             InitializeComponent();
         }
