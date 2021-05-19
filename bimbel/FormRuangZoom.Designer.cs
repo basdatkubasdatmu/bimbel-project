@@ -50,16 +50,16 @@ namespace bimbel
             // txtRuang
             // 
             this.txtRuang.AutoSize = true;
-            this.txtRuang.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtRuang.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtRuang.Location = new System.Drawing.Point(12, 9);
             this.txtRuang.Name = "txtRuang";
-            this.txtRuang.Size = new System.Drawing.Size(181, 37);
+            this.txtRuang.Size = new System.Drawing.Size(152, 31);
             this.txtRuang.TabIndex = 15;
             this.txtRuang.Text = "Ruang Zoom";
             // 
             // btnTambah
             // 
-            this.btnTambah.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnTambah.Location = new System.Drawing.Point(603, 367);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
@@ -69,7 +69,7 @@ namespace bimbel
             // 
             // btnHapus
             // 
-            this.btnHapus.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnHapus.Location = new System.Drawing.Point(699, 367);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
@@ -79,7 +79,7 @@ namespace bimbel
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRefresh.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnRefresh.Location = new System.Drawing.Point(411, 367);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(90, 44);
@@ -89,7 +89,7 @@ namespace bimbel
             // 
             // btnEdit
             // 
-            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnEdit.Location = new System.Drawing.Point(507, 367);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);

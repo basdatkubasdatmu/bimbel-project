@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Hp\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\basdat\\bimbel-project\\bimbel\\bimbel.csproj",
+      "projectUniqueName": "C:\\BASDATKU\\bimbel-project\\bimbel\\bimbel.csproj",
       "projectName": "bimbel",
-      "projectPath": "E:\\basdat\\bimbel-project\\bimbel\\bimbel.csproj",
-      "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "E:\\basdat\\bimbel-project\\bimbel\\obj\\",
+      "projectPath": "C:\\BASDATKU\\bimbel-project\\bimbel\\bimbel.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\BASDATKU\\bimbel-project\\bimbel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
