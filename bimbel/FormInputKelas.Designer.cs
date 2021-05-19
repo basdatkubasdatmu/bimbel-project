@@ -56,7 +56,6 @@ namespace bimbel
             this.clbFasilitas.Name = "clbFasilitas";
             this.clbFasilitas.Size = new System.Drawing.Size(200, 130);
             this.clbFasilitas.TabIndex = 55;
-            this.clbFasilitas.SelectedIndexChanged += new System.EventHandler(this.clbFasilitas_SelectedIndexChanged);
             // 
             // lbJudulInputKelas
             // 
@@ -67,7 +66,6 @@ namespace bimbel
             this.lbJudulInputKelas.Size = new System.Drawing.Size(157, 25);
             this.lbJudulInputKelas.TabIndex = 54;
             this.lbJudulInputKelas.Text = "Input Data Kelas";
-            this.lbJudulInputKelas.Click += new System.EventHandler(this.lbJudulInputKelas_Click);
             // 
             // btBatalKelas
             // 
@@ -77,7 +75,6 @@ namespace bimbel
             this.btBatalKelas.TabIndex = 53;
             this.btBatalKelas.Text = "Batal";
             this.btBatalKelas.UseVisualStyleBackColor = true;
-            this.btBatalKelas.Click += new System.EventHandler(this.btBatalKelas_Click);
             // 
             // btSimpanKelas
             // 
@@ -87,7 +84,6 @@ namespace bimbel
             this.btSimpanKelas.TabIndex = 52;
             this.btSimpanKelas.Text = "Simpan";
             this.btSimpanKelas.UseVisualStyleBackColor = true;
-            this.btSimpanKelas.Click += new System.EventHandler(this.btSimpanKelas_Click);
             // 
             // lbFasilitasKelas
             // 
@@ -98,7 +94,6 @@ namespace bimbel
             this.lbFasilitasKelas.Size = new System.Drawing.Size(53, 17);
             this.lbFasilitasKelas.TabIndex = 51;
             this.lbFasilitasKelas.Text = "Fasilitas";
-            this.lbFasilitasKelas.Click += new System.EventHandler(this.lbFasilitasKelas_Click);
             // 
             // tbKuotaKelas
             // 
@@ -106,7 +101,6 @@ namespace bimbel
             this.tbKuotaKelas.Name = "tbKuotaKelas";
             this.tbKuotaKelas.Size = new System.Drawing.Size(200, 23);
             this.tbKuotaKelas.TabIndex = 50;
-            this.tbKuotaKelas.TextChanged += new System.EventHandler(this.tbKuotaKelas_TextChanged);
             // 
             // lbKuotaKelas
             // 
@@ -117,7 +111,6 @@ namespace bimbel
             this.lbKuotaKelas.Size = new System.Drawing.Size(42, 17);
             this.lbKuotaKelas.TabIndex = 49;
             this.lbKuotaKelas.Text = "Kuota";
-            this.lbKuotaKelas.Click += new System.EventHandler(this.lbKuotaKelas_Click);
             // 
             // tbBiayaKelas
             // 
@@ -125,7 +118,6 @@ namespace bimbel
             this.tbBiayaKelas.Name = "tbBiayaKelas";
             this.tbBiayaKelas.Size = new System.Drawing.Size(200, 23);
             this.tbBiayaKelas.TabIndex = 48;
-            this.tbBiayaKelas.TextChanged += new System.EventHandler(this.tbBiayaKelas_TextChanged);
             // 
             // lbBiaya
             // 
@@ -136,7 +128,6 @@ namespace bimbel
             this.lbBiaya.Size = new System.Drawing.Size(38, 17);
             this.lbBiaya.TabIndex = 47;
             this.lbBiaya.Text = "Biaya";
-            this.lbBiaya.Click += new System.EventHandler(this.lbBiaya_Click);
             // 
             // tbNamaKelas
             // 
@@ -144,7 +135,6 @@ namespace bimbel
             this.tbNamaKelas.Name = "tbNamaKelas";
             this.tbNamaKelas.Size = new System.Drawing.Size(200, 23);
             this.tbNamaKelas.TabIndex = 46;
-            this.tbNamaKelas.TextChanged += new System.EventHandler(this.tbNamaKelas_TextChanged);
             // 
             // lbNamaKelas
             // 
@@ -155,7 +145,6 @@ namespace bimbel
             this.lbNamaKelas.Size = new System.Drawing.Size(78, 17);
             this.lbNamaKelas.TabIndex = 45;
             this.lbNamaKelas.Text = "Nama Kelas";
-            this.lbNamaKelas.Click += new System.EventHandler(this.lbNamaKelas_Click);
             // 
             // tbNomorKelas
             // 
@@ -163,7 +152,6 @@ namespace bimbel
             this.tbNomorKelas.Name = "tbNomorKelas";
             this.tbNomorKelas.Size = new System.Drawing.Size(200, 23);
             this.tbNomorKelas.TabIndex = 44;
-            this.tbNomorKelas.TextChanged += new System.EventHandler(this.tbNomorKelas_TextChanged);
             // 
             // lbNomorKelas
             // 
@@ -174,7 +162,6 @@ namespace bimbel
             this.lbNomorKelas.Size = new System.Drawing.Size(85, 17);
             this.lbNomorKelas.TabIndex = 43;
             this.lbNomorKelas.Text = "Nomor Kelas";
-            this.lbNomorKelas.Click += new System.EventHandler(this.lbNomorKelas_Click);
             // 
             // FormInputKelas
             // 
