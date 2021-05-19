@@ -41,17 +41,17 @@ namespace bimbel
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 37);
+            this.label1.Size = new System.Drawing.Size(147, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "Jadwal Ujian";
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(602, 361);
+            this.button3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.Location = new System.Drawing.Point(608, 361);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 44);
             this.button3.TabIndex = 11;
@@ -60,8 +60,8 @@ namespace bimbel
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(698, 361);
+            this.button4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.Location = new System.Drawing.Point(704, 361);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(90, 44);
             this.button4.TabIndex = 10;
@@ -70,8 +70,8 @@ namespace bimbel
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(410, 361);
+            this.button2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(416, 361);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 44);
             this.button2.TabIndex = 9;
@@ -80,8 +80,8 @@ namespace bimbel
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(506, 361);
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(512, 361);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 44);
             this.button1.TabIndex = 8;
@@ -91,7 +91,7 @@ namespace bimbel
             // dgvJadwalUjian
             // 
             this.dgvJadwalUjian.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvJadwalUjian.Location = new System.Drawing.Point(12, 49);
+            this.dgvJadwalUjian.Location = new System.Drawing.Point(18, 49);
             this.dgvJadwalUjian.Name = "dgvJadwalUjian";
             this.dgvJadwalUjian.RowTemplate.Height = 25;
             this.dgvJadwalUjian.Size = new System.Drawing.Size(776, 306);
@@ -101,7 +101,7 @@ namespace bimbel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 417);
+            this.ClientSize = new System.Drawing.Size(815, 414);
             this.Controls.Add(this.dgvJadwalUjian);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);

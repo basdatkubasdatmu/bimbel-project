@@ -41,7 +41,7 @@ namespace bimbel
             // dgvJadwalPengajar
             // 
             this.dgvJadwalPengajar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvJadwalPengajar.Location = new System.Drawing.Point(42, 51);
+            this.dgvJadwalPengajar.Location = new System.Drawing.Point(17, 43);
             this.dgvJadwalPengajar.Name = "dgvJadwalPengajar";
             this.dgvJadwalPengajar.RowTemplate.Height = 25;
             this.dgvJadwalPengajar.Size = new System.Drawing.Size(717, 339);
@@ -49,8 +49,8 @@ namespace bimbel
             // 
             // btnTambah
             // 
-            this.btnTambah.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTambah.Location = new System.Drawing.Point(573, 396);
+            this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTambah.Location = new System.Drawing.Point(549, 394);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
             this.btnTambah.TabIndex = 13;
@@ -59,8 +59,8 @@ namespace bimbel
             // 
             // btnHapus
             // 
-            this.btnHapus.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHapus.Location = new System.Drawing.Point(669, 396);
+            this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnHapus.Location = new System.Drawing.Point(645, 394);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
             this.btnHapus.TabIndex = 12;
@@ -69,8 +69,8 @@ namespace bimbel
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Location = new System.Drawing.Point(381, 396);
+            this.btnRefresh.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRefresh.Location = new System.Drawing.Point(357, 394);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(90, 44);
             this.btnRefresh.TabIndex = 11;
@@ -79,8 +79,8 @@ namespace bimbel
             // 
             // btnEdit
             // 
-            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Location = new System.Drawing.Point(477, 396);
+            this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEdit.Location = new System.Drawing.Point(453, 394);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);
             this.btnEdit.TabIndex = 10;
@@ -90,10 +90,10 @@ namespace bimbel
             // lblDaftarJadwalPengajar
             // 
             this.lblDaftarJadwalPengajar.AutoSize = true;
-            this.lblDaftarJadwalPengajar.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDaftarJadwalPengajar.Location = new System.Drawing.Point(42, 11);
+            this.lblDaftarJadwalPengajar.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDaftarJadwalPengajar.Location = new System.Drawing.Point(12, 9);
             this.lblDaftarJadwalPengajar.Name = "lblDaftarJadwalPengajar";
-            this.lblDaftarJadwalPengajar.Size = new System.Drawing.Size(316, 37);
+            this.lblDaftarJadwalPengajar.Size = new System.Drawing.Size(256, 31);
             this.lblDaftarJadwalPengajar.TabIndex = 9;
             this.lblDaftarJadwalPengajar.Text = "Daftar Jadwal Pengajar";
             // 
@@ -101,7 +101,7 @@ namespace bimbel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(755, 450);
             this.Controls.Add(this.dgvJadwalPengajar);
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.btnHapus);
