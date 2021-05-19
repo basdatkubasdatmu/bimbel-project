@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\New\\Bimbel new\\bimbel\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
