@@ -22,7 +22,13 @@
     <Compile Update="FormNilai.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormMenuSiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormRuangZoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMenuPengajar.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
