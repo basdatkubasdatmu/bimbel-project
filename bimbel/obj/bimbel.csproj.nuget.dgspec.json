@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Kelompok 4 Basdat Bimbel\\bimbel-project\\bimbel\\bimbel.csproj": {}
+    "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj": {}
   },
   "projects": {
-    "E:\\Kelompok 4 Basdat Bimbel\\bimbel-project\\bimbel\\bimbel.csproj": {
+    "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kelompok 4 Basdat Bimbel\\bimbel-project\\bimbel\\bimbel.csproj",
+        "projectUniqueName": "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj",
         "projectName": "bimbel",
-        "projectPath": "E:\\Kelompok 4 Basdat Bimbel\\bimbel-project\\bimbel\\bimbel.csproj",
+        "projectPath": "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\Kelompok 4 Basdat Bimbel\\bimbel-project\\bimbel\\obj\\",
+        "outputPath": "E:\\New\\Bimbel new\\bimbel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
