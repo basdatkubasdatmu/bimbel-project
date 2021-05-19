@@ -7,6 +7,12 @@
     <Compile Update="formDataSiswa.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormInputJadwalPengajar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormInputJadwalSiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormInputNilai.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -14,6 +20,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formInputSiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormJadwalPengajar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormJadwalSiswa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormMatPel.cs">
