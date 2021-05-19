@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj": {}
+    "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj": {}
   },
   "projects": {
-    "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj": {
+    "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
         "projectName": "bimbel",
-        "projectPath": "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\New\\Bimbel new\\bimbel\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
