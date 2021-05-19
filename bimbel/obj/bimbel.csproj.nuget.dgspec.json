@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj": {}
+    "C:\\BASDATKU\\bimbel-project\\bimbel\\bimbel.csproj": {}
   },
   "projects": {
-    "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj": {
+    "C:\\BASDATKU\\bimbel-project\\bimbel\\bimbel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj",
+        "projectUniqueName": "C:\\BASDATKU\\bimbel-project\\bimbel\\bimbel.csproj",
         "projectName": "bimbel",
-        "projectPath": "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\New\\Bimbel new\\bimbel\\obj\\",
+        "projectPath": "C:\\BASDATKU\\bimbel-project\\bimbel\\bimbel.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\BASDATKU\\bimbel-project\\bimbel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

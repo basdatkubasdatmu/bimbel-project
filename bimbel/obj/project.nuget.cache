@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OMUSw0XDhpWSwI1ttXdXoUpFWi2Ig1KHkAJI5Lur1MED5uubrBqmdTAFCaoB7Bcm0E7lPCScsKD2iLZrZ9+SAQ==",
+  "dgSpecHash": "0f7yLRNqZATK0EzL9V7EFNHkcZ/5O9jv0ywjChPqlC+HAGAad8d3QhIorpjZM1IAqNQwBQbjdsY30wlJ1dpcPQ==",
   "success": true,
-  "projectFilePath": "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj",
+  "projectFilePath": "C:\\BASDATKU\\bimbel-project\\bimbel\\bimbel.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\New\\Bimbel new\\bimbel\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
