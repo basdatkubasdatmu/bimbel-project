@@ -1,7 +1,7 @@
 ﻿
 namespace bimbel
 {
-    partial class FormCoba
+    partial class FormMatPel
     {
         /// <summary>
         /// Required designer variable.
@@ -97,7 +97,7 @@ namespace bimbel
             this.button1.Text = "EDIT";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // FormCoba
+            // FormMatPel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -109,7 +109,7 @@ namespace bimbel
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "FormCoba";
+            this.Name = "FormMatPel";
             this.Text = "Form Mata Pelajaran";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

@@ -85,7 +85,9 @@ namespace bimbel
 
         private void matpel_Click(object sender, ToolStripItemClickedEventArgs e)
         {
-            
+            FormMatPel frmmatpel = new FormMatPel();
+            frmmatpel.MdiParent = this;
+            frmmatpel.Show();
         }
 
         private void zoom_Click(object sender, ToolStripItemClickedEventArgs e)
