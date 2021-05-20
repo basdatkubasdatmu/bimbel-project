@@ -1,7 +1,7 @@
 ﻿
 namespace bimbel
 {
-    partial class FormRuangZoom
+    partial class formDataPengajar
     {
         /// <summary>
         /// Required designer variable.
@@ -29,88 +29,88 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvRuang = new System.Windows.Forms.DataGridView();
-            this.txtRuang = new System.Windows.Forms.Label();
+            this.dgvPengajar = new System.Windows.Forms.DataGridView();
+            this.lblDataPengajar = new System.Windows.Forms.Label();
             this.btnTambah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRuang)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPengajar)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgvRuang
+            // dgvPengajar
             // 
-            this.dgvRuang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvRuang.Location = new System.Drawing.Point(12, 55);
-            this.dgvRuang.Name = "dgvRuang";
-            this.dgvRuang.RowTemplate.Height = 25;
-            this.dgvRuang.Size = new System.Drawing.Size(776, 306);
-            this.dgvRuang.TabIndex = 14;
+            this.dgvPengajar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPengajar.Location = new System.Drawing.Point(14, 45);
+            this.dgvPengajar.Name = "dgvPengajar";
+            this.dgvPengajar.RowTemplate.Height = 25;
+            this.dgvPengajar.Size = new System.Drawing.Size(682, 304);
+            this.dgvPengajar.TabIndex = 0;
             // 
-            // txtRuang
+            // lblDataPengajar
             // 
-            this.txtRuang.AutoSize = true;
-            this.txtRuang.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtRuang.Location = new System.Drawing.Point(12, 9);
-            this.txtRuang.Name = "txtRuang";
-            this.txtRuang.Size = new System.Drawing.Size(152, 31);
-            this.txtRuang.TabIndex = 15;
-            this.txtRuang.Text = "Ruang Zoom";
+            this.lblDataPengajar.AutoSize = true;
+            this.lblDataPengajar.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDataPengajar.Location = new System.Drawing.Point(12, 9);
+            this.lblDataPengajar.Name = "lblDataPengajar";
+            this.lblDataPengajar.Size = new System.Drawing.Size(108, 31);
+            this.lblDataPengajar.TabIndex = 1;
+            this.lblDataPengajar.Text = "Pengajar";
             // 
             // btnTambah
             // 
             this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTambah.Location = new System.Drawing.Point(603, 367);
+            this.btnTambah.Location = new System.Drawing.Point(510, 357);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
-            this.btnTambah.TabIndex = 21;
+            this.btnTambah.TabIndex = 11;
             this.btnTambah.Text = "TAMBAH";
             this.btnTambah.UseVisualStyleBackColor = true;
             // 
             // btnHapus
             // 
             this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHapus.Location = new System.Drawing.Point(699, 367);
+            this.btnHapus.Location = new System.Drawing.Point(606, 357);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
-            this.btnHapus.TabIndex = 20;
+            this.btnHapus.TabIndex = 10;
             this.btnHapus.Text = "HAPUS";
             this.btnHapus.UseVisualStyleBackColor = true;
             // 
             // btnRefresh
             // 
             this.btnRefresh.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Location = new System.Drawing.Point(411, 367);
+            this.btnRefresh.Location = new System.Drawing.Point(318, 357);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(90, 44);
-            this.btnRefresh.TabIndex = 19;
+            this.btnRefresh.TabIndex = 9;
             this.btnRefresh.Text = "REFRESH";
             this.btnRefresh.UseVisualStyleBackColor = true;
             // 
             // btnEdit
             // 
             this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Location = new System.Drawing.Point(507, 367);
+            this.btnEdit.Location = new System.Drawing.Point(414, 357);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);
-            this.btnEdit.TabIndex = 18;
+            this.btnEdit.TabIndex = 8;
             this.btnEdit.Text = "EDIT";
             this.btnEdit.UseVisualStyleBackColor = true;
             // 
-            // FormRuangZoom
+            // formDataPengajar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 417);
+            this.ClientSize = new System.Drawing.Size(711, 409);
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnEdit);
-            this.Controls.Add(this.txtRuang);
-            this.Controls.Add(this.dgvRuang);
-            this.Name = "FormRuangZoom";
-            this.Text = "FormRuangZoom";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRuang)).EndInit();
+            this.Controls.Add(this.lblDataPengajar);
+            this.Controls.Add(this.dgvPengajar);
+            this.Name = "formDataPengajar";
+            this.Text = "Pengajar";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPengajar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -118,8 +118,8 @@ namespace bimbel
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvRuang;
-        private System.Windows.Forms.Label txtRuang;
+        private System.Windows.Forms.DataGridView dgvPengajar;
+        private System.Windows.Forms.Label lblDataPengajar;
         private System.Windows.Forms.Button btnTambah;
         private System.Windows.Forms.Button btnHapus;
         private System.Windows.Forms.Button btnRefresh;

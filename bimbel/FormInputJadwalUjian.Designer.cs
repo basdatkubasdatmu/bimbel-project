@@ -29,189 +29,196 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblInputJadwalUjian = new System.Windows.Forms.Label();
+            this.btnSimpan = new System.Windows.Forms.Button();
+            this.btnBatal = new System.Windows.Forms.Button();
+            this.txtKodeUjian = new System.Windows.Forms.TextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lblKodeUjian = new System.Windows.Forms.Label();
+            this.lblNamaUjian = new System.Windows.Forms.Label();
+            this.lblKodePelajaran = new System.Windows.Forms.Label();
+            this.lblTanggalUjian = new System.Windows.Forms.Label();
+            this.lblJamMulai = new System.Windows.Forms.Label();
+            this.lblDurasi = new System.Windows.Forms.Label();
+            this.txtNamaUjian = new System.Windows.Forms.TextBox();
+            this.txtKodePelajaran = new System.Windows.Forms.TextBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtJamMulai = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lblInputJadwalUjian
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(15, 13);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 37);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Input Jadwal Ujian";
+            this.lblInputJadwalUjian.AutoSize = true;
+            this.lblInputJadwalUjian.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblInputJadwalUjian.Location = new System.Drawing.Point(15, 13);
+            this.lblInputJadwalUjian.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblInputJadwalUjian.Name = "lblInputJadwalUjian";
+            this.lblInputJadwalUjian.Size = new System.Drawing.Size(183, 29);
+            this.lblInputJadwalUjian.TabIndex = 1;
+            this.lblInputJadwalUjian.Text = "Input Jadwal Ujian";
             // 
-            // button1
+            // btnSimpan
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(377, 379);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 56);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "SIMPAN";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSimpan.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSimpan.Location = new System.Drawing.Point(309, 282);
+            this.btnSimpan.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSimpan.Name = "btnSimpan";
+            this.btnSimpan.Size = new System.Drawing.Size(75, 38);
+            this.btnSimpan.TabIndex = 2;
+            this.btnSimpan.Text = "SIMPAN";
+            this.btnSimpan.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnBatal
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(272, 379);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 56);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "BATAL";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnBatal.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnBatal.Location = new System.Drawing.Point(225, 282);
+            this.btnBatal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBatal.Name = "btnBatal";
+            this.btnBatal.Size = new System.Drawing.Size(75, 38);
+            this.btnBatal.TabIndex = 3;
+            this.btnBatal.Text = "BATAL";
+            this.btnBatal.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtKodeUjian
             // 
-            this.textBox1.Location = new System.Drawing.Point(196, 67);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(224, 29);
-            this.textBox1.TabIndex = 4;
+            this.txtKodeUjian.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtKodeUjian.Location = new System.Drawing.Point(160, 57);
+            this.txtKodeUjian.Margin = new System.Windows.Forms.Padding(4);
+            this.txtKodeUjian.Name = "txtKodeUjian";
+            this.txtKodeUjian.Size = new System.Drawing.Size(224, 26);
+            this.txtKodeUjian.TabIndex = 4;
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(196, 217);
+            this.maskedTextBox1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.maskedTextBox1.Location = new System.Drawing.Point(160, 168);
             this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(224, 29);
+            this.maskedTextBox1.Size = new System.Drawing.Size(224, 26);
             this.maskedTextBox1.TabIndex = 5;
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
-            // label2
+            // lblKodeUjian
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(59, 70);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 21);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Kode Ujian";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.lblKodeUjian.AutoSize = true;
+            this.lblKodeUjian.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKodeUjian.Location = new System.Drawing.Point(15, 60);
+            this.lblKodeUjian.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblKodeUjian.Name = "lblKodeUjian";
+            this.lblKodeUjian.Size = new System.Drawing.Size(75, 20);
+            this.lblKodeUjian.TabIndex = 6;
+            this.lblKodeUjian.Text = "Kode Ujian";
+            this.lblKodeUjian.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // lblNamaUjian
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(59, 120);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 21);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Nama Ujian";
+            this.lblNamaUjian.AutoSize = true;
+            this.lblNamaUjian.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNamaUjian.Location = new System.Drawing.Point(15, 97);
+            this.lblNamaUjian.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNamaUjian.Name = "lblNamaUjian";
+            this.lblNamaUjian.Size = new System.Drawing.Size(76, 20);
+            this.lblNamaUjian.TabIndex = 7;
+            this.lblNamaUjian.Text = "Nama Ujian";
             // 
-            // label4
+            // lblKodePelajaran
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(59, 170);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(112, 21);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Kode Pelajaran";
+            this.lblKodePelajaran.AutoSize = true;
+            this.lblKodePelajaran.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKodePelajaran.Location = new System.Drawing.Point(15, 134);
+            this.lblKodePelajaran.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblKodePelajaran.Name = "lblKodePelajaran";
+            this.lblKodePelajaran.Size = new System.Drawing.Size(101, 20);
+            this.lblKodePelajaran.TabIndex = 8;
+            this.lblKodePelajaran.Text = "Kode Pelajaran";
             // 
-            // label5
+            // lblTanggalUjian
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(59, 220);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(103, 21);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Tanggal Ujian";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.lblTanggalUjian.AutoSize = true;
+            this.lblTanggalUjian.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblTanggalUjian.Location = new System.Drawing.Point(13, 171);
+            this.lblTanggalUjian.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTanggalUjian.Name = "lblTanggalUjian";
+            this.lblTanggalUjian.Size = new System.Drawing.Size(89, 20);
+            this.lblTanggalUjian.TabIndex = 9;
+            this.lblTanggalUjian.Text = "Tanggal Ujian";
+            this.lblTanggalUjian.Click += new System.EventHandler(this.label5_Click);
             // 
-            // label6
+            // lblJamMulai
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(59, 270);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(81, 21);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Jam Mulai";
+            this.lblJamMulai.AutoSize = true;
+            this.lblJamMulai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblJamMulai.Location = new System.Drawing.Point(15, 208);
+            this.lblJamMulai.Name = "lblJamMulai";
+            this.lblJamMulai.Size = new System.Drawing.Size(69, 20);
+            this.lblJamMulai.TabIndex = 10;
+            this.lblJamMulai.Text = "Jam Mulai";
             // 
-            // label7
+            // lblDurasi
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(59, 320);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(55, 21);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Durasi";
+            this.lblDurasi.AutoSize = true;
+            this.lblDurasi.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDurasi.Location = new System.Drawing.Point(15, 245);
+            this.lblDurasi.Name = "lblDurasi";
+            this.lblDurasi.Size = new System.Drawing.Size(46, 20);
+            this.lblDurasi.TabIndex = 11;
+            this.lblDurasi.Text = "Durasi";
             // 
-            // textBox2
+            // txtNamaUjian
             // 
-            this.textBox2.Location = new System.Drawing.Point(196, 117);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(224, 29);
-            this.textBox2.TabIndex = 12;
+            this.txtNamaUjian.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNamaUjian.Location = new System.Drawing.Point(160, 94);
+            this.txtNamaUjian.Name = "txtNamaUjian";
+            this.txtNamaUjian.Size = new System.Drawing.Size(224, 26);
+            this.txtNamaUjian.TabIndex = 12;
             // 
-            // textBox3
+            // txtKodePelajaran
             // 
-            this.textBox3.Location = new System.Drawing.Point(196, 167);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(224, 29);
-            this.textBox3.TabIndex = 13;
+            this.txtKodePelajaran.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtKodePelajaran.Location = new System.Drawing.Point(160, 131);
+            this.txtKodePelajaran.Name = "txtKodePelajaran";
+            this.txtKodePelajaran.Size = new System.Drawing.Size(224, 26);
+            this.txtKodePelajaran.TabIndex = 13;
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(196, 317);
+            this.maskedTextBox2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.maskedTextBox2.Location = new System.Drawing.Point(160, 242);
             this.maskedTextBox2.Mask = "00000";
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(224, 29);
+            this.maskedTextBox2.Size = new System.Drawing.Size(224, 26);
             this.maskedTextBox2.TabIndex = 14;
             this.maskedTextBox2.ValidatingType = typeof(int);
             // 
-            // textBox4
+            // txtJamMulai
             // 
-            this.textBox4.Location = new System.Drawing.Point(196, 267);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(224, 29);
-            this.textBox4.TabIndex = 15;
+            this.txtJamMulai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtJamMulai.Location = new System.Drawing.Point(160, 205);
+            this.txtJamMulai.Name = "txtJamMulai";
+            this.txtJamMulai.Size = new System.Drawing.Size(224, 26);
+            this.txtJamMulai.TabIndex = 15;
             // 
             // FormInputJadwalUjian
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(487, 448);
-            this.Controls.Add(this.textBox4);
+            this.ClientSize = new System.Drawing.Size(414, 334);
+            this.Controls.Add(this.txtJamMulai);
             this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtKodePelajaran);
+            this.Controls.Add(this.txtNamaUjian);
+            this.Controls.Add(this.lblDurasi);
+            this.Controls.Add(this.lblJamMulai);
+            this.Controls.Add(this.lblTanggalUjian);
+            this.Controls.Add(this.lblKodePelajaran);
+            this.Controls.Add(this.lblNamaUjian);
+            this.Controls.Add(this.lblKodeUjian);
             this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtKodeUjian);
+            this.Controls.Add(this.btnBatal);
+            this.Controls.Add(this.btnSimpan);
+            this.Controls.Add(this.lblInputJadwalUjian);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.MaximizeBox = false;
             this.Name = "FormInputJadwalUjian";
@@ -224,20 +231,20 @@ namespace bimbel
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblInputJadwalUjian;
+        private System.Windows.Forms.Button btnSimpan;
+        private System.Windows.Forms.Button btnBatal;
+        private System.Windows.Forms.TextBox txtKodeUjian;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lblKodeUjian;
+        private System.Windows.Forms.Label lblNamaUjian;
+        private System.Windows.Forms.Label lblKodePelajaran;
+        private System.Windows.Forms.Label lblTanggalUjian;
+        private System.Windows.Forms.Label lblJamMulai;
+        private System.Windows.Forms.Label lblDurasi;
+        private System.Windows.Forms.TextBox txtNamaUjian;
+        private System.Windows.Forms.TextBox txtKodePelajaran;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtJamMulai;
     }
 }

@@ -8,11 +8,16 @@ using System.Windows.Forms;
 
 namespace bimbel
 {
-    public partial class FormMatPel : Form
+    public partial class formInputSiswa : Form
     {
-        public FormMatPel()
+        public formInputSiswa()
         {
             InitializeComponent();
+        }
+
+        private void lblEmailSiswa_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace bimbel
 {
-    partial class FormRuangZoom
+    partial class FormJadwalSiswa
     {
         /// <summary>
         /// Required designer variable.
@@ -29,88 +29,88 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvRuang = new System.Windows.Forms.DataGridView();
-            this.txtRuang = new System.Windows.Forms.Label();
+            this.dgvJadwalSiswa = new System.Windows.Forms.DataGridView();
             this.btnTambah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRuang)).BeginInit();
+            this.lblDaftarJadwalSiswa = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalSiswa)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgvRuang
+            // dgvJadwalSiswa
             // 
-            this.dgvRuang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvRuang.Location = new System.Drawing.Point(12, 55);
-            this.dgvRuang.Name = "dgvRuang";
-            this.dgvRuang.RowTemplate.Height = 25;
-            this.dgvRuang.Size = new System.Drawing.Size(776, 306);
-            this.dgvRuang.TabIndex = 14;
-            // 
-            // txtRuang
-            // 
-            this.txtRuang.AutoSize = true;
-            this.txtRuang.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtRuang.Location = new System.Drawing.Point(12, 9);
-            this.txtRuang.Name = "txtRuang";
-            this.txtRuang.Size = new System.Drawing.Size(152, 31);
-            this.txtRuang.TabIndex = 15;
-            this.txtRuang.Text = "Ruang Zoom";
+            this.dgvJadwalSiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvJadwalSiswa.Location = new System.Drawing.Point(18, 43);
+            this.dgvJadwalSiswa.Name = "dgvJadwalSiswa";
+            this.dgvJadwalSiswa.RowTemplate.Height = 25;
+            this.dgvJadwalSiswa.Size = new System.Drawing.Size(717, 339);
+            this.dgvJadwalSiswa.TabIndex = 20;
             // 
             // btnTambah
             // 
             this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTambah.Location = new System.Drawing.Point(603, 367);
+            this.btnTambah.Location = new System.Drawing.Point(549, 394);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
-            this.btnTambah.TabIndex = 21;
+            this.btnTambah.TabIndex = 19;
             this.btnTambah.Text = "TAMBAH";
             this.btnTambah.UseVisualStyleBackColor = true;
             // 
             // btnHapus
             // 
             this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHapus.Location = new System.Drawing.Point(699, 367);
+            this.btnHapus.Location = new System.Drawing.Point(645, 394);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
-            this.btnHapus.TabIndex = 20;
+            this.btnHapus.TabIndex = 18;
             this.btnHapus.Text = "HAPUS";
             this.btnHapus.UseVisualStyleBackColor = true;
             // 
             // btnRefresh
             // 
             this.btnRefresh.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Location = new System.Drawing.Point(411, 367);
+            this.btnRefresh.Location = new System.Drawing.Point(357, 394);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(90, 44);
-            this.btnRefresh.TabIndex = 19;
+            this.btnRefresh.TabIndex = 17;
             this.btnRefresh.Text = "REFRESH";
             this.btnRefresh.UseVisualStyleBackColor = true;
             // 
             // btnEdit
             // 
             this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Location = new System.Drawing.Point(507, 367);
+            this.btnEdit.Location = new System.Drawing.Point(453, 394);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);
-            this.btnEdit.TabIndex = 18;
+            this.btnEdit.TabIndex = 16;
             this.btnEdit.Text = "EDIT";
             this.btnEdit.UseVisualStyleBackColor = true;
             // 
-            // FormRuangZoom
+            // lblDaftarJadwalSiswa
+            // 
+            this.lblDaftarJadwalSiswa.AutoSize = true;
+            this.lblDaftarJadwalSiswa.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDaftarJadwalSiswa.Location = new System.Drawing.Point(12, 9);
+            this.lblDaftarJadwalSiswa.Name = "lblDaftarJadwalSiswa";
+            this.lblDaftarJadwalSiswa.Size = new System.Drawing.Size(224, 31);
+            this.lblDaftarJadwalSiswa.TabIndex = 15;
+            this.lblDaftarJadwalSiswa.Text = "Daftar Jadwal Siswa";
+            // 
+            // FormJadwalSiswa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 417);
+            this.ClientSize = new System.Drawing.Size(754, 450);
+            this.Controls.Add(this.dgvJadwalSiswa);
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnEdit);
-            this.Controls.Add(this.txtRuang);
-            this.Controls.Add(this.dgvRuang);
-            this.Name = "FormRuangZoom";
-            this.Text = "FormRuangZoom";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRuang)).EndInit();
+            this.Controls.Add(this.lblDaftarJadwalSiswa);
+            this.Name = "FormJadwalSiswa";
+            this.Text = "Jadwal Siswa";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalSiswa)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -118,11 +118,11 @@ namespace bimbel
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvRuang;
-        private System.Windows.Forms.Label txtRuang;
+        private System.Windows.Forms.DataGridView dgvJadwalSiswa;
         private System.Windows.Forms.Button btnTambah;
         private System.Windows.Forms.Button btnHapus;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Label lblDaftarJadwalSiswa;
     }
 }

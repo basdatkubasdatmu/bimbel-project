@@ -1,8 +1,18 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "q5CdhW+L5C7q9QBysfQTzwjgMR4aQEdSbTKWTVTsb+uBjMst1+foGtmPrIz78U4cU27yY6ewz9e7nw9RIvmgIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "0H020LfV/3m1LbM5wHjHkamHyPPRRcvtmqnG1qvZ8YLcjoYA0vVq5U9pDl6z7ENc05r0r2Yv5KPZ/iooVTXNmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\npgsql\\5.0.5\\npgsql.5.0.5.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
+>>>>>>> b07b63bd1773eac0e7f1da93c862d1a37c4ac9e2
   "logs": []
 }

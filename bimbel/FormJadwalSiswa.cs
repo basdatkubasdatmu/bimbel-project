@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace bimbel
 {
-    public partial class FormMatPel : Form
+    public partial class FormJadwalSiswa : Form
     {
-        public FormMatPel()
+        public FormJadwalSiswa()
         {
             InitializeComponent();
         }
