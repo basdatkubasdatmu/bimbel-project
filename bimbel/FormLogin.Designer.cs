@@ -30,23 +30,23 @@ namespace bimbel
         private void InitializeComponent()
         {
             this.btnLogin = new System.Windows.Forms.Button();
-            this.siswa = new System.Windows.Forms.TabControl();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.pwLogin = new System.Windows.Forms.Label();
-            this.mtxPassword = new System.Windows.Forms.MaskedTextBox();
+            this.login = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.txtUsername = new System.Windows.Forms.TextBox();
-            this.userName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.mtxPassword = new System.Windows.Forms.MaskedTextBox();
+            this.userName = new System.Windows.Forms.Label();
+            this.pwLogin = new System.Windows.Forms.Label();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.siswa.SuspendLayout();
-            this.tabPage2.SuspendLayout();
+            this.login.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnLogin
@@ -60,51 +60,18 @@ namespace bimbel
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
             // 
-            // siswa
+            // login
             // 
-            this.siswa.AccessibleName = "Siswa";
-            this.siswa.Controls.Add(this.tabPage1);
-            this.siswa.Controls.Add(this.tabPage2);
-            this.siswa.Location = new System.Drawing.Point(1, -1);
-            this.siswa.Name = "siswa";
-            this.siswa.SelectedIndex = 0;
-            this.siswa.Size = new System.Drawing.Size(369, 241);
-            this.siswa.TabIndex = 15;
-            this.siswa.Tag = "";
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Controls.Add(this.button1);
-            this.tabPage2.Controls.Add(this.maskedTextBox1);
-            this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.textBox1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(361, 213);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Pegawai/Pengajar";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // pwLogin
-            // 
-            this.pwLogin.AutoSize = true;
-            this.pwLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.pwLogin.Location = new System.Drawing.Point(27, 113);
-            this.pwLogin.Name = "pwLogin";
-            this.pwLogin.Size = new System.Drawing.Size(78, 20);
-            this.pwLogin.TabIndex = 9;
-            this.pwLogin.Text = "Password";
-            // 
-            // mtxPassword
-            // 
-            this.mtxPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.mtxPassword.Location = new System.Drawing.Point(116, 109);
-            this.mtxPassword.Name = "mtxPassword";
-            this.mtxPassword.Size = new System.Drawing.Size(208, 29);
-            this.mtxPassword.TabIndex = 14;
+            this.login.AccessibleName = "Siswa";
+            this.login.Controls.Add(this.tabPage1);
+            this.login.Controls.Add(this.tabPage2);
+            this.login.Location = new System.Drawing.Point(1, -1);
+            this.login.Name = "login";
+            this.login.SelectedIndex = 0;
+            this.login.Size = new System.Drawing.Size(369, 241);
+            this.login.TabIndex = 15;
+            this.login.Tag = "";
+            this.login.SelectedIndexChanged += new System.EventHandler(this.siswa_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -121,14 +88,25 @@ namespace bimbel
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Siswa";
             this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
-            // txtUsername
+            // label1
             // 
-            this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtUsername.Location = new System.Drawing.Point(116, 62);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(208, 29);
-            this.txtUsername.TabIndex = 8;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(7, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 32);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Login";
+            // 
+            // mtxPassword
+            // 
+            this.mtxPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.mtxPassword.Location = new System.Drawing.Point(116, 109);
+            this.mtxPassword.Name = "mtxPassword";
+            this.mtxPassword.Size = new System.Drawing.Size(208, 29);
+            this.mtxPassword.TabIndex = 14;
             // 
             // userName
             // 
@@ -140,15 +118,39 @@ namespace bimbel
             this.userName.TabIndex = 7;
             this.userName.Text = "Username";
             // 
-            // label1
+            // pwLogin
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(7, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 32);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Login";
+            this.pwLogin.AutoSize = true;
+            this.pwLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.pwLogin.Location = new System.Drawing.Point(27, 113);
+            this.pwLogin.Name = "pwLogin";
+            this.pwLogin.Size = new System.Drawing.Size(78, 20);
+            this.pwLogin.TabIndex = 9;
+            this.pwLogin.Text = "Password";
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtUsername.Location = new System.Drawing.Point(116, 62);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(208, 29);
+            this.txtUsername.TabIndex = 8;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.label2);
+            this.tabPage2.Controls.Add(this.button1);
+            this.tabPage2.Controls.Add(this.maskedTextBox1);
+            this.tabPage2.Controls.Add(this.label3);
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.Controls.Add(this.textBox1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(361, 213);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Pegawai/Pengajar";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -213,24 +215,24 @@ namespace bimbel
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(369, 239);
-            this.Controls.Add(this.siswa);
+            this.Controls.Add(this.login);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormLogin";
             this.Load += new System.EventHandler(this.FormLogin_Load);
-            this.siswa.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
+            this.login.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.TabControl siswa;
+        private System.Windows.Forms.TabControl login;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MaskedTextBox mtxPassword;
