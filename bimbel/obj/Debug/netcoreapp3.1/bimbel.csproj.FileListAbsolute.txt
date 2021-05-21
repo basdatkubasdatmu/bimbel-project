@@ -7,6 +7,33 @@ C:\Users\ASUS\Downloads\bimbel\bimbel\obj\Debug\netcoreapp3.1\bimbel.csproj.Gene
 C:\Users\ASUS\Downloads\bimbel\bimbel\obj\Debug\netcoreapp3.1\bimbel.AssemblyInfoInputs.cache
 C:\Users\ASUS\Downloads\bimbel\bimbel\obj\Debug\netcoreapp3.1\bimbel.AssemblyInfo.cs
 C:\Users\ASUS\Downloads\bimbel\bimbel\obj\Debug\netcoreapp3.1\bimbel.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\bin\Debug\netcoreapp3.1\bimbel.exe
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\bin\Debug\netcoreapp3.1\bimbel.deps.json
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\bin\Debug\netcoreapp3.1\bimbel.runtimeconfig.json
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\bin\Debug\netcoreapp3.1\bimbel.runtimeconfig.dev.json
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\bin\Debug\netcoreapp3.1\bimbel.dll
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\bin\Debug\netcoreapp3.1\bimbel.pdb
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.csprojAssemblyReference.cache
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormDaftarPresensi.resources
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputJadwalUjian.resources
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputKelas.resources
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputNilai.resources
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputPegawai.resources
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputPresensi.resources
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormJadwalUjian.resources
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.Formkelas.resources
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormCoba.resources
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormNilai.resources
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormRuangZoom.resources
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.csproj.GenerateResource.cache
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.AssemblyInfoInputs.cache
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.AssemblyInfo.cs
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.dll
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.pdb
+C:\Users\Asus\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.genruntimeconfig.cache
+=======
 E:\New\Bimbel new\bimbel\bin\Debug\netcoreapp3.1\bimbel.exe
 E:\New\Bimbel new\bimbel\bin\Debug\netcoreapp3.1\bimbel.deps.json
 E:\New\Bimbel new\bimbel\bin\Debug\netcoreapp3.1\bimbel.runtimeconfig.json
@@ -71,3 +98,4 @@ C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bim
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.dll
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.pdb
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.genruntimeconfig.cache
+>>>>>>> b07b63bd1773eac0e7f1da93c862d1a37c4ac9e2
