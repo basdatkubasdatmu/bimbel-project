@@ -14,5 +14,11 @@ namespace bimbel
         {
             InitializeComponent();
         }
+
+        private void btRefresh_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+            dgvMatpel.DataSource = da.getAllMatpel();
+        }
     }
 }

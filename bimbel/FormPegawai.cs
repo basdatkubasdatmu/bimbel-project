@@ -14,5 +14,11 @@ namespace bimbel
         {
             InitializeComponent();
         }
+
+        private void btRefreshPegawai_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+            dgvPegawai.DataSource = da.getAllPegawai();
+        }
     }
 }

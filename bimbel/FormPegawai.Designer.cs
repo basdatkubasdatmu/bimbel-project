@@ -73,6 +73,7 @@ namespace bimbel
             this.btRefreshPegawai.TabIndex = 55;
             this.btRefreshPegawai.Text = "Refresh";
             this.btRefreshPegawai.UseVisualStyleBackColor = true;
+            this.btRefreshPegawai.Click += new System.EventHandler(this.btRefreshPegawai_Click);
             // 
             // lbJudulDataPegawai
             // 

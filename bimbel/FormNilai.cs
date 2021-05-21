@@ -19,5 +19,11 @@ namespace bimbel
         {
 
         }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+            dgvNilai.DataSource = da.getAllNilai();
+        }
     }
 }

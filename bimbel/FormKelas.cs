@@ -14,5 +14,11 @@ namespace bimbel
         {
             InitializeComponent();
         }
+
+        private void btRefreshKelas_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+            dgvKelas.DataSource = da.getAllKelas();
+        }
     }
 }

@@ -73,6 +73,7 @@ namespace bimbel
             this.btRefreshKelas.TabIndex = 49;
             this.btRefreshKelas.Text = "Refresh";
             this.btRefreshKelas.UseVisualStyleBackColor = true;
+            this.btRefreshKelas.Click += new System.EventHandler(this.btRefreshKelas_Click);
             // 
             // lbJudulDataKelas
             // 

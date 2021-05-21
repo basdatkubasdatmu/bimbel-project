@@ -34,8 +34,8 @@ namespace bimbel
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgvPresensi = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPresensi)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -57,6 +57,7 @@ namespace bimbel
             this.button2.TabIndex = 5;
             this.button2.Text = "REFRESH";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -88,21 +89,21 @@ namespace bimbel
             this.button4.Text = "HAPUS";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgvPresensi
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 49);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(717, 339);
-            this.dataGridView1.TabIndex = 8;
+            this.dgvPresensi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPresensi.Location = new System.Drawing.Point(12, 49);
+            this.dgvPresensi.Name = "dgvPresensi";
+            this.dgvPresensi.RowTemplate.Height = 25;
+            this.dgvPresensi.Size = new System.Drawing.Size(717, 339);
+            this.dgvPresensi.TabIndex = 8;
             // 
             // FormDaftarPresensi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(741, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvPresensi);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
@@ -112,7 +113,7 @@ namespace bimbel
             this.Name = "FormDaftarPresensi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Presensi";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPresensi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,6 +126,6 @@ namespace bimbel
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvPresensi;
     }
 }
