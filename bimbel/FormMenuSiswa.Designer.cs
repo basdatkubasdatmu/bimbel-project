@@ -31,18 +31,18 @@ namespace bimbel
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.siswa = new System.Windows.Forms.ToolStripMenuItem();
-            this.pengajar = new System.Windows.Forms.ToolStripMenuItem();
-            this.pegawai = new System.Windows.Forms.ToolStripMenuItem();
-            this.ujian = new System.Windows.Forms.ToolStripMenuItem();
-            this.Kasir = new System.Windows.Forms.ToolStripMenuItem();
-            this.fasilitas = new System.Windows.Forms.ToolStripMenuItem();
             this.datasiswa = new System.Windows.Forms.ToolStripMenuItem();
             this.presensi = new System.Windows.Forms.ToolStripMenuItem();
             this.jadwalsiswa = new System.Windows.Forms.ToolStripMenuItem();
+            this.pengajar = new System.Windows.Forms.ToolStripMenuItem();
             this.datapengajar = new System.Windows.Forms.ToolStripMenuItem();
             this.jadwal = new System.Windows.Forms.ToolStripMenuItem();
+            this.pegawai = new System.Windows.Forms.ToolStripMenuItem();
+            this.ujian = new System.Windows.Forms.ToolStripMenuItem();
             this.jadwalujian = new System.Windows.Forms.ToolStripMenuItem();
             this.nilai = new System.Windows.Forms.ToolStripMenuItem();
+            this.Kasir = new System.Windows.Forms.ToolStripMenuItem();
+            this.fasilitas = new System.Windows.Forms.ToolStripMenuItem();
             this.kelas = new System.Windows.Forms.ToolStripMenuItem();
             this.zoom = new System.Windows.Forms.ToolStripMenuItem();
             this.matpel = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,7 +52,7 @@ namespace bimbel
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.menuStrip1.Font = new System.Drawing.Font("Arial Narrow", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.siswa,
             this.pengajar,
@@ -62,7 +62,7 @@ namespace bimbel
             this.fasilitas});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -74,8 +74,26 @@ namespace bimbel
             this.presensi,
             this.jadwalsiswa});
             this.siswa.Name = "siswa";
-            this.siswa.Size = new System.Drawing.Size(54, 23);
+            this.siswa.Size = new System.Drawing.Size(54, 24);
             this.siswa.Text = "Siswa";
+            // 
+            // datasiswa
+            // 
+            this.datasiswa.Name = "datasiswa";
+            this.datasiswa.Size = new System.Drawing.Size(153, 24);
+            this.datasiswa.Text = "Data Diri";
+            // 
+            // presensi
+            // 
+            this.presensi.Name = "presensi";
+            this.presensi.Size = new System.Drawing.Size(153, 24);
+            this.presensi.Text = "Jadwal Siswa";
+            // 
+            // jadwalsiswa
+            // 
+            this.jadwalsiswa.Name = "jadwalsiswa";
+            this.jadwalsiswa.Size = new System.Drawing.Size(153, 24);
+            this.jadwalsiswa.Text = "Jadwal";
             // 
             // pengajar
             // 
@@ -83,13 +101,25 @@ namespace bimbel
             this.datapengajar,
             this.jadwal});
             this.pengajar.Name = "pengajar";
-            this.pengajar.Size = new System.Drawing.Size(73, 23);
+            this.pengajar.Size = new System.Drawing.Size(71, 24);
             this.pengajar.Text = "Pengajar";
+            // 
+            // datapengajar
+            // 
+            this.datapengajar.Name = "datapengajar";
+            this.datapengajar.Size = new System.Drawing.Size(126, 24);
+            this.datapengajar.Text = "Data Diri";
+            // 
+            // jadwal
+            // 
+            this.jadwal.Name = "jadwal";
+            this.jadwal.Size = new System.Drawing.Size(126, 24);
+            this.jadwal.Text = "Jadwal";
             // 
             // pegawai
             // 
             this.pegawai.Name = "pegawai";
-            this.pegawai.Size = new System.Drawing.Size(70, 23);
+            this.pegawai.Size = new System.Drawing.Size(69, 24);
             this.pegawai.Text = "Pegawai";
             // 
             // ujian
@@ -98,13 +128,25 @@ namespace bimbel
             this.jadwalujian,
             this.nilai});
             this.ujian.Name = "ujian";
-            this.ujian.Size = new System.Drawing.Size(52, 23);
+            this.ujian.Size = new System.Drawing.Size(50, 24);
             this.ujian.Text = "Ujian";
+            // 
+            // jadwalujian
+            // 
+            this.jadwalujian.Name = "jadwalujian";
+            this.jadwalujian.Size = new System.Drawing.Size(139, 24);
+            this.jadwalujian.Text = "Jadwal";
+            // 
+            // nilai
+            // 
+            this.nilai.Name = "nilai";
+            this.nilai.Size = new System.Drawing.Size(139, 24);
+            this.nilai.Text = "Nilai Siswa";
             // 
             // Kasir
             // 
             this.Kasir.Name = "Kasir";
-            this.Kasir.Size = new System.Drawing.Size(50, 23);
+            this.Kasir.Size = new System.Drawing.Size(49, 24);
             this.Kasir.Text = "Kasir";
             // 
             // fasilitas
@@ -114,67 +156,25 @@ namespace bimbel
             this.zoom,
             this.matpel});
             this.fasilitas.Name = "fasilitas";
-            this.fasilitas.Size = new System.Drawing.Size(68, 23);
+            this.fasilitas.Size = new System.Drawing.Size(67, 24);
             this.fasilitas.Text = "Fasilitas";
-            // 
-            // datasiswa
-            // 
-            this.datasiswa.Name = "datasiswa";
-            this.datasiswa.Size = new System.Drawing.Size(155, 24);
-            this.datasiswa.Text = "Data Diri";
-            // 
-            // presensi
-            // 
-            this.presensi.Name = "presensi";
-            this.presensi.Size = new System.Drawing.Size(155, 24);
-            this.presensi.Text = "Jadwal Siswa";
-            // 
-            // jadwalsiswa
-            // 
-            this.jadwalsiswa.Name = "jadwalsiswa";
-            this.jadwalsiswa.Size = new System.Drawing.Size(155, 24);
-            this.jadwalsiswa.Text = "Jadwal";
-            // 
-            // datapengajar
-            // 
-            this.datapengajar.Name = "datapengajar";
-            this.datapengajar.Size = new System.Drawing.Size(132, 24);
-            this.datapengajar.Text = "Data Diri";
-            // 
-            // jadwal
-            // 
-            this.jadwal.Name = "jadwal";
-            this.jadwal.Size = new System.Drawing.Size(132, 24);
-            this.jadwal.Text = "Jadwal";
-            // 
-            // jadwalujian
-            // 
-            this.jadwalujian.Name = "jadwalujian";
-            this.jadwalujian.Size = new System.Drawing.Size(141, 24);
-            this.jadwalujian.Text = "Jadwal";
-            // 
-            // nilai
-            // 
-            this.nilai.Name = "nilai";
-            this.nilai.Size = new System.Drawing.Size(141, 24);
-            this.nilai.Text = "Nilai Siswa";
             // 
             // kelas
             // 
             this.kelas.Name = "kelas";
-            this.kelas.Size = new System.Drawing.Size(210, 24);
+            this.kelas.Size = new System.Drawing.Size(198, 24);
             this.kelas.Text = "Daftar Kelas";
             // 
             // zoom
             // 
             this.zoom.Name = "zoom";
-            this.zoom.Size = new System.Drawing.Size(210, 24);
+            this.zoom.Size = new System.Drawing.Size(198, 24);
             this.zoom.Text = "Ruang Zoom";
             // 
             // matpel
             // 
             this.matpel.Name = "matpel";
-            this.matpel.Size = new System.Drawing.Size(210, 24);
+            this.matpel.Size = new System.Drawing.Size(198, 24);
             this.matpel.Text = "Daftar Mata Pelajaran";
             // 
             // FormMenu
