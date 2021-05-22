@@ -82,18 +82,21 @@ namespace bimbel
             this.datasiswa.Name = "datasiswa";
             this.datasiswa.Size = new System.Drawing.Size(153, 24);
             this.datasiswa.Text = "Data Diri";
+            this.datasiswa.Click += new System.EventHandler(this.datasiswa_Click);
             // 
             // presensi
             // 
             this.presensi.Name = "presensi";
             this.presensi.Size = new System.Drawing.Size(153, 24);
             this.presensi.Text = "Jadwal Siswa";
+            this.presensi.Click += new System.EventHandler(this.presensi_Click);
             // 
             // jadwalsiswa
             // 
             this.jadwalsiswa.Name = "jadwalsiswa";
             this.jadwalsiswa.Size = new System.Drawing.Size(153, 24);
             this.jadwalsiswa.Text = "Jadwal";
+            this.jadwalsiswa.Click += new System.EventHandler(this.jadwalsiswa_Click);
             // 
             // pengajar
             // 
@@ -109,18 +112,21 @@ namespace bimbel
             this.datapengajar.Name = "datapengajar";
             this.datapengajar.Size = new System.Drawing.Size(126, 24);
             this.datapengajar.Text = "Data Diri";
+            this.datapengajar.Click += new System.EventHandler(this.datapengajara_Click);
             // 
             // jadwal
             // 
             this.jadwal.Name = "jadwal";
             this.jadwal.Size = new System.Drawing.Size(126, 24);
             this.jadwal.Text = "Jadwal";
+            this.jadwal.Click += new System.EventHandler(this.jadwal_Click);
             // 
             // pegawai
             // 
             this.pegawai.Name = "pegawai";
             this.pegawai.Size = new System.Drawing.Size(69, 24);
             this.pegawai.Text = "Pegawai";
+            this.pegawai.Click += new System.EventHandler(this.pegawai_Click);
             // 
             // ujian
             // 
@@ -136,18 +142,21 @@ namespace bimbel
             this.jadwalujian.Name = "jadwalujian";
             this.jadwalujian.Size = new System.Drawing.Size(139, 24);
             this.jadwalujian.Text = "Jadwal";
+            this.jadwalujian.Click += new System.EventHandler(this.jadwalujian_Click);
             // 
             // nilai
             // 
             this.nilai.Name = "nilai";
             this.nilai.Size = new System.Drawing.Size(139, 24);
             this.nilai.Text = "Nilai Siswa";
+            this.nilai.Click += new System.EventHandler(this.nilai_Click);
             // 
             // Kasir
             // 
             this.Kasir.Name = "Kasir";
             this.Kasir.Size = new System.Drawing.Size(49, 24);
             this.Kasir.Text = "Kasir";
+            this.Kasir.Click += new System.EventHandler(this.kasir_Click);
             // 
             // fasilitas
             // 
@@ -164,18 +173,21 @@ namespace bimbel
             this.kelas.Name = "kelas";
             this.kelas.Size = new System.Drawing.Size(198, 24);
             this.kelas.Text = "Daftar Kelas";
+            this.kelas.Click += new System.EventHandler(this.kelas_Click);
             // 
             // zoom
             // 
             this.zoom.Name = "zoom";
             this.zoom.Size = new System.Drawing.Size(198, 24);
             this.zoom.Text = "Ruang Zoom";
+            this.zoom.Click += new System.EventHandler(this.zoom_Click);
             // 
             // matpel
             // 
             this.matpel.Name = "matpel";
             this.matpel.Size = new System.Drawing.Size(198, 24);
             this.matpel.Text = "Daftar Mata Pelajaran";
+            this.matpel.Click += new System.EventHandler(this.matpel_Click);
             // 
             // ParentForm
             // 

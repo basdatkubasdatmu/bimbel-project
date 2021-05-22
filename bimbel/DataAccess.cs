@@ -10,7 +10,7 @@ namespace bimbel
 {
     public class DataAccess
     {
-        string strConnString = "Server = localhost; Port = 5432; User id = postgres; Password = bismillah; Database = Bimbel";
+        string strConnString = "Server = localhost; Port = 5432; User id = postgres; Password = intan280101; Database = bimbel";
 
         public DataTable getAllJadwalSiswa()
         {
@@ -768,108 +768,6 @@ namespace bimbel
             {
                 conn.Close();
             }
-        }
-
-        public void insertDataSiswa(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
-        {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
-
-            conn.Open();
-
-            NpgsqlCommand cmd = new NpgsqlCommand();
-            cmd.Connection = conn;
-            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
-            cmd.CommandType = CommandType.Text;
-
-            cmd.ExecuteNonQuery();
-
-            cmd.Dispose();
-            conn.Close();
-        }
-
-        public void insertDataPengajar(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
-        {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
-
-            conn.Open();
-
-            NpgsqlCommand cmd = new NpgsqlCommand();
-            cmd.Connection = conn;
-            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
-            cmd.CommandType = CommandType.Text;
-
-            cmd.ExecuteNonQuery();
-
-            cmd.Dispose();
-            conn.Close();
-        }
-
-        public void insertDataPegawai(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
-        {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
-
-            conn.Open();
-
-            NpgsqlCommand cmd = new NpgsqlCommand();
-            cmd.Connection = conn;
-            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
-            cmd.CommandType = CommandType.Text;
-
-            cmd.ExecuteNonQuery();
-
-            cmd.Dispose();
-            conn.Close();
-        }
-
-        public void insertDataKelas(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
-        {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
-
-            conn.Open();
-
-            NpgsqlCommand cmd = new NpgsqlCommand();
-            cmd.Connection = conn;
-            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
-            cmd.CommandType = CommandType.Text;
-
-            cmd.ExecuteNonQuery();
-
-            cmd.Dispose();
-            conn.Close();
-        }
-
-        public void insertDataJadwalPengajar(string kodeJadwalPengajar, string kodeKelas, string noPengajar, string kodePelajaran, string tanggal, string jamMulai, string durasi, string kodeZoom)
-        {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
-
-            conn.Open();
-
-            NpgsqlCommand cmd = new NpgsqlCommand();
-            cmd.Connection = conn;
-            cmd.CommandText = "insert into jadwalpengajar(kodejadwalpengajar, kodekelas, nopengajar, kodepelajaran, tanggal, jammulai, durasi, kodezoom) values('" + kodeJadwalPengajar + "', '" + kodeKelas + "', '" + noPengajar + "', '" + kodePelajaran + "', '" + tanggal + "', '" + jamMulai + "', '" + durasi + "');";
-            cmd.CommandType = CommandType.Text;
-
-            cmd.ExecuteNonQuery();
-
-            cmd.Dispose();
-            conn.Close();
-        }
-
-        public void insertDataJadwalSiswa(string kodeJadwalSiswa, string noSiswa, string kodeJadwalPengajar)
-        {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
-
-            conn.Open();
-
-            NpgsqlCommand cmd = new NpgsqlCommand();
-            cmd.Connection = conn;
-            cmd.CommandText = "insert into jadwalsiswa(kodejadwalsiswa, nosiswa, kodejadwalpengajar) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + kodeJadwalPengajar + "');";
-            cmd.CommandType = CommandType.Text;
-
-            cmd.ExecuteNonQuery();
-
-            cmd.Dispose();
-            conn.Close();
         }
     }
 }
