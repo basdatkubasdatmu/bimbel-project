@@ -46,13 +46,14 @@ namespace bimbel
             this.bttnSimpan = new System.Windows.Forms.Button();
             this.rbLakiLaki = new System.Windows.Forms.RadioButton();
             this.rdPerempuan = new System.Windows.Forms.RadioButton();
+            this.lblInputSiswa = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblNoSiswa
             // 
             this.lblNoSiswa.AutoSize = true;
             this.lblNoSiswa.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNoSiswa.Location = new System.Drawing.Point(31, 43);
+            this.lblNoSiswa.Location = new System.Drawing.Point(32, 70);
             this.lblNoSiswa.Name = "lblNoSiswa";
             this.lblNoSiswa.Size = new System.Drawing.Size(97, 20);
             this.lblNoSiswa.TabIndex = 0;
@@ -62,7 +63,7 @@ namespace bimbel
             // 
             this.lblNamaSiswa.AutoSize = true;
             this.lblNamaSiswa.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNamaSiswa.Location = new System.Drawing.Point(31, 86);
+            this.lblNamaSiswa.Location = new System.Drawing.Point(31, 113);
             this.lblNamaSiswa.Name = "lblNamaSiswa";
             this.lblNamaSiswa.Size = new System.Drawing.Size(49, 20);
             this.lblNamaSiswa.TabIndex = 1;
@@ -72,7 +73,7 @@ namespace bimbel
             // 
             this.lblJenisKelamin.AutoSize = true;
             this.lblJenisKelamin.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblJenisKelamin.Location = new System.Drawing.Point(31, 133);
+            this.lblJenisKelamin.Location = new System.Drawing.Point(31, 152);
             this.lblJenisKelamin.Name = "lblJenisKelamin";
             this.lblJenisKelamin.Size = new System.Drawing.Size(98, 20);
             this.lblJenisKelamin.TabIndex = 2;
@@ -82,7 +83,7 @@ namespace bimbel
             // 
             this.lblKodeKelas.AutoSize = true;
             this.lblKodeKelas.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblKodeKelas.Location = new System.Drawing.Point(31, 170);
+            this.lblKodeKelas.Location = new System.Drawing.Point(31, 192);
             this.lblKodeKelas.Name = "lblKodeKelas";
             this.lblKodeKelas.Size = new System.Drawing.Size(83, 20);
             this.lblKodeKelas.TabIndex = 3;
@@ -92,7 +93,7 @@ namespace bimbel
             // 
             this.lblNohpSiswa.AutoSize = true;
             this.lblNohpSiswa.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNohpSiswa.Location = new System.Drawing.Point(35, 209);
+            this.lblNohpSiswa.Location = new System.Drawing.Point(31, 230);
             this.lblNohpSiswa.Name = "lblNohpSiswa";
             this.lblNohpSiswa.Size = new System.Drawing.Size(79, 20);
             this.lblNohpSiswa.TabIndex = 4;
@@ -102,7 +103,7 @@ namespace bimbel
             // 
             this.lblEmailSiswa.AutoSize = true;
             this.lblEmailSiswa.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblEmailSiswa.Location = new System.Drawing.Point(31, 251);
+            this.lblEmailSiswa.Location = new System.Drawing.Point(31, 268);
             this.lblEmailSiswa.Name = "lblEmailSiswa";
             this.lblEmailSiswa.Size = new System.Drawing.Size(46, 20);
             this.lblEmailSiswa.TabIndex = 5;
@@ -113,7 +114,7 @@ namespace bimbel
             // 
             this.lblDaerahSiswa.AutoSize = true;
             this.lblDaerahSiswa.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblDaerahSiswa.Location = new System.Drawing.Point(31, 291);
+            this.lblDaerahSiswa.Location = new System.Drawing.Point(31, 304);
             this.lblDaerahSiswa.Name = "lblDaerahSiswa";
             this.lblDaerahSiswa.Size = new System.Drawing.Size(89, 20);
             this.lblDaerahSiswa.TabIndex = 6;
@@ -121,42 +122,42 @@ namespace bimbel
             // 
             // txtNoSiswa
             // 
-            this.txtNoSiswa.Location = new System.Drawing.Point(204, 44);
+            this.txtNoSiswa.Location = new System.Drawing.Point(204, 71);
             this.txtNoSiswa.Name = "txtNoSiswa";
             this.txtNoSiswa.Size = new System.Drawing.Size(291, 23);
             this.txtNoSiswa.TabIndex = 8;
             // 
             // txtNamaSiswa
             // 
-            this.txtNamaSiswa.Location = new System.Drawing.Point(204, 87);
+            this.txtNamaSiswa.Location = new System.Drawing.Point(204, 114);
             this.txtNamaSiswa.Name = "txtNamaSiswa";
             this.txtNamaSiswa.Size = new System.Drawing.Size(291, 23);
             this.txtNamaSiswa.TabIndex = 9;
             // 
             // txtKodeKelas
             // 
-            this.txtKodeKelas.Location = new System.Drawing.Point(204, 171);
+            this.txtKodeKelas.Location = new System.Drawing.Point(204, 193);
             this.txtKodeKelas.Name = "txtKodeKelas";
             this.txtKodeKelas.Size = new System.Drawing.Size(291, 23);
             this.txtKodeKelas.TabIndex = 10;
             // 
             // txtNohpSiswa
             // 
-            this.txtNohpSiswa.Location = new System.Drawing.Point(204, 210);
+            this.txtNohpSiswa.Location = new System.Drawing.Point(204, 231);
             this.txtNohpSiswa.Name = "txtNohpSiswa";
             this.txtNohpSiswa.Size = new System.Drawing.Size(291, 23);
             this.txtNohpSiswa.TabIndex = 11;
             // 
             // txtEmailSiswa
             // 
-            this.txtEmailSiswa.Location = new System.Drawing.Point(204, 252);
+            this.txtEmailSiswa.Location = new System.Drawing.Point(204, 269);
             this.txtEmailSiswa.Name = "txtEmailSiswa";
             this.txtEmailSiswa.Size = new System.Drawing.Size(291, 23);
             this.txtEmailSiswa.TabIndex = 12;
             // 
             // txtAsalSiswa
             // 
-            this.txtAsalSiswa.Location = new System.Drawing.Point(204, 292);
+            this.txtAsalSiswa.Location = new System.Drawing.Point(204, 305);
             this.txtAsalSiswa.Name = "txtAsalSiswa";
             this.txtAsalSiswa.Size = new System.Drawing.Size(291, 23);
             this.txtAsalSiswa.TabIndex = 13;
@@ -173,8 +174,8 @@ namespace bimbel
             // 
             // bttnSimpan
             // 
-            this.bttnSimpan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.bttnSimpan.Location = new System.Drawing.Point(439, 353);
+            this.bttnSimpan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bttnSimpan.Location = new System.Drawing.Point(421, 353);
             this.bttnSimpan.Name = "bttnSimpan";
             this.bttnSimpan.Size = new System.Drawing.Size(106, 40);
             this.bttnSimpan.TabIndex = 15;
@@ -185,7 +186,7 @@ namespace bimbel
             // 
             this.rbLakiLaki.AutoSize = true;
             this.rbLakiLaki.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rbLakiLaki.Location = new System.Drawing.Point(226, 133);
+            this.rbLakiLaki.Location = new System.Drawing.Point(225, 150);
             this.rbLakiLaki.Name = "rbLakiLaki";
             this.rbLakiLaki.Size = new System.Drawing.Size(85, 24);
             this.rbLakiLaki.TabIndex = 16;
@@ -197,7 +198,7 @@ namespace bimbel
             // 
             this.rdPerempuan.AutoSize = true;
             this.rdPerempuan.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rdPerempuan.Location = new System.Drawing.Point(369, 133);
+            this.rdPerempuan.Location = new System.Drawing.Point(366, 150);
             this.rdPerempuan.Name = "rdPerempuan";
             this.rdPerempuan.Size = new System.Drawing.Size(101, 24);
             this.rdPerempuan.TabIndex = 17;
@@ -205,11 +206,22 @@ namespace bimbel
             this.rdPerempuan.Text = "Perempuan";
             this.rdPerempuan.UseVisualStyleBackColor = true;
             // 
+            // lblInputSiswa
+            // 
+            this.lblInputSiswa.AutoSize = true;
+            this.lblInputSiswa.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblInputSiswa.Location = new System.Drawing.Point(31, 21);
+            this.lblInputSiswa.Name = "lblInputSiswa";
+            this.lblInputSiswa.Size = new System.Drawing.Size(115, 25);
+            this.lblInputSiswa.TabIndex = 18;
+            this.lblInputSiswa.Text = "Input Siswa";
+            // 
             // formInputSiswa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 415);
+            this.ClientSize = new System.Drawing.Size(547, 415);
+            this.Controls.Add(this.lblInputSiswa);
             this.Controls.Add(this.rdPerempuan);
             this.Controls.Add(this.rbLakiLaki);
             this.Controls.Add(this.bttnSimpan);
@@ -253,5 +265,6 @@ namespace bimbel
         private System.Windows.Forms.Button bttnSimpan;
         private System.Windows.Forms.RadioButton rbLakiLaki;
         private System.Windows.Forms.RadioButton rdPerempuan;
+        private System.Windows.Forms.Label lblInputSiswa;
     }
 }

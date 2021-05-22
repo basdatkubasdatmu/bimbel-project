@@ -37,13 +37,14 @@ namespace bimbel
             this.txtNoPegawai = new System.Windows.Forms.TextBox();
             this.bttnBatal = new System.Windows.Forms.Button();
             this.bttnSimpan = new System.Windows.Forms.Button();
+            this.lblInputPengajar = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblNoPengajar
             // 
             this.lblNoPengajar.AutoSize = true;
             this.lblNoPengajar.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNoPengajar.Location = new System.Drawing.Point(30, 52);
+            this.lblNoPengajar.Location = new System.Drawing.Point(30, 95);
             this.lblNoPengajar.Name = "lblNoPengajar";
             this.lblNoPengajar.Size = new System.Drawing.Size(117, 20);
             this.lblNoPengajar.TabIndex = 0;
@@ -53,7 +54,7 @@ namespace bimbel
             // 
             this.lblnoPegawai.AutoSize = true;
             this.lblnoPegawai.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblnoPegawai.Location = new System.Drawing.Point(30, 108);
+            this.lblnoPegawai.Location = new System.Drawing.Point(30, 154);
             this.lblnoPegawai.Name = "lblnoPegawai";
             this.lblnoPegawai.Size = new System.Drawing.Size(115, 20);
             this.lblnoPegawai.TabIndex = 1;
@@ -63,7 +64,7 @@ namespace bimbel
             // 
             this.lblKodePelajaran.AutoSize = true;
             this.lblKodePelajaran.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblKodePelajaran.Location = new System.Drawing.Point(30, 166);
+            this.lblKodePelajaran.Location = new System.Drawing.Point(30, 197);
             this.lblKodePelajaran.Name = "lblKodePelajaran";
             this.lblKodePelajaran.Size = new System.Drawing.Size(112, 21);
             this.lblKodePelajaran.TabIndex = 2;
@@ -71,21 +72,21 @@ namespace bimbel
             // 
             // txtNoPengajar
             // 
-            this.txtNoPengajar.Location = new System.Drawing.Point(211, 53);
+            this.txtNoPengajar.Location = new System.Drawing.Point(211, 92);
             this.txtNoPengajar.Name = "txtNoPengajar";
             this.txtNoPengajar.Size = new System.Drawing.Size(291, 23);
             this.txtNoPengajar.TabIndex = 9;
             // 
             // txtKodePelajaran
             // 
-            this.txtKodePelajaran.Location = new System.Drawing.Point(211, 168);
+            this.txtKodePelajaran.Location = new System.Drawing.Point(211, 199);
             this.txtKodePelajaran.Name = "txtKodePelajaran";
             this.txtKodePelajaran.Size = new System.Drawing.Size(291, 23);
             this.txtKodePelajaran.TabIndex = 10;
             // 
             // txtNoPegawai
             // 
-            this.txtNoPegawai.Location = new System.Drawing.Point(211, 109);
+            this.txtNoPegawai.Location = new System.Drawing.Point(211, 151);
             this.txtNoPegawai.Name = "txtNoPegawai";
             this.txtNoPegawai.Size = new System.Drawing.Size(291, 23);
             this.txtNoPegawai.TabIndex = 11;
@@ -93,7 +94,7 @@ namespace bimbel
             // bttnBatal
             // 
             this.bttnBatal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttnBatal.Location = new System.Drawing.Point(324, 224);
+            this.bttnBatal.Location = new System.Drawing.Point(324, 259);
             this.bttnBatal.Name = "bttnBatal";
             this.bttnBatal.Size = new System.Drawing.Size(103, 40);
             this.bttnBatal.TabIndex = 15;
@@ -102,19 +103,30 @@ namespace bimbel
             // 
             // bttnSimpan
             // 
-            this.bttnSimpan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.bttnSimpan.Location = new System.Drawing.Point(448, 224);
+            this.bttnSimpan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bttnSimpan.Location = new System.Drawing.Point(433, 259);
             this.bttnSimpan.Name = "bttnSimpan";
             this.bttnSimpan.Size = new System.Drawing.Size(106, 40);
             this.bttnSimpan.TabIndex = 16;
             this.bttnSimpan.Text = "Simpan";
             this.bttnSimpan.UseVisualStyleBackColor = true;
             // 
+            // lblInputPengajar
+            // 
+            this.lblInputPengajar.AutoSize = true;
+            this.lblInputPengajar.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblInputPengajar.Location = new System.Drawing.Point(30, 27);
+            this.lblInputPengajar.Name = "lblInputPengajar";
+            this.lblInputPengajar.Size = new System.Drawing.Size(144, 25);
+            this.lblInputPengajar.TabIndex = 17;
+            this.lblInputPengajar.Text = "Input Pengajar";
+            // 
             // formInputPengajar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(596, 291);
+            this.ClientSize = new System.Drawing.Size(562, 311);
+            this.Controls.Add(this.lblInputPengajar);
             this.Controls.Add(this.bttnSimpan);
             this.Controls.Add(this.bttnBatal);
             this.Controls.Add(this.txtNoPegawai);
@@ -140,5 +152,6 @@ namespace bimbel
         private System.Windows.Forms.TextBox txtNoPegawai;
         private System.Windows.Forms.Button bttnBatal;
         private System.Windows.Forms.Button bttnSimpan;
+        private System.Windows.Forms.Label lblInputPengajar;
     }
 }

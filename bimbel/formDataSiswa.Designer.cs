@@ -57,7 +57,7 @@ namespace bimbel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(781, 396);
+            this.ClientSize = new System.Drawing.Size(781, 415);
             this.Controls.Add(this.lblDatasiswa);
             this.Controls.Add(this.dgvSiswa);
             this.Name = "formDatasiswa";

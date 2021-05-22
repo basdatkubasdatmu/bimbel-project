@@ -30,10 +30,10 @@ namespace bimbel
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonTambah = new System.Windows.Forms.Button();
+            this.buttonHapus = new System.Windows.Forms.Button();
+            this.buttonRefresh = new System.Windows.Forms.Button();
+            this.buttonEdit = new System.Windows.Forms.Button();
             this.dgvJadwalUjian = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalUjian)).BeginInit();
             this.SuspendLayout();
@@ -48,45 +48,45 @@ namespace bimbel
             this.label1.TabIndex = 1;
             this.label1.Text = "Jadwal Ujian";
             // 
-            // button3
+            // buttonTambah
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(602, 361);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 44);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "TAMBAH";
-            this.button3.UseVisualStyleBackColor = true;
+            this.buttonTambah.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonTambah.Location = new System.Drawing.Point(602, 361);
+            this.buttonTambah.Name = "buttonTambah";
+            this.buttonTambah.Size = new System.Drawing.Size(90, 44);
+            this.buttonTambah.TabIndex = 11;
+            this.buttonTambah.Text = "Tambah";
+            this.buttonTambah.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // buttonHapus
             // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(698, 361);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 44);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "HAPUS";
-            this.button4.UseVisualStyleBackColor = true;
+            this.buttonHapus.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonHapus.Location = new System.Drawing.Point(698, 361);
+            this.buttonHapus.Name = "buttonHapus";
+            this.buttonHapus.Size = new System.Drawing.Size(90, 44);
+            this.buttonHapus.TabIndex = 10;
+            this.buttonHapus.Text = "Hapus";
+            this.buttonHapus.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // buttonRefresh
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(410, 361);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 44);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "REFRESH";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonRefresh.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonRefresh.Location = new System.Drawing.Point(410, 361);
+            this.buttonRefresh.Name = "buttonRefresh";
+            this.buttonRefresh.Size = new System.Drawing.Size(90, 44);
+            this.buttonRefresh.TabIndex = 9;
+            this.buttonRefresh.Text = "Refresh";
+            this.buttonRefresh.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // buttonEdit
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(506, 361);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 44);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "EDIT";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonEdit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonEdit.Location = new System.Drawing.Point(506, 361);
+            this.buttonEdit.Name = "buttonEdit";
+            this.buttonEdit.Size = new System.Drawing.Size(90, 44);
+            this.buttonEdit.TabIndex = 8;
+            this.buttonEdit.Text = "Edit";
+            this.buttonEdit.UseVisualStyleBackColor = true;
             // 
             // dgvJadwalUjian
             // 
@@ -103,10 +103,10 @@ namespace bimbel
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 417);
             this.Controls.Add(this.dgvJadwalUjian);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonTambah);
+            this.Controls.Add(this.buttonHapus);
+            this.Controls.Add(this.buttonRefresh);
+            this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
             this.Name = "FormJadwalUjian";
@@ -121,10 +121,10 @@ namespace bimbel
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonTambah;
+        private System.Windows.Forms.Button buttonHapus;
+        private System.Windows.Forms.Button buttonRefresh;
+        private System.Windows.Forms.Button buttonEdit;
         private System.Windows.Forms.DataGridView dgvJadwalUjian;
     }
 }
