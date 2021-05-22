@@ -111,6 +111,7 @@ namespace bimbel
             this.Controls.Add(this.dgvRuang);
             this.Name = "FormRuangZoom";
             this.Text = "FormRuangZoom";
+            this.Load += new System.EventHandler(this.FormRuangZoom_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRuang)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

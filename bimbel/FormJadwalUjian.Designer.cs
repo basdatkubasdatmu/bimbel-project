@@ -113,6 +113,7 @@ namespace bimbel
             this.Name = "FormJadwalUjian";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Jadwal Ujian";
+            this.Load += new System.EventHandler(this.FormJadwalUjian_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalUjian)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

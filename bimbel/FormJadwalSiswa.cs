@@ -20,5 +20,18 @@ namespace bimbel
             DataAccess da = new DataAccess();
             dgvJadwalSiswa.DataSource = da.getAllJadwalSiswa();
         }
+
+        private void FormJadwalSiswa_Load(object sender, EventArgs e)
+        {
+            DataAccess dtacc = new DataAccess();
+            dgvJadwalSiswa.AutoGenerateColumns = false;
+            dgvJadwalSiswa.DataSource = dtacc.getAllJadwalSiswa();
+        }
+
+        private void btnTambah_Click(object sender, EventArgs e)
+        {
+            FormInputJadwalSiswa frm = new FormInputJadwalSiswa();
+            frm.Show();
+        }
     }
 }

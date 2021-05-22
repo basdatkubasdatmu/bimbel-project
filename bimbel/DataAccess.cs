@@ -432,7 +432,6 @@ namespace bimbel
             return dt;
         }
 
-<<<<<<< HEAD
         public void insertJadwalPengajar(string kodejadwalpengajar, string kodekelas, string nopengajar, string kodepelajaran, string tanggal, string jammulai, string durasi, string kodezoom)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -604,7 +603,7 @@ namespace bimbel
             {
                 conn.Close();
             }
-=======
+
         public void insertDataMapel(string totalBiaya, string idDetail, string idBarang)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -705,7 +704,6 @@ namespace bimbel
 
             cmd.Dispose();
             conn.Close();
->>>>>>> 973cdf51a2aaa0177a79251782cbb74bda4259e9
         }
     }
 }

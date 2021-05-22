@@ -15,16 +15,23 @@ namespace bimbel
             InitializeComponent();
         }
 
-<<<<<<< HEAD
         private void formDataPengajar_Load(object sender, EventArgs e)
         {
+            DataAccess dtacc = new DataAccess();
+            dgvPengajar.AutoGenerateColumns = false;
+            dgvPengajar.DataSource = dtacc.getAllPengajar();
+        }
 
-=======
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
             dgvPengajar.DataSource = da.getAllPengajar();
->>>>>>> 973cdf51a2aaa0177a79251782cbb74bda4259e9
+        }
+
+        private void btnTambah_Click(object sender, EventArgs e)
+        {
+            formInputPengajar frm = new formInputPengajar();
+            frm.Show();
         }
     }
 }

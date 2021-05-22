@@ -20,5 +20,18 @@ namespace bimbel
             DataAccess da = new DataAccess();
             dgvJadwalPengajar.DataSource = da.getAllJadwalPengajar();
         }
+
+        private void FormJadwalPengajar_Load(object sender, EventArgs e)
+        {
+            DataAccess dtacc = new DataAccess();
+            dgvJadwalPengajar.AutoGenerateColumns = false;
+            dgvJadwalPengajar.DataSource = dtacc.getAllJadwalPengajar();
+        }
+
+        private void btnTambah_Click(object sender, EventArgs e)
+        {
+            FormInputJadwalPengajar frm = new FormInputJadwalPengajar();
+            frm.Show();
+        }
     }
 }
