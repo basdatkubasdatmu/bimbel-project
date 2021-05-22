@@ -20,5 +20,12 @@ namespace bimbel
             DataAccess da = new DataAccess();
             dgvJadwalUjian.DataSource = da.getAllUjian();
         }
+
+        private void FormJadwalUjian_Load(object sender, EventArgs e)
+        {
+            DataAccess dtacc = new DataAccess();
+            dgvJadwalUjian.AutoGenerateColumns = false;
+            dgvJadwalUjian.DataSource = dtacc.getAllUjian();
+        }
     }
 }

@@ -97,6 +97,7 @@ namespace bimbel
             this.dgvPresensi.RowTemplate.Height = 25;
             this.dgvPresensi.Size = new System.Drawing.Size(717, 339);
             this.dgvPresensi.TabIndex = 8;
+            this.dgvPresensi.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPresensi_CellContentClick);
             // 
             // FormDaftarPresensi
             // 
@@ -113,6 +114,7 @@ namespace bimbel
             this.Name = "FormDaftarPresensi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Presensi";
+            this.Load += new System.EventHandler(this.FormDaftarPresensi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPresensi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

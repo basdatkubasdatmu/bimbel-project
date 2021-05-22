@@ -64,7 +64,7 @@ namespace bimbel
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
             this.btnTambah.TabIndex = 21;
-            this.btnTambah.Text = "TAMBAH";
+            this.btnTambah.Text = "Tambah";
             this.btnTambah.UseVisualStyleBackColor = true;
             // 
             // btnHapus
@@ -74,7 +74,7 @@ namespace bimbel
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
             this.btnHapus.TabIndex = 20;
-            this.btnHapus.Text = "HAPUS";
+            this.btnHapus.Text = "Hapus";
             this.btnHapus.UseVisualStyleBackColor = true;
             // 
             // btnRefresh
@@ -84,7 +84,7 @@ namespace bimbel
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(90, 44);
             this.btnRefresh.TabIndex = 19;
-            this.btnRefresh.Text = "REFRESH";
+            this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
@@ -95,7 +95,7 @@ namespace bimbel
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);
             this.btnEdit.TabIndex = 18;
-            this.btnEdit.Text = "EDIT";
+            this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
             // 
             // FormRuangZoom
@@ -111,6 +111,7 @@ namespace bimbel
             this.Controls.Add(this.dgvRuang);
             this.Name = "FormRuangZoom";
             this.Text = "FormRuangZoom";
+            this.Load += new System.EventHandler(this.FormRuangZoom_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRuang)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

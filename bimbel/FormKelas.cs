@@ -20,5 +20,18 @@ namespace bimbel
             DataAccess da = new DataAccess();
             dgvKelas.DataSource = da.getAllKelas();
         }
+
+        private void FormKelas_Load(object sender, EventArgs e)
+        {
+            DataAccess dtacc = new DataAccess();
+            dgvKelas.AutoGenerateColumns = false;
+            dgvKelas.DataSource = dtacc.getAllKelas();
+        }
+
+        private void btTambahKelas_Click(object sender, EventArgs e)
+        {
+            FormInputKelas frm = new FormInputKelas();
+            frm.Show();
+        }
     }
 }

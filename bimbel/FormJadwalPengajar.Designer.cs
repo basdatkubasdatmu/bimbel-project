@@ -56,6 +56,7 @@ namespace bimbel
             this.btnTambah.TabIndex = 13;
             this.btnTambah.Text = "TAMBAH";
             this.btnTambah.UseVisualStyleBackColor = true;
+            this.btnTambah.Click += new System.EventHandler(this.btnTambah_Click);
             // 
             // btnHapus
             // 
@@ -111,6 +112,7 @@ namespace bimbel
             this.Controls.Add(this.lblDaftarJadwalPengajar);
             this.Name = "FormJadwalPengajar";
             this.Text = "Jadwal Pengajar";
+            this.Load += new System.EventHandler(this.FormJadwalPengajar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalPengajar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

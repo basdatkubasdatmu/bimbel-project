@@ -17,13 +17,25 @@ namespace bimbel
 
         private void FormNilai_Load(object sender, EventArgs e)
         {
-
+            DataAccess dtacc = new DataAccess();
+            dgvNilai.AutoGenerateColumns = false;
+            dgvNilai.DataSource = dtacc.getAllNilai();
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
             dgvNilai.DataSource = da.getAllNilai();
+        }
+
+        private void btnTambah_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

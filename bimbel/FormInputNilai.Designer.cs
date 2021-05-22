@@ -40,13 +40,15 @@ namespace bimbel
             this.txtNoPengajar = new System.Windows.Forms.TextBox();
             this.txtKodePelajaran = new System.Windows.Forms.TextBox();
             this.txtNilai = new System.Windows.Forms.TextBox();
+            this.buttonBatal = new System.Windows.Forms.Button();
+            this.buttonSimpan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // InputNilai
             // 
             this.InputNilai.AutoSize = true;
             this.InputNilai.Font = new System.Drawing.Font("Segoe UI", 16.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.InputNilai.Location = new System.Drawing.Point(13, 9);
+            this.InputNilai.Location = new System.Drawing.Point(33, 21);
             this.InputNilai.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.InputNilai.Name = "InputNilai";
             this.InputNilai.Size = new System.Drawing.Size(122, 30);
@@ -149,11 +151,35 @@ namespace bimbel
             this.txtNilai.Size = new System.Drawing.Size(224, 23);
             this.txtNilai.TabIndex = 16;
             // 
+            // buttonBatal
+            // 
+            this.buttonBatal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonBatal.Location = new System.Drawing.Point(226, 319);
+            this.buttonBatal.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonBatal.Name = "buttonBatal";
+            this.buttonBatal.Size = new System.Drawing.Size(97, 45);
+            this.buttonBatal.TabIndex = 17;
+            this.buttonBatal.Text = "Batal";
+            this.buttonBatal.UseVisualStyleBackColor = true;
+            // 
+            // buttonSimpan
+            // 
+            this.buttonSimpan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonSimpan.Location = new System.Drawing.Point(331, 319);
+            this.buttonSimpan.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonSimpan.Name = "buttonSimpan";
+            this.buttonSimpan.Size = new System.Drawing.Size(97, 45);
+            this.buttonSimpan.TabIndex = 18;
+            this.buttonSimpan.Text = "Simpan";
+            this.buttonSimpan.UseVisualStyleBackColor = true;
+            // 
             // FormInputNilai
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(417, 377);
+            this.ClientSize = new System.Drawing.Size(461, 377);
+            this.Controls.Add(this.buttonSimpan);
+            this.Controls.Add(this.buttonBatal);
             this.Controls.Add(this.txtNilai);
             this.Controls.Add(this.txtKodePelajaran);
             this.Controls.Add(this.txtNoPengajar);
@@ -185,5 +211,7 @@ namespace bimbel
         private System.Windows.Forms.TextBox txtNoPengajar;
         private System.Windows.Forms.TextBox txtKodePelajaran;
         private System.Windows.Forms.TextBox txtNilai;
+        private System.Windows.Forms.Button buttonBatal;
+        private System.Windows.Forms.Button buttonSimpan;
     }
 }

@@ -20,5 +20,17 @@ namespace bimbel
             DataAccess da = new DataAccess();
             dgvPresensi.DataSource = da.getAllPresensi();
         }
+
+        private void FormDaftarPresensi_Load(object sender, EventArgs e)
+        {
+            DataAccess dtacc = new DataAccess();
+            dgvPresensi.AutoGenerateColumns = false;
+            dgvPresensi.DataSource = dtacc.getAllPresensi();
+        }
+
+        private void dgvPresensi_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

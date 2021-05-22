@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace bimbel
 {
-    public partial class FormMenu : Form
+    public partial class ParentForm : Form
     {
-        public FormMenu()
+        public ParentForm()
         {
             InitializeComponent();
         }
@@ -56,7 +56,9 @@ namespace bimbel
 
         private void pegawai_Click(object sender, ToolStripItemClickedEventArgs e)
         {
-            
+            FormPegawai frmpegawai = new FormPegawai();
+            frmpegawai.MdiParent = this;
+            frmpegawai.Show();
         }
 
         private void jadwalujian_Click(object sender, ToolStripItemClickedEventArgs e)
@@ -80,7 +82,9 @@ namespace bimbel
 
         private void kelas_Click(object sender, ToolStripItemClickedEventArgs e)
         {
-            
+            FormKelas frmkelas = new FormKelas();
+            frmkelas.MdiParent = this;
+            frmkelas.Show();
         }
 
         private void matpel_Click(object sender, ToolStripItemClickedEventArgs e)
@@ -95,6 +99,11 @@ namespace bimbel
             FormRuangZoom frmzoom = new FormRuangZoom();
             frmzoom.MdiParent = this;
             frmzoom.Show();
+        }
+
+        private void FormMenu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
