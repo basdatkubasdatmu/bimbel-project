@@ -10,7 +10,7 @@ namespace bimbel
 {
     public class DataAccess
     {
-        string strConnString = "Server = localhost; Port = 5432; User id = postgres; Password = intan280101; Database = bimbel";
+        string strConnString = "Server = localhost; Port = 5432; User id = postgres; Password = bismillah; Database = Bimbel";
 
         public DataTable getAllJadwalSiswa()
         {
@@ -466,7 +466,7 @@ namespace bimbel
             conn.Close();
         }
 
-        public void insertDataRuang(string totalBiaya, string idDetail, string idBarang)
+        public void insertDataRuang(string kodeZoom, string link, string idMeeting, string passcode)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
@@ -474,7 +474,7 @@ namespace bimbel
 
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandText = "insert into ruangzoom(kodezoom, link, meetingid, passcode) values('" + kodeZoom + "', '" + link + "', '" + idMeeting + "', '" + passcode +"');";
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
@@ -483,7 +483,7 @@ namespace bimbel
             conn.Close();
         }
 
-        public void insertDataNilai(string totalBiaya, string idDetail, string idBarang)
+        public void insertDataNilai(string kodeUjian, string nosiswa, string noPengajar, string kodePelajaran, string nilai)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
@@ -491,7 +491,7 @@ namespace bimbel
 
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandText = "insert into nilai(kodeujian, nosiswa, nopengajar, kodepelajaran, nilai) values('" + kodeUjian + "', '" + nosiswa + "', '" + noPengajar + "', '" + kodePelajaran + "', '" + nilai + "');";
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
@@ -500,7 +500,7 @@ namespace bimbel
             conn.Close();
         }
 
-        public void insertDataUjian(string totalBiaya, string idDetail, string idBarang)
+        public void insertDataUjian(string kodeUjian, string nama, string kodePelajaran, string tanggal, string jamMulai, string durasi)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
@@ -508,7 +508,7 @@ namespace bimbel
 
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandText = "insert into ujian(kodeujian, nama, kodepelajaran, tanggal, jammulai, durasi) values('" + kodeUjian + "', '" + nama + "', '" + kodePelajaran + "', '" + tanggal + "', '" + jamMulai + "', '" + durasi + "');";
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
@@ -517,7 +517,7 @@ namespace bimbel
             conn.Close();
         }
 
-        public void insertDataPresensi(string totalBiaya, string idDetail, string idBarang)
+        public void insertDataPresensi(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
@@ -525,7 +525,7 @@ namespace bimbel
 
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
