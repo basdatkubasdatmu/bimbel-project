@@ -14,5 +14,11 @@ namespace bimbel
         {
             InitializeComponent();
         }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+            dgvJadwalSiswa.DataSource = da.getAllJadwalSiswa();
+        }
     }
 }
