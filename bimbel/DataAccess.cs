@@ -432,7 +432,7 @@ namespace bimbel
             return dt;
         }
 
-        public void insertDataMapel(string totalBiaya, string idDetail, string idBarang)
+        public void insertDataMapel(string kodePelajaran, string pelajaran)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
@@ -440,7 +440,7 @@ namespace bimbel
 
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandText = "insert into matpel(kodepelajaran, pelajaran) values('" + kodePelajaran + "', '" + pelajaran + "');";
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
@@ -449,7 +449,7 @@ namespace bimbel
             conn.Close();
         }
 
-        public void insertDataPembayaran(string totalBiaya, string idDetail, string idBarang)
+        public void insertDataPembayaran(string kodePembayaran, string noSiswa, string kodeKelas, string tanggalPembayaran, string status)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
@@ -457,7 +457,7 @@ namespace bimbel
 
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandText = "insert into pembayaran(kodepembayaran, nosiswa, kodekelas, tanggalpembayaran, status) values('" + kodePembayaran + "', '" + noSiswa + "', '" + kodeKelas + "', '" + tanggalPembayaran + "', '" + status + "');";
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
