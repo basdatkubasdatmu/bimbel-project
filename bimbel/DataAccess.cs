@@ -838,7 +838,7 @@ namespace bimbel
             conn.Close();
         }
 
-        public void insertDataJadwalPengajar(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
+        public void insertDataJadwalPengajar(string kodeJadwalPengajar, string kodeKelas, string noPengajar, string kodePelajaran, string tanggal, string jamMulai, string durasi, string kodeZoom)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
@@ -846,7 +846,7 @@ namespace bimbel
 
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
+            cmd.CommandText = "insert into jadwalpengajar(kodejadwalpengajar, kodekelas, nopengajar, kodepelajaran, tanggal, jammulai, durasi, kodezoom) values('" + kodeJadwalPengajar + "', '" + kodeKelas + "', '" + noPengajar + "', '" + kodePelajaran + "', '" + tanggal + "', '" + jamMulai + "', '" + durasi + "');";
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
@@ -855,7 +855,7 @@ namespace bimbel
             conn.Close();
         }
 
-        public void insertDataJadwalSiswa(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
+        public void insertDataJadwalSiswa(string kodeJadwalSiswa, string noSiswa, string kodeJadwalPengajar)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
@@ -863,7 +863,7 @@ namespace bimbel
 
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
+            cmd.CommandText = "insert into jadwalsiswa(kodejadwalsiswa, nosiswa, kodejadwalpengajar) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + kodeJadwalPengajar + "');";
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
