@@ -110,6 +110,7 @@ namespace bimbel
             this.Controls.Add(this.dgvPengajar);
             this.Name = "formDataPengajar";
             this.Text = "Pengajar";
+            this.Load += new System.EventHandler(this.formDataPengajar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPengajar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

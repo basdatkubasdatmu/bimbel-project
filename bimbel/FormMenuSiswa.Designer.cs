@@ -1,7 +1,7 @@
 ﻿
 namespace bimbel
 {
-    partial class FormMenu
+    partial class ParentForm
     {
         /// <summary>
         /// Required designer variable.
@@ -177,7 +177,7 @@ namespace bimbel
             this.matpel.Size = new System.Drawing.Size(198, 24);
             this.matpel.Text = "Daftar Mata Pelajaran";
             // 
-            // FormMenu
+            // ParentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -188,9 +188,10 @@ namespace bimbel
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
-            this.Name = "FormMenu";
+            this.Name = "ParentForm";
             this.Text = "BIMBEL DARING";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FormMenu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

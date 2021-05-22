@@ -14,5 +14,10 @@ namespace bimbel
         {
             InitializeComponent();
         }
+
+        private void formDataPengajar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
