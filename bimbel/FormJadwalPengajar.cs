@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+namespace bimbel
+{
+    public partial class FormJadwalPengajar : Form
+    {
+        public FormJadwalPengajar()
+        {
+            InitializeComponent();
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+            dgvJadwalPengajar.DataSource = da.getAllJadwalPengajar();
+        }
+
+        private void FormJadwalPengajar_Load(object sender, EventArgs e)
+        {
+            DataAccess dtacc = new DataAccess();
+            dgvJadwalPengajar.AutoGenerateColumns = false;
+            dgvJadwalPengajar.DataSource = dtacc.getAllJadwalPengajar();
+        }
+
+        private void btnTambah_Click(object sender, EventArgs e)
+        {
+            FormInputJadwalPengajar frm = new FormInputJadwalPengajar();
+            frm.Show();
+        }
+    }
+}

@@ -8,11 +8,24 @@ using System.Windows.Forms;
 
 namespace bimbel
 {
-    public partial class FormCoba : Form
+    public partial class FormMatPel : Form
     {
-        public FormCoba()
+        public FormMatPel()
         {
             InitializeComponent();
+        }
+
+        private void btRefresh_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+            dgvMatpel.DataSource = da.getAllMatpel();
+        }
+
+        private void FormMatPel_Load(object sender, EventArgs e)
+        {
+            DataAccess dtacc = new DataAccess();
+            dgvMatpel.AutoGenerateColumns = false;
+            dgvMatpel.DataSource = dtacc.getAllMatpel();
         }
     }
 }

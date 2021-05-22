@@ -17,7 +17,8 @@ namespace bimbel
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormCoba());
+            Application.Run(new FormLogin());
+            Application.Run(new ParentForm());
         }
     }
 }

@@ -1,46 +1,71 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
   <ItemGroup>
+    <Compile Update="FormDaftarPresensi.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="formDataPengajar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formDataSiswa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormInputNilai.cs">
+    <Compile Update="FormInputJadwalPengajar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formInputPengajar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="formInputSiswa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="FormMatPel.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="FormDaftarPresensi.cs">
+    <Compile Update="FormInputJadwalSiswa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormInputJadwalUjian.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormInputKelas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormInputNilai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormInputPegawai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formInputPengajar.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormInputPresensi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formInputSiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormJadwalPengajar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormJadwalSiswa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormJadwalUjian.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormNilai.cs">
+    <Compile Update="FormKelas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMatPel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormMenuSiswa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormRuangZoom.cs">
+    <Compile Update="FormNilai.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormMenuPengajar.cs">
+    <Compile Update="FormPegawai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormRuangZoom.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

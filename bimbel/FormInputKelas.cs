@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace bimbel
 {
-    public partial class FormMenuPengajar : Form
+    public partial class FormInputKelas : Form
     {
-        public FormMenuPengajar()
+        public FormInputKelas()
         {
             InitializeComponent();
         }
