@@ -71,7 +71,6 @@ namespace bimbel
             this.button1.TabIndex = 4;
             this.button1.Text = "SIMPAN";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -168,6 +167,7 @@ namespace bimbel
             this.Name = "FormInputPresensi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Presensi";
+            this.Load += new System.EventHandler(this.FormInputPresensi_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
