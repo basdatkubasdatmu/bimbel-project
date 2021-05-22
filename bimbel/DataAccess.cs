@@ -432,7 +432,107 @@ namespace bimbel
             return dt;
         }
 
+        public void insertDataMapel(string totalBiaya, string idDetail, string idBarang)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public void insertDataPembayaran(string totalBiaya, string idDetail, string idBarang)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public void insertDataRuang(string totalBiaya, string idDetail, string idBarang)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public void insertDataNilai(string totalBiaya, string idDetail, string idBarang)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public void insertDataUjian(string totalBiaya, string idDetail, string idBarang)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public void insertDataPresensi(string totalBiaya, string idDetail, string idBarang)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into barang(totalbiaya, id_detail, id_barang) values('" + totalBiaya + "', '" + idDetail + "', '" + idBarang + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
     }
 }
 
