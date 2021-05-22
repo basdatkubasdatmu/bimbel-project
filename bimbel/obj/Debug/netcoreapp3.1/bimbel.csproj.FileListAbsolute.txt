@@ -36,3 +36,33 @@ C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bim
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.dll
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.pdb
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.genruntimeconfig.cache
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.csprojAssemblyReference.cache
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormDaftarPresensi.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.formDataPengajar.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.formDatasiswa.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputJadwalPengajar.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputJadwalSiswa.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputJadwalUjian.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputKelas.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputNilai.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputPegawai.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.formInputPengajar.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormInputPresensi.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.formInputSiswa.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormJadwalPengajar.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormJadwalSiswa.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormJadwalUjian.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormKelas.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormLogin.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormMatPel.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.ParentForm.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormNilai.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormPegawai.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormRuangZoom.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.Properties.Resources.resources
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.csproj.GenerateResource.cache
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.AssemblyInfoInputs.cache
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.AssemblyInfo.cs
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.csproj.CoreCompileInputs.cache
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.dll
+E:\New\Bimbel new\bimbel\obj\Debug\netcoreapp3.1\bimbel.pdb

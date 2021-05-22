@@ -533,6 +533,108 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
+        public void insertDataSiswa(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public void insertDataPengajar(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public void insertDataPegawai(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public void insertDataKelas(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public void insertDataJadwalPengajar(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public void insertDataJadwalSiswa(string kodeJadwalSiswa, string noSiswa, string waktuPresensi)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into presensi(kodejadwalsiswa, nosiswa, waktupresensi) values('" + kodeJadwalSiswa + "', '" + noSiswa + "', '" + waktuPresensi + "');";
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
     }
 }
 

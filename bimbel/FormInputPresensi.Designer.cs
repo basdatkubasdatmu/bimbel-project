@@ -36,10 +36,10 @@ namespace bimbel
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.dtpPresensi = new System.Windows.Forms.DateTimePicker();
+            this.txtkodeJadwalSiswa = new System.Windows.Forms.TextBox();
+            this.txtNamaSiswa = new System.Windows.Forms.TextBox();
+            this.txtNoSiswa = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblInputPresensiSiswa
@@ -71,6 +71,7 @@ namespace bimbel
             this.button1.TabIndex = 4;
             this.button1.Text = "SIMPAN";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -112,50 +113,50 @@ namespace bimbel
             this.label5.TabIndex = 9;
             this.label5.Text = "Waktu Kehadiran";
             // 
-            // dateTimePicker1
+            // dtpPresensi
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Location = new System.Drawing.Point(37, 259);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(262, 26);
-            this.dateTimePicker1.TabIndex = 10;
-            this.dateTimePicker1.Value = new System.DateTime(2021, 5, 17, 20, 44, 13, 0);
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.dtpPresensi.CalendarFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtpPresensi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtpPresensi.Location = new System.Drawing.Point(37, 259);
+            this.dtpPresensi.Name = "dtpPresensi";
+            this.dtpPresensi.Size = new System.Drawing.Size(262, 26);
+            this.dtpPresensi.TabIndex = 10;
+            this.dtpPresensi.Value = new System.DateTime(2021, 5, 17, 20, 44, 13, 0);
+            this.dtpPresensi.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // textBox1
+            // txtkodeJadwalSiswa
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(37, 76);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(262, 26);
-            this.textBox1.TabIndex = 11;
+            this.txtkodeJadwalSiswa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtkodeJadwalSiswa.Location = new System.Drawing.Point(37, 76);
+            this.txtkodeJadwalSiswa.Name = "txtkodeJadwalSiswa";
+            this.txtkodeJadwalSiswa.Size = new System.Drawing.Size(262, 26);
+            this.txtkodeJadwalSiswa.TabIndex = 11;
             // 
-            // textBox2
+            // txtNamaSiswa
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(37, 198);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(262, 26);
-            this.textBox2.TabIndex = 12;
+            this.txtNamaSiswa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNamaSiswa.Location = new System.Drawing.Point(37, 198);
+            this.txtNamaSiswa.Name = "txtNamaSiswa";
+            this.txtNamaSiswa.Size = new System.Drawing.Size(262, 26);
+            this.txtNamaSiswa.TabIndex = 12;
             // 
-            // textBox3
+            // txtNoSiswa
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(37, 137);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(262, 26);
-            this.textBox3.TabIndex = 13;
+            this.txtNoSiswa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNoSiswa.Location = new System.Drawing.Point(37, 137);
+            this.txtNoSiswa.Name = "txtNoSiswa";
+            this.txtNoSiswa.Size = new System.Drawing.Size(262, 26);
+            this.txtNoSiswa.TabIndex = 13;
             // 
             // FormInputPresensi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(335, 352);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.txtNoSiswa);
+            this.Controls.Add(this.txtNamaSiswa);
+            this.Controls.Add(this.txtkodeJadwalSiswa);
+            this.Controls.Add(this.dtpPresensi);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -181,9 +182,9 @@ namespace bimbel
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.DateTimePicker dtpPresensi;
+        private System.Windows.Forms.TextBox txtkodeJadwalSiswa;
+        private System.Windows.Forms.TextBox txtNamaSiswa;
+        private System.Windows.Forms.TextBox txtNoSiswa;
     }
 }
