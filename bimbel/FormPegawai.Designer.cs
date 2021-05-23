@@ -64,6 +64,7 @@ namespace bimbel
             this.btTambahPegawai.TabIndex = 56;
             this.btTambahPegawai.Text = "Tambah";
             this.btTambahPegawai.UseVisualStyleBackColor = true;
+            this.btTambahPegawai.Click += new System.EventHandler(this.btTambahPegawai_Click);
             // 
             // btRefreshPegawai
             // 
@@ -107,6 +108,7 @@ namespace bimbel
             this.Controls.Add(this.dgvPegawai);
             this.Name = "FormPegawai";
             this.Text = "Form Pegawai";
+            this.Load += new System.EventHandler(this.FormPegawai_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPegawai)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

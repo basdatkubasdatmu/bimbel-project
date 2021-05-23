@@ -64,6 +64,7 @@ namespace bimbel
             this.btTambahKelas.TabIndex = 50;
             this.btTambahKelas.Text = "Tambah";
             this.btTambahKelas.UseVisualStyleBackColor = true;
+            this.btTambahKelas.Click += new System.EventHandler(this.btTambahKelas_Click);
             // 
             // btRefreshKelas
             // 
@@ -107,6 +108,7 @@ namespace bimbel
             this.Controls.Add(this.dgvKelas);
             this.Name = "FormKelas";
             this.Text = "Form Kelas";
+            this.Load += new System.EventHandler(this.FormKelas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvKelas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

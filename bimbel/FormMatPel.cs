@@ -20,5 +20,12 @@ namespace bimbel
             DataAccess da = new DataAccess();
             dgvMatpel.DataSource = da.getAllMatpel();
         }
+
+        private void FormMatPel_Load(object sender, EventArgs e)
+        {
+            DataAccess dtacc = new DataAccess();
+            dgvMatpel.AutoGenerateColumns = false;
+            dgvMatpel.DataSource = dtacc.getAllMatpel();
+        }
     }
 }

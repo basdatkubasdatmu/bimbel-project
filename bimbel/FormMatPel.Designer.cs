@@ -112,6 +112,7 @@ namespace bimbel
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormMatPel";
             this.Text = "Form Mata Pelajaran";
+            this.Load += new System.EventHandler(this.FormMatPel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMatpel)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
