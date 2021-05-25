@@ -10,12 +10,16 @@ namespace bimbel
 {
     public partial class formInputSiswa : Form
     {
+        public string noSiswa;
+        public bool isEditSiswa;
+
         public formInputSiswa()
         {
             InitializeComponent();
         }
         public bool isEditSiswa = false;
 
+<<<<<<< HEAD
         public string nosiswa;
         private void btnSimpan_Click(object sender, EventArgs e)
         {
@@ -53,8 +57,35 @@ namespace bimbel
             }
         }
         private void lblEmailSiswa_Click(object sender, EventArgs e)
+=======
+        private void btnBatal_Click(object sender, EventArgs e)
+>>>>>>> 6f37bfe48afca39be443d9a006c1bcdbe3f0c340
         {
+            this.Close();
+        }
 
+        private void btnSimpan_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+
+            string jenisKelamin = " ";
+            if (rbLakiLaki.Checked)
+            {
+                jenisKelamin = "Laki-laki";
+            }
+            else if (rdPerempuan.Checked)
+            {
+                jenisKelamin = "Perempuan";
+            }
+
+            if (isEditSiswa)
+            {
+                da.updateDataSiswa(txtNoSiswa.Text, txtNamaSiswa.Text, jenisKelamin, txtKodeKelas.Text, txtNohpSiswa.Text, txtEmailSiswa.Text, txtAsalSiswa.Text);
+            }
+            else
+            {
+                da.insertDataSiswa(txtNoSiswa.Text, txtNamaSiswa.Text, jenisKelamin, txtKodeKelas.Text, txtNohpSiswa.Text, txtEmailSiswa.Text, txtAsalSiswa.Text);
+            }
         }
     }
 }

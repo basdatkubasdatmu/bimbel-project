@@ -10,10 +10,13 @@ namespace bimbel
 {
     public partial class formInputPengajar : Form
     {
+        public bool isEditPengajar = false; 
+
         public formInputPengajar()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
         public bool isEditPengajar = false;
 
         public string nopengajar;
@@ -46,6 +49,24 @@ namespace bimbel
                 txtNoPegawai.Text = dt.Rows[0]["nopegawai"].ToString();
                 txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
                 
+=======
+
+        private void btnBatal_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnSimpan_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+
+            if (isEditPengajar)
+            {
+                da.updateDataPengajar(txtNoPengajar.Text, txtKodePelajaran.Text, txtNoPegawai.Text);
+            } else
+            {
+                da.insertDataPengajar(txtNoPengajar.Text, txtKodePelajaran.Text, txtNoPegawai.Text);
+>>>>>>> 6f37bfe48afca39be443d9a006c1bcdbe3f0c340
             }
         }
     }

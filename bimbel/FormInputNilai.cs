@@ -17,6 +17,12 @@ namespace bimbel
         public bool isEditNilai = false;
 
         public string kodeujian;
+<<<<<<< HEAD
+       
+        private void txtNoPengajar_Click(object sender, EventArgs e)
+        {
+=======
+
         private void btnSimpan_Click(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
@@ -29,10 +35,19 @@ namespace bimbel
             {
                 da.insertDataNilai(txtKodeUjian.Text, txtNoSiswa.Text, txtNoPengajar.Text, txtKodePelajaran.Text, txtNilai.Text);
             }
+>>>>>>> 59f0f22c0669a27ec9a86448c3a61fa9e8b5070b
 
-            this.Close();
         }
+<<<<<<< HEAD
         private void FormInputNilai_Load(object sender, EventArgs e)
+=======
+
+<<<<<<< HEAD
+        private void FormInputNilai_Load(object sender, EventArgs e)
+=======
+        private void FormInputKelas_Load(object sender, EventArgs e)
+>>>>>>> 59f0f22c0669a27ec9a86448c3a61fa9e8b5070b
+>>>>>>> 6f37bfe48afca39be443d9a006c1bcdbe3f0c340
         {
             DataAccess da = new DataAccess();
             if (isEditNilai)
@@ -40,6 +55,7 @@ namespace bimbel
                 InputNilai.Text = "Edit Nilai";
                 txtKodeUjian.ReadOnly = true;
 
+<<<<<<< HEAD
                 DataTable dt = da.getDataNilaiByID(kodeujian);
 
                 txtKodeUjian.Text = dt.Rows[0]["kodeujian"].ToString();
@@ -47,12 +63,46 @@ namespace bimbel
                 txtNoPengajar.Text = dt.Rows[0]["nopengajar"].ToString();
                 txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
                 txtNilai.Text = dt.Rows[0]["nilai"].ToString();
+=======
+                DataTable dt = da.getNilaiByID(noSiswa);
 
+<<<<<<< HEAD
+                tbNomorKelas.Text = dt.Rows[0]["kodekelas"].ToString();
+                tbNamaKelas.Text = dt.Rows[0]["nama"].ToString();
+                tbBiayaKelas.Text = dt.Rows[0]["biaya"].ToString();
+                tbKuotaKelas.Text = dt.Rows[0]["kuota"].ToString();
+                clbFasilitas.Text = dt.Rows[0]["fasilitas"].ToString();
+=======
+                txtKodeUjian.Text = dt.Rows[0]["kodekelas"].ToString();
+                txtNoSiswa.Text = dt.Rows[0]["nama"].ToString();
+                txtNoPengajar.Text = dt.Rows[0]["biaya"].ToString();
+                txtKodePelajaran.Text = dt.Rows[0]["kuota"].ToString();
+                txtNilai.Text = dt.Rows[0]["fasilitas"].ToString();
+>>>>>>> 6f37bfe48afca39be443d9a006c1bcdbe3f0c340
+
+>>>>>>> 59f0f22c0669a27ec9a86448c3a61fa9e8b5070b
             }
         }
-        private void txtNoPengajar_Click(object sender, EventArgs e)
-        {
 
+        private void buttonSimpan_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+
+            if (isEditNilai)
+            {
+                da.updateDataKelas(tbNomorKelas.Text, tbNamaKelas.Text, tbBiayaKelas.Text, tbKuotaKelas.Text, clbFasilitas.Text);
+            }
+            else
+            {
+                da.insertDataKelas(tbNomorKelas.Text, tbNamaKelas.Text, tbBiayaKelas.Text, tbKuotaKelas.Text, clbFasilitas.Text);
+            }
+
+            this.Close();
+        }
+
+        private void buttonBatal_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

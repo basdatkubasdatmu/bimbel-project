@@ -103,6 +103,7 @@ namespace bimbel
             this.btnBatal.TabIndex = 15;
             this.btnBatal.Text = "BATAL";
             this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // btnSimpan
             // 
@@ -113,6 +114,7 @@ namespace bimbel
             this.btnSimpan.TabIndex = 16;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // lblDataPengajar
             // 

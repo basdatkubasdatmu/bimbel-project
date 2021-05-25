@@ -10,6 +10,8 @@ namespace bimbel
 {
     public partial class FormInputPresensi : Form
     {
+        public bool isEditPresensi = false;
+
         public FormInputPresensi()
         {
             InitializeComponent();
@@ -25,11 +27,24 @@ namespace bimbel
 
         }
 
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    DataAccess da = new DataAccess();
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
 
-        //    da.insertDataPresensi(txtkodeJadwalSiswa.Text, txtNoSiswa.Text, txtNamaSiswa.Text, dtpPresensi.Text);
-        //}
+            if (isEditPresensi)
+            {
+                da.updateDataPresensi(txtkodeJadwalSiswa.Text, txtNoSiswa.Text, dtpPresensi.Text);
+            }
+            else
+            {
+                da.insertDataPresensi(txtkodeJadwalSiswa.Text, txtNoSiswa.Text, dtpPresensi.Text);
+            }
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

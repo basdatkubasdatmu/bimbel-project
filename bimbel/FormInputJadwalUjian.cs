@@ -18,6 +18,7 @@ namespace bimbel
         public bool isEditJadwalUjian = false;
 
         public string kodeujian;
+
         private void btnSimpan_Click(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
@@ -33,6 +34,7 @@ namespace bimbel
 
             this.Close();
         }
+
         private void FormInputJadwalUjian_Load(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
@@ -50,6 +52,11 @@ namespace bimbel
                 txtJamMulai.Text = dt.Rows[0]["jammulai"].ToString();
                 maskedTextBox2.Text = dt.Rows[0]["durasi"].ToString();
             }
+        }
+
+        private void btnBatal_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
