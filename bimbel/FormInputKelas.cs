@@ -14,9 +14,10 @@ namespace bimbel
         {
             InitializeComponent();
         }
-        public bool isEditKelas = false;
 
+        public bool isEditKelas = false;
         public string kodekelas;
+
         private void btnSimpan_Click(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
@@ -32,6 +33,7 @@ namespace bimbel
 
             this.Close();
         }
+
         private void FormInputKelas_Load(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
@@ -46,9 +48,13 @@ namespace bimbel
                 tbNamaKelas.Text = dt.Rows[0]["nama"].ToString();
                 tbBiayaKelas.Text = dt.Rows[0]["biaya"].ToString();
                 tbKuotaKelas.Text = dt.Rows[0]["kuota"].ToString();
-                clbFasilitas.Text = dt.Rows[0]["fasilitas"].ToString();
-               
+                clbFasilitas.Text = dt.Rows[0]["fasilitas"].ToString(); 
             }
+        }
+
+        private void btBatalKelas_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

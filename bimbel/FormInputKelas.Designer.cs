@@ -61,6 +61,7 @@ namespace bimbel
             // 
             this.lbJudulInputKelas.AutoSize = true;
             this.lbJudulInputKelas.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbJudulInputKelas.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbJudulInputKelas.Location = new System.Drawing.Point(12, 9);
             this.lbJudulInputKelas.Name = "lbJudulInputKelas";
             this.lbJudulInputKelas.Size = new System.Drawing.Size(157, 25);
@@ -69,26 +70,29 @@ namespace bimbel
             // 
             // btBatalKelas
             // 
-            this.btBatalKelas.Location = new System.Drawing.Point(399, 314);
+            this.btBatalKelas.Location = new System.Drawing.Point(399, 306);
             this.btBatalKelas.Name = "btBatalKelas";
-            this.btBatalKelas.Size = new System.Drawing.Size(75, 23);
+            this.btBatalKelas.Size = new System.Drawing.Size(79, 39);
             this.btBatalKelas.TabIndex = 53;
-            this.btBatalKelas.Text = "Batal";
+            this.btBatalKelas.Text = "BATAL";
             this.btBatalKelas.UseVisualStyleBackColor = true;
+            this.btBatalKelas.Click += new System.EventHandler(this.btBatalKelas_Click);
             // 
             // btSimpanKelas
             // 
-            this.btSimpanKelas.Location = new System.Drawing.Point(318, 314);
+            this.btSimpanKelas.Location = new System.Drawing.Point(314, 306);
             this.btSimpanKelas.Name = "btSimpanKelas";
-            this.btSimpanKelas.Size = new System.Drawing.Size(75, 23);
+            this.btSimpanKelas.Size = new System.Drawing.Size(79, 39);
             this.btSimpanKelas.TabIndex = 52;
-            this.btSimpanKelas.Text = "Simpan";
+            this.btSimpanKelas.Text = "SIMPAN";
             this.btSimpanKelas.UseVisualStyleBackColor = true;
+            this.btSimpanKelas.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // lbFasilitasKelas
             // 
             this.lbFasilitasKelas.AutoSize = true;
             this.lbFasilitasKelas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbFasilitasKelas.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbFasilitasKelas.Location = new System.Drawing.Point(12, 164);
             this.lbFasilitasKelas.Name = "lbFasilitasKelas";
             this.lbFasilitasKelas.Size = new System.Drawing.Size(53, 17);
@@ -106,6 +110,7 @@ namespace bimbel
             // 
             this.lbKuotaKelas.AutoSize = true;
             this.lbKuotaKelas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbKuotaKelas.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbKuotaKelas.Location = new System.Drawing.Point(12, 135);
             this.lbKuotaKelas.Name = "lbKuotaKelas";
             this.lbKuotaKelas.Size = new System.Drawing.Size(42, 17);
@@ -123,6 +128,7 @@ namespace bimbel
             // 
             this.lbBiaya.AutoSize = true;
             this.lbBiaya.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbBiaya.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbBiaya.Location = new System.Drawing.Point(12, 106);
             this.lbBiaya.Name = "lbBiaya";
             this.lbBiaya.Size = new System.Drawing.Size(38, 17);
@@ -140,6 +146,7 @@ namespace bimbel
             // 
             this.lbNamaKelas.AutoSize = true;
             this.lbNamaKelas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbNamaKelas.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbNamaKelas.Location = new System.Drawing.Point(12, 77);
             this.lbNamaKelas.Name = "lbNamaKelas";
             this.lbNamaKelas.Size = new System.Drawing.Size(78, 17);
@@ -157,6 +164,7 @@ namespace bimbel
             // 
             this.lbNomorKelas.AutoSize = true;
             this.lbNomorKelas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbNomorKelas.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbNomorKelas.Location = new System.Drawing.Point(12, 46);
             this.lbNomorKelas.Name = "lbNomorKelas";
             this.lbNomorKelas.Size = new System.Drawing.Size(85, 17);
@@ -183,6 +191,7 @@ namespace bimbel
             this.Controls.Add(this.lbNomorKelas);
             this.Name = "FormInputKelas";
             this.Text = "Input Kelas";
+            this.Load += new System.EventHandler(this.FormInputKelas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

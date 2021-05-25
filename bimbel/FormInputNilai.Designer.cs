@@ -161,6 +161,7 @@ namespace bimbel
             this.buttonBatal.TabIndex = 17;
             this.buttonBatal.Text = "Batal";
             this.buttonBatal.UseVisualStyleBackColor = true;
+            this.buttonBatal.Click += new System.EventHandler(this.buttonBatal_Click);
             // 
             // buttonSimpan
             // 
@@ -172,6 +173,7 @@ namespace bimbel
             this.buttonSimpan.TabIndex = 18;
             this.buttonSimpan.Text = "Simpan";
             this.buttonSimpan.UseVisualStyleBackColor = true;
+            this.buttonSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // FormInputNilai
             // 
@@ -193,6 +195,7 @@ namespace bimbel
             this.Controls.Add(this.InputNilai);
             this.Name = "FormInputNilai";
             this.Text = "FormInputNilai";
+            this.Load += new System.EventHandler(this.FormInputKelas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
