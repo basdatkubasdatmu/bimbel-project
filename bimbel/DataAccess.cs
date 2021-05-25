@@ -1206,8 +1206,6 @@ namespace bimbel
 
         }
 
-
-=======
         public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -1225,10 +1223,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
-<<<<<<< HEAD
-=======
 
->>>>>>> 6f37bfe48afca39be443d9a006c1bcdbe3f0c340
         public void hapusDataJadwalPengajar(string kodejadwalpengajar)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -1425,9 +1420,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
->>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
     }
-
 }
 
 
