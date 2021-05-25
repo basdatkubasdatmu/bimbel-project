@@ -142,6 +142,7 @@ namespace bimbel
             this.Controls.Add(this.lblNoPengajar);
             this.Name = "formInputPengajar";
             this.Text = "Input Pengajar";
+            this.Load += new System.EventHandler(this.formInputPengajar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

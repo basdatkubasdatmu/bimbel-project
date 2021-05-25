@@ -28,6 +28,7 @@ namespace bimbel
             dgvJadwalUjian.DataSource = dtacc.getAllUjian();
         }
 
+<<<<<<< HEAD
         private void button4_Click(object sender, EventArgs e)
         {
             if (dgvJadwalUjian.SelectedRows.Count > 0)
@@ -40,6 +41,11 @@ namespace bimbel
 
                 MessageBox.Show("Data " + Selectedkodeujian + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+=======
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+>>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
         }
     }
 }
