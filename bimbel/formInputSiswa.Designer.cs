@@ -170,7 +170,7 @@ namespace bimbel
             // btnBatal
             // 
             this.btnBatal.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBatal.Location = new System.Drawing.Point(287, 321);
+            this.btnBatal.Location = new System.Drawing.Point(298, 321);
             this.btnBatal.Name = "btnBatal";
             this.btnBatal.Size = new System.Drawing.Size(79, 39);
             this.btnBatal.TabIndex = 14;
@@ -248,6 +248,7 @@ namespace bimbel
             this.Controls.Add(this.lblNoSiswa);
             this.Name = "formInputSiswa";
             this.Text = "Input Siswa";
+            this.Load += new System.EventHandler(this.formInputSiswa_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
