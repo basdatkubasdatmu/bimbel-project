@@ -23,30 +23,30 @@ namespace bimbel
 
             if (isEditNilai)
             {
-                da.updateDataKelas(tbNomorKelas.Text, tbNamaKelas.Text, tbBiayaKelas.Text, tbKuotaKelas.Text, clbFasilitas.Text);
+                da.updateDataNilai(txtKodeUjian.Text, txtNoSiswa.Text, txtNoPengajar.Text, txtKodePelajaran.Text, txtNilai.Text);
             }
             else
             {
-                da.insertDataKelas(tbNomorKelas.Text, tbNamaKelas.Text, tbBiayaKelas.Text, tbKuotaKelas.Text, clbFasilitas.Text);
+                da.insertDataNilai(txtKodeUjian.Text, txtNoSiswa.Text, txtNoPengajar.Text, txtKodePelajaran.Text, txtNilai.Text);
             }
 
             this.Close();
         }
-        private void FormInputKelas_Load(object sender, EventArgs e)
+        private void FormInputNilai_Load(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
-            if (isEditKelas)
+            if (isEditNilai)
             {
-                lbJudulInputKelas.Text = "Edit Kelas";
-                tbNomorKelas.ReadOnly = true;
+                InputNilai.Text = "Edit Nilai";
+                txtKodeUjian.ReadOnly = true;
 
-                DataTable dt = da.getKelasByID(kodekelas);
+                DataTable dt = da.getDataNilaiByID(kodeujian);
 
-                tbNomorKelas.Text = dt.Rows[0]["kodekelas"].ToString();
-                tbNamaKelas.Text = dt.Rows[0]["nama"].ToString();
-                tbBiayaKelas.Text = dt.Rows[0]["biaya"].ToString();
-                tbKuotaKelas.Text = dt.Rows[0]["kuota"].ToString();
-                clbFasilitas.Text = dt.Rows[0]["fasilitas"].ToString();
+                txtKodeUjian.Text = dt.Rows[0]["kodeujian"].ToString();
+                txtNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
+                txtNoPengajar.Text = dt.Rows[0]["nopengajar"].ToString();
+                txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
+                txtNilai.Text = dt.Rows[0]["nilai"].ToString();
 
             }
         }
