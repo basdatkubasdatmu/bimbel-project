@@ -41,16 +41,16 @@ namespace bimbel
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(292, 37);
+            this.label1.Size = new System.Drawing.Size(243, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Daftar Presensi Siswa";
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.Location = new System.Drawing.Point(351, 394);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 44);
@@ -61,17 +61,18 @@ namespace bimbel
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(447, 394);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 44);
             this.button1.TabIndex = 4;
             this.button1.Text = "EDIT";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.Location = new System.Drawing.Point(543, 394);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 44);
@@ -81,21 +82,22 @@ namespace bimbel
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.Location = new System.Drawing.Point(639, 394);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(90, 44);
             this.button4.TabIndex = 6;
             this.button4.Text = "HAPUS";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // dgvPresensi
             // 
             this.dgvPresensi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPresensi.Location = new System.Drawing.Point(12, 49);
+            this.dgvPresensi.Location = new System.Drawing.Point(12, 43);
             this.dgvPresensi.Name = "dgvPresensi";
             this.dgvPresensi.RowTemplate.Height = 25;
-            this.dgvPresensi.Size = new System.Drawing.Size(717, 339);
+            this.dgvPresensi.Size = new System.Drawing.Size(717, 345);
             this.dgvPresensi.TabIndex = 8;
             this.dgvPresensi.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPresensi_CellContentClick);
             // 

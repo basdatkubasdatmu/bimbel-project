@@ -47,33 +47,33 @@ namespace bimbel
             // InputNilai
             // 
             this.InputNilai.AutoSize = true;
-            this.InputNilai.Font = new System.Drawing.Font("Segoe UI", 16.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.InputNilai.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.InputNilai.Location = new System.Drawing.Point(33, 21);
             this.InputNilai.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.InputNilai.Name = "InputNilai";
-            this.InputNilai.Size = new System.Drawing.Size(122, 30);
+            this.InputNilai.Size = new System.Drawing.Size(121, 31);
             this.InputNilai.TabIndex = 2;
             this.InputNilai.Text = "Input Nilai";
             // 
             // KodeUjian
             // 
             this.KodeUjian.AutoSize = true;
-            this.KodeUjian.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.KodeUjian.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.KodeUjian.Location = new System.Drawing.Point(33, 76);
             this.KodeUjian.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.KodeUjian.Name = "KodeUjian";
-            this.KodeUjian.Size = new System.Drawing.Size(85, 21);
+            this.KodeUjian.Size = new System.Drawing.Size(75, 20);
             this.KodeUjian.TabIndex = 7;
             this.KodeUjian.Text = "Kode Ujian";
             // 
             // noPengajar
             // 
             this.noPengajar.AutoSize = true;
-            this.noPengajar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.noPengajar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.noPengajar.Location = new System.Drawing.Point(33, 172);
             this.noPengajar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.noPengajar.Name = "noPengajar";
-            this.noPengajar.Size = new System.Drawing.Size(124, 21);
+            this.noPengajar.Size = new System.Drawing.Size(106, 20);
             this.noPengajar.TabIndex = 8;
             this.noPengajar.Text = "Nomor Pengajar";
             this.noPengajar.Click += new System.EventHandler(this.txtNoPengajar_Click);
@@ -81,33 +81,33 @@ namespace bimbel
             // noSiswa
             // 
             this.noSiswa.AutoSize = true;
-            this.noSiswa.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.noSiswa.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.noSiswa.Location = new System.Drawing.Point(33, 120);
             this.noSiswa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.noSiswa.Name = "noSiswa";
-            this.noSiswa.Size = new System.Drawing.Size(104, 21);
+            this.noSiswa.Size = new System.Drawing.Size(88, 20);
             this.noSiswa.TabIndex = 9;
             this.noSiswa.Text = "Nomor Siswa";
             // 
             // nilai
             // 
             this.nilai.AutoSize = true;
-            this.nilai.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nilai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nilai.Location = new System.Drawing.Point(33, 268);
             this.nilai.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nilai.Name = "nilai";
-            this.nilai.Size = new System.Drawing.Size(42, 21);
+            this.nilai.Size = new System.Drawing.Size(34, 20);
             this.nilai.TabIndex = 10;
             this.nilai.Text = "Nilai";
             // 
             // kodePelajaran
             // 
             this.kodePelajaran.AutoSize = true;
-            this.kodePelajaran.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.kodePelajaran.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.kodePelajaran.Location = new System.Drawing.Point(33, 221);
             this.kodePelajaran.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.kodePelajaran.Name = "kodePelajaran";
-            this.kodePelajaran.Size = new System.Drawing.Size(112, 21);
+            this.kodePelajaran.Size = new System.Drawing.Size(101, 20);
             this.kodePelajaran.TabIndex = 11;
             this.kodePelajaran.Text = "Kode Pelajaran";
             // 
@@ -153,25 +153,25 @@ namespace bimbel
             // 
             // buttonBatal
             // 
-            this.buttonBatal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonBatal.Location = new System.Drawing.Point(226, 319);
+            this.buttonBatal.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonBatal.Location = new System.Drawing.Point(234, 325);
             this.buttonBatal.Margin = new System.Windows.Forms.Padding(4);
             this.buttonBatal.Name = "buttonBatal";
-            this.buttonBatal.Size = new System.Drawing.Size(97, 45);
+            this.buttonBatal.Size = new System.Drawing.Size(79, 39);
             this.buttonBatal.TabIndex = 17;
-            this.buttonBatal.Text = "Batal";
+            this.buttonBatal.Text = "BATAL";
             this.buttonBatal.UseVisualStyleBackColor = true;
             this.buttonBatal.Click += new System.EventHandler(this.buttonBatal_Click);
             // 
             // buttonSimpan
             // 
-            this.buttonSimpan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonSimpan.Location = new System.Drawing.Point(331, 319);
+            this.buttonSimpan.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonSimpan.Location = new System.Drawing.Point(339, 325);
             this.buttonSimpan.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSimpan.Name = "buttonSimpan";
-            this.buttonSimpan.Size = new System.Drawing.Size(97, 45);
+            this.buttonSimpan.Size = new System.Drawing.Size(79, 39);
             this.buttonSimpan.TabIndex = 18;
-            this.buttonSimpan.Text = "Simpan";
+            this.buttonSimpan.Text = "SIMPAN";
             this.buttonSimpan.UseVisualStyleBackColor = true;
             this.buttonSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 

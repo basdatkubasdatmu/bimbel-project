@@ -41,17 +41,22 @@ namespace bimbel
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 31);
+            this.label1.Size = new System.Drawing.Size(180, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "Jadwal Ujian";
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.Location = new System.Drawing.Point(608, 361);
+=======
+            this.button3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.Location = new System.Drawing.Point(617, 358);
+>>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 44);
             this.button3.TabIndex = 11;
@@ -60,20 +65,31 @@ namespace bimbel
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.Location = new System.Drawing.Point(704, 361);
+=======
+            this.button4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.Location = new System.Drawing.Point(713, 358);
+>>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(90, 44);
             this.button4.TabIndex = 10;
             this.button4.Text = "HAPUS";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
+<<<<<<< HEAD
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(395, 361);
+=======
             this.button2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(416, 361);
+            this.button2.Location = new System.Drawing.Point(425, 358);
+>>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 44);
+            this.button2.Size = new System.Drawing.Size(111, 44);
             this.button2.TabIndex = 9;
             this.button2.Text = "REFRESH";
             this.button2.UseVisualStyleBackColor = true;
@@ -81,21 +97,27 @@ namespace bimbel
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(512, 361);
+=======
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(521, 358);
+>>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 44);
             this.button1.TabIndex = 8;
             this.button1.Text = "EDIT";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dgvJadwalUjian
             // 
             this.dgvJadwalUjian.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvJadwalUjian.Location = new System.Drawing.Point(18, 49);
+            this.dgvJadwalUjian.Location = new System.Drawing.Point(12, 43);
             this.dgvJadwalUjian.Name = "dgvJadwalUjian";
             this.dgvJadwalUjian.RowTemplate.Height = 25;
-            this.dgvJadwalUjian.Size = new System.Drawing.Size(776, 306);
+            this.dgvJadwalUjian.Size = new System.Drawing.Size(791, 309);
             this.dgvJadwalUjian.TabIndex = 12;
             // 
             // FormJadwalUjian
