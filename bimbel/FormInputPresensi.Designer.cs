@@ -30,8 +30,8 @@ namespace bimbel
         private void InitializeComponent()
         {
             this.lblInputPresensiSiswa = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBatal = new System.Windows.Forms.Button();
+            this.btnSimpan = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -52,27 +52,27 @@ namespace bimbel
             this.lblInputPresensiSiswa.TabIndex = 1;
             this.lblInputPresensiSiswa.Text = "Input Presensi Siswa";
             // 
-            // button2
+            // btnBatal
             // 
-            this.button2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(136, 300);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(74, 39);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "BATAL";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnBatal.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnBatal.Location = new System.Drawing.Point(136, 300);
+            this.btnBatal.Name = "btnBatal";
+            this.btnBatal.Size = new System.Drawing.Size(74, 39);
+            this.btnBatal.TabIndex = 5;
+            this.btnBatal.Text = "BATAL";
+            this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
-            // button1
+            // btnSimpan
             // 
-            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(225, 300);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(74, 39);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "SIMPAN";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnSimpan.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSimpan.Location = new System.Drawing.Point(225, 300);
+            this.btnSimpan.Name = "btnSimpan";
+            this.btnSimpan.Size = new System.Drawing.Size(74, 39);
+            this.btnSimpan.TabIndex = 4;
+            this.btnSimpan.Text = "SIMPAN";
+            this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // label2
             // 
@@ -123,7 +123,7 @@ namespace bimbel
             this.dtpPresensi.Size = new System.Drawing.Size(262, 26);
             this.dtpPresensi.TabIndex = 10;
             this.dtpPresensi.Value = new System.DateTime(2021, 5, 17, 20, 44, 13, 0);
-            this.dtpPresensi.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.dtpPresensi.ValueChanged += new System.EventHandler(this.dtpPresensi_ValueChanged);
             // 
             // txtkodeJadwalSiswa
             // 
@@ -162,8 +162,8 @@ namespace bimbel
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnBatal);
+            this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.lblInputPresensiSiswa);
             this.MaximizeBox = false;
             this.Name = "FormInputPresensi";
@@ -178,8 +178,8 @@ namespace bimbel
         #endregion
 
         private System.Windows.Forms.Label lblInputPresensiSiswa;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBatal;
+        private System.Windows.Forms.Button btnSimpan;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

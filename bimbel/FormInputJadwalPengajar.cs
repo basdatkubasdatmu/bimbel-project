@@ -17,6 +17,7 @@ namespace bimbel
         public bool isEditJadwalPengajar = false;
 
         public string kodejadwalpengajar;
+
         private void btnSimpan_Click(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
@@ -51,6 +52,11 @@ namespace bimbel
                 maskedTextBox2.Text = dt.Rows[0]["durasi"].ToString();
                 txtKodeZoom.Text = dt.Rows[0]["kodezoom"].ToString();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

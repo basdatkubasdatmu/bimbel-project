@@ -17,18 +17,34 @@ namespace bimbel
 
         public bool isEditKelas = false;
         public string kodekelas;
+        public string fasilitas;
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
 
+            if (clbFasilitas.CheckedItems.Count != 0)
+            {
+                for (int x = 0; x < clbFasilitas.CheckedItems.Count; x++)
+                {
+                    if (x == 0)
+                    {
+                        fasilitas = clbFasilitas.CheckedItems[x].ToString();
+                    }
+                    else
+                    {
+                        fasilitas = fasilitas + ", " + clbFasilitas.CheckedItems[x].ToString();
+                    }
+                }
+            }
+
             if (isEditKelas)
             {
-                da.updateDataKelas(tbNomorKelas.Text, tbNamaKelas.Text, tbBiayaKelas.Text, tbKuotaKelas.Text, clbFasilitas.Text);
+                da.updateDataKelas(tbNomorKelas.Text, tbNamaKelas.Text, tbBiayaKelas.Text, tbKuotaKelas.Text, fasilitas);
             }
             else
             {
-                da.insertDataKelas(tbNomorKelas.Text, tbNamaKelas.Text, tbBiayaKelas.Text, tbKuotaKelas.Text, clbFasilitas.Text);
+                da.insertDataKelas(tbNomorKelas.Text, tbNamaKelas.Text, tbBiayaKelas.Text, tbKuotaKelas.Text, fasilitas);
             }
 
             this.Close();

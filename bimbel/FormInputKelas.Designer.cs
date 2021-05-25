@@ -46,13 +46,14 @@ namespace bimbel
             // 
             // clbFasilitas
             // 
+            this.clbFasilitas.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.clbFasilitas.FormattingEnabled = true;
             this.clbFasilitas.Items.AddRange(new object[] {
             "Full AC",
             "Modul gratis",
             "3 kali pertemuan/minggu",
             "2 kali pertemuan/minggu"});
-            this.clbFasilitas.Location = new System.Drawing.Point(139, 164);
+            this.clbFasilitas.Location = new System.Drawing.Point(139, 165);
             this.clbFasilitas.Name = "clbFasilitas";
             this.clbFasilitas.Size = new System.Drawing.Size(200, 130);
             this.clbFasilitas.TabIndex = 55;
@@ -60,16 +61,17 @@ namespace bimbel
             // lbJudulInputKelas
             // 
             this.lbJudulInputKelas.AutoSize = true;
-            this.lbJudulInputKelas.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbJudulInputKelas.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbJudulInputKelas.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbJudulInputKelas.Location = new System.Drawing.Point(12, 9);
             this.lbJudulInputKelas.Name = "lbJudulInputKelas";
-            this.lbJudulInputKelas.Size = new System.Drawing.Size(157, 25);
+            this.lbJudulInputKelas.Size = new System.Drawing.Size(166, 29);
             this.lbJudulInputKelas.TabIndex = 54;
             this.lbJudulInputKelas.Text = "Input Data Kelas";
             // 
             // btBatalKelas
             // 
+            this.btBatalKelas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btBatalKelas.Location = new System.Drawing.Point(399, 306);
             this.btBatalKelas.Name = "btBatalKelas";
             this.btBatalKelas.Size = new System.Drawing.Size(79, 39);
@@ -80,6 +82,7 @@ namespace bimbel
             // 
             // btSimpanKelas
             // 
+            this.btSimpanKelas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btSimpanKelas.Location = new System.Drawing.Point(314, 306);
             this.btSimpanKelas.Name = "btSimpanKelas";
             this.btSimpanKelas.Size = new System.Drawing.Size(79, 39);
@@ -91,11 +94,11 @@ namespace bimbel
             // lbFasilitasKelas
             // 
             this.lbFasilitasKelas.AutoSize = true;
-            this.lbFasilitasKelas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbFasilitasKelas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbFasilitasKelas.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbFasilitasKelas.Location = new System.Drawing.Point(12, 164);
             this.lbFasilitasKelas.Name = "lbFasilitasKelas";
-            this.lbFasilitasKelas.Size = new System.Drawing.Size(53, 17);
+            this.lbFasilitasKelas.Size = new System.Drawing.Size(57, 20);
             this.lbFasilitasKelas.TabIndex = 51;
             this.lbFasilitasKelas.Text = "Fasilitas";
             // 
@@ -109,11 +112,11 @@ namespace bimbel
             // lbKuotaKelas
             // 
             this.lbKuotaKelas.AutoSize = true;
-            this.lbKuotaKelas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbKuotaKelas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbKuotaKelas.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbKuotaKelas.Location = new System.Drawing.Point(12, 135);
             this.lbKuotaKelas.Name = "lbKuotaKelas";
-            this.lbKuotaKelas.Size = new System.Drawing.Size(42, 17);
+            this.lbKuotaKelas.Size = new System.Drawing.Size(43, 20);
             this.lbKuotaKelas.TabIndex = 49;
             this.lbKuotaKelas.Text = "Kuota";
             // 
@@ -127,11 +130,11 @@ namespace bimbel
             // lbBiaya
             // 
             this.lbBiaya.AutoSize = true;
-            this.lbBiaya.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbBiaya.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbBiaya.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbBiaya.Location = new System.Drawing.Point(12, 106);
             this.lbBiaya.Name = "lbBiaya";
-            this.lbBiaya.Size = new System.Drawing.Size(38, 17);
+            this.lbBiaya.Size = new System.Drawing.Size(42, 20);
             this.lbBiaya.TabIndex = 47;
             this.lbBiaya.Text = "Biaya";
             // 
@@ -145,11 +148,11 @@ namespace bimbel
             // lbNamaKelas
             // 
             this.lbNamaKelas.AutoSize = true;
-            this.lbNamaKelas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbNamaKelas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbNamaKelas.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbNamaKelas.Location = new System.Drawing.Point(12, 77);
             this.lbNamaKelas.Name = "lbNamaKelas";
-            this.lbNamaKelas.Size = new System.Drawing.Size(78, 17);
+            this.lbNamaKelas.Size = new System.Drawing.Size(81, 20);
             this.lbNamaKelas.TabIndex = 45;
             this.lbNamaKelas.Text = "Nama Kelas";
             // 
@@ -163,11 +166,11 @@ namespace bimbel
             // lbNomorKelas
             // 
             this.lbNomorKelas.AutoSize = true;
-            this.lbNomorKelas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbNomorKelas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbNomorKelas.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.lbNomorKelas.Location = new System.Drawing.Point(12, 46);
             this.lbNomorKelas.Name = "lbNomorKelas";
-            this.lbNomorKelas.Size = new System.Drawing.Size(85, 17);
+            this.lbNomorKelas.Size = new System.Drawing.Size(87, 20);
             this.lbNomorKelas.TabIndex = 43;
             this.lbNomorKelas.Text = "Nomor Kelas";
             // 

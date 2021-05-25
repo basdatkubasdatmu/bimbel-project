@@ -17,6 +17,7 @@ namespace bimbel
         public bool isEditJadwalSiswa = false;
 
         public string kodejadwalsiswa;
+
         private void btnSimpan_Click(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
@@ -32,6 +33,7 @@ namespace bimbel
 
             this.Close();
         }
+
         private void FormInputJadwalSiswa_Load(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
@@ -46,6 +48,11 @@ namespace bimbel
                 txtNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
                 txtKodeJadwalPengajar.Text = dt.Rows[0]["kodejadwalpengajar"].ToString();
             }
+        }
+
+        private void btnBatal_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

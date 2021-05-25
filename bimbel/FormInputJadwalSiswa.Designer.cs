@@ -89,6 +89,7 @@ namespace bimbel
             this.btnBatal.TabIndex = 35;
             this.btnBatal.Text = "BATAL";
             this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // btnSimpan
             // 
@@ -100,6 +101,7 @@ namespace bimbel
             this.btnSimpan.TabIndex = 34;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // lblInputJadwalSiswa
             // 
@@ -148,6 +150,7 @@ namespace bimbel
             this.Controls.Add(this.lblInputJadwalSiswa);
             this.Name = "FormInputJadwalSiswa";
             this.Text = "Input Jadwal Siswa";
+            this.Load += new System.EventHandler(this.FormInputJadwalSiswa_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

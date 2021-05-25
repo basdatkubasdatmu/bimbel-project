@@ -17,9 +17,12 @@ namespace bimbel
             InitializeComponent();
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void dtpPresensi_ValueChanged(object sender, EventArgs e)
         {
-
+            DateTime iDate;
+            iDate = dtpPresensi.Value;
+            dtpPresensi.CustomFormat = "dd-MM-yyyy hh:mm:ss";
+            dtpPresensi.Format = DateTimePickerFormat.Custom;
         }
 
         private void FormInputPresensi_Load(object sender, EventArgs e)
@@ -27,22 +30,27 @@ namespace bimbel
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSimpan_Click(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
 
+            DateTime iDate;
+            iDate = dtpPresensi.Value;
+            dtpPresensi.CustomFormat = "dd-MM-yyyy hh:mm:ss";
+            dtpPresensi.Format = DateTimePickerFormat.Custom;
+
             if (isEditPresensi)
             {
-                da.updateDataPresensi(txtkodeJadwalSiswa.Text, txtNoSiswa.Text, dtpPresensi.Text);
+                da.updateDataPresensi(txtkodeJadwalSiswa.Text, txtNoSiswa.Text, iDate.ToString());
             }
             else
             {
-                da.insertDataPresensi(txtkodeJadwalSiswa.Text, txtNoSiswa.Text, dtpPresensi.Text);
+                da.insertDataPresensi(txtkodeJadwalSiswa.Text, txtNoSiswa.Text, iDate.ToString());
             }
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnBatal_Click(object sender, EventArgs e)
         {
             this.Close();
         }
