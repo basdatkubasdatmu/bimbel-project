@@ -109,7 +109,7 @@ namespace bimbel
             this.lblKodeUjian.Size = new System.Drawing.Size(75, 20);
             this.lblKodeUjian.TabIndex = 6;
             this.lblKodeUjian.Text = "Kode Ujian";
-            this.lblKodeUjian.Click += new System.EventHandler(this.label2_Click);
+            
             // 
             // lblNamaUjian
             // 
@@ -143,7 +143,7 @@ namespace bimbel
             this.lblTanggalUjian.Size = new System.Drawing.Size(89, 20);
             this.lblTanggalUjian.TabIndex = 9;
             this.lblTanggalUjian.Text = "Tanggal Ujian";
-            this.lblTanggalUjian.Click += new System.EventHandler(this.label5_Click);
+            
             // 
             // lblJamMulai
             // 
