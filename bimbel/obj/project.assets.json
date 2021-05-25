@@ -78,16 +78,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\ASUS\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\sunul\\.nuget\\packages\\": {}
->>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
       "projectName": "bimbel",
       "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
@@ -96,16 +91,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "E:\\Kuliah mang\\KULIAH SMT 3 TK2\\basdat\\bimbel-project\\bimbel\\bimbel.csproj",
-      "projectName": "bimbel",
-      "projectPath": "E:\\Kuliah mang\\KULIAH SMT 3 TK2\\basdat\\bimbel-project\\bimbel\\bimbel.csproj",
-      "packagesPath": "C:\\Users\\sunul\\.nuget\\packages\\",
-      "outputPath": "E:\\Kuliah mang\\KULIAH SMT 3 TK2\\basdat\\bimbel-project\\bimbel\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\sunul\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
