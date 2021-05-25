@@ -1,11 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0H020LfV/3m1LbM5wHjHkamHyPPRRcvtmqnG1qvZ8YLcjoYA0vVq5U9pDl6z7ENc05r0r2Yv5KPZ/iooVTXNmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\npgsql\\5.0.5\\npgsql.5.0.5.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+=======
+  "dgSpecHash": "6J912nBUCNeEhMlimFJw2cVWc0iUfuBoctwXcYJ7JtHs5eb35cvFEFspxKy3y6p+yvB+XRzhs6ozegnQ5aUi3g==",
+  "success": true,
+  "projectFilePath": "C:\\BASDATKU\\bimbel-project\\bimbel\\bimbel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\npgsql\\5.0.5\\npgsql.5.0.5.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+>>>>>>> ef01ec0356d81fbbaeafeae06c6fbe9235994d0e
   ],
   "logs": []
 }
