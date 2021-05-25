@@ -44,13 +44,13 @@ namespace bimbel
             {
                 InputNilai.Text = "Edit Nilai";
                 txtKodeUjian.ReadOnly = true;
-                DataTable dt = da.getNilaiByID();
+                DataTable dt = da.getDataNilaiByID(kodeujian);
 
-                txtKodeUjian.Text = dt.Rows[0]["kodekelas"].ToString();
-                txtNoSiswa.Text = dt.Rows[0]["nama"].ToString();
-                txtNoPengajar.Text = dt.Rows[0]["biaya"].ToString();
-                txtKodePelajaran.Text = dt.Rows[0]["kuota"].ToString();
-                txtNilai.Text = dt.Rows[0]["fasilitas"].ToString();
+                txtKodeUjian.Text = dt.Rows[0]["kodeujian"].ToString();
+                txtNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
+                txtNoPengajar.Text = dt.Rows[0]["nopengajar"].ToString();
+                txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
+                txtNilai.Text = dt.Rows[0]["nilai"].ToString();
 
             }
         }

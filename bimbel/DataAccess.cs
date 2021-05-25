@@ -10,7 +10,7 @@ namespace bimbel
 {
     public class DataAccess
     {
-        string strConnString = "Server = localhost; Port = 5432; User id = postgres; Password = bismillah; Database = Bimbel";
+        string strConnString = "Server = localhost; Port = 5432; User id = postgres; Password = intan280101; Database = bimbel";
 
         public DataTable getAllJadwalSiswa()
         {
@@ -654,12 +654,8 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
-<<<<<<< HEAD
-        public void updateDataPengajar(string nopengajar, string nopegawai, string kodepelajaran)
-=======
 
         public void updateDataPengajar(string nopengajar, string kodepelajaran, string nopegawai)
->>>>>>> 6f37bfe48afca39be443d9a006c1bcdbe3f0c340
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
@@ -848,7 +844,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
-<<<<<<< HEAD
+
         public DataTable getJadwalPengajarByID(string kodejadwalpengajar)
         {
             NpgsqlConnection conn = new NpgsqlConnection();
@@ -1209,7 +1205,6 @@ namespace bimbel
             return dt;
 
         }
-=======
 
         public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status)
         {
@@ -1228,8 +1223,6 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
-
->>>>>>> 6f37bfe48afca39be443d9a006c1bcdbe3f0c340
     }
     
 }

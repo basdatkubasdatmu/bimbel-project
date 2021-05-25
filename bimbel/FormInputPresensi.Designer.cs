@@ -45,16 +45,16 @@ namespace bimbel
             // lblInputPresensiSiswa
             // 
             this.lblInputPresensiSiswa.AutoSize = true;
-            this.lblInputPresensiSiswa.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblInputPresensiSiswa.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblInputPresensiSiswa.Location = new System.Drawing.Point(37, 9);
             this.lblInputPresensiSiswa.Name = "lblInputPresensiSiswa";
-            this.lblInputPresensiSiswa.Size = new System.Drawing.Size(208, 29);
+            this.lblInputPresensiSiswa.Size = new System.Drawing.Size(223, 29);
             this.lblInputPresensiSiswa.TabIndex = 1;
             this.lblInputPresensiSiswa.Text = "Input Presensi Siswa";
             // 
             // btnBatal
             // 
-            this.btnBatal.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnBatal.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnBatal.Location = new System.Drawing.Point(136, 300);
             this.btnBatal.Name = "btnBatal";
             this.btnBatal.Size = new System.Drawing.Size(74, 39);
@@ -65,7 +65,7 @@ namespace bimbel
             // 
             // btnSimpan
             // 
-            this.btnSimpan.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSimpan.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSimpan.Location = new System.Drawing.Point(225, 300);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(74, 39);
@@ -77,50 +77,50 @@ namespace bimbel
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(37, 53);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 20);
+            this.label2.Size = new System.Drawing.Size(136, 19);
             this.label2.TabIndex = 6;
             this.label2.Text = "Kode Jadwal Siswa";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(37, 114);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 20);
+            this.label3.Size = new System.Drawing.Size(70, 19);
             this.label3.TabIndex = 7;
             this.label3.Text = "No Siswa";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(37, 175);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 20);
+            this.label4.Size = new System.Drawing.Size(90, 19);
             this.label4.TabIndex = 8;
             this.label4.Text = "Nama Siswa";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.Location = new System.Drawing.Point(37, 236);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(109, 20);
+            this.label5.Size = new System.Drawing.Size(126, 19);
             this.label5.TabIndex = 9;
             this.label5.Text = "Waktu Kehadiran";
             // 
             // dtpPresensi
             // 
             this.dtpPresensi.CalendarFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dtpPresensi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtpPresensi.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dtpPresensi.Location = new System.Drawing.Point(37, 259);
             this.dtpPresensi.Name = "dtpPresensi";
-            this.dtpPresensi.Size = new System.Drawing.Size(262, 26);
+            this.dtpPresensi.Size = new System.Drawing.Size(262, 27);
             this.dtpPresensi.TabIndex = 10;
             this.dtpPresensi.Value = new System.DateTime(2021, 5, 17, 20, 44, 13, 0);
             this.dtpPresensi.ValueChanged += new System.EventHandler(this.dtpPresensi_ValueChanged);

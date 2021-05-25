@@ -16,25 +16,9 @@ namespace bimbel
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
-        public bool isEditPengajar = false;
 
         public string nopengajar;
-        private void btnSimpan_Click(object sender, EventArgs e)
-        {
-            DataAccess da = new DataAccess();
 
-            if (isEditPengajar)
-            {
-                da.updateDataPengajar(txtNoPengajar.Text, txtNoPegawai.Text, txtKodePelajaran.Text);
-            }
-            else
-            {
-                da.insertDataPengajar(txtNoPengajar.Text, txtNoPegawai.Text, txtKodePelajaran.Text);
-            }
-
-            this.Close();
-        }
         private void formInputPengajar_Load(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
@@ -48,8 +32,8 @@ namespace bimbel
                 txtNoPengajar.Text = dt.Rows[0]["nopengajar"].ToString();
                 txtNoPegawai.Text = dt.Rows[0]["nopegawai"].ToString();
                 txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
-                
-=======
+            }
+        }
 
         private void btnBatal_Click(object sender, EventArgs e)
         {
@@ -66,7 +50,6 @@ namespace bimbel
             } else
             {
                 da.insertDataPengajar(txtNoPengajar.Text, txtKodePelajaran.Text, txtNoPegawai.Text);
->>>>>>> 6f37bfe48afca39be443d9a006c1bcdbe3f0c340
             }
         }
     }
