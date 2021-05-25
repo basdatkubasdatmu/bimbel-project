@@ -635,6 +635,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
         public void updateDataPresensi(string kodejadwalsiswa, string nosiswa, string waktupresensi)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -653,6 +654,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
         public void updateDataPengajar(string nopengajar, string kodepelajaran, string nopegawai)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -671,6 +673,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
         public void updateDataSiswa(string nosiswa, string nama, string jeniskelamin, string kodekelas, string nohp, string email, string asaldaerah)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -689,6 +692,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
         public void updateDataJadwalPengajar(string kodejadwalpengajar, string kodekelas, string nopengajar, string kodepelajaran, string tanggal, string jammulai, string durasi, string kodezoom)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -707,6 +711,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
         public void updateDataJadwalSiswa(string kodejadwalsiswa, string nosiswa, string kodejadwalpengajar)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -725,6 +730,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
         public void updateDataJadwalUjian(string kodeujian, string nama, string kodepelajaran, string tanggal, string jammulai, string durasi)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -743,6 +749,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
         public void updateDataKelas(string kodekelas, string nama, string biaya, string kuota, string fasilitas)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -761,6 +768,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
         public void updateDataMatPel(string kodepelajaran, string pelajaran)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -779,6 +787,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
         public void updateDataNilai(string kodeujian, string nosiswa, string nopengajar, string kodepelajaran, string nilai)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -797,6 +806,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
         public void updateDataPegawai(string nopegawai, string nama, string jeniskelamin, string nohp, string email, string posisi)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -815,6 +825,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
         public void updateDataRuangZoom(string kodezoom, string link, string meetingid, string passcode)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -833,6 +844,25 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
+
+        public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = string.Format(@"update pembayaran set nosiswa = '{0}', kodekelas = '{1}', tanggalpembayaran = '{2}',
+                                status = '{3}' where kodepembayaran = '" +kodepembayaran+ "';",nosiswa, kodekelas, tanggalpembayaran, status);
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
     }
 }
 
