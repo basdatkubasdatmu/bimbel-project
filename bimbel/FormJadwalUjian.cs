@@ -27,5 +27,19 @@ namespace bimbel
             dgvJadwalUjian.AutoGenerateColumns = false;
             dgvJadwalUjian.DataSource = dtacc.getAllUjian();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (dgvJadwalUjian.SelectedRows.Count > 0)
+            {
+                DataAccess da = new DataAccess();
+                string Selectedkodeujian = dgvJadwalUjian.SelectedRows[0].Cells[0].Value.ToString();
+                da.hapusDataJadwalUjian(Selectedkodeujian);
+
+                dgvJadwalUjian.DataSource = da.getAllUjian();
+
+                MessageBox.Show("Data " + Selectedkodeujian + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }

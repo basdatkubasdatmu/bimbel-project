@@ -46,6 +46,7 @@ namespace bimbel
             this.btHapusPegawai.TabIndex = 58;
             this.btHapusPegawai.Text = "Hapus";
             this.btHapusPegawai.UseVisualStyleBackColor = true;
+            this.btHapusPegawai.Click += new System.EventHandler(this.btHapusPegawai_Click);
             // 
             // btEditPegawai
             // 

@@ -46,6 +46,7 @@ namespace bimbel
             this.btHapusKelas.TabIndex = 52;
             this.btHapusKelas.Text = "Hapus";
             this.btHapusKelas.UseVisualStyleBackColor = true;
+            this.btHapusKelas.Click += new System.EventHandler(this.btHapusKelas_Click);
             // 
             // btEditKelas
             // 
