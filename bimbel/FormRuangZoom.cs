@@ -27,5 +27,19 @@ namespace bimbel
             dgvRuang.AutoGenerateColumns = false;
             dgvRuang.DataSource = dtacc.getAllZoom();
         }
+
+        private void btnHapus_Click(object sender, EventArgs e)
+        {
+            if (dgvRuang.SelectedRows.Count > 0)
+            {
+                DataAccess da = new DataAccess();
+                string Selectedkodezoom = dgvRuang.SelectedRows[0].Cells[0].Value.ToString();
+                da.hapusDataRuangZoom(Selectedkodezoom);
+
+                dgvRuang.DataSource = da.getAllZoom();
+
+                MessageBox.Show("Data " + Selectedkodezoom + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }

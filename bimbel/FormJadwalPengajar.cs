@@ -33,5 +33,19 @@ namespace bimbel
             FormInputJadwalPengajar frm = new FormInputJadwalPengajar();
             frm.Show();
         }
+
+        private void btnHapus_Click(object sender, EventArgs e)
+        {
+            if (dgvJadwalPengajar.SelectedRows.Count > 0)
+            {
+                DataAccess da = new DataAccess();
+                string Selectedkodejadwalpengajar = dgvJadwalPengajar.SelectedRows[0].Cells[0].Value.ToString();
+                da.hapusDataJadwalPengajar(Selectedkodejadwalpengajar);
+                
+                dgvJadwalPengajar.DataSource = da.getAllJadwalPengajar();
+
+                MessageBox.Show("Data " + Selectedkodejadwalpengajar + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }

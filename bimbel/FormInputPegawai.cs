@@ -11,7 +11,7 @@ namespace bimbel
     public partial class FormInputPegawai : Form
     {
         public bool isEditPegawai = false;
-        public string kodePegawai;
+        public string noPegawai;
 
         public FormInputPegawai()
         {
@@ -43,6 +43,7 @@ namespace bimbel
 
             this.Close();
         }
+<<<<<<< HEAD
         private void btBatalPegawai_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -63,6 +64,23 @@ namespace bimbel
                 tbNamaPegawai.Text = dt.Rows[0]["namaPegawai"].ToString();
                 tbEmailPegawai.Text = dt.Rows[0]["email"].ToString();
                 tbNoHpPegawai.Text = dt.Rows[0]["noHp"].ToString();
+=======
+
+        private void FormInputPegawai_Load(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+            if (isEditPegawai)
+            {
+                lbJudulInputPegawai.Text = "Edit Pegawai";
+                tbKodePegawai.ReadOnly = true;
+
+                DataTable dt = da.getDataPegawaiByID(noPegawai);
+
+                tbKodePegawai.Text = dt.Rows[0]["nopegawai"].ToString();
+                tbNamaPegawai.Text = dt.Rows[0]["nama"].ToString();
+                tbNoHpPegawai.Text = dt.Rows[0]["noHP"].ToString();
+                tbEmailPegawai.Text = dt.Rows[0]["email"].ToString();
+>>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
                 tbPosisiPegawai.Text = dt.Rows[0]["posisi"].ToString();
                 string jnsKelamin = dt.Rows[0]["jenisKelamin"].ToString();
 
@@ -75,11 +93,19 @@ namespace bimbel
                     rbPerempuan.Checked = true;
                 }
             }
+<<<<<<< HEAD
             else
             {
                 ///tbKodePegawai.Text = da.getKodePegawaiMin();
                 tbKodePegawai.ReadOnly = true;
             }
+=======
+        }
+
+        private void btBatalPegawai_Click(object sender, EventArgs e)
+        {
+            this.Close();
+>>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
         }
     }
 }

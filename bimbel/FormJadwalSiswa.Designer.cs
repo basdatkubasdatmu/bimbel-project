@@ -44,13 +44,18 @@ namespace bimbel
             this.dgvJadwalSiswa.Location = new System.Drawing.Point(18, 43);
             this.dgvJadwalSiswa.Name = "dgvJadwalSiswa";
             this.dgvJadwalSiswa.RowTemplate.Height = 25;
-            this.dgvJadwalSiswa.Size = new System.Drawing.Size(717, 339);
+            this.dgvJadwalSiswa.Size = new System.Drawing.Size(717, 345);
             this.dgvJadwalSiswa.TabIndex = 20;
             // 
             // btnTambah
             // 
-            this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
+            this.btnTambah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnTambah.Location = new System.Drawing.Point(549, 394);
+=======
+            this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTambah.Location = new System.Drawing.Point(556, 394);
+>>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
             this.btnTambah.TabIndex = 19;
@@ -60,20 +65,31 @@ namespace bimbel
             // 
             // btnHapus
             // 
-            this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
+            this.btnHapus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnHapus.Location = new System.Drawing.Point(645, 394);
+=======
+            this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnHapus.Location = new System.Drawing.Point(652, 394);
+>>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
             this.btnHapus.TabIndex = 18;
             this.btnHapus.Text = "HAPUS";
             this.btnHapus.UseVisualStyleBackColor = true;
+            this.btnHapus.Click += new System.EventHandler(this.btnHapus_Click);
             // 
             // btnRefresh
             // 
+<<<<<<< HEAD
+            this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRefresh.Location = new System.Drawing.Point(341, 394);
+=======
             this.btnRefresh.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Location = new System.Drawing.Point(357, 394);
+            this.btnRefresh.Location = new System.Drawing.Point(364, 394);
+>>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(90, 44);
+            this.btnRefresh.Size = new System.Drawing.Size(106, 44);
             this.btnRefresh.TabIndex = 17;
             this.btnRefresh.Text = "REFRESH";
             this.btnRefresh.UseVisualStyleBackColor = true;
@@ -81,8 +97,13 @@ namespace bimbel
             // 
             // btnEdit
             // 
-            this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
+            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnEdit.Location = new System.Drawing.Point(453, 394);
+=======
+            this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEdit.Location = new System.Drawing.Point(460, 394);
+>>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);
             this.btnEdit.TabIndex = 16;
@@ -92,10 +113,10 @@ namespace bimbel
             // lblDaftarJadwalSiswa
             // 
             this.lblDaftarJadwalSiswa.AutoSize = true;
-            this.lblDaftarJadwalSiswa.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDaftarJadwalSiswa.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblDaftarJadwalSiswa.Location = new System.Drawing.Point(12, 9);
             this.lblDaftarJadwalSiswa.Name = "lblDaftarJadwalSiswa";
-            this.lblDaftarJadwalSiswa.Size = new System.Drawing.Size(224, 31);
+            this.lblDaftarJadwalSiswa.Size = new System.Drawing.Size(280, 31);
             this.lblDaftarJadwalSiswa.TabIndex = 15;
             this.lblDaftarJadwalSiswa.Text = "Daftar Jadwal Siswa";
             // 

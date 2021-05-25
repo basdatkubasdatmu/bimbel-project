@@ -11,7 +11,7 @@ namespace bimbel
     public partial class formInputSiswa : Form
     {
         public string noSiswa;
-        public bool isEditSiswa;
+        public bool isEditSiswa= false;
 
         public formInputSiswa()
         {
@@ -38,7 +38,10 @@ namespace bimbel
                 txtAsalSiswa.Text = dt.Rows[0]["asaldaerah"].ToString();
             }
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
         private void btnBatal_Click(object sender, EventArgs e)
         {
             this.Close();
