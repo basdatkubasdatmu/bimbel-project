@@ -67,6 +67,7 @@ namespace bimbel
             this.btnSimpan.TabIndex = 2;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // btnBatal
             // 
@@ -78,6 +79,7 @@ namespace bimbel
             this.btnBatal.TabIndex = 3;
             this.btnBatal.Text = "BATAL";
             this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // txtKodeUjian
             // 
@@ -109,7 +111,6 @@ namespace bimbel
             this.lblKodeUjian.Size = new System.Drawing.Size(75, 20);
             this.lblKodeUjian.TabIndex = 6;
             this.lblKodeUjian.Text = "Kode Ujian";
-            this.lblKodeUjian.Click += new System.EventHandler(this.label2_Click);
             // 
             // lblNamaUjian
             // 
@@ -143,7 +144,6 @@ namespace bimbel
             this.lblTanggalUjian.Size = new System.Drawing.Size(89, 20);
             this.lblTanggalUjian.TabIndex = 9;
             this.lblTanggalUjian.Text = "Tanggal Ujian";
-            this.lblTanggalUjian.Click += new System.EventHandler(this.label5_Click);
             // 
             // lblJamMulai
             // 
@@ -224,6 +224,7 @@ namespace bimbel
             this.Name = "FormInputJadwalUjian";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Jadwal Ujian";
+            this.Load += new System.EventHandler(this.FormInputJadwalUjian_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

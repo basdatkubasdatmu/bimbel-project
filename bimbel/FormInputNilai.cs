@@ -14,10 +14,52 @@ namespace bimbel
         {
             InitializeComponent();
         }
+        public bool isEditNilai = false;
 
+        public string kodeujian;
+
+        private void btnSimpan_Click(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+
+            if (isEditNilai)
+            {
+                da.updateDataNilai(txtKodeUjian.Text, txtNoSiswa.Text, txtNoPengajar.Text, txtKodePelajaran.Text, txtNilai.Text);
+            }
+            else
+            {
+                da.insertDataNilai(txtKodeUjian.Text, txtNoSiswa.Text, txtNoPengajar.Text, txtKodePelajaran.Text, txtNilai.Text);
+            }
+
+            this.Close();
+        }
+
+        private void FormInputKelas_Load(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+            if (isEditNilai)
+            {
+                InputNilai.Text = "Edit Nilai";
+                txtKodeUjian.ReadOnly = true;
+
+                DataTable dt = da.getNilaiByID(noSiswa);
+
+                txtKodeUjian.Text = dt.Rows[0]["kodekelas"].ToString();
+                txtNoSiswa.Text = dt.Rows[0]["nama"].ToString();
+                txtNoPengajar.Text = dt.Rows[0]["biaya"].ToString();
+                txtKodePelajaran.Text = dt.Rows[0]["kuota"].ToString();
+                txtNilai.Text = dt.Rows[0]["fasilitas"].ToString();
+
+            }
+        }
         private void txtNoPengajar_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonBatal_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

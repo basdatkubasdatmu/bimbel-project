@@ -55,6 +55,7 @@ namespace bimbel
             this.btBatalPegawai.TabIndex = 41;
             this.btBatalPegawai.Text = "Batal";
             this.btBatalPegawai.UseVisualStyleBackColor = true;
+            this.btBatalPegawai.Click += new System.EventHandler(this.btBatalPegawai_Click);
             // 
             // btSimpanPegawai
             // 
@@ -64,6 +65,7 @@ namespace bimbel
             this.btSimpanPegawai.TabIndex = 40;
             this.btSimpanPegawai.Text = "Simpan";
             this.btSimpanPegawai.UseVisualStyleBackColor = true;
+            this.btSimpanPegawai.Click += new System.EventHandler(this.btSimpanPegawai_Click);
             // 
             // rbPerempuan
             // 
@@ -215,6 +217,7 @@ namespace bimbel
             this.Controls.Add(this.lbKodePegawai);
             this.Name = "FormInputPegawai";
             this.Text = "Input Pegawai";
+            this.Load += new System.EventHandler(this.formInputPegawai_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

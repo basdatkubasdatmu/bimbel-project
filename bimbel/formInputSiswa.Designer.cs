@@ -108,7 +108,6 @@ namespace bimbel
             this.lblEmailSiswa.Size = new System.Drawing.Size(42, 20);
             this.lblEmailSiswa.TabIndex = 5;
             this.lblEmailSiswa.Text = "Email";
-            this.lblEmailSiswa.Click += new System.EventHandler(this.lblEmailSiswa_Click);
             // 
             // lblDaerahSiswa
             // 
@@ -177,6 +176,7 @@ namespace bimbel
             this.btnBatal.TabIndex = 14;
             this.btnBatal.Text = "BATAL";
             this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // btnSimpan
             // 
@@ -187,6 +187,7 @@ namespace bimbel
             this.btnSimpan.TabIndex = 15;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // rbLakiLaki
             // 

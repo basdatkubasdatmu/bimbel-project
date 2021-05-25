@@ -5,6 +5,7 @@ C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\bin\Debug\netcoreapp3.1\bim
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\bin\Debug\netcoreapp3.1\bimbel.dll
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\bin\Debug\netcoreapp3.1\bimbel.pdb
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.csprojAssemblyReference.cache
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormDaftarPresensi.resources
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.formDataPengajar.resources
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.formDatasiswa.resources
@@ -23,7 +24,7 @@ C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bim
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormKelas.resources
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormLogin.resources
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormMatPel.resources
-C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormMenu.resources
+C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.ParentForm.resources
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormNilai.resources
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormPegawai.resources
 C:\Users\ASUS\Documents\GitHub\bimbel-project\bimbel\obj\Debug\netcoreapp3.1\bimbel.FormRuangZoom.resources
