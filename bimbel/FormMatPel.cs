@@ -27,19 +27,5 @@ namespace bimbel
             dgvMatpel.AutoGenerateColumns = false;
             dgvMatpel.DataSource = dtacc.getAllMatpel();
         }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            if (dgvMatpel.SelectedRows.Count > 0)
-            {
-                DataAccess da = new DataAccess();
-                string Selectedkodepelajaran = dgvMatpel.SelectedRows[0].Cells[0].Value.ToString();
-                da.hapusDataMatpel(Selectedkodepelajaran);
-
-                dgvMatpel.DataSource = da.getAllMatpel();
-
-                MessageBox.Show("Data " + Selectedkodepelajaran + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
     }
 }

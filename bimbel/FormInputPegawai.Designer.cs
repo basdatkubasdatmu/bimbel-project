@@ -49,33 +49,30 @@ namespace bimbel
             // 
             // btBatalPegawai
             // 
-            this.btBatalPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btBatalPegawai.Location = new System.Drawing.Point(212, 253);
+            this.btBatalPegawai.Location = new System.Drawing.Point(339, 261);
             this.btBatalPegawai.Name = "btBatalPegawai";
-            this.btBatalPegawai.Size = new System.Drawing.Size(79, 39);
+            this.btBatalPegawai.Size = new System.Drawing.Size(75, 23);
             this.btBatalPegawai.TabIndex = 41;
-            this.btBatalPegawai.Text = "BATAL";
+            this.btBatalPegawai.Text = "Batal";
             this.btBatalPegawai.UseVisualStyleBackColor = true;
             this.btBatalPegawai.Click += new System.EventHandler(this.btBatalPegawai_Click);
             // 
             // btSimpanPegawai
             // 
-            this.btSimpanPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btSimpanPegawai.Location = new System.Drawing.Point(297, 253);
+            this.btSimpanPegawai.Location = new System.Drawing.Point(258, 261);
             this.btSimpanPegawai.Name = "btSimpanPegawai";
-            this.btSimpanPegawai.Size = new System.Drawing.Size(79, 39);
+            this.btSimpanPegawai.Size = new System.Drawing.Size(75, 23);
             this.btSimpanPegawai.TabIndex = 40;
-            this.btSimpanPegawai.Text = "SIMPAN";
+            this.btSimpanPegawai.Text = "Simpan";
             this.btSimpanPegawai.UseVisualStyleBackColor = true;
             this.btSimpanPegawai.Click += new System.EventHandler(this.btSimpanPegawai_Click);
             // 
             // rbPerempuan
             // 
             this.rbPerempuan.AutoSize = true;
-            this.rbPerempuan.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rbPerempuan.Location = new System.Drawing.Point(250, 120);
             this.rbPerempuan.Name = "rbPerempuan";
-            this.rbPerempuan.Size = new System.Drawing.Size(96, 24);
+            this.rbPerempuan.Size = new System.Drawing.Size(86, 19);
             this.rbPerempuan.TabIndex = 39;
             this.rbPerempuan.TabStop = true;
             this.rbPerempuan.Text = "Perempuan";
@@ -84,10 +81,9 @@ namespace bimbel
             // rbLakiLaki
             // 
             this.rbLakiLaki.AutoSize = true;
-            this.rbLakiLaki.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rbLakiLaki.Location = new System.Drawing.Point(150, 120);
             this.rbLakiLaki.Name = "rbLakiLaki";
-            this.rbLakiLaki.Size = new System.Drawing.Size(75, 24);
+            this.rbLakiLaki.Size = new System.Drawing.Size(69, 19);
             this.rbLakiLaki.TabIndex = 38;
             this.rbLakiLaki.TabStop = true;
             this.rbLakiLaki.Text = "Laki-laki";
@@ -103,10 +99,10 @@ namespace bimbel
             // lbPosisiPegawai
             // 
             this.lbPosisiPegawai.AutoSize = true;
-            this.lbPosisiPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbPosisiPegawai.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbPosisiPegawai.Location = new System.Drawing.Point(23, 209);
             this.lbPosisiPegawai.Name = "lbPosisiPegawai";
-            this.lbPosisiPegawai.Size = new System.Drawing.Size(46, 20);
+            this.lbPosisiPegawai.Size = new System.Drawing.Size(41, 17);
             this.lbPosisiPegawai.TabIndex = 36;
             this.lbPosisiPegawai.Text = "Posisi";
             // 
@@ -120,20 +116,20 @@ namespace bimbel
             // lbEmailPegawai
             // 
             this.lbEmailPegawai.AutoSize = true;
-            this.lbEmailPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbEmailPegawai.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbEmailPegawai.Location = new System.Drawing.Point(23, 180);
             this.lbEmailPegawai.Name = "lbEmailPegawai";
-            this.lbEmailPegawai.Size = new System.Drawing.Size(42, 20);
+            this.lbEmailPegawai.Size = new System.Drawing.Size(39, 17);
             this.lbEmailPegawai.TabIndex = 34;
             this.lbEmailPegawai.Text = "Email";
             // 
             // lbJudulInputPegawai
             // 
             this.lbJudulInputPegawai.AutoSize = true;
-            this.lbJudulInputPegawai.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbJudulInputPegawai.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbJudulInputPegawai.Location = new System.Drawing.Point(12, 9);
             this.lbJudulInputPegawai.Name = "lbJudulInputPegawai";
-            this.lbJudulInputPegawai.Size = new System.Drawing.Size(192, 29);
+            this.lbJudulInputPegawai.Size = new System.Drawing.Size(185, 25);
             this.lbJudulInputPegawai.TabIndex = 33;
             this.lbJudulInputPegawai.Text = "Input Data Pegawai";
             // 
@@ -147,20 +143,20 @@ namespace bimbel
             // lbNoHp
             // 
             this.lbNoHp.AutoSize = true;
-            this.lbNoHp.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbNoHp.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbNoHp.Location = new System.Drawing.Point(23, 151);
             this.lbNoHp.Name = "lbNoHp";
-            this.lbNoHp.Size = new System.Drawing.Size(48, 20);
+            this.lbNoHp.Size = new System.Drawing.Size(46, 17);
             this.lbNoHp.TabIndex = 31;
             this.lbNoHp.Text = "No HP";
             // 
             // lbJenisKelamin
             // 
             this.lbJenisKelamin.AutoSize = true;
-            this.lbJenisKelamin.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbJenisKelamin.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbJenisKelamin.Location = new System.Drawing.Point(23, 120);
             this.lbJenisKelamin.Name = "lbJenisKelamin";
-            this.lbJenisKelamin.Size = new System.Drawing.Size(93, 20);
+            this.lbJenisKelamin.Size = new System.Drawing.Size(86, 17);
             this.lbJenisKelamin.TabIndex = 30;
             this.lbJenisKelamin.Text = "Jenis Kelamin";
             // 
@@ -174,10 +170,10 @@ namespace bimbel
             // lbNamaPegawai
             // 
             this.lbNamaPegawai.AutoSize = true;
-            this.lbNamaPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbNamaPegawai.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbNamaPegawai.Location = new System.Drawing.Point(23, 89);
             this.lbNamaPegawai.Name = "lbNamaPegawai";
-            this.lbNamaPegawai.Size = new System.Drawing.Size(98, 20);
+            this.lbNamaPegawai.Size = new System.Drawing.Size(95, 17);
             this.lbNamaPegawai.TabIndex = 28;
             this.lbNamaPegawai.Text = "Nama Pegawai";
             // 
@@ -191,10 +187,10 @@ namespace bimbel
             // lbKodePegawai
             // 
             this.lbKodePegawai.AutoSize = true;
-            this.lbKodePegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbKodePegawai.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbKodePegawai.Location = new System.Drawing.Point(23, 58);
             this.lbKodePegawai.Name = "lbKodePegawai";
-            this.lbKodePegawai.Size = new System.Drawing.Size(97, 20);
+            this.lbKodePegawai.Size = new System.Drawing.Size(91, 17);
             this.lbKodePegawai.TabIndex = 26;
             this.lbKodePegawai.Text = "Kode Pegawai";
             // 
@@ -202,7 +198,7 @@ namespace bimbel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(388, 304);
+            this.ClientSize = new System.Drawing.Size(439, 304);
             this.Controls.Add(this.btBatalPegawai);
             this.Controls.Add(this.btSimpanPegawai);
             this.Controls.Add(this.rbPerempuan);
@@ -220,8 +216,8 @@ namespace bimbel
             this.Controls.Add(this.tbKodePegawai);
             this.Controls.Add(this.lbKodePegawai);
             this.Name = "FormInputPegawai";
-            this.Text = "SIMPAN";
-            this.Load += new System.EventHandler(this.FormInputPegawai_Load);
+            this.Text = "Input Pegawai";
+            this.Load += new System.EventHandler(this.formInputPegawai_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

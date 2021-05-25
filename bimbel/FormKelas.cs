@@ -33,19 +33,5 @@ namespace bimbel
             FormInputKelas frm = new FormInputKelas();
             frm.Show();
         }
-
-        private void btHapusKelas_Click(object sender, EventArgs e)
-        {
-            if (dgvKelas.SelectedRows.Count > 0)
-            {
-                DataAccess da = new DataAccess();
-                string Selectedkodekelas = dgvKelas.SelectedRows[0].Cells[0].Value.ToString();
-                da.hapusDataKelas(Selectedkodekelas);
-
-                dgvKelas.DataSource = da.getAllKelas();
-
-                MessageBox.Show("Data " + Selectedkodekelas + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
     }
 }

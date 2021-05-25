@@ -55,7 +55,7 @@ namespace bimbel
             "2 kali pertemuan/minggu"});
             this.clbFasilitas.Location = new System.Drawing.Point(139, 165);
             this.clbFasilitas.Name = "clbFasilitas";
-            this.clbFasilitas.Size = new System.Drawing.Size(200, 124);
+            this.clbFasilitas.Size = new System.Drawing.Size(200, 130);
             this.clbFasilitas.TabIndex = 55;
             // 
             // lbJudulInputKelas
@@ -71,8 +71,8 @@ namespace bimbel
             // 
             // btBatalKelas
             // 
-            this.btBatalKelas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btBatalKelas.Location = new System.Drawing.Point(218, 301);
+            this.btBatalKelas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btBatalKelas.Location = new System.Drawing.Point(399, 306);
             this.btBatalKelas.Name = "btBatalKelas";
             this.btBatalKelas.Size = new System.Drawing.Size(79, 39);
             this.btBatalKelas.TabIndex = 53;
@@ -82,8 +82,8 @@ namespace bimbel
             // 
             // btSimpanKelas
             // 
-            this.btSimpanKelas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btSimpanKelas.Location = new System.Drawing.Point(303, 301);
+            this.btSimpanKelas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btSimpanKelas.Location = new System.Drawing.Point(314, 306);
             this.btSimpanKelas.Name = "btSimpanKelas";
             this.btSimpanKelas.Size = new System.Drawing.Size(79, 39);
             this.btSimpanKelas.TabIndex = 52;
@@ -178,7 +178,7 @@ namespace bimbel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(394, 352);
+            this.ClientSize = new System.Drawing.Size(491, 352);
             this.Controls.Add(this.clbFasilitas);
             this.Controls.Add(this.lbJudulInputKelas);
             this.Controls.Add(this.btBatalKelas);

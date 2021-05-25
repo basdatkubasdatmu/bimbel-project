@@ -32,25 +32,5 @@ namespace bimbel
         {
 
         }
-
-<<<<<<< HEAD
-        private void button4_Click(object sender, EventArgs e)
-        {
-            if (dgvPresensi.SelectedRows.Count > 0)
-            {
-                DataAccess da = new DataAccess();
-                string Selectedkodejadwalsiswa = dgvPresensi.SelectedRows[0].Cells[0].Value.ToString();
-                da.hapusDataPresensi(Selectedkodejadwalsiswa);
-
-                dgvPresensi.DataSource = da.getAllPresensi();
-
-                MessageBox.Show("Data " + Selectedkodejadwalsiswa + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-=======
-        private void button1_Click(object sender, EventArgs e)
-        {
-
->>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
-        }
     }
 }

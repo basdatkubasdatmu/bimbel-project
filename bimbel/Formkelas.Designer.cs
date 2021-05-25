@@ -40,71 +40,66 @@ namespace bimbel
             // 
             // btHapusKelas
             // 
-            this.btHapusKelas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btHapusKelas.Location = new System.Drawing.Point(702, 339);
+            this.btHapusKelas.Location = new System.Drawing.Point(713, 312);
             this.btHapusKelas.Name = "btHapusKelas";
-            this.btHapusKelas.Size = new System.Drawing.Size(90, 44);
+            this.btHapusKelas.Size = new System.Drawing.Size(75, 23);
             this.btHapusKelas.TabIndex = 52;
-            this.btHapusKelas.Text = "HAPUS";
+            this.btHapusKelas.Text = "Hapus";
             this.btHapusKelas.UseVisualStyleBackColor = true;
-            this.btHapusKelas.Click += new System.EventHandler(this.btHapusKelas_Click);
             // 
             // btEditKelas
             // 
-            this.btEditKelas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btEditKelas.Location = new System.Drawing.Point(510, 339);
+            this.btEditKelas.Location = new System.Drawing.Point(551, 312);
             this.btEditKelas.Name = "btEditKelas";
-            this.btEditKelas.Size = new System.Drawing.Size(90, 44);
+            this.btEditKelas.Size = new System.Drawing.Size(75, 23);
             this.btEditKelas.TabIndex = 51;
-            this.btEditKelas.Text = "EDIT";
+            this.btEditKelas.Text = "Edit";
             this.btEditKelas.UseVisualStyleBackColor = true;
             // 
             // btTambahKelas
             // 
-            this.btTambahKelas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btTambahKelas.Location = new System.Drawing.Point(606, 339);
+            this.btTambahKelas.Location = new System.Drawing.Point(470, 312);
             this.btTambahKelas.Name = "btTambahKelas";
-            this.btTambahKelas.Size = new System.Drawing.Size(90, 44);
+            this.btTambahKelas.Size = new System.Drawing.Size(75, 23);
             this.btTambahKelas.TabIndex = 50;
-            this.btTambahKelas.Text = "TAMBAH";
+            this.btTambahKelas.Text = "Tambah";
             this.btTambahKelas.UseVisualStyleBackColor = true;
             this.btTambahKelas.Click += new System.EventHandler(this.btTambahKelas_Click);
             // 
             // btRefreshKelas
             // 
-            this.btRefreshKelas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btRefreshKelas.Location = new System.Drawing.Point(414, 339);
+            this.btRefreshKelas.Location = new System.Drawing.Point(632, 312);
             this.btRefreshKelas.Name = "btRefreshKelas";
-            this.btRefreshKelas.Size = new System.Drawing.Size(90, 44);
+            this.btRefreshKelas.Size = new System.Drawing.Size(75, 23);
             this.btRefreshKelas.TabIndex = 49;
-            this.btRefreshKelas.Text = "REFRESH";
+            this.btRefreshKelas.Text = "Refresh";
             this.btRefreshKelas.UseVisualStyleBackColor = true;
             this.btRefreshKelas.Click += new System.EventHandler(this.btRefreshKelas_Click);
             // 
             // lbJudulDataKelas
             // 
             this.lbJudulDataKelas.AutoSize = true;
-            this.lbJudulDataKelas.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbJudulDataKelas.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbJudulDataKelas.Location = new System.Drawing.Point(12, 9);
             this.lbJudulDataKelas.Name = "lbJudulDataKelas";
-            this.lbJudulDataKelas.Size = new System.Drawing.Size(72, 31);
+            this.lbJudulDataKelas.Size = new System.Drawing.Size(103, 25);
             this.lbJudulDataKelas.TabIndex = 48;
-            this.lbJudulDataKelas.Text = "Kelas";
+            this.lbJudulDataKelas.Text = "Data Kelas";
             // 
             // dgvKelas
             // 
             this.dgvKelas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvKelas.Location = new System.Drawing.Point(12, 43);
+            this.dgvKelas.Location = new System.Drawing.Point(12, 37);
             this.dgvKelas.Name = "dgvKelas";
             this.dgvKelas.RowTemplate.Height = 25;
-            this.dgvKelas.Size = new System.Drawing.Size(783, 290);
+            this.dgvKelas.Size = new System.Drawing.Size(776, 256);
             this.dgvKelas.TabIndex = 47;
             // 
             // FormKelas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(807, 395);
+            this.ClientSize = new System.Drawing.Size(807, 346);
             this.Controls.Add(this.btHapusKelas);
             this.Controls.Add(this.btEditKelas);
             this.Controls.Add(this.btTambahKelas);

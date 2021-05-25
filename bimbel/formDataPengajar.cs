@@ -38,19 +38,5 @@ namespace bimbel
         {
 
         }
-
-        private void btnHapus_Click(object sender, EventArgs e)
-        {
-            if (dgvPengajar.SelectedRows.Count > 0)
-            {
-                DataAccess da = new DataAccess();
-                string Selectednopengajar = dgvPengajar.SelectedRows[0].Cells[0].Value.ToString();
-                da.hapusDataPengajar(Selectednopengajar);
-
-                dgvPengajar.DataSource = da.getAllPengajar();
-
-                MessageBox.Show("Data " + Selectednopengajar + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
     }
 }

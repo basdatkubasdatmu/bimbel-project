@@ -33,19 +33,5 @@ namespace bimbel
             dgvSiswa.AutoGenerateColumns = false;
             dgvSiswa.DataSource = dtacc.getAllSiswa();
         }
-
-        private void btnHapus_Click(object sender, EventArgs e)
-        {
-            if (dgvSiswa.SelectedRows.Count > 0)
-            {
-                DataAccess da = new DataAccess();
-                string Selectednosiswa = dgvSiswa.SelectedRows[0].Cells[0].Value.ToString();
-                da.hapusDataSiswa(Selectednosiswa);
-
-                dgvSiswa.DataSource = da.getAllSiswa();
-
-                MessageBox.Show("Data " + Selectednosiswa + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
     }
 }

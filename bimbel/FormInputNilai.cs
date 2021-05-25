@@ -16,7 +16,7 @@ namespace bimbel
         }
         
         public bool isEditNilai = false;
-        public string nosiswa;
+        public string kodeujian;
 
         private void txtNoPengajar_Click(object sender, EventArgs e)
         { 
@@ -44,7 +44,7 @@ namespace bimbel
             {
                 InputNilai.Text = "Edit Nilai";
                 txtKodeUjian.ReadOnly = true;
-                DataTable dt = da.getSiswaByID(nosiswa);
+                DataTable dt = da.getNilaiByID();
 
                 txtKodeUjian.Text = dt.Rows[0]["kodekelas"].ToString();
                 txtNoSiswa.Text = dt.Rows[0]["nama"].ToString();

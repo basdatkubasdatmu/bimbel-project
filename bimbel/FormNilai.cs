@@ -32,19 +32,5 @@ namespace bimbel
         {
 
         }
-
-        private void btnHapus_Click(object sender, EventArgs e)
-        {
-            if (dgvNilai.SelectedRows.Count > 0)
-            {
-                DataAccess da = new DataAccess();
-                string Selectedkodeujian = dgvNilai.SelectedRows[0].Cells[0].Value.ToString();
-                da.hapusDataNilai(Selectedkodeujian);
-
-                dgvNilai.DataSource = da.getAllNilai();
-
-                MessageBox.Show("Data " + Selectedkodeujian + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
     }
 }

@@ -33,19 +33,5 @@ namespace bimbel
             FormInputJadwalSiswa frm = new FormInputJadwalSiswa();
             frm.Show();
         }
-
-        private void btnHapus_Click(object sender, EventArgs e)
-        {
-            if (dgvJadwalSiswa.SelectedRows.Count > 0)
-            {
-                DataAccess da = new DataAccess();
-                string Selectedkodejadwalsiswa = dgvJadwalSiswa.SelectedRows[0].Cells[0].Value.ToString();
-                da.hapusDataJadwalSiswa(Selectedkodejadwalsiswa);
-
-                dgvJadwalSiswa.DataSource = da.getAllJadwalSiswa();
-
-                MessageBox.Show("Data " + Selectedkodejadwalsiswa + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
     }
 }
