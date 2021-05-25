@@ -58,6 +58,7 @@ namespace bimbel
             this.btEditKelas.TabIndex = 51;
             this.btEditKelas.Text = "EDIT";
             this.btEditKelas.UseVisualStyleBackColor = true;
+            this.btEditKelas.Click += new System.EventHandler(this.btEditKelas_Click);
             // 
             // btTambahKelas
             // 

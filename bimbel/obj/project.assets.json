@@ -78,34 +78,19 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\sunul\\.nuget\\packages\\": {}
->>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
+      "projectUniqueName": "C:\\BASDATKU\\bimbel-project\\bimbel\\bimbel.csproj",
       "projectName": "bimbel",
-      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\bimbel-project\\bimbel\\obj\\",
+      "projectPath": "C:\\BASDATKU\\bimbel-project\\bimbel\\bimbel.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\BASDATKU\\bimbel-project\\bimbel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "E:\\Kuliah mang\\KULIAH SMT 3 TK2\\basdat\\bimbel-project\\bimbel\\bimbel.csproj",
-      "projectName": "bimbel",
-      "projectPath": "E:\\Kuliah mang\\KULIAH SMT 3 TK2\\basdat\\bimbel-project\\bimbel\\bimbel.csproj",
-      "packagesPath": "C:\\Users\\sunul\\.nuget\\packages\\",
-      "outputPath": "E:\\Kuliah mang\\KULIAH SMT 3 TK2\\basdat\\bimbel-project\\bimbel\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\sunul\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -154,8 +139,16 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\BASDATKU\\bimbel-project\\bimbel\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -30,7 +30,8 @@ namespace bimbel
 
         private void btnTambah_Click(object sender, EventArgs e)
         {
-
+            FormInputNilai frm = new FormInputNilai();
+            frm.Show();
         }
 
         private void btnHapus_Click(object sender, EventArgs e)
@@ -44,6 +45,23 @@ namespace bimbel
                 dgvNilai.DataSource = da.getAllNilai();
 
                 MessageBox.Show("Data " + Selectedkodeujian + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void dgvNilai_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dgvNilai.SelectedRows.Count > 0)
+            {
+                string selectedkodeujian = dgvNilai.SelectedRows[0].Cells[0].Value.ToString();
+                FormInputNilai frm = new FormInputNilai();
+                frm.isEditNilai = true;
+                frm.nosiswa = selectedkodeujian;
+                frm.Show();
             }
         }
     }

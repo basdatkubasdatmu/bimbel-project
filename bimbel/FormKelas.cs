@@ -47,5 +47,17 @@ namespace bimbel
                 MessageBox.Show("Data " + Selectedkodekelas + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btEditKelas_Click(object sender, EventArgs e)
+        {
+            if (dgvKelas.SelectedRows.Count > 0)
+            {
+                string selectedkodekelas = dgvKelas.SelectedRows[0].Cells[0].Value.ToString();
+                FormInputKelas frm = new FormInputKelas();
+                frm.isEditKelas = true;
+                frm.kodekelas = selectedkodekelas;
+                frm.Show();
+            }
+        }
     }
 }

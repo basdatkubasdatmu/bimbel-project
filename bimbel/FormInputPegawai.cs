@@ -43,7 +43,6 @@ namespace bimbel
 
             this.Close();
         }
-<<<<<<< HEAD
         private void btBatalPegawai_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -58,13 +57,14 @@ namespace bimbel
                 lbJudulInputPegawai.Text = "Edit Data Pegawai Perpustakaan";
                 tbKodePegawai.ReadOnly = true;
 
-                DataTable dt = da.getDataPegawaiByID(kodePegawai);
+                DataTable dt = da.getDataPegawaiByID(noPegawai);
 
                 tbKodePegawai.Text = dt.Rows[0]["kodePegawai"].ToString();
                 tbNamaPegawai.Text = dt.Rows[0]["namaPegawai"].ToString();
                 tbEmailPegawai.Text = dt.Rows[0]["email"].ToString();
                 tbNoHpPegawai.Text = dt.Rows[0]["noHp"].ToString();
-=======
+            }
+        }
 
         private void FormInputPegawai_Load(object sender, EventArgs e)
         {
@@ -80,7 +80,6 @@ namespace bimbel
                 tbNamaPegawai.Text = dt.Rows[0]["nama"].ToString();
                 tbNoHpPegawai.Text = dt.Rows[0]["noHP"].ToString();
                 tbEmailPegawai.Text = dt.Rows[0]["email"].ToString();
->>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
                 tbPosisiPegawai.Text = dt.Rows[0]["posisi"].ToString();
                 string jnsKelamin = dt.Rows[0]["jenisKelamin"].ToString();
 
@@ -93,19 +92,18 @@ namespace bimbel
                     rbPerempuan.Checked = true;
                 }
             }
-<<<<<<< HEAD
             else
             {
                 ///tbKodePegawai.Text = da.getKodePegawaiMin();
                 tbKodePegawai.ReadOnly = true;
             }
-=======
         }
 
-        private void btBatalPegawai_Click(object sender, EventArgs e)
+      
+
+        private void btBatalPegawai_Click_1(object sender, EventArgs e)
         {
             this.Close();
->>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
         }
     }
 }
