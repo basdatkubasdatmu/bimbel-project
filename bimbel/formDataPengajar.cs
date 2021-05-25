@@ -33,5 +33,10 @@ namespace bimbel
             formInputPengajar frm = new formInputPengajar();
             frm.Show();
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
