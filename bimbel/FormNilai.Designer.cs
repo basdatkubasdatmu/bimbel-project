@@ -51,52 +51,52 @@ namespace bimbel
             // dgvNilai
             // 
             this.dgvNilai.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNilai.Location = new System.Drawing.Point(12, 49);
+            this.dgvNilai.Location = new System.Drawing.Point(12, 43);
             this.dgvNilai.Name = "dgvNilai";
             this.dgvNilai.RowTemplate.Height = 25;
-            this.dgvNilai.Size = new System.Drawing.Size(776, 306);
+            this.dgvNilai.Size = new System.Drawing.Size(776, 312);
             this.dgvNilai.TabIndex = 13;
             // 
             // btnTambah
             // 
             this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTambah.Location = new System.Drawing.Point(601, 361);
+            this.btnTambah.Location = new System.Drawing.Point(602, 361);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
             this.btnTambah.TabIndex = 17;
-            this.btnTambah.Text = "Tambah";
+            this.btnTambah.Text = "TAMBAH";
             this.btnTambah.UseVisualStyleBackColor = true;
             this.btnTambah.Click += new System.EventHandler(this.btnTambah_Click);
             // 
             // btnHapus
             // 
             this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHapus.Location = new System.Drawing.Point(697, 361);
+            this.btnHapus.Location = new System.Drawing.Point(698, 361);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
             this.btnHapus.TabIndex = 16;
-            this.btnHapus.Text = "Hapus";
+            this.btnHapus.Text = "HAPUS";
             this.btnHapus.UseVisualStyleBackColor = true;
             // 
             // btnRefresh
             // 
             this.btnRefresh.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Location = new System.Drawing.Point(409, 361);
+            this.btnRefresh.Location = new System.Drawing.Point(410, 361);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(90, 44);
             this.btnRefresh.TabIndex = 15;
-            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.Text = "REFRESH";
             this.btnRefresh.UseVisualStyleBackColor = true;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnEdit
             // 
             this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Location = new System.Drawing.Point(505, 361);
+            this.btnEdit.Location = new System.Drawing.Point(506, 361);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);
             this.btnEdit.TabIndex = 14;
-            this.btnEdit.Text = "Edit";
+            this.btnEdit.Text = "EDIT";
             this.btnEdit.UseVisualStyleBackColor = true;
             // 
             // FormNilai

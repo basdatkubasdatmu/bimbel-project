@@ -41,10 +41,10 @@ namespace bimbel
             // dgvRuang
             // 
             this.dgvRuang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvRuang.Location = new System.Drawing.Point(12, 55);
+            this.dgvRuang.Location = new System.Drawing.Point(12, 43);
             this.dgvRuang.Name = "dgvRuang";
             this.dgvRuang.RowTemplate.Height = 25;
-            this.dgvRuang.Size = new System.Drawing.Size(776, 306);
+            this.dgvRuang.Size = new System.Drawing.Size(776, 312);
             this.dgvRuang.TabIndex = 14;
             // 
             // txtRuang
@@ -60,42 +60,42 @@ namespace bimbel
             // btnTambah
             // 
             this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTambah.Location = new System.Drawing.Point(603, 367);
+            this.btnTambah.Location = new System.Drawing.Point(602, 361);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
             this.btnTambah.TabIndex = 21;
-            this.btnTambah.Text = "Tambah";
+            this.btnTambah.Text = "TAMBAH";
             this.btnTambah.UseVisualStyleBackColor = true;
             // 
             // btnHapus
             // 
             this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHapus.Location = new System.Drawing.Point(699, 367);
+            this.btnHapus.Location = new System.Drawing.Point(698, 361);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
             this.btnHapus.TabIndex = 20;
-            this.btnHapus.Text = "Hapus";
+            this.btnHapus.Text = "HAPUS";
             this.btnHapus.UseVisualStyleBackColor = true;
             // 
             // btnRefresh
             // 
             this.btnRefresh.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Location = new System.Drawing.Point(411, 367);
+            this.btnRefresh.Location = new System.Drawing.Point(410, 361);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(90, 44);
             this.btnRefresh.TabIndex = 19;
-            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.Text = "REFRESH";
             this.btnRefresh.UseVisualStyleBackColor = true;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnEdit
             // 
             this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Location = new System.Drawing.Point(507, 367);
+            this.btnEdit.Location = new System.Drawing.Point(506, 361);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);
             this.btnEdit.TabIndex = 18;
-            this.btnEdit.Text = "Edit";
+            this.btnEdit.Text = "EDIT";
             this.btnEdit.UseVisualStyleBackColor = true;
             // 
             // FormRuangZoom

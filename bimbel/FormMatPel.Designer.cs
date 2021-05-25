@@ -51,10 +51,10 @@ namespace bimbel
             // dgvMatpel
             // 
             this.dgvMatpel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMatpel.Location = new System.Drawing.Point(17, 49);
+            this.dgvMatpel.Location = new System.Drawing.Point(17, 43);
             this.dgvMatpel.Name = "dgvMatpel";
             this.dgvMatpel.RowTemplate.Height = 25;
-            this.dgvMatpel.Size = new System.Drawing.Size(676, 277);
+            this.dgvMatpel.Size = new System.Drawing.Size(676, 283);
             this.dgvMatpel.TabIndex = 1;
             // 
             // button3

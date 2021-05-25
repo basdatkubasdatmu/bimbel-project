@@ -51,7 +51,7 @@ namespace bimbel
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(608, 361);
+            this.button3.Location = new System.Drawing.Point(617, 358);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 44);
             this.button3.TabIndex = 11;
@@ -61,7 +61,7 @@ namespace bimbel
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(704, 361);
+            this.button4.Location = new System.Drawing.Point(713, 358);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(90, 44);
             this.button4.TabIndex = 10;
@@ -71,7 +71,7 @@ namespace bimbel
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(416, 361);
+            this.button2.Location = new System.Drawing.Point(425, 358);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 44);
             this.button2.TabIndex = 9;
@@ -82,20 +82,21 @@ namespace bimbel
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(512, 361);
+            this.button1.Location = new System.Drawing.Point(521, 358);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 44);
             this.button1.TabIndex = 8;
             this.button1.Text = "EDIT";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dgvJadwalUjian
             // 
             this.dgvJadwalUjian.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvJadwalUjian.Location = new System.Drawing.Point(18, 49);
+            this.dgvJadwalUjian.Location = new System.Drawing.Point(12, 43);
             this.dgvJadwalUjian.Name = "dgvJadwalUjian";
             this.dgvJadwalUjian.RowTemplate.Height = 25;
-            this.dgvJadwalUjian.Size = new System.Drawing.Size(776, 306);
+            this.dgvJadwalUjian.Size = new System.Drawing.Size(791, 309);
             this.dgvJadwalUjian.TabIndex = 12;
             // 
             // FormJadwalUjian

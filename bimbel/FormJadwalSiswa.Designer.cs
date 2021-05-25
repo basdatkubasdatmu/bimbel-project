@@ -44,13 +44,13 @@ namespace bimbel
             this.dgvJadwalSiswa.Location = new System.Drawing.Point(18, 43);
             this.dgvJadwalSiswa.Name = "dgvJadwalSiswa";
             this.dgvJadwalSiswa.RowTemplate.Height = 25;
-            this.dgvJadwalSiswa.Size = new System.Drawing.Size(717, 339);
+            this.dgvJadwalSiswa.Size = new System.Drawing.Size(717, 345);
             this.dgvJadwalSiswa.TabIndex = 20;
             // 
             // btnTambah
             // 
             this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTambah.Location = new System.Drawing.Point(549, 394);
+            this.btnTambah.Location = new System.Drawing.Point(556, 394);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
             this.btnTambah.TabIndex = 19;
@@ -61,7 +61,7 @@ namespace bimbel
             // btnHapus
             // 
             this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHapus.Location = new System.Drawing.Point(645, 394);
+            this.btnHapus.Location = new System.Drawing.Point(652, 394);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
             this.btnHapus.TabIndex = 18;
@@ -71,7 +71,7 @@ namespace bimbel
             // btnRefresh
             // 
             this.btnRefresh.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Location = new System.Drawing.Point(357, 394);
+            this.btnRefresh.Location = new System.Drawing.Point(364, 394);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(90, 44);
             this.btnRefresh.TabIndex = 17;
@@ -82,7 +82,7 @@ namespace bimbel
             // btnEdit
             // 
             this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Location = new System.Drawing.Point(453, 394);
+            this.btnEdit.Location = new System.Drawing.Point(460, 394);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);
             this.btnEdit.TabIndex = 16;

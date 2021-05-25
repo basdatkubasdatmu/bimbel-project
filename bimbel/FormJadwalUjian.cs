@@ -27,5 +27,10 @@ namespace bimbel
             dgvJadwalUjian.AutoGenerateColumns = false;
             dgvJadwalUjian.DataSource = dtacc.getAllUjian();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
