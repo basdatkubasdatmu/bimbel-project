@@ -474,7 +474,7 @@ namespace bimbel
 
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into ruangzoom(kodezoom, link, meetingid, passcode) values('" + kodeZoom + "', '" + link + "', '" + idMeeting + "', '" + passcode +"');";
+            cmd.CommandText = "insert into ruangzoom(kodezoom, link, meetingid, passcode) values('" + kodeZoom + "', '" + link + "', '" + idMeeting + "', '" + passcode + "');";
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
@@ -1206,8 +1206,6 @@ namespace bimbel
 
         }
 
-
-=======
         public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -1217,7 +1215,7 @@ namespace bimbel
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
             cmd.CommandText = string.Format(@"update pembayaran set nosiswa = '{0}', kodekelas = '{1}', tanggalpembayaran = '{2}',
-                                status = '{3}' where kodepembayaran = '" +kodepembayaran+ "';",nosiswa, kodekelas, tanggalpembayaran, status);
+                                status = '{3}' where kodepembayaran = '" + kodepembayaran + "';", nosiswa, kodekelas, tanggalpembayaran, status);
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
@@ -1225,10 +1223,7 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
-<<<<<<< HEAD
-=======
 
->>>>>>> 6f37bfe48afca39be443d9a006c1bcdbe3f0c340
         public void hapusDataJadwalPengajar(string kodejadwalpengajar)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -1425,7 +1420,6 @@ namespace bimbel
             cmd.Dispose();
             conn.Close();
         }
->>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
     }
 
 }
