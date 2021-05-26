@@ -58,5 +58,16 @@ namespace bimbel
         {
             this.Close();
         }
+
+        private void btnSimpan_MouseHover(object sender, EventArgs e)
+        {
+            this.txtKodeUjian.BackColor = Color.AliceBlue;
+            this.txtNamaUjian.BackColor = Color.AliceBlue;
+            this.txtKodePelajaran.BackColor = Color.AliceBlue;
+            this.maskedTextBox1.BackColor = Color.AliceBlue;
+            this.txtJamMulai.BackColor = Color.AliceBlue;
+            this.maskedTextBox2.BackColor = Color.AliceBlue;
+
+        }
     }
 }

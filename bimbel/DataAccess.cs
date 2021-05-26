@@ -1260,23 +1260,7 @@ namespace bimbel
 
         }
 
-        public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status)
-        {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
-
-            conn.Open();
-
-            NpgsqlCommand cmd = new NpgsqlCommand();
-            cmd.Connection = conn;
-            cmd.CommandText = string.Format(@"update pembayaran set nosiswa = '{0}', kodekelas = '{1}', tanggalpembayaran = '{2}',
-                                status = '{3}' where kodepembayaran = '" + kodepembayaran + "';", nosiswa, kodekelas, tanggalpembayaran, status);
-            cmd.CommandType = CommandType.Text;
-
-            cmd.ExecuteNonQuery();
-
-            cmd.Dispose();
-            conn.Close();
-        }
+      
 
 
         public void hapusDataJadwalPengajar(string kodejadwalpengajar)

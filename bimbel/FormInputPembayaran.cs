@@ -35,16 +35,11 @@ namespace bimbel
 
         }
 
-<<<<<<< HEAD
         private void textNamaSiswa_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void textNoSiswa_TextChanged(object sender, EventArgs e)
-        {
-            
-=======
         private void textNoSiswa_TextChanged(object sender, EventArgs e)
         {
             if (textNoSiswa.Text != "")
@@ -57,7 +52,20 @@ namespace bimbel
                     textNamaSiswa.Text = dt.Rows[0]["namaSiswa"].ToString();
                 }
             }
->>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
+        }
+
+
+    
+
+        private void btnSimpan_MouseHover(object sender, EventArgs e)
+        {
+            this.txtKodeBayar.BackColor = Color.AliceBlue;
+            this.textNoSiswa.BackColor = Color.AliceBlue;
+            this.textNamaSiswa.BackColor = Color.AliceBlue;
+            this.txtKodeKelas.BackColor = Color.AliceBlue;
+            this.txtStatus.BackColor = Color.AliceBlue;
+            this.txtJumlahBayar.BackColor = Color.AliceBlue;
+
         }
     }
 }
