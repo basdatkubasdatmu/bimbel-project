@@ -32,16 +32,16 @@ namespace bimbel
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btHapusPegawai = new System.Windows.Forms.Button();
-            this.btEditPegawai = new System.Windows.Forms.Button();
-            this.btTambahPegawai = new System.Windows.Forms.Button();
-            this.btRefreshPegawai = new System.Windows.Forms.Button();
             this.kodePembayaran = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.noSiswa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.kodeKelas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tanggalPembayaran = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.jumlahPembayaran = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btHapusPegawai = new System.Windows.Forms.Button();
+            this.btEditPegawai = new System.Windows.Forms.Button();
+            this.btTambahPegawai = new System.Windows.Forms.Button();
+            this.btRefreshPegawai = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,9 +49,9 @@ namespace bimbel
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(10, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 37);
+            this.label1.Size = new System.Drawing.Size(141, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Pembayaran";
             // 
@@ -73,56 +73,13 @@ namespace bimbel
             this.tanggalPembayaran,
             this.status,
             this.jumlahPembayaran});
-            this.dataGridView1.Location = new System.Drawing.Point(13, 68);
+            this.dataGridView1.Location = new System.Drawing.Point(10, 56);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(875, 370);
+            this.dataGridView1.Size = new System.Drawing.Size(766, 278);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // btHapusPegawai
-            // 
-            this.btHapusPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btHapusPegawai.Location = new System.Drawing.Point(784, 468);
-            this.btHapusPegawai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btHapusPegawai.Name = "btHapusPegawai";
-            this.btHapusPegawai.Size = new System.Drawing.Size(103, 44);
-            this.btHapusPegawai.TabIndex = 62;
-            this.btHapusPegawai.Text = "HAPUS";
-            this.btHapusPegawai.UseVisualStyleBackColor = true;
-            // 
-            // btEditPegawai
-            // 
-            this.btEditPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btEditPegawai.Location = new System.Drawing.Point(564, 468);
-            this.btEditPegawai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btEditPegawai.Name = "btEditPegawai";
-            this.btEditPegawai.Size = new System.Drawing.Size(103, 44);
-            this.btEditPegawai.TabIndex = 61;
-            this.btEditPegawai.Text = "EDIT";
-            this.btEditPegawai.UseVisualStyleBackColor = true;
-            // 
-            // btTambahPegawai
-            // 
-            this.btTambahPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btTambahPegawai.Location = new System.Drawing.Point(674, 468);
-            this.btTambahPegawai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btTambahPegawai.Name = "btTambahPegawai";
-            this.btTambahPegawai.Size = new System.Drawing.Size(103, 44);
-            this.btTambahPegawai.TabIndex = 60;
-            this.btTambahPegawai.Text = "TAMBAH";
-            this.btTambahPegawai.UseVisualStyleBackColor = true;
-            // 
-            // btRefreshPegawai
-            // 
-            this.btRefreshPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btRefreshPegawai.Location = new System.Drawing.Point(455, 468);
-            this.btRefreshPegawai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btRefreshPegawai.Name = "btRefreshPegawai";
-            this.btRefreshPegawai.Size = new System.Drawing.Size(103, 44);
-            this.btRefreshPegawai.TabIndex = 59;
-            this.btRefreshPegawai.Text = "REFRESH";
-            this.btRefreshPegawai.UseVisualStyleBackColor = true;
             // 
             // kodePembayaran
             // 
@@ -172,17 +129,58 @@ namespace bimbel
             this.jumlahPembayaran.Name = "jumlahPembayaran";
             this.jumlahPembayaran.Width = 125;
             // 
+            // btHapusPegawai
+            // 
+            this.btHapusPegawai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btHapusPegawai.Location = new System.Drawing.Point(686, 351);
+            this.btHapusPegawai.Name = "btHapusPegawai";
+            this.btHapusPegawai.Size = new System.Drawing.Size(90, 33);
+            this.btHapusPegawai.TabIndex = 62;
+            this.btHapusPegawai.Text = "HAPUS";
+            this.btHapusPegawai.UseVisualStyleBackColor = true;
+            // 
+            // btEditPegawai
+            // 
+            this.btEditPegawai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btEditPegawai.Location = new System.Drawing.Point(494, 351);
+            this.btEditPegawai.Name = "btEditPegawai";
+            this.btEditPegawai.Size = new System.Drawing.Size(90, 33);
+            this.btEditPegawai.TabIndex = 61;
+            this.btEditPegawai.Text = "EDIT";
+            this.btEditPegawai.UseVisualStyleBackColor = true;
+            // 
+            // btTambahPegawai
+            // 
+            this.btTambahPegawai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btTambahPegawai.Location = new System.Drawing.Point(590, 351);
+            this.btTambahPegawai.Name = "btTambahPegawai";
+            this.btTambahPegawai.Size = new System.Drawing.Size(90, 33);
+            this.btTambahPegawai.TabIndex = 60;
+            this.btTambahPegawai.Text = "TAMBAH";
+            this.btTambahPegawai.UseVisualStyleBackColor = true;
+            // 
+            // btRefreshPegawai
+            // 
+            this.btRefreshPegawai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btRefreshPegawai.Location = new System.Drawing.Point(398, 351);
+            this.btRefreshPegawai.Name = "btRefreshPegawai";
+            this.btRefreshPegawai.Size = new System.Drawing.Size(90, 33);
+            this.btRefreshPegawai.TabIndex = 59;
+            this.btRefreshPegawai.Text = "REFRESH";
+            this.btRefreshPegawai.UseVisualStyleBackColor = true;
+            // 
             // FormPembayaran
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(912, 533);
+            this.ClientSize = new System.Drawing.Size(798, 400);
             this.Controls.Add(this.btHapusPegawai);
             this.Controls.Add(this.btEditPegawai);
             this.Controls.Add(this.btTambahPegawai);
             this.Controls.Add(this.btRefreshPegawai);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormPembayaran";
             this.Text = "Pembayaran";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -1,18 +1,18 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "oQmENfgZFYxPHvvavrLIANJtcjclyAgpokoEPfy/h9EalaZMAtDhBV8kYvDO7PurOdJ9ulSOkf5YCXY8Gcq/Mw==",
+  "dgSpecHash": "h9GonvYPi/bH2n4l0KzOOMkQepK+jz3PP/gt+/wFjh7maREjx4WBrKEzcXp8R4ZwlmC+EDKs6VRRGS8oRGDyWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
+  "projectFilePath": "E:\\basdat\\bimbel-project\\bimbel\\bimbel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Asus\\.nuget\\packages\\npgsql\\5.0.5\\npgsql.5.0.5.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    "C:\\Users\\Hp\\.nuget\\packages\\npgsql\\5.0.5\\npgsql.5.0.5.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
-=======
-  "dgSpecHash": "q5CdhW+L5C7q9QBysfQTzwjgMR4aQEdSbTKWTVTsb+uBjMst1+foGtmPrIz78U4cU27yY6ewz9e7nw9RIvmgIg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Documents\\GitHub\\bimbel-project\\bimbel\\bimbel.csproj",
-  "expectedPackageFiles": [],
->>>>>>> Stashed changes
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\basdat\\bimbel-project\\bimbel\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
