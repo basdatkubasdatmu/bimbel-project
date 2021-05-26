@@ -47,5 +47,17 @@ namespace bimbel
                 MessageBox.Show("Data " + Selectedkodejadwalsiswa + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dgvJadwalSiswa.SelectedRows.Count > 0)
+            {
+                string selectedkodejadwalsiswa = dgvJadwalSiswa.SelectedRows[0].Cells[0].Value.ToString();
+                FormInputJadwalSiswa frm = new FormInputJadwalSiswa();
+                frm.isEditJadwalSiswa = true;
+                frm.kodejadwalsiswa = selectedkodejadwalsiswa;
+                frm.Show();
+            }
+        }
     }
 }

@@ -44,11 +44,8 @@ namespace bimbel
             {
                 InputNilai.Text = "Edit Nilai";
                 txtKodeUjian.ReadOnly = true;
-<<<<<<< HEAD
-                DataTable dt = da.getDataNilaiByID(kodeujian);
-=======
-                DataTable dt = da.getSiswaByID(nosiswa);
->>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
+                DataTable dt = da.getDataNilaiByID(nosiswa);
+               
 
                 txtKodeUjian.Text = dt.Rows[0]["kodeujian"].ToString();
                 txtNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();

@@ -50,28 +50,19 @@ namespace bimbel
             // 
             // button3
             // 
-<<<<<<< HEAD
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(608, 361);
-=======
             this.button3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.Location = new System.Drawing.Point(617, 358);
->>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 44);
             this.button3.TabIndex = 11;
             this.button3.Text = "TAMBAH";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-<<<<<<< HEAD
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(704, 361);
-=======
             this.button4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.Location = new System.Drawing.Point(713, 358);
->>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(90, 44);
             this.button4.TabIndex = 10;
@@ -81,13 +72,8 @@ namespace bimbel
             // 
             // button2
             // 
-<<<<<<< HEAD
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(395, 361);
-=======
             this.button2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.Location = new System.Drawing.Point(425, 358);
->>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(111, 44);
             this.button2.TabIndex = 9;
@@ -97,13 +83,8 @@ namespace bimbel
             // 
             // button1
             // 
-<<<<<<< HEAD
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(512, 361);
-=======
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(521, 358);
->>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 44);
             this.button1.TabIndex = 8;

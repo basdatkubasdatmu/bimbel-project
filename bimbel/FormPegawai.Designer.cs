@@ -58,6 +58,7 @@ namespace bimbel
             this.btEditPegawai.TabIndex = 57;
             this.btEditPegawai.Text = "EDIT";
             this.btEditPegawai.UseVisualStyleBackColor = true;
+            this.btEditPegawai.Click += new System.EventHandler(this.btEditPegawai_Click);
             // 
             // btTambahPegawai
             // 

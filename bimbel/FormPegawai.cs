@@ -47,5 +47,17 @@ namespace bimbel
                 MessageBox.Show("Data " + Selectednopegawai + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btEditPegawai_Click(object sender, EventArgs e)
+        {
+            if (dgvPegawai.SelectedRows.Count > 0)
+            {
+                string selectednopegawai = dgvPegawai.SelectedRows[0].Cells[0].Value.ToString();
+                FormInputPegawai frm = new FormInputPegawai();
+                frm.isEditPegawai = true;
+                frm.noPegawai = selectednopegawai;
+                frm.Show();
+            }
+        }
     }
 }
