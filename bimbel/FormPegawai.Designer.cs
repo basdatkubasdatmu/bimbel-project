@@ -40,60 +40,66 @@ namespace bimbel
             // 
             // btHapusPegawai
             // 
-            this.btHapusPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btHapusPegawai.BackColor = System.Drawing.SystemColors.Info;
+            this.btHapusPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btHapusPegawai.Location = new System.Drawing.Point(698, 332);
             this.btHapusPegawai.Name = "btHapusPegawai";
             this.btHapusPegawai.Size = new System.Drawing.Size(90, 44);
             this.btHapusPegawai.TabIndex = 58;
             this.btHapusPegawai.Text = "HAPUS";
-            this.btHapusPegawai.UseVisualStyleBackColor = true;
+            this.btHapusPegawai.UseVisualStyleBackColor = false;
             this.btHapusPegawai.Click += new System.EventHandler(this.btHapusPegawai_Click);
             // 
             // btEditPegawai
             // 
-            this.btEditPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btEditPegawai.BackColor = System.Drawing.SystemColors.Info;
+            this.btEditPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btEditPegawai.Location = new System.Drawing.Point(506, 332);
             this.btEditPegawai.Name = "btEditPegawai";
             this.btEditPegawai.Size = new System.Drawing.Size(90, 44);
             this.btEditPegawai.TabIndex = 57;
             this.btEditPegawai.Text = "EDIT";
-            this.btEditPegawai.UseVisualStyleBackColor = true;
+            this.btEditPegawai.UseVisualStyleBackColor = false;
             this.btEditPegawai.Click += new System.EventHandler(this.btEditPegawai_Click);
             // 
             // btTambahPegawai
             // 
-            this.btTambahPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btTambahPegawai.BackColor = System.Drawing.SystemColors.Info;
+            this.btTambahPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btTambahPegawai.Location = new System.Drawing.Point(602, 332);
             this.btTambahPegawai.Name = "btTambahPegawai";
             this.btTambahPegawai.Size = new System.Drawing.Size(90, 44);
             this.btTambahPegawai.TabIndex = 56;
             this.btTambahPegawai.Text = "TAMBAH";
-            this.btTambahPegawai.UseVisualStyleBackColor = true;
+            this.btTambahPegawai.UseVisualStyleBackColor = false;
             this.btTambahPegawai.Click += new System.EventHandler(this.btTambahPegawai_Click);
             // 
             // btRefreshPegawai
             // 
-            this.btRefreshPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btRefreshPegawai.BackColor = System.Drawing.SystemColors.Info;
+            this.btRefreshPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btRefreshPegawai.Location = new System.Drawing.Point(410, 332);
             this.btRefreshPegawai.Name = "btRefreshPegawai";
             this.btRefreshPegawai.Size = new System.Drawing.Size(90, 44);
             this.btRefreshPegawai.TabIndex = 55;
             this.btRefreshPegawai.Text = "REFRESH";
-            this.btRefreshPegawai.UseVisualStyleBackColor = true;
+            this.btRefreshPegawai.UseVisualStyleBackColor = false;
             this.btRefreshPegawai.Click += new System.EventHandler(this.btRefreshPegawai_Click);
             // 
             // lbJudulDataPegawai
             // 
             this.lbJudulDataPegawai.AutoSize = true;
-            this.lbJudulDataPegawai.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbJudulDataPegawai.Font = new System.Drawing.Font("Candara", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbJudulDataPegawai.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.lbJudulDataPegawai.Location = new System.Drawing.Point(12, 9);
             this.lbJudulDataPegawai.Name = "lbJudulDataPegawai";
-            this.lbJudulDataPegawai.Size = new System.Drawing.Size(102, 31);
+            this.lbJudulDataPegawai.Size = new System.Drawing.Size(113, 33);
             this.lbJudulDataPegawai.TabIndex = 54;
             this.lbJudulDataPegawai.Text = "Pegawai";
             // 
             // dgvPegawai
             // 
+            this.dgvPegawai.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dgvPegawai.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPegawai.Location = new System.Drawing.Point(12, 43);
             this.dgvPegawai.Name = "dgvPegawai";
@@ -105,6 +111,7 @@ namespace bimbel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(800, 388);
             this.Controls.Add(this.btHapusPegawai);
             this.Controls.Add(this.btEditPegawai);
@@ -112,7 +119,9 @@ namespace bimbel
             this.Controls.Add(this.btRefreshPegawai);
             this.Controls.Add(this.lbJudulDataPegawai);
             this.Controls.Add(this.dgvPegawai);
+            this.MaximizeBox = false;
             this.Name = "FormPegawai";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form Pegawai";
             this.Load += new System.EventHandler(this.FormPegawai_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPegawai)).EndInit();

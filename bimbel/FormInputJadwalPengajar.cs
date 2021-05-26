@@ -58,5 +58,10 @@ namespace bimbel
         {
             this.Close();
         }
+
+        private void lblKodeJadwalPengajar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

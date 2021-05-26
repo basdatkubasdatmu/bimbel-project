@@ -34,5 +34,15 @@ namespace bimbel
         {
 
         }
+
+        private void textNamaSiswa_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void textNoSiswa_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
