@@ -29,6 +29,7 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvJadwalSiswa = new System.Windows.Forms.DataGridView();
             this.btnTambah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
@@ -43,7 +44,17 @@ namespace bimbel
             // 
             // dgvJadwalSiswa
             // 
+            this.dgvJadwalSiswa.AllowUserToAddRows = false;
+            this.dgvJadwalSiswa.AllowUserToDeleteRows = false;
             this.dgvJadwalSiswa.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvJadwalSiswa.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvJadwalSiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvJadwalSiswa.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.kodeJadwalSiswa,
@@ -116,9 +127,11 @@ namespace bimbel
             // 
             // kodeJadwalSiswa
             // 
+            this.kodeJadwalSiswa.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.kodeJadwalSiswa.DataPropertyName = "kodeJadwalSiswa";
             this.kodeJadwalSiswa.HeaderText = "Kode Jadwal Siswa";
             this.kodeJadwalSiswa.Name = "kodeJadwalSiswa";
+            this.kodeJadwalSiswa.Width = 147;
             // 
             // namaSiswa
             // 
@@ -128,9 +141,11 @@ namespace bimbel
             // 
             // kodeJadwalPengajar
             // 
+            this.kodeJadwalPengajar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.kodeJadwalPengajar.DataPropertyName = "kodeJadwalPengajar";
             this.kodeJadwalPengajar.HeaderText = "Kode Jadwal Pengajar";
             this.kodeJadwalPengajar.Name = "kodeJadwalPengajar";
+            this.kodeJadwalPengajar.Width = 167;
             // 
             // FormJadwalSiswa
             // 

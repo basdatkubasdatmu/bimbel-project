@@ -29,12 +29,15 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvMatpel = new System.Windows.Forms.DataGridView();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.btRefresh = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.kodePelajaran = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pelajaran = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMatpel)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,11 +55,22 @@ namespace bimbel
             // dgvMatpel
             // 
             this.dgvMatpel.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvMatpel.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvMatpel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMatpel.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.kodePelajaran,
+            this.pelajaran});
             this.dgvMatpel.Location = new System.Drawing.Point(17, 43);
             this.dgvMatpel.Name = "dgvMatpel";
             this.dgvMatpel.RowTemplate.Height = 25;
-            this.dgvMatpel.Size = new System.Drawing.Size(510, 283);
+            this.dgvMatpel.Size = new System.Drawing.Size(493, 283);
             this.dgvMatpel.TabIndex = 1;
             // 
             // button3
@@ -107,6 +121,16 @@ namespace bimbel
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // kodePelajaran
+            // 
+            this.kodePelajaran.HeaderText = "Kode Pelajaran";
+            this.kodePelajaran.Name = "kodePelajaran";
+            // 
+            // pelajaran
+            // 
+            this.pelajaran.HeaderText = "Pelajaran";
+            this.pelajaran.Name = "pelajaran";
+            // 
             // FormMatPel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -139,5 +163,7 @@ namespace bimbel
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button btRefresh;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodePelajaran;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pelajaran;
     }
 }
