@@ -93,7 +93,7 @@ namespace bimbel
 
         private void kasir_Click(object sender, System.EventArgs e)
         {
-            FormInputPembayaran frmbayar = new FormInputPembayaran();
+            FormPembayaran frmbayar = new FormPembayaran();
             frmbayar.MdiParent = this;
             frmbayar.Show();
         }
