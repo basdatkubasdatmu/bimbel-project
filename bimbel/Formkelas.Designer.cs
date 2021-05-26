@@ -35,6 +35,11 @@ namespace bimbel
             this.btRefreshKelas = new System.Windows.Forms.Button();
             this.lbJudulDataKelas = new System.Windows.Forms.Label();
             this.dgvKelas = new System.Windows.Forms.DataGridView();
+            this.kodeKelas = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nama = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.biaya = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kuota = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fasilitas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKelas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,11 +106,42 @@ namespace bimbel
             // 
             this.dgvKelas.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dgvKelas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvKelas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.kodeKelas,
+            this.nama,
+            this.biaya,
+            this.kuota,
+            this.fasilitas});
             this.dgvKelas.Location = new System.Drawing.Point(19, 46);
             this.dgvKelas.Name = "dgvKelas";
             this.dgvKelas.RowTemplate.Height = 25;
             this.dgvKelas.Size = new System.Drawing.Size(720, 278);
             this.dgvKelas.TabIndex = 47;
+            // 
+            // kodeKelas
+            // 
+            this.kodeKelas.HeaderText = "Kode Kelas";
+            this.kodeKelas.Name = "kodeKelas";
+            // 
+            // nama
+            // 
+            this.nama.HeaderText = "Nama";
+            this.nama.Name = "nama";
+            // 
+            // biaya
+            // 
+            this.biaya.HeaderText = "Biaya";
+            this.biaya.Name = "biaya";
+            // 
+            // kuota
+            // 
+            this.kuota.HeaderText = "Kuota";
+            this.kuota.Name = "kuota";
+            // 
+            // fasilitas
+            // 
+            this.fasilitas.HeaderText = "Fasilitas";
+            this.fasilitas.Name = "fasilitas";
             // 
             // FormKelas
             // 
@@ -138,5 +174,10 @@ namespace bimbel
         private System.Windows.Forms.Button btRefreshKelas;
         private System.Windows.Forms.Label lbJudulDataKelas;
         private System.Windows.Forms.DataGridView dgvKelas;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodeKelas;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nama;
+        private System.Windows.Forms.DataGridViewTextBoxColumn biaya;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kuota;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fasilitas;
     }
 }
