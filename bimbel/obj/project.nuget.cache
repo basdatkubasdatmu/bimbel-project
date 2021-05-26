@@ -1,18 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6J912nBUCNeEhMlimFJw2cVWc0iUfuBoctwXcYJ7JtHs5eb35cvFEFspxKy3y6p+yvB+XRzhs6ozegnQ5aUi3g==",
+  "dgSpecHash": "a4I8dZFETvYXKTSc6nOdVXO7irH5JGm2oknzdVfhUYH2arLI5J/gITlSWej1xbuZ2Czd0U7spLo0D8O8B5VxIA==",
   "success": true,
-  "projectFilePath": "C:\\BASDATKU\\bimbel-project\\bimbel\\bimbel.csproj",
+  "projectFilePath": "E:\\New\\Bimbel new\\bimbel\\bimbel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\HP\\.nuget\\packages\\npgsql\\5.0.5\\npgsql.5.0.5.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    "C:\\Users\\ASUS\\.nuget\\packages\\npgsql\\5.0.5\\npgsql.5.0.5.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\BASDATKU\\bimbel-project\\bimbel\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
