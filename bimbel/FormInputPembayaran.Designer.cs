@@ -50,7 +50,11 @@ namespace bimbel
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(33, 61);
+=======
+            this.label1.Location = new System.Drawing.Point(20, 60);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 19);
             this.label1.TabIndex = 0;
@@ -60,12 +64,60 @@ namespace bimbel
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(33, 101);
+=======
+            this.label2.Location = new System.Drawing.Point(20, 88);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nomor Siswa";
             // 
+<<<<<<< HEAD
+=======
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(20, 117);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(90, 19);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Nama Siswa";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(20, 146);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(83, 19);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Kode Kelas";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(20, 202);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(100, 19);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Jumlah Bayar";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(20, 174);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 19);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Status";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             // txtKodeBayar
             // 
             this.txtKodeBayar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -78,7 +130,11 @@ namespace bimbel
             // txtStatus
             // 
             this.txtStatus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.txtStatus.Location = new System.Drawing.Point(146, 222);
+=======
+            this.txtStatus.Location = new System.Drawing.Point(146, 172);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.txtStatus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtStatus.Name = "txtStatus";
             this.txtStatus.Size = new System.Drawing.Size(316, 27);
@@ -87,7 +143,11 @@ namespace bimbel
             // txtKodeKelas
             // 
             this.txtKodeKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.txtKodeKelas.Location = new System.Drawing.Point(146, 180);
+=======
+            this.txtKodeKelas.Location = new System.Drawing.Point(146, 143);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.txtKodeKelas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtKodeKelas.Name = "txtKodeKelas";
             this.txtKodeKelas.Size = new System.Drawing.Size(316, 27);
@@ -96,7 +156,11 @@ namespace bimbel
             // textNoSiswa
             // 
             this.textNoSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.textNoSiswa.Location = new System.Drawing.Point(146, 98);
+=======
+            this.textNoSiswa.Location = new System.Drawing.Point(146, 86);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.textNoSiswa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textNoSiswa.Name = "textNoSiswa";
             this.textNoSiswa.Size = new System.Drawing.Size(316, 27);
@@ -106,7 +170,11 @@ namespace bimbel
             // txtJumlahBayar
             // 
             this.txtJumlahBayar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.txtJumlahBayar.Location = new System.Drawing.Point(146, 263);
+=======
+            this.txtJumlahBayar.Location = new System.Drawing.Point(146, 200);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.txtJumlahBayar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtJumlahBayar.Name = "txtJumlahBayar";
             this.txtJumlahBayar.Size = new System.Drawing.Size(316, 27);
@@ -126,10 +194,17 @@ namespace bimbel
             // 
             this.btnSimpan.BackColor = System.Drawing.SystemColors.Info;
             this.btnSimpan.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.btnSimpan.Location = new System.Drawing.Point(279, 299);
             this.btnSimpan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(88, 41);
+=======
+            this.btnSimpan.Location = new System.Drawing.Point(254, 242);
+            this.btnSimpan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSimpan.Name = "btnSimpan";
+            this.btnSimpan.Size = new System.Drawing.Size(101, 25);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.btnSimpan.TabIndex = 13;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = false;
@@ -138,10 +213,17 @@ namespace bimbel
             // 
             this.btnBatal.BackColor = System.Drawing.SystemColors.Info;
             this.btnBatal.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.btnBatal.Location = new System.Drawing.Point(373, 299);
             this.btnBatal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBatal.Name = "btnBatal";
             this.btnBatal.Size = new System.Drawing.Size(89, 41);
+=======
+            this.btnBatal.Location = new System.Drawing.Point(360, 242);
+            this.btnBatal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBatal.Name = "btnBatal";
+            this.btnBatal.Size = new System.Drawing.Size(102, 25);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.btnBatal.TabIndex = 14;
             this.btnBatal.Text = "BATAL";
             this.btnBatal.UseVisualStyleBackColor = false;
@@ -150,7 +232,11 @@ namespace bimbel
             // textNamaSiswa
             // 
             this.textNamaSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.textNamaSiswa.Location = new System.Drawing.Point(146, 138);
+=======
+            this.textNamaSiswa.Location = new System.Drawing.Point(146, 115);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.textNamaSiswa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textNamaSiswa.Name = "textNamaSiswa";
             this.textNamaSiswa.ReadOnly = true;
@@ -202,12 +288,16 @@ namespace bimbel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(486, 351);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+=======
+            this.ClientSize = new System.Drawing.Size(500, 294);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.Controls.Add(this.btnBatal);
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.label7);

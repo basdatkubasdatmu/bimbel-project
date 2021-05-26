@@ -35,6 +35,7 @@ namespace bimbel
 
         }
 
+<<<<<<< HEAD
         private void textNamaSiswa_TextChanged(object sender, EventArgs e)
         {
             
@@ -43,6 +44,20 @@ namespace bimbel
         private void textNoSiswa_TextChanged(object sender, EventArgs e)
         {
             
+=======
+        private void textNoSiswa_TextChanged(object sender, EventArgs e)
+        {
+            if (textNoSiswa.Text != "")
+            {
+                DataAccess da = new DataAccess();
+                DataTable dt = da.getAllSiswa();
+
+                if (dt.Rows.Count > 0)
+                {
+                    textNamaSiswa.Text = dt.Rows[0]["namaSiswa"].ToString();
+                }
+            }
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
         }
     }
 }

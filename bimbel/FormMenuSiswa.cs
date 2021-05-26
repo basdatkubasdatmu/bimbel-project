@@ -93,9 +93,9 @@ namespace bimbel
 
         private void kasir_Click(object sender, System.EventArgs e)
         {
-            FormRuangZoom frmzoom = new FormRuangZoom();
-            frmzoom.MdiParent = this;
-            frmzoom.Show();
+            FormInputPembayaran frmbayar = new FormInputPembayaran();
+            frmbayar.MdiParent = this;
+            frmbayar.Show();
         }
 
         private void FormMenu_Load(object sender, EventArgs e)
