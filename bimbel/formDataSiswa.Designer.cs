@@ -40,79 +40,95 @@ namespace bimbel
             // 
             // dgvSiswa
             // 
+            this.dgvSiswa.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dgvSiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSiswa.Location = new System.Drawing.Point(16, 49);
+            this.dgvSiswa.Location = new System.Drawing.Point(21, 48);
+            this.dgvSiswa.Margin = new System.Windows.Forms.Padding(4);
             this.dgvSiswa.Name = "dgvSiswa";
             this.dgvSiswa.RowTemplate.Height = 25;
-            this.dgvSiswa.Size = new System.Drawing.Size(682, 306);
+            this.dgvSiswa.Size = new System.Drawing.Size(671, 334);
             this.dgvSiswa.TabIndex = 0;
             // 
             // lblDatasiswa
             // 
             this.lblDatasiswa.AutoSize = true;
-            this.lblDatasiswa.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDatasiswa.Location = new System.Drawing.Point(12, 9);
+            this.lblDatasiswa.Font = new System.Drawing.Font("Candara", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDatasiswa.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.lblDatasiswa.Location = new System.Drawing.Point(15, 11);
+            this.lblDatasiswa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDatasiswa.Name = "lblDatasiswa";
-            this.lblDatasiswa.Size = new System.Drawing.Size(92, 31);
+            this.lblDatasiswa.Size = new System.Drawing.Size(81, 33);
             this.lblDatasiswa.TabIndex = 1;
             this.lblDatasiswa.Text = "Siswa";
             // 
             // btnTambah
             // 
-            this.btnTambah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTambah.Location = new System.Drawing.Point(512, 361);
+            this.btnTambah.BackColor = System.Drawing.SystemColors.Info;
+            this.btnTambah.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTambah.Location = new System.Drawing.Point(520, 390);
+            this.btnTambah.Margin = new System.Windows.Forms.Padding(4);
             this.btnTambah.Name = "btnTambah";
-            this.btnTambah.Size = new System.Drawing.Size(90, 44);
+            this.btnTambah.Size = new System.Drawing.Size(82, 43);
             this.btnTambah.TabIndex = 15;
             this.btnTambah.Text = "TAMBAH";
-            this.btnTambah.UseVisualStyleBackColor = true;
+            this.btnTambah.UseVisualStyleBackColor = false;
             this.btnTambah.Click += new System.EventHandler(this.btnTambah_Click);
             // 
             // btnHapus
             // 
-            this.btnHapus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHapus.Location = new System.Drawing.Point(608, 361);
+            this.btnHapus.BackColor = System.Drawing.SystemColors.Info;
+            this.btnHapus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnHapus.Location = new System.Drawing.Point(610, 390);
+            this.btnHapus.Margin = new System.Windows.Forms.Padding(4);
             this.btnHapus.Name = "btnHapus";
-            this.btnHapus.Size = new System.Drawing.Size(90, 44);
+            this.btnHapus.Size = new System.Drawing.Size(82, 43);
             this.btnHapus.TabIndex = 14;
             this.btnHapus.Text = "HAPUS";
-            this.btnHapus.UseVisualStyleBackColor = true;
+            this.btnHapus.UseVisualStyleBackColor = false;
             this.btnHapus.Click += new System.EventHandler(this.btnHapus_Click);
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Location = new System.Drawing.Point(306, 361);
+            this.btnRefresh.BackColor = System.Drawing.SystemColors.Info;
+            this.btnRefresh.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnRefresh.Location = new System.Drawing.Point(340, 390);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(4);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(104, 44);
+            this.btnRefresh.Size = new System.Drawing.Size(82, 43);
             this.btnRefresh.TabIndex = 13;
             this.btnRefresh.Text = "REFRESH";
-            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.UseVisualStyleBackColor = false;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnEdit
             // 
-            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Location = new System.Drawing.Point(416, 361);
+            this.btnEdit.BackColor = System.Drawing.SystemColors.Info;
+            this.btnEdit.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnEdit.Location = new System.Drawing.Point(430, 390);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(90, 44);
+            this.btnEdit.Size = new System.Drawing.Size(82, 43);
             this.btnEdit.TabIndex = 12;
             this.btnEdit.Text = "EDIT";
-            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // formDatasiswa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(714, 412);
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.ClientSize = new System.Drawing.Size(708, 446);
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.lblDatasiswa);
             this.Controls.Add(this.dgvSiswa);
+            this.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.MaximizeBox = false;
             this.Name = "formDatasiswa";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Siswa";
             this.Load += new System.EventHandler(this.formDatasiswa_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvSiswa)).EndInit();

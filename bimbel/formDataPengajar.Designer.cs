@@ -40,79 +40,88 @@ namespace bimbel
             // 
             // dgvPengajar
             // 
+            this.dgvPengajar.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dgvPengajar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPengajar.Location = new System.Drawing.Point(14, 45);
             this.dgvPengajar.Name = "dgvPengajar";
             this.dgvPengajar.RowTemplate.Height = 25;
-            this.dgvPengajar.Size = new System.Drawing.Size(682, 304);
+            this.dgvPengajar.Size = new System.Drawing.Size(446, 304);
             this.dgvPengajar.TabIndex = 0;
             // 
             // lblDataPengajar
             // 
             this.lblDataPengajar.AutoSize = true;
-            this.lblDataPengajar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDataPengajar.Font = new System.Drawing.Font("Candara", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDataPengajar.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.lblDataPengajar.Location = new System.Drawing.Point(12, 9);
             this.lblDataPengajar.Name = "lblDataPengajar";
-            this.lblDataPengajar.Size = new System.Drawing.Size(130, 31);
+            this.lblDataPengajar.Size = new System.Drawing.Size(117, 33);
             this.lblDataPengajar.TabIndex = 1;
             this.lblDataPengajar.Text = "Pengajar";
             // 
             // btnTambah
             // 
-            this.btnTambah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTambah.Location = new System.Drawing.Point(510, 357);
+            this.btnTambah.BackColor = System.Drawing.SystemColors.Info;
+            this.btnTambah.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTambah.Location = new System.Drawing.Point(288, 355);
             this.btnTambah.Name = "btnTambah";
-            this.btnTambah.Size = new System.Drawing.Size(90, 44);
+            this.btnTambah.Size = new System.Drawing.Size(83, 44);
             this.btnTambah.TabIndex = 11;
             this.btnTambah.Text = "TAMBAH";
-            this.btnTambah.UseVisualStyleBackColor = true;
+            this.btnTambah.UseVisualStyleBackColor = false;
             this.btnTambah.Click += new System.EventHandler(this.btnTambah_Click);
             // 
             // btnHapus
             // 
-            this.btnHapus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHapus.Location = new System.Drawing.Point(606, 357);
+            this.btnHapus.BackColor = System.Drawing.SystemColors.Info;
+            this.btnHapus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnHapus.Location = new System.Drawing.Point(377, 355);
             this.btnHapus.Name = "btnHapus";
-            this.btnHapus.Size = new System.Drawing.Size(90, 44);
+            this.btnHapus.Size = new System.Drawing.Size(83, 44);
             this.btnHapus.TabIndex = 10;
             this.btnHapus.Text = "HAPUS";
-            this.btnHapus.UseVisualStyleBackColor = true;
+            this.btnHapus.UseVisualStyleBackColor = false;
             this.btnHapus.Click += new System.EventHandler(this.btnHapus_Click);
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Location = new System.Drawing.Point(304, 357);
+            this.btnRefresh.BackColor = System.Drawing.SystemColors.Info;
+            this.btnRefresh.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnRefresh.Location = new System.Drawing.Point(111, 355);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(104, 44);
+            this.btnRefresh.Size = new System.Drawing.Size(82, 44);
             this.btnRefresh.TabIndex = 9;
             this.btnRefresh.Text = "REFRESH";
-            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.UseVisualStyleBackColor = false;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnEdit
             // 
-            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Location = new System.Drawing.Point(414, 357);
+            this.btnEdit.BackColor = System.Drawing.SystemColors.Info;
+            this.btnEdit.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnEdit.Location = new System.Drawing.Point(199, 355);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(90, 44);
+            this.btnEdit.Size = new System.Drawing.Size(83, 44);
             this.btnEdit.TabIndex = 8;
             this.btnEdit.Text = "EDIT";
-            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // formDataPengajar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 409);
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.ClientSize = new System.Drawing.Size(474, 409);
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.lblDataPengajar);
             this.Controls.Add(this.dgvPengajar);
+            this.MaximizeBox = false;
             this.Name = "formDataPengajar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pengajar";
             this.Load += new System.EventHandler(this.formDataPengajar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPengajar)).EndInit();

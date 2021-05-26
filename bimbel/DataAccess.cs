@@ -845,6 +845,60 @@ namespace bimbel
             conn.Close();
         }
 
+        public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = string.Format(@"update pembayaran set nosiswa = '{0}', kodekelas = '{1}', tanggalpembayaran = '{2}',
+                                status = '{3}' where kodepembayaran = '" + kodepembayaran + "';", nosiswa, kodekelas, tanggalpembayaran, status);
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public DataTable getPembayaranByID(string kodepembayaran)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection();
+            DataTable dt = new DataTable();
+            try
+            {
+                conn.ConnectionString = strConnString;
+                conn.Open();
+
+                NpgsqlCommand cmd = new NpgsqlCommand();
+                cmd.Connection = conn;
+                cmd.CommandText = "Select * from pembayaran where kodepembayaran = '" + kodepembayaran + "';";
+                cmd.CommandType = CommandType.Text;
+
+                NpgsqlDataAdapter da = new NpgsqlDataAdapter(cmd);
+                DataSet ds = new DataSet();
+
+                ds.Reset();
+                da.Fill(ds);
+                dt = ds.Tables[0];
+
+                cmd.Dispose();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Data gagal dibaca:" + ex.Message.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return dt;
+
+        }
+
         public DataTable getJadwalPengajarByID(string kodejadwalpengajar)
         {
             NpgsqlConnection conn = new NpgsqlConnection();
@@ -1206,6 +1260,8 @@ namespace bimbel
 
         }
 
+<<<<<<< HEAD
+=======
         public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -1224,6 +1280,7 @@ namespace bimbel
             conn.Close();
         }
 
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
         public void hapusDataJadwalPengajar(string kodejadwalpengajar)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -1421,7 +1478,6 @@ namespace bimbel
             conn.Close();
         }
     }
-
 }
 
 

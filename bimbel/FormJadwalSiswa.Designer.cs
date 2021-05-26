@@ -40,64 +40,70 @@ namespace bimbel
             // 
             // dgvJadwalSiswa
             // 
+            this.dgvJadwalSiswa.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dgvJadwalSiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvJadwalSiswa.Location = new System.Drawing.Point(18, 43);
+            this.dgvJadwalSiswa.Location = new System.Drawing.Point(18, 46);
             this.dgvJadwalSiswa.Name = "dgvJadwalSiswa";
             this.dgvJadwalSiswa.RowTemplate.Height = 25;
-            this.dgvJadwalSiswa.Size = new System.Drawing.Size(717, 345);
+            this.dgvJadwalSiswa.Size = new System.Drawing.Size(507, 324);
             this.dgvJadwalSiswa.TabIndex = 20;
             // 
             // btnTambah
             // 
-            this.btnTambah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTambah.Location = new System.Drawing.Point(549, 394);
+            this.btnTambah.BackColor = System.Drawing.SystemColors.Info;
+            this.btnTambah.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTambah.Location = new System.Drawing.Point(359, 376);
             this.btnTambah.Name = "btnTambah";
-            this.btnTambah.Size = new System.Drawing.Size(90, 44);
+            this.btnTambah.Size = new System.Drawing.Size(80, 44);
             this.btnTambah.TabIndex = 19;
             this.btnTambah.Text = "TAMBAH";
-            this.btnTambah.UseVisualStyleBackColor = true;
+            this.btnTambah.UseVisualStyleBackColor = false;
             this.btnTambah.Click += new System.EventHandler(this.btnTambah_Click);
             // 
             // btnHapus
             // 
-            this.btnHapus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHapus.Location = new System.Drawing.Point(645, 394);
+            this.btnHapus.BackColor = System.Drawing.SystemColors.Info;
+            this.btnHapus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnHapus.Location = new System.Drawing.Point(445, 376);
             this.btnHapus.Name = "btnHapus";
-            this.btnHapus.Size = new System.Drawing.Size(90, 44);
+            this.btnHapus.Size = new System.Drawing.Size(80, 44);
             this.btnHapus.TabIndex = 18;
             this.btnHapus.Text = "HAPUS";
-            this.btnHapus.UseVisualStyleBackColor = true;
+            this.btnHapus.UseVisualStyleBackColor = false;
             this.btnHapus.Click += new System.EventHandler(this.btnHapus_Click);
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Location = new System.Drawing.Point(341, 394);
+            this.btnRefresh.BackColor = System.Drawing.SystemColors.Info;
+            this.btnRefresh.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnRefresh.Location = new System.Drawing.Point(187, 376);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(106, 44);
+            this.btnRefresh.Size = new System.Drawing.Size(80, 44);
             this.btnRefresh.TabIndex = 17;
             this.btnRefresh.Text = "REFRESH";
-            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.UseVisualStyleBackColor = false;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnEdit
             // 
-            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Location = new System.Drawing.Point(453, 394);
+            this.btnEdit.BackColor = System.Drawing.SystemColors.Info;
+            this.btnEdit.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnEdit.Location = new System.Drawing.Point(273, 376);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(90, 44);
+            this.btnEdit.Size = new System.Drawing.Size(80, 44);
             this.btnEdit.TabIndex = 16;
             this.btnEdit.Text = "EDIT";
-            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // lblDaftarJadwalSiswa
             // 
             this.lblDaftarJadwalSiswa.AutoSize = true;
-            this.lblDaftarJadwalSiswa.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDaftarJadwalSiswa.Font = new System.Drawing.Font("Candara", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDaftarJadwalSiswa.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.lblDaftarJadwalSiswa.Location = new System.Drawing.Point(12, 9);
             this.lblDaftarJadwalSiswa.Name = "lblDaftarJadwalSiswa";
-            this.lblDaftarJadwalSiswa.Size = new System.Drawing.Size(280, 31);
+            this.lblDaftarJadwalSiswa.Size = new System.Drawing.Size(246, 33);
             this.lblDaftarJadwalSiswa.TabIndex = 15;
             this.lblDaftarJadwalSiswa.Text = "Daftar Jadwal Siswa";
             // 
@@ -105,14 +111,17 @@ namespace bimbel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(754, 450);
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.ClientSize = new System.Drawing.Size(543, 430);
             this.Controls.Add(this.dgvJadwalSiswa);
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.lblDaftarJadwalSiswa);
+            this.MaximizeBox = false;
             this.Name = "FormJadwalSiswa";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jadwal Siswa";
             this.Load += new System.EventHandler(this.FormJadwalSiswa_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalSiswa)).EndInit();

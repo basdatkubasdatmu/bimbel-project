@@ -45,42 +45,35 @@ namespace bimbel
             // lblInputPresensiSiswa
             // 
             this.lblInputPresensiSiswa.AutoSize = true;
-
-            this.lblInputPresensiSiswa.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblInputPresensiSiswa.Location = new System.Drawing.Point(37, 9);
+            this.lblInputPresensiSiswa.Font = new System.Drawing.Font("Candara", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblInputPresensiSiswa.Location = new System.Drawing.Point(12, 9);
             this.lblInputPresensiSiswa.Name = "lblInputPresensiSiswa";
-            this.lblInputPresensiSiswa.Size = new System.Drawing.Size(223, 29);
-
-            this.lblInputPresensiSiswa.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblInputPresensiSiswa.Location = new System.Drawing.Point(37, 9);
-            this.lblInputPresensiSiswa.Name = "lblInputPresensiSiswa";
-            this.lblInputPresensiSiswa.Size = new System.Drawing.Size(257, 29);
+            this.lblInputPresensiSiswa.Size = new System.Drawing.Size(253, 33);
             this.lblInputPresensiSiswa.TabIndex = 1;
             this.lblInputPresensiSiswa.Text = "Input Presensi Siswa";
             // 
             // btnBatal
             // 
+            this.btnBatal.BackColor = System.Drawing.SystemColors.Info;
             this.btnBatal.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBatal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnBatal.Location = new System.Drawing.Point(136, 300);
             this.btnBatal.Name = "btnBatal";
             this.btnBatal.Size = new System.Drawing.Size(74, 39);
             this.btnBatal.TabIndex = 5;
             this.btnBatal.Text = "BATAL";
-            this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.UseVisualStyleBackColor = false;
             this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // btnSimpan
             // 
+            this.btnSimpan.BackColor = System.Drawing.SystemColors.Info;
             this.btnSimpan.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSimpan.Location = new System.Drawing.Point(225, 300);
-            this.btnSimpan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnSimpan.Location = new System.Drawing.Point(216, 301);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(83, 39);
             this.btnSimpan.TabIndex = 4;
             this.btnSimpan.Text = "SIMPAN";
-            this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.UseVisualStyleBackColor = false;
             this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // label2
@@ -90,10 +83,6 @@ namespace bimbel
             this.label2.Location = new System.Drawing.Point(37, 53);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(136, 19);
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(37, 53);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(145, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "Kode Jadwal Siswa";
             // 
@@ -104,10 +93,6 @@ namespace bimbel
             this.label3.Location = new System.Drawing.Point(37, 114);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 19);
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(37, 114);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "No Siswa";
             // 
@@ -118,10 +103,6 @@ namespace bimbel
             this.label4.Location = new System.Drawing.Point(37, 175);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 19);
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(37, 175);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 20);
             this.label4.TabIndex = 8;
             this.label4.Text = "Nama Siswa";
             // 
@@ -132,10 +113,6 @@ namespace bimbel
             this.label5.Location = new System.Drawing.Point(37, 236);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(126, 19);
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(37, 236);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 20);
             this.label5.TabIndex = 9;
             this.label5.Text = "Waktu Kehadiran";
             // 
@@ -152,32 +129,33 @@ namespace bimbel
             // 
             // txtkodeJadwalSiswa
             // 
-            this.txtkodeJadwalSiswa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtkodeJadwalSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtkodeJadwalSiswa.Location = new System.Drawing.Point(37, 76);
             this.txtkodeJadwalSiswa.Name = "txtkodeJadwalSiswa";
-            this.txtkodeJadwalSiswa.Size = new System.Drawing.Size(262, 26);
+            this.txtkodeJadwalSiswa.Size = new System.Drawing.Size(262, 27);
             this.txtkodeJadwalSiswa.TabIndex = 11;
             // 
             // txtNamaSiswa
             // 
-            this.txtNamaSiswa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNamaSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNamaSiswa.Location = new System.Drawing.Point(37, 198);
             this.txtNamaSiswa.Name = "txtNamaSiswa";
-            this.txtNamaSiswa.Size = new System.Drawing.Size(262, 26);
+            this.txtNamaSiswa.Size = new System.Drawing.Size(262, 27);
             this.txtNamaSiswa.TabIndex = 12;
             // 
             // txtNoSiswa
             // 
-            this.txtNoSiswa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNoSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNoSiswa.Location = new System.Drawing.Point(37, 137);
             this.txtNoSiswa.Name = "txtNoSiswa";
-            this.txtNoSiswa.Size = new System.Drawing.Size(262, 26);
+            this.txtNoSiswa.Size = new System.Drawing.Size(262, 27);
             this.txtNoSiswa.TabIndex = 13;
             // 
             // FormInputPresensi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(335, 352);
             this.Controls.Add(this.txtNoSiswa);
             this.Controls.Add(this.txtNamaSiswa);

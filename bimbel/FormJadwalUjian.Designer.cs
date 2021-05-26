@@ -41,71 +41,78 @@ namespace bimbel
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Candara", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 31);
+            this.label1.Size = new System.Drawing.Size(161, 33);
             this.label1.TabIndex = 1;
             this.label1.Text = "Jadwal Ujian";
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(617, 358);
+            this.button3.BackColor = System.Drawing.SystemColors.Info;
+            this.button3.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.Location = new System.Drawing.Point(589, 350);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 44);
+            this.button3.Size = new System.Drawing.Size(79, 44);
             this.button3.TabIndex = 11;
             this.button3.Text = "TAMBAH";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(713, 358);
+            this.button4.BackColor = System.Drawing.SystemColors.Info;
+            this.button4.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button4.Location = new System.Drawing.Point(674, 352);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 44);
+            this.button4.Size = new System.Drawing.Size(79, 44);
             this.button4.TabIndex = 10;
             this.button4.Text = "HAPUS";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(425, 358);
+            this.button2.BackColor = System.Drawing.SystemColors.Info;
+            this.button2.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(418, 352);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 44);
+            this.button2.Size = new System.Drawing.Size(80, 44);
             this.button2.TabIndex = 9;
             this.button2.Text = "REFRESH";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(521, 358);
+            this.button1.BackColor = System.Drawing.SystemColors.Info;
+            this.button1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(504, 352);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 44);
+            this.button1.Size = new System.Drawing.Size(79, 44);
             this.button1.TabIndex = 8;
             this.button1.Text = "EDIT";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dgvJadwalUjian
             // 
+            this.dgvJadwalUjian.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dgvJadwalUjian.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvJadwalUjian.Location = new System.Drawing.Point(12, 43);
+            this.dgvJadwalUjian.Location = new System.Drawing.Point(16, 46);
             this.dgvJadwalUjian.Name = "dgvJadwalUjian";
             this.dgvJadwalUjian.RowTemplate.Height = 25;
-            this.dgvJadwalUjian.Size = new System.Drawing.Size(791, 309);
+            this.dgvJadwalUjian.Size = new System.Drawing.Size(737, 295);
             this.dgvJadwalUjian.TabIndex = 12;
             // 
             // FormJadwalUjian
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 414);
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.ClientSize = new System.Drawing.Size(770, 409);
             this.Controls.Add(this.dgvJadwalUjian);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
@@ -114,7 +121,7 @@ namespace bimbel
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
             this.Name = "FormJadwalUjian";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jadwal Ujian";
             this.Load += new System.EventHandler(this.FormJadwalUjian_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalUjian)).EndInit();
