@@ -35,6 +35,13 @@ namespace bimbel
             this.btnHapus = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
+            this.noSiswa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nama = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.jenisKelamin = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kodeKelas = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.noHP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.asalDaerah = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSiswa)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,6 +49,14 @@ namespace bimbel
             // 
             this.dgvSiswa.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dgvSiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvSiswa.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.noSiswa,
+            this.nama,
+            this.jenisKelamin,
+            this.kodeKelas,
+            this.noHP,
+            this.email,
+            this.asalDaerah});
             this.dgvSiswa.Location = new System.Drawing.Point(21, 48);
             this.dgvSiswa.Margin = new System.Windows.Forms.Padding(4);
             this.dgvSiswa.Name = "dgvSiswa";
@@ -113,6 +128,48 @@ namespace bimbel
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
+            // noSiswa
+            // 
+            this.noSiswa.DataPropertyName = "noSiswa";
+            this.noSiswa.HeaderText = "Nomor Siswa";
+            this.noSiswa.Name = "noSiswa";
+            // 
+            // nama
+            // 
+            this.nama.DataPropertyName = "nama";
+            this.nama.HeaderText = "Nama Siswa";
+            this.nama.Name = "nama";
+            // 
+            // jenisKelamin
+            // 
+            this.jenisKelamin.DataPropertyName = "jenisKelamin";
+            this.jenisKelamin.HeaderText = "Jenis Kelamin";
+            this.jenisKelamin.Name = "jenisKelamin";
+            // 
+            // kodeKelas
+            // 
+            this.kodeKelas.DataPropertyName = "kodeKelas";
+            this.kodeKelas.HeaderText = "Kode Kelas";
+            this.kodeKelas.Name = "kodeKelas";
+            // 
+            // noHP
+            // 
+            this.noHP.DataPropertyName = "noHP";
+            this.noHP.HeaderText = "No HP";
+            this.noHP.Name = "noHP";
+            // 
+            // email
+            // 
+            this.email.DataPropertyName = "email";
+            this.email.HeaderText = "Email";
+            this.email.Name = "email";
+            // 
+            // asalDaerah
+            // 
+            this.asalDaerah.DataPropertyName = "asalDaerah";
+            this.asalDaerah.HeaderText = "Asal Daerah";
+            this.asalDaerah.Name = "asalDaerah";
+            // 
             // formDatasiswa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -145,5 +202,12 @@ namespace bimbel
         private System.Windows.Forms.Button btnHapus;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn noSiswa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nama;
+        private System.Windows.Forms.DataGridViewTextBoxColumn jenisKelamin;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodeKelas;
+        private System.Windows.Forms.DataGridViewTextBoxColumn noHP;
+        private System.Windows.Forms.DataGridViewTextBoxColumn email;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asalDaerah;
     }
 }
