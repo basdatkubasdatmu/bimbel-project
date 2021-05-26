@@ -29,12 +29,16 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.dgvPresensi = new System.Windows.Forms.DataGridView();
+            this.kodejadwal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nosiswa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Waktu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPresensi)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,8 +108,22 @@ namespace bimbel
             // 
             // dgvPresensi
             // 
+            this.dgvPresensi.AllowUserToAddRows = false;
+            this.dgvPresensi.AllowUserToDeleteRows = false;
             this.dgvPresensi.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPresensi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvPresensi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPresensi.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.kodejadwal,
+            this.nosiswa,
+            this.Waktu});
             this.dgvPresensi.Location = new System.Drawing.Point(15, 50);
             this.dgvPresensi.Margin = new System.Windows.Forms.Padding(4);
             this.dgvPresensi.Name = "dgvPresensi";
@@ -113,6 +131,25 @@ namespace bimbel
             this.dgvPresensi.Size = new System.Drawing.Size(533, 330);
             this.dgvPresensi.TabIndex = 8;
             this.dgvPresensi.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPresensi_CellContentClick);
+            // 
+            // kodejadwal
+            // 
+            this.kodejadwal.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.kodejadwal.HeaderText = "Kode Jadwal";
+            this.kodejadwal.Name = "kodejadwal";
+            this.kodejadwal.Width = 120;
+            // 
+            // nosiswa
+            // 
+            this.nosiswa.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.nosiswa.HeaderText = "No Siswa";
+            this.nosiswa.Name = "nosiswa";
+            this.nosiswa.Width = 95;
+            // 
+            // Waktu
+            // 
+            this.Waktu.HeaderText = "Waktu";
+            this.Waktu.Name = "Waktu";
             // 
             // FormDaftarPresensi
             // 
@@ -146,5 +183,8 @@ namespace bimbel
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DataGridView dgvPresensi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodejadwal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nosiswa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Waktu;
     }
 }

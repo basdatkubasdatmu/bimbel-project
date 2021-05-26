@@ -54,6 +54,8 @@ namespace bimbel
             // 
             // dgvMatpel
             // 
+            this.dgvMatpel.AllowUserToAddRows = false;
+            this.dgvMatpel.AllowUserToDeleteRows = false;
             this.dgvMatpel.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -123,13 +125,17 @@ namespace bimbel
             // 
             // kodePelajaran
             // 
+            this.kodePelajaran.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.kodePelajaran.HeaderText = "Kode Pelajaran";
             this.kodePelajaran.Name = "kodePelajaran";
+            this.kodePelajaran.Width = 135;
             // 
             // pelajaran
             // 
+            this.pelajaran.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.pelajaran.HeaderText = "Pelajaran";
             this.pelajaran.Name = "pelajaran";
+            this.pelajaran.Width = 97;
             // 
             // FormMatPel
             // 
