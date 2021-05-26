@@ -35,6 +35,14 @@ namespace bimbel
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.lblDaftarJadwalPengajar = new System.Windows.Forms.Label();
+            this.kodeJadwalPengajar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kodeKelas = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.noPengajar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kodePelajaran = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tanggal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.jamMulai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.durasi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kodeZoom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalPengajar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,6 +50,15 @@ namespace bimbel
             // 
             this.dgvJadwalPengajar.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dgvJadwalPengajar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvJadwalPengajar.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.kodeJadwalPengajar,
+            this.kodeKelas,
+            this.noPengajar,
+            this.kodePelajaran,
+            this.tanggal,
+            this.jamMulai,
+            this.durasi,
+            this.kodeZoom});
             this.dgvJadwalPengajar.Location = new System.Drawing.Point(17, 49);
             this.dgvJadwalPengajar.Name = "dgvJadwalPengajar";
             this.dgvJadwalPengajar.RowTemplate.Height = 25;
@@ -107,6 +124,54 @@ namespace bimbel
             this.lblDaftarJadwalPengajar.TabIndex = 9;
             this.lblDaftarJadwalPengajar.Text = "Daftar Jadwal Pengajar";
             // 
+            // kodeJadwalPengajar
+            // 
+            this.kodeJadwalPengajar.DataPropertyName = "kodeJadwalPengajar";
+            this.kodeJadwalPengajar.HeaderText = "Kode Jadwal Pengajar";
+            this.kodeJadwalPengajar.Name = "kodeJadwalPengajar";
+            // 
+            // kodeKelas
+            // 
+            this.kodeKelas.DataPropertyName = "kodeKelas";
+            this.kodeKelas.HeaderText = "Kode Kelas";
+            this.kodeKelas.Name = "kodeKelas";
+            // 
+            // noPengajar
+            // 
+            this.noPengajar.DataPropertyName = "noPengajar";
+            this.noPengajar.HeaderText = "Nomor Pengajar";
+            this.noPengajar.Name = "noPengajar";
+            // 
+            // kodePelajaran
+            // 
+            this.kodePelajaran.DataPropertyName = "kodePelajaran";
+            this.kodePelajaran.HeaderText = "Kode Pelajaran";
+            this.kodePelajaran.Name = "kodePelajaran";
+            // 
+            // tanggal
+            // 
+            this.tanggal.DataPropertyName = "tanggal";
+            this.tanggal.HeaderText = "Tanggal";
+            this.tanggal.Name = "tanggal";
+            // 
+            // jamMulai
+            // 
+            this.jamMulai.DataPropertyName = "jamMulai";
+            this.jamMulai.HeaderText = "Jam Mulai";
+            this.jamMulai.Name = "jamMulai";
+            // 
+            // durasi
+            // 
+            this.durasi.DataPropertyName = "durasi";
+            this.durasi.HeaderText = "Durasi";
+            this.durasi.Name = "durasi";
+            // 
+            // kodeZoom
+            // 
+            this.kodeZoom.DataPropertyName = "kodeZoom";
+            this.kodeZoom.HeaderText = "Kode Zoom";
+            this.kodeZoom.Name = "kodeZoom";
+            // 
             // FormJadwalPengajar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -138,5 +203,13 @@ namespace bimbel
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Label lblDaftarJadwalPengajar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodeJadwalPengajar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodeKelas;
+        private System.Windows.Forms.DataGridViewTextBoxColumn noPengajar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodePelajaran;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tanggal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn jamMulai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn durasi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodeZoom;
     }
 }
