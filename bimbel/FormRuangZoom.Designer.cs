@@ -83,16 +83,9 @@ namespace bimbel
             // 
             this.btnTambah.BackColor = System.Drawing.SystemColors.Info;
             this.btnTambah.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
             this.btnTambah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnTambah.Location = new System.Drawing.Point(603, 367);
             this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
->>>>>>> d62bc79f4b7f50b30467f3fa5f0747ed1783c02d
             this.btnTambah.Location = new System.Drawing.Point(602, 361);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);

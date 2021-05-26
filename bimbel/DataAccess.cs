@@ -303,7 +303,7 @@ namespace bimbel
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
                 cmd.Connection = conn;
-                cmd.CommandText = "Select * from presensisiswa";
+                cmd.CommandText = "select p.kodejadwalsiswa, p.nosiswa, s.nama, p.waktupresensi From(presensisiswa p JOIN siswa s USING(nosiswa))";
                 cmd.CommandType = CommandType.Text;
 
                 NpgsqlDataAdapter da = new NpgsqlDataAdapter(cmd);

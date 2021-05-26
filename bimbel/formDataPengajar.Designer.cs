@@ -29,19 +29,37 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvPengajar = new System.Windows.Forms.DataGridView();
             this.lblDataPengajar = new System.Windows.Forms.Label();
             this.btnTambah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
+            this.nopengajar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NoPegawai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.KodePelajaran = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPengajar)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvPengajar
             // 
+            this.dgvPengajar.AllowUserToAddRows = false;
+            this.dgvPengajar.AllowUserToDeleteRows = false;
             this.dgvPengajar.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPengajar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvPengajar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPengajar.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nopengajar,
+            this.NoPegawai,
+            this.KodePelajaran});
             this.dgvPengajar.Location = new System.Drawing.Point(14, 45);
             this.dgvPengajar.Name = "dgvPengajar";
             this.dgvPengajar.RowTemplate.Height = 25;
@@ -107,6 +125,30 @@ namespace bimbel
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
+            // nopengajar
+            // 
+            this.nopengajar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.nopengajar.DataPropertyName = "nopengajar";
+            this.nopengajar.HeaderText = "No. Pengajar";
+            this.nopengajar.Name = "nopengajar";
+            this.nopengajar.Width = 121;
+            // 
+            // NoPegawai
+            // 
+            this.NoPegawai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.NoPegawai.DataPropertyName = "nopegawai";
+            this.NoPegawai.HeaderText = "No. Pegawai";
+            this.NoPegawai.Name = "NoPegawai";
+            this.NoPegawai.Width = 118;
+            // 
+            // KodePelajaran
+            // 
+            this.KodePelajaran.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.KodePelajaran.DataPropertyName = "kodepelajaran";
+            this.KodePelajaran.HeaderText = "Kode Pelajaran";
+            this.KodePelajaran.Name = "KodePelajaran";
+            this.KodePelajaran.Width = 135;
+            // 
             // formDataPengajar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -138,5 +180,8 @@ namespace bimbel
         private System.Windows.Forms.Button btnHapus;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nopengajar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NoPegawai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn KodePelajaran;
     }
 }

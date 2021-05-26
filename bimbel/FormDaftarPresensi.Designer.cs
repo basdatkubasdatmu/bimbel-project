@@ -38,6 +38,7 @@ namespace bimbel
             this.dgvPresensi = new System.Windows.Forms.DataGridView();
             this.kodejadwal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nosiswa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NamaSiswa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Waktu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPresensi)).BeginInit();
             this.SuspendLayout();
@@ -113,7 +114,7 @@ namespace bimbel
             this.dgvPresensi.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -123,6 +124,7 @@ namespace bimbel
             this.dgvPresensi.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.kodejadwal,
             this.nosiswa,
+            this.NamaSiswa,
             this.Waktu});
             this.dgvPresensi.Location = new System.Drawing.Point(15, 50);
             this.dgvPresensi.Margin = new System.Windows.Forms.Padding(4);
@@ -135,19 +137,27 @@ namespace bimbel
             // kodejadwal
             // 
             this.kodejadwal.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.kodejadwal.DataPropertyName = "kodejadwalsiswa";
             this.kodejadwal.HeaderText = "Kode Jadwal";
             this.kodejadwal.Name = "kodejadwal";
-            this.kodejadwal.Width = 120;
+            this.kodejadwal.Width = 121;
             // 
             // nosiswa
             // 
             this.nosiswa.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.nosiswa.DataPropertyName = "nosiswa";
             this.nosiswa.HeaderText = "No Siswa";
             this.nosiswa.Name = "nosiswa";
-            this.nosiswa.Width = 95;
+            // 
+            // NamaSiswa
+            // 
+            this.NamaSiswa.DataPropertyName = "nama";
+            this.NamaSiswa.HeaderText = "Nama Siswa";
+            this.NamaSiswa.Name = "NamaSiswa";
             // 
             // Waktu
             // 
+            this.Waktu.DataPropertyName = "waktupresensi";
             this.Waktu.HeaderText = "Waktu";
             this.Waktu.Name = "Waktu";
             // 
@@ -185,6 +195,7 @@ namespace bimbel
         private System.Windows.Forms.DataGridView dgvPresensi;
         private System.Windows.Forms.DataGridViewTextBoxColumn kodejadwal;
         private System.Windows.Forms.DataGridViewTextBoxColumn nosiswa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NamaSiswa;
         private System.Windows.Forms.DataGridViewTextBoxColumn Waktu;
     }
 }
