@@ -58,7 +58,7 @@ namespace bimbel
                 lbJudulInputKelas.Text = "Edit Kelas";
                 tbNomorKelas.ReadOnly = true;
 
-                DataTable dt = da.getKelasByID(kodekelas);
+                DataTable dt = da.getJadwalKelasByID(kodekelas);
 
                 tbNomorKelas.Text = dt.Rows[0]["kodekelas"].ToString();
                 tbNamaKelas.Text = dt.Rows[0]["nama"].ToString();

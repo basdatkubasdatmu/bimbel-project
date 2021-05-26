@@ -43,6 +43,28 @@ namespace bimbel
 
             this.Close();
         }
+        private void btBatalPegawai_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void formInputPegawai_Load(object sender, EventArgs e)
+        {
+            DataAccess da = new DataAccess();
+
+            if (isEditPegawai)
+            {
+                lbJudulInputPegawai.Text = "Edit Data Pegawai Perpustakaan";
+                tbKodePegawai.ReadOnly = true;
+
+                DataTable dt = da.getDataPegawaiByID(noPegawai);
+
+                tbKodePegawai.Text = dt.Rows[0]["kodePegawai"].ToString();
+                tbNamaPegawai.Text = dt.Rows[0]["namaPegawai"].ToString();
+                tbEmailPegawai.Text = dt.Rows[0]["email"].ToString();
+                tbNoHpPegawai.Text = dt.Rows[0]["noHp"].ToString();
+            }
+        }
 
         private void FormInputPegawai_Load(object sender, EventArgs e)
         {
@@ -70,9 +92,16 @@ namespace bimbel
                     rbPerempuan.Checked = true;
                 }
             }
+            else
+            {
+                ///tbKodePegawai.Text = da.getKodePegawaiMin();
+                tbKodePegawai.ReadOnly = true;
+            }
         }
 
-        private void btBatalPegawai_Click(object sender, EventArgs e)
+      
+
+        private void btBatalPegawai_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }

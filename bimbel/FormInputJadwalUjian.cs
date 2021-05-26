@@ -43,7 +43,7 @@ namespace bimbel
                 lblInputJadwalUjian.Text = "Edit Jadwal Ujian";
                 txtKodeUjian.ReadOnly = true;
 
-                DataTable dt = da.getJadwaUjianByID(kodeujian);
+                DataTable dt = da.getJadwalUjianByID(kodeujian);
 
                 txtKodeUjian.Text = dt.Rows[0]["kodeujian"].ToString();
                 txtNamaUjian.Text = dt.Rows[0]["nama"].ToString();

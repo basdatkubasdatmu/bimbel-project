@@ -41,5 +41,23 @@ namespace bimbel
                 MessageBox.Show("Data " + Selectedkodepelajaran + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormInputMataPelajaran frm = new FormInputMataPelajaran();
+            frm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (dgvMatpel.SelectedRows.Count > 0)
+            {
+                string selectedkodepelajaran = dgvMatpel.SelectedRows[0].Cells[0].Value.ToString();
+                FormInputMataPelajaran frm = new FormInputMataPelajaran();
+                frm.isEditMatPel = true;
+                frm.kodepelajaran = selectedkodepelajaran;
+                frm.Show();
+            }
+        }
     }
 }

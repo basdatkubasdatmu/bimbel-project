@@ -38,6 +38,10 @@ namespace bimbel
                 txtAsalSiswa.Text = dt.Rows[0]["asaldaerah"].ToString();
             }
         }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4c1760c3f3ad0b35c4001639007e159353efbb3c
         private void btnBatal_Click(object sender, EventArgs e)
         {
             this.Close();

@@ -28,7 +28,6 @@ namespace bimbel
             dgvJadwalUjian.DataSource = dtacc.getAllUjian();
         }
 
-<<<<<<< HEAD
         private void button4_Click(object sender, EventArgs e)
         {
             if (dgvJadwalUjian.SelectedRows.Count > 0)
@@ -41,11 +40,24 @@ namespace bimbel
 
                 MessageBox.Show("Data " + Selectedkodeujian + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-=======
+
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormInputJadwalUjian frm = new FormInputJadwalUjian();
+            frm.Show();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-
->>>>>>> 05401cc8076c9bed8fc5bc7e63fbaa34a9398336
+            if (dgvJadwalUjian.SelectedRows.Count > 0)
+            {
+                string selectedkodeujian = dgvJadwalUjian.SelectedRows[0].Cells[0].Value.ToString();
+                FormInputJadwalUjian frm = new FormInputJadwalUjian();
+                frm.isEditJadwalUjian = true;
+                frm.kodeujian = selectedkodeujian;
+                frm.Show();
+            }
         }
     }
 }

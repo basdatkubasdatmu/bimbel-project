@@ -47,5 +47,17 @@ namespace bimbel
                 MessageBox.Show("Data " + Selectednosiswa + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dgvSiswa.SelectedRows.Count > 0)
+            {
+                string selectednosiswa = dgvSiswa.SelectedRows[0].Cells[0].Value.ToString();
+                formInputSiswa frm = new formInputSiswa();
+                frm.isEditSiswa = true;
+                frm.noSiswa = selectednosiswa;
+                frm.Show();
+            }
+        }
     }
 }
