@@ -49,10 +49,9 @@ namespace bimbel
             // 
             this.btHapusPegawai.BackColor = System.Drawing.SystemColors.Info;
             this.btHapusPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btHapusPegawai.Location = new System.Drawing.Point(798, 443);
-            this.btHapusPegawai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btHapusPegawai.Location = new System.Drawing.Point(698, 332);
             this.btHapusPegawai.Name = "btHapusPegawai";
-            this.btHapusPegawai.Size = new System.Drawing.Size(103, 59);
+            this.btHapusPegawai.Size = new System.Drawing.Size(90, 44);
             this.btHapusPegawai.TabIndex = 58;
             this.btHapusPegawai.Text = "HAPUS";
             this.btHapusPegawai.UseVisualStyleBackColor = false;
@@ -62,10 +61,9 @@ namespace bimbel
             // 
             this.btEditPegawai.BackColor = System.Drawing.SystemColors.Info;
             this.btEditPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btEditPegawai.Location = new System.Drawing.Point(578, 443);
-            this.btEditPegawai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btEditPegawai.Location = new System.Drawing.Point(506, 332);
             this.btEditPegawai.Name = "btEditPegawai";
-            this.btEditPegawai.Size = new System.Drawing.Size(103, 59);
+            this.btEditPegawai.Size = new System.Drawing.Size(90, 44);
             this.btEditPegawai.TabIndex = 57;
             this.btEditPegawai.Text = "EDIT";
             this.btEditPegawai.UseVisualStyleBackColor = false;
@@ -75,10 +73,9 @@ namespace bimbel
             // 
             this.btTambahPegawai.BackColor = System.Drawing.SystemColors.Info;
             this.btTambahPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btTambahPegawai.Location = new System.Drawing.Point(688, 443);
-            this.btTambahPegawai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btTambahPegawai.Location = new System.Drawing.Point(602, 332);
             this.btTambahPegawai.Name = "btTambahPegawai";
-            this.btTambahPegawai.Size = new System.Drawing.Size(103, 59);
+            this.btTambahPegawai.Size = new System.Drawing.Size(90, 44);
             this.btTambahPegawai.TabIndex = 56;
             this.btTambahPegawai.Text = "TAMBAH";
             this.btTambahPegawai.UseVisualStyleBackColor = false;
@@ -88,10 +85,9 @@ namespace bimbel
             // 
             this.btRefreshPegawai.BackColor = System.Drawing.SystemColors.Info;
             this.btRefreshPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btRefreshPegawai.Location = new System.Drawing.Point(469, 443);
-            this.btRefreshPegawai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btRefreshPegawai.Location = new System.Drawing.Point(410, 332);
             this.btRefreshPegawai.Name = "btRefreshPegawai";
-            this.btRefreshPegawai.Size = new System.Drawing.Size(103, 59);
+            this.btRefreshPegawai.Size = new System.Drawing.Size(90, 44);
             this.btRefreshPegawai.TabIndex = 55;
             this.btRefreshPegawai.Text = "REFRESH";
             this.btRefreshPegawai.UseVisualStyleBackColor = false;
@@ -102,14 +98,16 @@ namespace bimbel
             this.lbJudulDataPegawai.AutoSize = true;
             this.lbJudulDataPegawai.Font = new System.Drawing.Font("Candara", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbJudulDataPegawai.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.lbJudulDataPegawai.Location = new System.Drawing.Point(14, 12);
+            this.lbJudulDataPegawai.Location = new System.Drawing.Point(12, 9);
             this.lbJudulDataPegawai.Name = "lbJudulDataPegawai";
-            this.lbJudulDataPegawai.Size = new System.Drawing.Size(142, 41);
+            this.lbJudulDataPegawai.Size = new System.Drawing.Size(113, 33);
             this.lbJudulDataPegawai.TabIndex = 54;
             this.lbJudulDataPegawai.Text = "Pegawai";
             // 
             // dgvPegawai
             // 
+            this.dgvPegawai.AllowUserToAddRows = false;
+            this.dgvPegawai.AllowUserToDeleteRows = false;
             this.dgvPegawai.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -127,21 +125,21 @@ namespace bimbel
             this.noHp,
             this.email,
             this.posisi});
-            this.dgvPegawai.Location = new System.Drawing.Point(14, 57);
-            this.dgvPegawai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dgvPegawai.Location = new System.Drawing.Point(12, 43);
             this.dgvPegawai.Name = "dgvPegawai";
             this.dgvPegawai.RowHeadersWidth = 51;
             this.dgvPegawai.RowTemplate.Height = 25;
-            this.dgvPegawai.Size = new System.Drawing.Size(887, 377);
+            this.dgvPegawai.Size = new System.Drawing.Size(776, 283);
             this.dgvPegawai.TabIndex = 53;
             // 
             // nopegawai
             // 
+            this.nopegawai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.nopegawai.DataPropertyName = "nopegawai";
             this.nopegawai.HeaderText = "No Pegawai";
             this.nopegawai.MinimumWidth = 6;
             this.nopegawai.Name = "nopegawai";
-            this.nopegawai.Width = 125;
+            this.nopegawai.Width = 114;
             // 
             // nama
             // 
@@ -185,17 +183,16 @@ namespace bimbel
             // 
             // FormPegawai
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(914, 517);
+            this.ClientSize = new System.Drawing.Size(800, 388);
             this.Controls.Add(this.btHapusPegawai);
             this.Controls.Add(this.btEditPegawai);
             this.Controls.Add(this.btTambahPegawai);
             this.Controls.Add(this.btRefreshPegawai);
             this.Controls.Add(this.lbJudulDataPegawai);
             this.Controls.Add(this.dgvPegawai);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "FormPegawai";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
