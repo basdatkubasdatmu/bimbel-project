@@ -51,9 +51,16 @@ namespace bimbel
             }
         }
 
+<<<<<<< HEAD
+        private void btnSimpan_MouseHover(object sender, EventArgs e)
+        {
+            this.txtKodeMapel.BackColor = Color.AliceBlue;
+            this.textNamaMapel.BackColor = Color.AliceBlue;
+=======
         private void btnBatal_Click(object sender, EventArgs e)
         {
             this.Close();
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
         }
     }
 }

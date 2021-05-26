@@ -105,5 +105,14 @@ namespace bimbel
         {
             this.Close();
         }
+
+        private void btSimpanPegawai_MouseHover(object sender, EventArgs e)
+        {
+            this.tbKodePegawai.BackColor = Color.AliceBlue;
+            this.tbNamaPegawai.BackColor = Color.AliceBlue;
+            this.tbNoHpPegawai.BackColor = Color.AliceBlue;
+            this.tbEmailPegawai.BackColor = Color.AliceBlue;
+            this.tbPosisiPegawai.BackColor = Color.AliceBlue;
+        }
     }
 }

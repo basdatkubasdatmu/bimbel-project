@@ -70,6 +70,7 @@ namespace bimbel
             this.btSimpanPegawai.Text = "SIMPAN";
             this.btSimpanPegawai.UseVisualStyleBackColor = false;
             this.btSimpanPegawai.Click += new System.EventHandler(this.btSimpanPegawai_Click);
+            this.btSimpanPegawai.MouseHover += new System.EventHandler(this.btSimpanPegawai_MouseHover);
             // 
             // rbPerempuan
             // 

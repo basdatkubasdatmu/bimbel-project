@@ -54,7 +54,7 @@ namespace bimbel
             "3 kali pertemuan/minggu",
             "2 kali pertemuan/minggu"});
             this.clbFasilitas.Location = new System.Drawing.Point(119, 203);
-            this.clbFasilitas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clbFasilitas.Margin = new System.Windows.Forms.Padding(4);
             this.clbFasilitas.Name = "clbFasilitas";
             this.clbFasilitas.Size = new System.Drawing.Size(256, 92);
             this.clbFasilitas.TabIndex = 55;
@@ -76,7 +76,7 @@ namespace bimbel
             this.btBatalKelas.BackColor = System.Drawing.SystemColors.Info;
             this.btBatalKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btBatalKelas.Location = new System.Drawing.Point(175, 319);
-            this.btBatalKelas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btBatalKelas.Margin = new System.Windows.Forms.Padding(4);
             this.btBatalKelas.Name = "btBatalKelas";
             this.btBatalKelas.Size = new System.Drawing.Size(96, 45);
             this.btBatalKelas.TabIndex = 53;
@@ -89,13 +89,14 @@ namespace bimbel
             this.btSimpanKelas.BackColor = System.Drawing.SystemColors.Info;
             this.btSimpanKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btSimpanKelas.Location = new System.Drawing.Point(279, 319);
-            this.btSimpanKelas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btSimpanKelas.Margin = new System.Windows.Forms.Padding(4);
             this.btSimpanKelas.Name = "btSimpanKelas";
             this.btSimpanKelas.Size = new System.Drawing.Size(96, 45);
             this.btSimpanKelas.TabIndex = 52;
             this.btSimpanKelas.Text = "SIMPAN";
             this.btSimpanKelas.UseVisualStyleBackColor = false;
             this.btSimpanKelas.Click += new System.EventHandler(this.btnSimpan_Click);
+            this.btSimpanKelas.MouseHover += new System.EventHandler(this.btSimpanKelas_MouseHover);
             // 
             // lbFasilitasKelas
             // 
@@ -113,7 +114,7 @@ namespace bimbel
             // 
             this.tbKuotaKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbKuotaKelas.Location = new System.Drawing.Point(119, 166);
-            this.tbKuotaKelas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbKuotaKelas.Margin = new System.Windows.Forms.Padding(4);
             this.tbKuotaKelas.Name = "tbKuotaKelas";
             this.tbKuotaKelas.Size = new System.Drawing.Size(256, 27);
             this.tbKuotaKelas.TabIndex = 50;
@@ -134,7 +135,7 @@ namespace bimbel
             // 
             this.tbBiayaKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbBiayaKelas.Location = new System.Drawing.Point(119, 131);
-            this.tbBiayaKelas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbBiayaKelas.Margin = new System.Windows.Forms.Padding(4);
             this.tbBiayaKelas.Name = "tbBiayaKelas";
             this.tbBiayaKelas.Size = new System.Drawing.Size(256, 27);
             this.tbBiayaKelas.TabIndex = 48;
@@ -155,7 +156,7 @@ namespace bimbel
             // 
             this.tbNamaKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbNamaKelas.Location = new System.Drawing.Point(119, 95);
-            this.tbNamaKelas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbNamaKelas.Margin = new System.Windows.Forms.Padding(4);
             this.tbNamaKelas.Name = "tbNamaKelas";
             this.tbNamaKelas.Size = new System.Drawing.Size(256, 27);
             this.tbNamaKelas.TabIndex = 46;
@@ -176,7 +177,7 @@ namespace bimbel
             // 
             this.tbNomorKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbNomorKelas.Location = new System.Drawing.Point(119, 60);
-            this.tbNomorKelas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbNomorKelas.Margin = new System.Windows.Forms.Padding(4);
             this.tbNomorKelas.Name = "tbNomorKelas";
             this.tbNomorKelas.Size = new System.Drawing.Size(256, 27);
             this.tbNomorKelas.TabIndex = 44;

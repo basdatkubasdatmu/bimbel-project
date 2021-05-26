@@ -98,6 +98,7 @@ namespace bimbel
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = false;
             this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
+            this.btnSimpan.MouseHover += new System.EventHandler(this.btnSimpan_MouseHover);
             // 
             // btnBatal
             // 

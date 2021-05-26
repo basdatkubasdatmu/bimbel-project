@@ -60,5 +60,15 @@ namespace bimbel
         {
             this.Close();
         }
+
+        private void buttonSimpan_MouseHover(object sender, EventArgs e)
+        {
+            this.txtKodeUjian.BackColor = Color.AliceBlue;
+            this.txtNoSiswa.BackColor = Color.AliceBlue; 
+            this.txtNoPengajar.BackColor = Color.AliceBlue;
+            this.txtKodePelajaran.BackColor = Color.AliceBlue;
+            this.txtNilai.BackColor = Color.AliceBlue;
+            
+        }
     }
 }

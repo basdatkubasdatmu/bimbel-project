@@ -72,5 +72,14 @@ namespace bimbel
         {
             this.Close();
         }
+
+        private void btSimpanKelas_MouseHover(object sender, EventArgs e)
+        {
+            this.tbNomorKelas.BackColor = Color.AliceBlue;
+            this.tbNamaKelas.BackColor = Color.AliceBlue; 
+            this.tbBiayaKelas.BackColor = Color.AliceBlue;
+            this.tbKuotaKelas.BackColor = Color.AliceBlue;
+
+        }
     }
 }
