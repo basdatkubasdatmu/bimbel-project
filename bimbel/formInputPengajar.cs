@@ -36,6 +36,10 @@ namespace bimbel
             this.Close();
         }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
         private void formInputPengajar_Load(object sender, EventArgs e)
         {
             DataAccess da = new DataAccess();
@@ -49,15 +53,22 @@ namespace bimbel
                 txtNoPengajar.Text = dt.Rows[0]["nopengajar"].ToString();
                 txtNoPegawai.Text = dt.Rows[0]["nopegawai"].ToString();
                 txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
+<<<<<<< HEAD
+            }
+=======
 
             }
 
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
         }
 
         private void btnBatal_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
     }
 }

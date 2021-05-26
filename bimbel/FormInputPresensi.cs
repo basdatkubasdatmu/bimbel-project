@@ -11,6 +11,7 @@ namespace bimbel
     public partial class FormInputPresensi : Form
     {
         public bool isEditPresensi = false;
+        public string kodejadwalsiswa;
 
         public FormInputPresensi()
         {

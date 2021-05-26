@@ -40,78 +40,101 @@ namespace bimbel
             // 
             // dgvRuang
             // 
+            this.dgvRuang.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dgvRuang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvRuang.Location = new System.Drawing.Point(12, 43);
+            this.dgvRuang.Location = new System.Drawing.Point(12, 51);
             this.dgvRuang.Name = "dgvRuang";
             this.dgvRuang.RowTemplate.Height = 25;
-            this.dgvRuang.Size = new System.Drawing.Size(776, 312);
+            this.dgvRuang.Size = new System.Drawing.Size(776, 304);
             this.dgvRuang.TabIndex = 14;
             // 
             // txtRuang
             // 
             this.txtRuang.AutoSize = true;
-            this.txtRuang.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtRuang.Font = new System.Drawing.Font("Candara", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtRuang.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.txtRuang.Location = new System.Drawing.Point(12, 9);
             this.txtRuang.Name = "txtRuang";
-            this.txtRuang.Size = new System.Drawing.Size(180, 31);
+            this.txtRuang.Size = new System.Drawing.Size(161, 33);
             this.txtRuang.TabIndex = 15;
             this.txtRuang.Text = "Ruang Zoom";
             // 
             // btnTambah
             // 
+<<<<<<< HEAD
+            this.btnTambah.BackColor = System.Drawing.SystemColors.Info;
+            this.btnTambah.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+=======
 
             this.btnTambah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnTambah.Location = new System.Drawing.Point(603, 367);
             this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.btnTambah.Location = new System.Drawing.Point(602, 361);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
             this.btnTambah.TabIndex = 21;
             this.btnTambah.Text = "TAMBAH";
-            this.btnTambah.UseVisualStyleBackColor = true;
+            this.btnTambah.UseVisualStyleBackColor = false;
             // 
             // btnHapus
             // 
+<<<<<<< HEAD
+            this.btnHapus.BackColor = System.Drawing.SystemColors.Info;
+            this.btnHapus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+=======
             this.btnHapus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnHapus.Location = new System.Drawing.Point(699, 367);
             this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.btnHapus.Location = new System.Drawing.Point(698, 361);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
             this.btnHapus.TabIndex = 20;
             this.btnHapus.Text = "HAPUS";
-            this.btnHapus.UseVisualStyleBackColor = true;
+            this.btnHapus.UseVisualStyleBackColor = false;
             this.btnHapus.Click += new System.EventHandler(this.btnHapus_Click);
             // 
             // btnRefresh
             // 
+<<<<<<< HEAD
+            this.btnRefresh.BackColor = System.Drawing.SystemColors.Info;
+            this.btnRefresh.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+=======
             this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnRefresh.Location = new System.Drawing.Point(411, 367);
             this.btnRefresh.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.btnRefresh.Location = new System.Drawing.Point(410, 361);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(90, 44);
             this.btnRefresh.TabIndex = 19;
             this.btnRefresh.Text = "REFRESH";
-            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.UseVisualStyleBackColor = false;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnEdit
             // 
+<<<<<<< HEAD
+            this.btnEdit.BackColor = System.Drawing.SystemColors.Info;
+            this.btnEdit.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+=======
             this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnEdit.Location = new System.Drawing.Point(507, 367);
             this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+>>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.btnEdit.Location = new System.Drawing.Point(506, 361);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);
             this.btnEdit.TabIndex = 18;
             this.btnEdit.Text = "EDIT";
-            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.UseVisualStyleBackColor = false;
             // 
             // FormRuangZoom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(800, 417);
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.btnHapus);
@@ -119,7 +142,9 @@ namespace bimbel
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.txtRuang);
             this.Controls.Add(this.dgvRuang);
+            this.MaximizeBox = false;
             this.Name = "FormRuangZoom";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormRuangZoom";
             this.Load += new System.EventHandler(this.FormRuangZoom_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRuang)).EndInit();

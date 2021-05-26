@@ -41,10 +41,10 @@ namespace bimbel
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(20, 16);
+            this.label1.Font = new System.Drawing.Font("Candara", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(227, 29);
+            this.label1.Size = new System.Drawing.Size(256, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Input Mata Pelajaran";
             // 
@@ -88,32 +88,35 @@ namespace bimbel
             // 
             // btnSimpan
             // 
+            this.btnSimpan.BackColor = System.Drawing.SystemColors.Info;
             this.btnSimpan.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSimpan.Location = new System.Drawing.Point(255, 127);
             this.btnSimpan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSimpan.Name = "btnSimpan";
-            this.btnSimpan.Size = new System.Drawing.Size(82, 23);
+            this.btnSimpan.Size = new System.Drawing.Size(82, 41);
             this.btnSimpan.TabIndex = 5;
             this.btnSimpan.Text = "SIMPAN";
-            this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.UseVisualStyleBackColor = false;
             this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // btnBatal
             // 
+            this.btnBatal.BackColor = System.Drawing.SystemColors.Info;
             this.btnBatal.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnBatal.Location = new System.Drawing.Point(342, 127);
             this.btnBatal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBatal.Name = "btnBatal";
-            this.btnBatal.Size = new System.Drawing.Size(82, 23);
+            this.btnBatal.Size = new System.Drawing.Size(82, 41);
             this.btnBatal.TabIndex = 6;
             this.btnBatal.Text = "BATAL";
-            this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.UseVisualStyleBackColor = false;
             // 
             // FormInputMataPelajaran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(460, 170);
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.ClientSize = new System.Drawing.Size(448, 179);
             this.Controls.Add(this.btnBatal);
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.textNamaMapel);

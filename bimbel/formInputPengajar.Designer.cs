@@ -43,86 +43,88 @@ namespace bimbel
             // lblNoPengajar
             // 
             this.lblNoPengajar.AutoSize = true;
-            this.lblNoPengajar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNoPengajar.Location = new System.Drawing.Point(17, 46);
+            this.lblNoPengajar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNoPengajar.Location = new System.Drawing.Point(24, 61);
             this.lblNoPengajar.Name = "lblNoPengajar";
-            this.lblNoPengajar.Size = new System.Drawing.Size(106, 20);
+            this.lblNoPengajar.Size = new System.Drawing.Size(120, 19);
             this.lblNoPengajar.TabIndex = 0;
             this.lblNoPengajar.Text = "Nomor Pengajar";
             // 
             // lblnoPegawai
             // 
             this.lblnoPegawai.AutoSize = true;
-            this.lblnoPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblnoPegawai.Location = new System.Drawing.Point(17, 105);
+            this.lblnoPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblnoPegawai.Location = new System.Drawing.Point(24, 120);
             this.lblnoPegawai.Name = "lblnoPegawai";
-            this.lblnoPegawai.Size = new System.Drawing.Size(104, 20);
+            this.lblnoPegawai.Size = new System.Drawing.Size(117, 19);
             this.lblnoPegawai.TabIndex = 1;
             this.lblnoPegawai.Text = "Nomor Pegawai";
             // 
             // lblKodePelajaran
             // 
             this.lblKodePelajaran.AutoSize = true;
-            this.lblKodePelajaran.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblKodePelajaran.Location = new System.Drawing.Point(17, 165);
+            this.lblKodePelajaran.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKodePelajaran.Location = new System.Drawing.Point(24, 180);
             this.lblKodePelajaran.Name = "lblKodePelajaran";
-            this.lblKodePelajaran.Size = new System.Drawing.Size(101, 20);
+            this.lblKodePelajaran.Size = new System.Drawing.Size(110, 19);
             this.lblKodePelajaran.TabIndex = 2;
             this.lblKodePelajaran.Text = "Kode Pelajaran";
             // 
             // txtNoPengajar
             // 
-            this.txtNoPengajar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNoPengajar.Location = new System.Drawing.Point(17, 69);
+            this.txtNoPengajar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNoPengajar.Location = new System.Drawing.Point(24, 84);
             this.txtNoPengajar.Name = "txtNoPengajar";
-            this.txtNoPengajar.Size = new System.Drawing.Size(291, 26);
+            this.txtNoPengajar.Size = new System.Drawing.Size(291, 27);
             this.txtNoPengajar.TabIndex = 9;
             // 
             // txtKodePelajaran
             // 
-            this.txtKodePelajaran.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtKodePelajaran.Location = new System.Drawing.Point(17, 188);
+            this.txtKodePelajaran.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtKodePelajaran.Location = new System.Drawing.Point(24, 203);
             this.txtKodePelajaran.Name = "txtKodePelajaran";
-            this.txtKodePelajaran.Size = new System.Drawing.Size(291, 26);
+            this.txtKodePelajaran.Size = new System.Drawing.Size(291, 27);
             this.txtKodePelajaran.TabIndex = 10;
             // 
             // txtNoPegawai
             // 
-            this.txtNoPegawai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNoPegawai.Location = new System.Drawing.Point(17, 128);
+            this.txtNoPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNoPegawai.Location = new System.Drawing.Point(24, 143);
             this.txtNoPegawai.Name = "txtNoPegawai";
-            this.txtNoPegawai.Size = new System.Drawing.Size(291, 26);
+            this.txtNoPegawai.Size = new System.Drawing.Size(291, 27);
             this.txtNoPegawai.TabIndex = 11;
             // 
             // btnBatal
             // 
-            this.btnBatal.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBatal.Location = new System.Drawing.Point(122, 231);
+            this.btnBatal.BackColor = System.Drawing.SystemColors.Info;
+            this.btnBatal.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnBatal.Location = new System.Drawing.Point(129, 246);
             this.btnBatal.Name = "btnBatal";
             this.btnBatal.Size = new System.Drawing.Size(86, 37);
             this.btnBatal.TabIndex = 15;
             this.btnBatal.Text = "BATAL";
-            this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.UseVisualStyleBackColor = false;
             this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // btnSimpan
             // 
-            this.btnSimpan.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSimpan.Location = new System.Drawing.Point(219, 231);
+            this.btnSimpan.BackColor = System.Drawing.SystemColors.Info;
+            this.btnSimpan.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSimpan.Location = new System.Drawing.Point(226, 246);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(89, 37);
             this.btnSimpan.TabIndex = 16;
             this.btnSimpan.Text = "SIMPAN";
-            this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.UseVisualStyleBackColor = false;
             this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // lblDataPengajar
             // 
             this.lblDataPengajar.AutoSize = true;
-            this.lblDataPengajar.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDataPengajar.Location = new System.Drawing.Point(17, 9);
+            this.lblDataPengajar.Font = new System.Drawing.Font("Candara", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDataPengajar.Location = new System.Drawing.Point(12, 9);
             this.lblDataPengajar.Name = "lblDataPengajar";
-            this.lblDataPengajar.Size = new System.Drawing.Size(144, 29);
+            this.lblDataPengajar.Size = new System.Drawing.Size(176, 33);
             this.lblDataPengajar.TabIndex = 17;
             this.lblDataPengajar.Text = "Data Pengajar";
             // 
@@ -130,7 +132,8 @@ namespace bimbel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 283);
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.ClientSize = new System.Drawing.Size(334, 299);
             this.Controls.Add(this.lblDataPengajar);
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.btnBatal);
@@ -140,7 +143,9 @@ namespace bimbel
             this.Controls.Add(this.lblKodePelajaran);
             this.Controls.Add(this.lblnoPegawai);
             this.Controls.Add(this.lblNoPengajar);
+            this.MaximizeBox = false;
             this.Name = "formInputPengajar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Input Pengajar";
             this.Load += new System.EventHandler(this.formInputPengajar_Load);
             this.ResumeLayout(false);

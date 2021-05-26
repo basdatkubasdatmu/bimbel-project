@@ -49,161 +49,164 @@ namespace bimbel
             // lblInputJadwalUjian
             // 
             this.lblInputJadwalUjian.AutoSize = true;
-            this.lblInputJadwalUjian.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblInputJadwalUjian.Location = new System.Drawing.Point(15, 13);
+            this.lblInputJadwalUjian.Font = new System.Drawing.Font("Candara", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblInputJadwalUjian.Location = new System.Drawing.Point(13, 9);
             this.lblInputJadwalUjian.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInputJadwalUjian.Name = "lblInputJadwalUjian";
-            this.lblInputJadwalUjian.Size = new System.Drawing.Size(183, 29);
+            this.lblInputJadwalUjian.Size = new System.Drawing.Size(230, 33);
             this.lblInputJadwalUjian.TabIndex = 1;
             this.lblInputJadwalUjian.Text = "Input Jadwal Ujian";
             // 
             // btnSimpan
             // 
-            this.btnSimpan.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSimpan.Location = new System.Drawing.Point(309, 282);
+            this.btnSimpan.BackColor = System.Drawing.SystemColors.Info;
+            this.btnSimpan.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSimpan.Location = new System.Drawing.Point(309, 307);
             this.btnSimpan.Margin = new System.Windows.Forms.Padding(4);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(75, 38);
             this.btnSimpan.TabIndex = 2;
             this.btnSimpan.Text = "SIMPAN";
-            this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.UseVisualStyleBackColor = false;
             this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // btnBatal
             // 
-            this.btnBatal.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBatal.Location = new System.Drawing.Point(225, 282);
+            this.btnBatal.BackColor = System.Drawing.SystemColors.Info;
+            this.btnBatal.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnBatal.Location = new System.Drawing.Point(225, 307);
             this.btnBatal.Margin = new System.Windows.Forms.Padding(4);
             this.btnBatal.Name = "btnBatal";
             this.btnBatal.Size = new System.Drawing.Size(75, 38);
             this.btnBatal.TabIndex = 3;
             this.btnBatal.Text = "BATAL";
-            this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.UseVisualStyleBackColor = false;
             this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // txtKodeUjian
             // 
-            this.txtKodeUjian.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtKodeUjian.Location = new System.Drawing.Point(160, 57);
+            this.txtKodeUjian.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtKodeUjian.Location = new System.Drawing.Point(160, 60);
             this.txtKodeUjian.Margin = new System.Windows.Forms.Padding(4);
             this.txtKodeUjian.Name = "txtKodeUjian";
-            this.txtKodeUjian.Size = new System.Drawing.Size(224, 26);
+            this.txtKodeUjian.Size = new System.Drawing.Size(224, 27);
             this.txtKodeUjian.TabIndex = 4;
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.maskedTextBox1.Location = new System.Drawing.Point(160, 168);
+            this.maskedTextBox1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.maskedTextBox1.Location = new System.Drawing.Point(160, 180);
             this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(224, 26);
+            this.maskedTextBox1.Size = new System.Drawing.Size(224, 27);
             this.maskedTextBox1.TabIndex = 5;
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
             // lblKodeUjian
             // 
             this.lblKodeUjian.AutoSize = true;
-            this.lblKodeUjian.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblKodeUjian.Location = new System.Drawing.Point(15, 60);
+            this.lblKodeUjian.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKodeUjian.Location = new System.Drawing.Point(15, 63);
             this.lblKodeUjian.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblKodeUjian.Name = "lblKodeUjian";
-            this.lblKodeUjian.Size = new System.Drawing.Size(75, 20);
+            this.lblKodeUjian.Size = new System.Drawing.Size(81, 19);
             this.lblKodeUjian.TabIndex = 6;
             this.lblKodeUjian.Text = "Kode Ujian";
             // 
             // lblNamaUjian
             // 
             this.lblNamaUjian.AutoSize = true;
-            this.lblNamaUjian.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNamaUjian.Location = new System.Drawing.Point(15, 97);
+            this.lblNamaUjian.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNamaUjian.Location = new System.Drawing.Point(15, 103);
             this.lblNamaUjian.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNamaUjian.Name = "lblNamaUjian";
-            this.lblNamaUjian.Size = new System.Drawing.Size(76, 20);
+            this.lblNamaUjian.Size = new System.Drawing.Size(86, 19);
             this.lblNamaUjian.TabIndex = 7;
             this.lblNamaUjian.Text = "Nama Ujian";
             // 
             // lblKodePelajaran
             // 
             this.lblKodePelajaran.AutoSize = true;
-            this.lblKodePelajaran.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblKodePelajaran.Location = new System.Drawing.Point(15, 134);
+            this.lblKodePelajaran.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKodePelajaran.Location = new System.Drawing.Point(15, 143);
             this.lblKodePelajaran.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblKodePelajaran.Name = "lblKodePelajaran";
-            this.lblKodePelajaran.Size = new System.Drawing.Size(101, 20);
+            this.lblKodePelajaran.Size = new System.Drawing.Size(110, 19);
             this.lblKodePelajaran.TabIndex = 8;
             this.lblKodePelajaran.Text = "Kode Pelajaran";
             // 
             // lblTanggalUjian
             // 
             this.lblTanggalUjian.AutoSize = true;
-            this.lblTanggalUjian.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblTanggalUjian.Location = new System.Drawing.Point(13, 171);
+            this.lblTanggalUjian.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblTanggalUjian.Location = new System.Drawing.Point(15, 183);
             this.lblTanggalUjian.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTanggalUjian.Name = "lblTanggalUjian";
-            this.lblTanggalUjian.Size = new System.Drawing.Size(89, 20);
+            this.lblTanggalUjian.Size = new System.Drawing.Size(100, 19);
             this.lblTanggalUjian.TabIndex = 9;
             this.lblTanggalUjian.Text = "Tanggal Ujian";
             // 
             // lblJamMulai
             // 
             this.lblJamMulai.AutoSize = true;
-            this.lblJamMulai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblJamMulai.Location = new System.Drawing.Point(15, 208);
+            this.lblJamMulai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblJamMulai.Location = new System.Drawing.Point(15, 223);
             this.lblJamMulai.Name = "lblJamMulai";
-            this.lblJamMulai.Size = new System.Drawing.Size(69, 20);
+            this.lblJamMulai.Size = new System.Drawing.Size(78, 19);
             this.lblJamMulai.TabIndex = 10;
             this.lblJamMulai.Text = "Jam Mulai";
             // 
             // lblDurasi
             // 
             this.lblDurasi.AutoSize = true;
-            this.lblDurasi.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblDurasi.Location = new System.Drawing.Point(15, 245);
+            this.lblDurasi.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDurasi.Location = new System.Drawing.Point(15, 263);
             this.lblDurasi.Name = "lblDurasi";
-            this.lblDurasi.Size = new System.Drawing.Size(46, 20);
+            this.lblDurasi.Size = new System.Drawing.Size(52, 19);
             this.lblDurasi.TabIndex = 11;
             this.lblDurasi.Text = "Durasi";
             // 
             // txtNamaUjian
             // 
-            this.txtNamaUjian.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNamaUjian.Location = new System.Drawing.Point(160, 94);
+            this.txtNamaUjian.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNamaUjian.Location = new System.Drawing.Point(160, 99);
             this.txtNamaUjian.Name = "txtNamaUjian";
-            this.txtNamaUjian.Size = new System.Drawing.Size(224, 26);
+            this.txtNamaUjian.Size = new System.Drawing.Size(224, 27);
             this.txtNamaUjian.TabIndex = 12;
             // 
             // txtKodePelajaran
             // 
-            this.txtKodePelajaran.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtKodePelajaran.Location = new System.Drawing.Point(160, 131);
+            this.txtKodePelajaran.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtKodePelajaran.Location = new System.Drawing.Point(160, 140);
             this.txtKodePelajaran.Name = "txtKodePelajaran";
-            this.txtKodePelajaran.Size = new System.Drawing.Size(224, 26);
+            this.txtKodePelajaran.Size = new System.Drawing.Size(224, 27);
             this.txtKodePelajaran.TabIndex = 13;
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.maskedTextBox2.Location = new System.Drawing.Point(160, 242);
+            this.maskedTextBox2.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.maskedTextBox2.Location = new System.Drawing.Point(160, 260);
             this.maskedTextBox2.Mask = "00000";
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(224, 26);
+            this.maskedTextBox2.Size = new System.Drawing.Size(224, 27);
             this.maskedTextBox2.TabIndex = 14;
             this.maskedTextBox2.ValidatingType = typeof(int);
             // 
             // txtJamMulai
             // 
-            this.txtJamMulai.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtJamMulai.Location = new System.Drawing.Point(160, 205);
+            this.txtJamMulai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtJamMulai.Location = new System.Drawing.Point(160, 220);
             this.txtJamMulai.Name = "txtJamMulai";
-            this.txtJamMulai.Size = new System.Drawing.Size(224, 26);
+            this.txtJamMulai.Size = new System.Drawing.Size(224, 27);
             this.txtJamMulai.TabIndex = 15;
             // 
             // FormInputJadwalUjian
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(414, 334);
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.ClientSize = new System.Drawing.Size(414, 358);
             this.Controls.Add(this.txtJamMulai);
             this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.txtKodePelajaran);
@@ -222,7 +225,7 @@ namespace bimbel
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.MaximizeBox = false;
             this.Name = "FormInputJadwalUjian";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jadwal Ujian";
             this.Load += new System.EventHandler(this.FormInputJadwalUjian_Load);
             this.ResumeLayout(false);
