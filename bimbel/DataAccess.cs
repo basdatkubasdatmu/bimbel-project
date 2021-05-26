@@ -303,7 +303,7 @@ namespace bimbel
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
                 cmd.Connection = conn;
-                cmd.CommandText = "Select * from presensi";
+                cmd.CommandText = "Select * from presensisiswa";
                 cmd.CommandType = CommandType.Text;
 
                 NpgsqlDataAdapter da = new NpgsqlDataAdapter(cmd);
@@ -449,7 +449,7 @@ namespace bimbel
             conn.Close();
         }
 
-        public void insertDataPembayaran(string kodePembayaran, string noSiswa, string kodeKelas, string tanggalPembayaran, string status)
+        public void insertDataPembayaran(string kodePembayaran, string noSiswa, string kodeKelas, string tanggalPembayaran, string status, string jumlah)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
@@ -457,7 +457,7 @@ namespace bimbel
 
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into pembayaran(kodepembayaran, nosiswa, kodekelas, tanggalpembayaran, status) values('" + kodePembayaran + "', '" + noSiswa + "', '" + kodeKelas + "', '" + tanggalPembayaran + "', '" + status + "');";
+            cmd.CommandText = "insert into pembayaran(kodepembayaran, nosiswa, kodekelas, tanggalpembayaran, status, jumlah) values('" + kodePembayaran + "', '" + noSiswa + "', '" + kodeKelas + "', '" + tanggalPembayaran + "', '" + status + "', '" +jumlah+ "');";
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
@@ -845,7 +845,7 @@ namespace bimbel
             conn.Close();
         }
 
-        public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status)
+        public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status, string jumlah)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
@@ -854,7 +854,8 @@ namespace bimbel
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = conn;
             cmd.CommandText = string.Format(@"update pembayaran set nosiswa = '{0}', kodekelas = '{1}', tanggalpembayaran = '{2}',
-                                status = '{3}' where kodepembayaran = '" + kodepembayaran + "';", nosiswa, kodekelas, tanggalpembayaran, status);
+                                status = '{3}', jumlah = '{4}' where kodepembayaran = '" + kodepembayaran + "';", nosiswa, kodekelas, 
+                                tanggalpembayaran, status, jumlah);
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();
@@ -1260,27 +1261,7 @@ namespace bimbel
 
         }
 
-<<<<<<< HEAD
-=======
-        public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status)
-        {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
 
-            conn.Open();
-
-            NpgsqlCommand cmd = new NpgsqlCommand();
-            cmd.Connection = conn;
-            cmd.CommandText = string.Format(@"update pembayaran set nosiswa = '{0}', kodekelas = '{1}', tanggalpembayaran = '{2}',
-                                status = '{3}' where kodepembayaran = '" + kodepembayaran + "';", nosiswa, kodekelas, tanggalpembayaran, status);
-            cmd.CommandType = CommandType.Text;
-
-            cmd.ExecuteNonQuery();
-
-            cmd.Dispose();
-            conn.Close();
-        }
-
->>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
         public void hapusDataJadwalPengajar(string kodejadwalpengajar)
         {
             NpgsqlConnection conn = new NpgsqlConnection(strConnString);
@@ -1470,6 +1451,24 @@ namespace bimbel
             cmd.Connection = conn;
             cmd.CommandText = string.Format(@"delete from matapelajaran 
                                 where kodepelajaran = '{0}'" + kodepelajaran + "';", kodepelajaran);
+            cmd.CommandType = CommandType.Text;
+
+            cmd.ExecuteNonQuery();
+
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public void hapusDataPembayaran(string kodepembayaran)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+
+            conn.Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = string.Format(@"delete from pembayaran 
+                                where kodepembayaran = '{0}'" + kodepembayaran + "';", kodepembayaran);
             cmd.CommandType = CommandType.Text;
 
             cmd.ExecuteNonQuery();

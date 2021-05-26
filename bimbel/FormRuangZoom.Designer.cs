@@ -61,15 +61,11 @@ namespace bimbel
             // 
             // btnTambah
             // 
-<<<<<<< HEAD
             this.btnTambah.BackColor = System.Drawing.SystemColors.Info;
             this.btnTambah.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-=======
-
             this.btnTambah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnTambah.Location = new System.Drawing.Point(603, 367);
             this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
->>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.btnTambah.Location = new System.Drawing.Point(602, 361);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
@@ -79,14 +75,11 @@ namespace bimbel
             // 
             // btnHapus
             // 
-<<<<<<< HEAD
             this.btnHapus.BackColor = System.Drawing.SystemColors.Info;
             this.btnHapus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-=======
             this.btnHapus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnHapus.Location = new System.Drawing.Point(699, 367);
             this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
->>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.btnHapus.Location = new System.Drawing.Point(698, 361);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
@@ -97,14 +90,11 @@ namespace bimbel
             // 
             // btnRefresh
             // 
-<<<<<<< HEAD
             this.btnRefresh.BackColor = System.Drawing.SystemColors.Info;
             this.btnRefresh.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-=======
             this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnRefresh.Location = new System.Drawing.Point(411, 367);
             this.btnRefresh.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
->>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.btnRefresh.Location = new System.Drawing.Point(410, 361);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(90, 44);
@@ -115,14 +105,11 @@ namespace bimbel
             // 
             // btnEdit
             // 
-<<<<<<< HEAD
             this.btnEdit.BackColor = System.Drawing.SystemColors.Info;
             this.btnEdit.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-=======
             this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnEdit.Location = new System.Drawing.Point(507, 367);
             this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
->>>>>>> 56cb60d8261ef4cb4f096cea3d09cc16feec88df
             this.btnEdit.Location = new System.Drawing.Point(506, 361);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);
