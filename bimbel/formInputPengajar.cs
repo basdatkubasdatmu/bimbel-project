@@ -50,11 +50,28 @@ namespace bimbel
                 txtNoPegawai.Text = dt.Rows[0]["nopegawai"].ToString();
                 txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
             }
+<<<<<<< HEAD
+
+            
+
+=======
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
         }
 
         private void btnBatal_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+<<<<<<< HEAD
+
+        private void btnSimpan_MouseHover(object sender, EventArgs e)
+        {
+            this.txtNoPengajar.BackColor = Color.AliceBlue;
+            this.txtNoPegawai.BackColor = Color.AliceBlue;
+            this.txtKodePelajaran.BackColor = Color.AliceBlue;
+        }
+
+=======
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
     }
 }

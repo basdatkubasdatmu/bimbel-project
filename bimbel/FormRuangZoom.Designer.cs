@@ -29,7 +29,7 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvRuang = new System.Windows.Forms.DataGridView();
             this.txtRuang = new System.Windows.Forms.Label();
             this.btnTambah = new System.Windows.Forms.Button();
@@ -45,15 +45,17 @@ namespace bimbel
             // 
             // dgvRuang
             // 
+            this.dgvRuang.AllowUserToAddRows = false;
+            this.dgvRuang.AllowUserToDeleteRows = false;
             this.dgvRuang.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvRuang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvRuang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvRuang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvRuang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.kodeZoom,
@@ -63,7 +65,7 @@ namespace bimbel
             this.dgvRuang.Location = new System.Drawing.Point(12, 51);
             this.dgvRuang.Name = "dgvRuang";
             this.dgvRuang.RowTemplate.Height = 25;
-            this.dgvRuang.Size = new System.Drawing.Size(711, 304);
+            this.dgvRuang.Size = new System.Drawing.Size(776, 304);
             this.dgvRuang.TabIndex = 14;
             // 
             // txtRuang
@@ -81,9 +83,16 @@ namespace bimbel
             // 
             this.btnTambah.BackColor = System.Drawing.SystemColors.Info;
             this.btnTambah.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
             this.btnTambah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnTambah.Location = new System.Drawing.Point(603, 367);
             this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+>>>>>>> d62bc79f4b7f50b30467f3fa5f0747ed1783c02d
             this.btnTambah.Location = new System.Drawing.Point(602, 361);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
@@ -95,9 +104,6 @@ namespace bimbel
             // 
             this.btnHapus.BackColor = System.Drawing.SystemColors.Info;
             this.btnHapus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnHapus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHapus.Location = new System.Drawing.Point(699, 367);
-            this.btnHapus.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnHapus.Location = new System.Drawing.Point(698, 361);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(90, 44);
@@ -110,9 +116,6 @@ namespace bimbel
             // 
             this.btnRefresh.BackColor = System.Drawing.SystemColors.Info;
             this.btnRefresh.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRefresh.Location = new System.Drawing.Point(411, 367);
-            this.btnRefresh.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnRefresh.Location = new System.Drawing.Point(410, 361);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(90, 44);
@@ -125,9 +128,6 @@ namespace bimbel
             // 
             this.btnEdit.BackColor = System.Drawing.SystemColors.Info;
             this.btnEdit.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Location = new System.Drawing.Point(507, 367);
-            this.btnEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnEdit.Location = new System.Drawing.Point(506, 361);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(90, 44);
@@ -137,8 +137,10 @@ namespace bimbel
             // 
             // kodeZoom
             // 
+            this.kodeZoom.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.kodeZoom.HeaderText = "Kode Zoom";
             this.kodeZoom.Name = "kodeZoom";
+            this.kodeZoom.Width = 111;
             // 
             // link
             // 
@@ -147,13 +149,17 @@ namespace bimbel
             // 
             // meetingId
             // 
+            this.meetingId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.meetingId.HeaderText = "MeetingID";
             this.meetingId.Name = "meetingId";
+            this.meetingId.Width = 105;
             // 
             // passcode
             // 
+            this.passcode.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.passcode.HeaderText = "Passcode";
             this.passcode.Name = "passcode";
+            this.passcode.Width = 98;
             // 
             // FormRuangZoom
             // 

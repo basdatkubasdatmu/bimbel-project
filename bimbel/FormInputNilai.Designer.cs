@@ -181,6 +181,7 @@ namespace bimbel
             this.buttonSimpan.Text = "SIMPAN";
             this.buttonSimpan.UseVisualStyleBackColor = false;
             this.buttonSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
+            this.buttonSimpan.MouseHover += new System.EventHandler(this.buttonSimpan_MouseHover);
             // 
             // FormInputNilai
             // 

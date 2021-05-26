@@ -67,5 +67,15 @@ namespace bimbel
                 da.insertDataSiswa(txtNoSiswa.Text, txtNamaSiswa.Text, jenisKelamin, txtKodeKelas.Text, txtNohpSiswa.Text, txtEmailSiswa.Text, txtAsalSiswa.Text);
             }
         }
+
+        private void btnSimpan_MouseHover(object sender, EventArgs e)
+        {
+            this.txtNoSiswa.BackColor = Color.AliceBlue;
+            this.txtNamaSiswa.BackColor = Color.AliceBlue;
+            this.txtKodeKelas.BackColor = Color.AliceBlue;
+            this.txtNohpSiswa.BackColor = Color.AliceBlue;
+            this.txtEmailSiswa.BackColor = Color.AliceBlue;
+            this.txtAsalSiswa.BackColor = Color.AliceBlue;
+        }
     }
 }
