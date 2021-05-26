@@ -29,6 +29,7 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btHapusKelas = new System.Windows.Forms.Button();
             this.btEditKelas = new System.Windows.Forms.Button();
             this.btTambahKelas = new System.Windows.Forms.Button();
@@ -104,7 +105,17 @@ namespace bimbel
             // 
             // dgvKelas
             // 
+            this.dgvKelas.AllowUserToAddRows = false;
+            this.dgvKelas.AllowUserToDeleteRows = false;
             this.dgvKelas.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvKelas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvKelas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvKelas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.kodeKelas,
@@ -120,8 +131,10 @@ namespace bimbel
             // 
             // kodeKelas
             // 
+            this.kodeKelas.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.kodeKelas.HeaderText = "Kode Kelas";
             this.kodeKelas.Name = "kodeKelas";
+            this.kodeKelas.Width = 108;
             // 
             // nama
             // 

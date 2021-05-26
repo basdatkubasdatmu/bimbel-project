@@ -29,23 +29,26 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblKode = new System.Windows.Forms.Label();
+            this.lblNo = new System.Windows.Forms.Label();
             this.txtKodeBayar = new System.Windows.Forms.TextBox();
-            this.txtStatus = new System.Windows.Forms.TextBox();
             this.txtKodeKelas = new System.Windows.Forms.TextBox();
             this.textNoSiswa = new System.Windows.Forms.TextBox();
             this.txtJumlahBayar = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblinput = new System.Windows.Forms.Label();
             this.btnSimpan = new System.Windows.Forms.Button();
             this.btnBatal = new System.Windows.Forms.Button();
             this.textNamaSiswa = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblstatus = new System.Windows.Forms.Label();
+            this.lblJumlah = new System.Windows.Forms.Label();
+            this.lblKelas = new System.Windows.Forms.Label();
+            this.lblNama = new System.Windows.Forms.Label();
+            this.lbltgl = new System.Windows.Forms.Label();
+            this.txtStatus = new System.Windows.Forms.TextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
+<<<<<<< HEAD
             // label1
             // 
             this.label1.AutoSize = true;
@@ -65,6 +68,27 @@ namespace bimbel
             this.label2.Size = new System.Drawing.Size(98, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nomor Siswa";
+=======
+            // lblKode
+            // 
+            this.lblKode.AutoSize = true;
+            this.lblKode.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKode.Location = new System.Drawing.Point(33, 61);
+            this.lblKode.Name = "lblKode";
+            this.lblKode.Size = new System.Drawing.Size(85, 19);
+            this.lblKode.TabIndex = 0;
+            this.lblKode.Text = "Kode Bayar";
+            // 
+            // lblNo
+            // 
+            this.lblNo.AutoSize = true;
+            this.lblNo.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNo.Location = new System.Drawing.Point(33, 101);
+            this.lblNo.Name = "lblNo";
+            this.lblNo.Size = new System.Drawing.Size(98, 19);
+            this.lblNo.TabIndex = 1;
+            this.lblNo.Text = "Nomor Siswa";
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
             // 
             // txtKodeBayar
             // 
@@ -75,6 +99,7 @@ namespace bimbel
             this.txtKodeBayar.Size = new System.Drawing.Size(316, 27);
             this.txtKodeBayar.TabIndex = 6;
             // 
+<<<<<<< HEAD
             // txtStatus
             // 
             this.txtStatus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -84,6 +109,8 @@ namespace bimbel
             this.txtStatus.Size = new System.Drawing.Size(316, 27);
             this.txtStatus.TabIndex = 7;
             // 
+=======
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
             // txtKodeKelas
             // 
             this.txtKodeKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -106,40 +133,56 @@ namespace bimbel
             // txtJumlahBayar
             // 
             this.txtJumlahBayar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.txtJumlahBayar.Location = new System.Drawing.Point(146, 263);
+=======
+            this.txtJumlahBayar.Location = new System.Drawing.Point(146, 306);
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
             this.txtJumlahBayar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtJumlahBayar.Name = "txtJumlahBayar";
             this.txtJumlahBayar.Size = new System.Drawing.Size(316, 27);
             this.txtJumlahBayar.TabIndex = 11;
             // 
-            // label7
+            // lblinput
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(20, 16);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(201, 29);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Input Pembayaran";
+            this.lblinput.AutoSize = true;
+            this.lblinput.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblinput.Location = new System.Drawing.Point(20, 16);
+            this.lblinput.Name = "lblinput";
+            this.lblinput.Size = new System.Drawing.Size(201, 29);
+            this.lblinput.TabIndex = 12;
+            this.lblinput.Text = "Input Pembayaran";
             // 
             // btnSimpan
             // 
             this.btnSimpan.BackColor = System.Drawing.SystemColors.Info;
             this.btnSimpan.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.btnSimpan.Location = new System.Drawing.Point(279, 299);
+=======
+            this.btnSimpan.Location = new System.Drawing.Point(279, 348);
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
             this.btnSimpan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(88, 41);
             this.btnSimpan.TabIndex = 13;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
             this.btnSimpan.MouseHover += new System.EventHandler(this.btnSimpan_MouseHover);
+=======
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
             // 
             // btnBatal
             // 
             this.btnBatal.BackColor = System.Drawing.SystemColors.Info;
             this.btnBatal.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.btnBatal.Location = new System.Drawing.Point(373, 299);
+=======
+            this.btnBatal.Location = new System.Drawing.Point(373, 348);
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
             this.btnBatal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBatal.Name = "btnBatal";
             this.btnBatal.Size = new System.Drawing.Size(89, 41);
@@ -159,67 +202,106 @@ namespace bimbel
             this.textNamaSiswa.TabIndex = 9;
             this.textNamaSiswa.TextChanged += new System.EventHandler(this.textNamaSiswa_TextChanged);
             // 
-            // label6
+            // lblstatus
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(33, 225);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 19);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Status";
+            this.lblstatus.AutoSize = true;
+            this.lblstatus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblstatus.Location = new System.Drawing.Point(33, 268);
+            this.lblstatus.Name = "lblstatus";
+            this.lblstatus.Size = new System.Drawing.Size(53, 19);
+            this.lblstatus.TabIndex = 18;
+            this.lblstatus.Text = "Status";
             // 
-            // label5
+            // lblJumlah
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(33, 266);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 19);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Jumlah Bayar";
+            this.lblJumlah.AutoSize = true;
+            this.lblJumlah.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblJumlah.Location = new System.Drawing.Point(33, 309);
+            this.lblJumlah.Name = "lblJumlah";
+            this.lblJumlah.Size = new System.Drawing.Size(100, 19);
+            this.lblJumlah.TabIndex = 17;
+            this.lblJumlah.Text = "Jumlah Bayar";
             // 
-            // label4
+            // lblKelas
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(33, 183);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 19);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Kode Kelas";
+            this.lblKelas.AutoSize = true;
+            this.lblKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKelas.Location = new System.Drawing.Point(33, 183);
+            this.lblKelas.Name = "lblKelas";
+            this.lblKelas.Size = new System.Drawing.Size(83, 19);
+            this.lblKelas.TabIndex = 16;
+            this.lblKelas.Text = "Kode Kelas";
             // 
-            // label3
+            // lblNama
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(33, 141);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 19);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Nama Siswa";
+            this.lblNama.AutoSize = true;
+            this.lblNama.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNama.Location = new System.Drawing.Point(33, 141);
+            this.lblNama.Name = "lblNama";
+            this.lblNama.Size = new System.Drawing.Size(90, 19);
+            this.lblNama.TabIndex = 15;
+            this.lblNama.Text = "Nama Siswa";
+            // 
+            // lbltgl
+            // 
+            this.lbltgl.AutoSize = true;
+            this.lbltgl.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbltgl.Location = new System.Drawing.Point(33, 225);
+            this.lbltgl.Name = "lbltgl";
+            this.lbltgl.Size = new System.Drawing.Size(63, 19);
+            this.lbltgl.TabIndex = 20;
+            this.lbltgl.Text = "Tanggal";
+            // 
+            // txtStatus
+            // 
+            this.txtStatus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtStatus.Location = new System.Drawing.Point(146, 265);
+            this.txtStatus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtStatus.Name = "txtStatus";
+            this.txtStatus.Size = new System.Drawing.Size(316, 27);
+            this.txtStatus.TabIndex = 7;
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.maskedTextBox1.Location = new System.Drawing.Point(146, 222);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(316, 27);
+            this.maskedTextBox1.TabIndex = 21;
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
             // FormInputPembayaran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(486, 351);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+=======
+            this.ClientSize = new System.Drawing.Size(486, 400);
+            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.lbltgl);
+            this.Controls.Add(this.lblstatus);
+            this.Controls.Add(this.lblJumlah);
+            this.Controls.Add(this.lblKelas);
+            this.Controls.Add(this.lblNama);
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
             this.Controls.Add(this.btnBatal);
             this.Controls.Add(this.btnSimpan);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblinput);
             this.Controls.Add(this.txtJumlahBayar);
             this.Controls.Add(this.textNoSiswa);
             this.Controls.Add(this.textNamaSiswa);
             this.Controls.Add(this.txtKodeKelas);
             this.Controls.Add(this.txtStatus);
             this.Controls.Add(this.txtKodeBayar);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblNo);
+            this.Controls.Add(this.lblKode);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -234,20 +316,22 @@ namespace bimbel
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblKode;
+        private System.Windows.Forms.Label lblNo;
         private System.Windows.Forms.TextBox txtKodeBayar;
-        private System.Windows.Forms.TextBox txtStatus;
         private System.Windows.Forms.TextBox txtKodeKelas;
         private System.Windows.Forms.TextBox textNoSiswa;
         private System.Windows.Forms.TextBox txtJumlahBayar;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblinput;
         private System.Windows.Forms.Button btnSimpan;
         private System.Windows.Forms.Button btnBatal;
         private System.Windows.Forms.TextBox textNamaSiswa;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblstatus;
+        private System.Windows.Forms.Label lblJumlah;
+        private System.Windows.Forms.Label lblKelas;
+        private System.Windows.Forms.Label lblNama;
+        private System.Windows.Forms.Label lbltgl;
+        private System.Windows.Forms.TextBox txtStatus;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }

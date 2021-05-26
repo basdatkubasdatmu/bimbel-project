@@ -111,6 +111,7 @@ namespace bimbel
             this.btnBatal.TabIndex = 6;
             this.btnBatal.Text = "BATAL";
             this.btnBatal.UseVisualStyleBackColor = false;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // FormInputMataPelajaran
             // 

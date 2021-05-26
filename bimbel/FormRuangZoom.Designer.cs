@@ -29,23 +29,41 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvRuang = new System.Windows.Forms.DataGridView();
             this.txtRuang = new System.Windows.Forms.Label();
             this.btnTambah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
+            this.kodeZoom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.link = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.meetingId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.passcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRuang)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvRuang
             // 
             this.dgvRuang.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvRuang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvRuang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvRuang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.kodeZoom,
+            this.link,
+            this.meetingId,
+            this.passcode});
             this.dgvRuang.Location = new System.Drawing.Point(12, 51);
             this.dgvRuang.Name = "dgvRuang";
             this.dgvRuang.RowTemplate.Height = 25;
-            this.dgvRuang.Size = new System.Drawing.Size(776, 304);
+            this.dgvRuang.Size = new System.Drawing.Size(711, 304);
             this.dgvRuang.TabIndex = 14;
             // 
             // txtRuang
@@ -63,7 +81,10 @@ namespace bimbel
             // 
             this.btnTambah.BackColor = System.Drawing.SystemColors.Info;
             this.btnTambah.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
             this.btnTambah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnTambah.Location = new System.Drawing.Point(603, 367);
             this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -118,6 +139,26 @@ namespace bimbel
             this.btnEdit.Text = "EDIT";
             this.btnEdit.UseVisualStyleBackColor = false;
             // 
+            // kodeZoom
+            // 
+            this.kodeZoom.HeaderText = "Kode Zoom";
+            this.kodeZoom.Name = "kodeZoom";
+            // 
+            // link
+            // 
+            this.link.HeaderText = "Link";
+            this.link.Name = "link";
+            // 
+            // meetingId
+            // 
+            this.meetingId.HeaderText = "MeetingID";
+            this.meetingId.Name = "meetingId";
+            // 
+            // passcode
+            // 
+            this.passcode.HeaderText = "Passcode";
+            this.passcode.Name = "passcode";
+            // 
             // FormRuangZoom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -149,5 +190,9 @@ namespace bimbel
         private System.Windows.Forms.Button btnHapus;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodeZoom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn link;
+        private System.Windows.Forms.DataGridViewTextBoxColumn meetingId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn passcode;
     }
 }

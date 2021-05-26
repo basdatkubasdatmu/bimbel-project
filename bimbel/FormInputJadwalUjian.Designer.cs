@@ -44,6 +44,7 @@ namespace bimbel
             this.txtKodePelajaran = new System.Windows.Forms.TextBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.txtJamMulai = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblInputJadwalUjian
@@ -190,7 +191,7 @@ namespace bimbel
             this.maskedTextBox2.Location = new System.Drawing.Point(160, 260);
             this.maskedTextBox2.Mask = "00000";
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(224, 27);
+            this.maskedTextBox2.Size = new System.Drawing.Size(140, 27);
             this.maskedTextBox2.TabIndex = 14;
             this.maskedTextBox2.ValidatingType = typeof(int);
             // 
@@ -202,12 +203,23 @@ namespace bimbel
             this.txtJamMulai.Size = new System.Drawing.Size(224, 27);
             this.txtJamMulai.TabIndex = 15;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(309, 263);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 19);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "menit";
+            // 
             // FormInputJadwalUjian
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(414, 358);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtJamMulai);
             this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.txtKodePelajaran);
@@ -223,6 +235,7 @@ namespace bimbel
             this.Controls.Add(this.btnBatal);
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.lblInputJadwalUjian);
+            this.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.MaximizeBox = false;
             this.Name = "FormInputJadwalUjian";
@@ -251,5 +264,6 @@ namespace bimbel
         private System.Windows.Forms.TextBox txtKodePelajaran;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.TextBox txtJamMulai;
+        private System.Windows.Forms.Label label1;
     }
 }

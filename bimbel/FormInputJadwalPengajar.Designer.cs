@@ -48,6 +48,7 @@ namespace bimbel
             this.lblNoPengajar = new System.Windows.Forms.Label();
             this.txtKodeZoom = new System.Windows.Forms.TextBox();
             this.lblKodeZoom = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtJamMulai
@@ -64,7 +65,7 @@ namespace bimbel
             this.maskedTextBox2.Location = new System.Drawing.Point(215, 295);
             this.maskedTextBox2.Mask = "00000";
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(224, 27);
+            this.maskedTextBox2.Size = new System.Drawing.Size(138, 27);
             this.maskedTextBox2.TabIndex = 29;
             this.maskedTextBox2.ValidatingType = typeof(int);
             // 
@@ -246,12 +247,23 @@ namespace bimbel
             this.lblKodeZoom.TabIndex = 33;
             this.lblKodeZoom.Text = "Kode Zoom";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(359, 298);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 19);
+            this.label1.TabIndex = 35;
+            this.label1.Text = "menit";
+            // 
             // FormInputJadwalPengajar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(479, 436);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtKodeZoom);
             this.Controls.Add(this.lblKodeZoom);
             this.Controls.Add(this.txtNoPengajar);
@@ -302,5 +314,6 @@ namespace bimbel
         private System.Windows.Forms.Label lblNoPengajar;
         private System.Windows.Forms.TextBox txtKodeZoom;
         private System.Windows.Forms.Label lblKodeZoom;
+        private System.Windows.Forms.Label label1;
     }
 }
