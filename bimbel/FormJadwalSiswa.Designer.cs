@@ -35,6 +35,9 @@ namespace bimbel
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.lblDaftarJadwalSiswa = new System.Windows.Forms.Label();
+            this.kodeJadwalSiswa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namaSiswa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kodeJadwalPengajar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalSiswa)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,6 +45,10 @@ namespace bimbel
             // 
             this.dgvJadwalSiswa.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dgvJadwalSiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvJadwalSiswa.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.kodeJadwalSiswa,
+            this.namaSiswa,
+            this.kodeJadwalPengajar});
             this.dgvJadwalSiswa.Location = new System.Drawing.Point(18, 46);
             this.dgvJadwalSiswa.Name = "dgvJadwalSiswa";
             this.dgvJadwalSiswa.RowTemplate.Height = 25;
@@ -107,6 +114,24 @@ namespace bimbel
             this.lblDaftarJadwalSiswa.TabIndex = 15;
             this.lblDaftarJadwalSiswa.Text = "Daftar Jadwal Siswa";
             // 
+            // kodeJadwalSiswa
+            // 
+            this.kodeJadwalSiswa.DataPropertyName = "kodeJadwalSiswa";
+            this.kodeJadwalSiswa.HeaderText = "Kode Jadwal Siswa";
+            this.kodeJadwalSiswa.Name = "kodeJadwalSiswa";
+            // 
+            // namaSiswa
+            // 
+            this.namaSiswa.DataPropertyName = "namaSiswa";
+            this.namaSiswa.HeaderText = "Nama Siswa";
+            this.namaSiswa.Name = "namaSiswa";
+            // 
+            // kodeJadwalPengajar
+            // 
+            this.kodeJadwalPengajar.DataPropertyName = "kodeJadwalPengajar";
+            this.kodeJadwalPengajar.HeaderText = "Kode Jadwal Pengajar";
+            this.kodeJadwalPengajar.Name = "kodeJadwalPengajar";
+            // 
             // FormJadwalSiswa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -138,5 +163,8 @@ namespace bimbel
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Label lblDaftarJadwalSiswa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodeJadwalSiswa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn namaSiswa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodeJadwalPengajar;
     }
 }

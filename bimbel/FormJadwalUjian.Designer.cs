@@ -35,6 +35,12 @@ namespace bimbel
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dgvJadwalUjian = new System.Windows.Forms.DataGridView();
+            this.kodeUjian = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nama = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kodePelajaran = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tanggal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.jamMulai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.durasi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJadwalUjian)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,11 +107,54 @@ namespace bimbel
             // 
             this.dgvJadwalUjian.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dgvJadwalUjian.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvJadwalUjian.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.kodeUjian,
+            this.nama,
+            this.kodePelajaran,
+            this.tanggal,
+            this.jamMulai,
+            this.durasi});
             this.dgvJadwalUjian.Location = new System.Drawing.Point(16, 46);
             this.dgvJadwalUjian.Name = "dgvJadwalUjian";
             this.dgvJadwalUjian.RowTemplate.Height = 25;
             this.dgvJadwalUjian.Size = new System.Drawing.Size(737, 295);
             this.dgvJadwalUjian.TabIndex = 12;
+            // 
+            // kodeUjian
+            // 
+            this.kodeUjian.DataPropertyName = "kodeujian";
+            this.kodeUjian.HeaderText = "Kode Ujian";
+            this.kodeUjian.Name = "kodeUjian";
+            // 
+            // nama
+            // 
+            this.nama.DataPropertyName = "nama";
+            this.nama.HeaderText = "Nama";
+            this.nama.Name = "nama";
+            // 
+            // kodePelajaran
+            // 
+            this.kodePelajaran.DataPropertyName = "kodePelajaran";
+            this.kodePelajaran.HeaderText = "Kode Pelajaran";
+            this.kodePelajaran.Name = "kodePelajaran";
+            // 
+            // tanggal
+            // 
+            this.tanggal.DataPropertyName = "tanggal";
+            this.tanggal.HeaderText = "Tanggal Ujian";
+            this.tanggal.Name = "tanggal";
+            // 
+            // jamMulai
+            // 
+            this.jamMulai.DataPropertyName = "jamMulai";
+            this.jamMulai.HeaderText = "Jam Mulai";
+            this.jamMulai.Name = "jamMulai";
+            // 
+            // durasi
+            // 
+            this.durasi.DataPropertyName = "durasi";
+            this.durasi.HeaderText = "Durasi";
+            this.durasi.Name = "durasi";
             // 
             // FormJadwalUjian
             // 
@@ -138,5 +187,11 @@ namespace bimbel
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dgvJadwalUjian;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodeUjian;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nama;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kodePelajaran;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tanggal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn jamMulai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn durasi;
     }
 }
