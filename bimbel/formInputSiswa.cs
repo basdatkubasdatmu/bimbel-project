@@ -12,6 +12,7 @@ namespace bimbel
     {
         public string noSiswa;
         public bool isEditSiswa= false;
+        public string jenisKelamin;
 
         public formInputSiswa()
         {
@@ -31,8 +32,8 @@ namespace bimbel
                 {
                     txtNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
                     txtNamaSiswa.Text = dt.Rows[0]["nama"].ToString();
-                    rbLakiLaki.Text = dt.Rows[0]["L"].ToString();
-                    rdPerempuan.Text = dt.Rows[0]["P"].ToString();
+                    rbLakiLaki.Text = dt.Rows[0]["jeniskelamin"].ToString();
+                    rdPerempuan.Text = dt.Rows[0]["jeniskelamin"].ToString();
                     txtKodeKelas.Text = dt.Rows[0]["kodekelas"].ToString();
                     txtNohpSiswa.Text = dt.Rows[0]["nohp"].ToString();
                     txtEmailSiswa.Text = dt.Rows[0]["email"].ToString();
@@ -50,7 +51,7 @@ namespace bimbel
         {
             DataAccess da = new DataAccess();
 
-            string jenisKelamin = " ";
+            jenisKelamin = " ";
             if (rbLakiLaki.Checked)
             {
                 jenisKelamin = "L";

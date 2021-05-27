@@ -140,6 +140,11 @@ namespace bimbel
                 }
                 else
                 {
+                    dataSiswa.Visible = true;
+                    presensiSiswa.Visible = true;
+                    jadwalPengajar.Visible = true;
+                    mnPegawai.Visible = true;
+                    mnKasir.Visible = true;
                     noPegawaiLogin = frmLogin.noPegawaiLogin;
                 }
             }

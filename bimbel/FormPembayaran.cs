@@ -25,7 +25,7 @@ namespace bimbel
         private void btTambahPegawai_Click(object sender, EventArgs e)
         {
             FormInputPembayaran frm = new FormInputPembayaran();
-            this.Show();
+            frm.Show();
         }
 
         private void btHapusPegawai_Click(object sender, EventArgs e)
