@@ -62,12 +62,18 @@ namespace bimbel
             if (textNoSiswa.Text != "")
             {
                 DataAccess da = new DataAccess();
-                DataTable dt = da.getAllSiswa();
+                DataTable dt = da.getSiswaByID(textNoSiswa.Text);
 
                 if (dt.Rows.Count > 0)
                 {
                     textNamaSiswa.Text = dt.Rows[0]["namaSiswa"].ToString();
                 }
+                else
+                {
+                    textNamaSiswa.Text = "Tidak Ditemukan";
+                }
+
+                textNamaSiswa.ReadOnly = true;
             }
         }
 
