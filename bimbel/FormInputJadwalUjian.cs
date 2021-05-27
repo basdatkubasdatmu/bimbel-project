@@ -25,11 +25,11 @@ namespace bimbel
 
             if (isEditJadwalUjian)
             {
-                da.updateDataJadwalUjian(txtKodeUjian.Text, txtNamaUjian.Text, txtKodePelajaran.Text, maskedTextBox1.Text, txtJamMulai.Text, maskedTextBox2.Text);
+                da.updateDataJadwalUjian(txtKodeUjian.Text, txtNamaUjian.Text, txtKodePelajaran.Text, maskedTextBox1.Text, maskedTextBox3.Text, maskedTextBox2.Text);
             }
             else
             {
-                da.insertDataUjian(txtKodeUjian.Text, txtNamaUjian.Text, txtKodePelajaran.Text, maskedTextBox1.Text, txtJamMulai.Text, maskedTextBox2.Text);
+                da.insertDataUjian(txtKodeUjian.Text, txtNamaUjian.Text, txtKodePelajaran.Text, maskedTextBox1.Text, maskedTextBox3.Text, maskedTextBox2.Text);
             }
 
             this.Close();
@@ -49,7 +49,7 @@ namespace bimbel
                 txtNamaUjian.Text = dt.Rows[0]["nama"].ToString();
                 txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
                 maskedTextBox1.Text = dt.Rows[0]["tanggal"].ToString();
-                txtJamMulai.Text = dt.Rows[0]["jammulai"].ToString();
+                maskedTextBox3.Text = dt.Rows[0]["jammulai"].ToString();
                 maskedTextBox2.Text = dt.Rows[0]["durasi"].ToString();
             }
         }
@@ -65,7 +65,7 @@ namespace bimbel
             this.txtNamaUjian.BackColor = Color.AliceBlue;
             this.txtKodePelajaran.BackColor = Color.AliceBlue;
             this.maskedTextBox1.BackColor = Color.AliceBlue;
-            this.txtJamMulai.BackColor = Color.AliceBlue;
+            this.maskedTextBox3.BackColor = Color.AliceBlue;
             this.maskedTextBox2.BackColor = Color.AliceBlue;
 
         }

@@ -25,19 +25,24 @@ namespace bimbel
 
         private void FormInputPembayaran_Load(object sender, EventArgs e)
         {
+            Dictionary<int, string> dict = new Dictionary<int, string>();
+            dict.Add(1, "Lunas");
+            dict.Add(2, "Belum Lunas");
+            dict.Add(3, "DP 50%");
+
             DataAccess da = new DataAccess();
             if (isEditPembayaran)
             {
                 lblinput.Text = "Edit Pembayaran";
                 txtKodeBayar.ReadOnly = true;
 
-                DataTable dt = da.getJadwalUjianByID(kodepembayaran);
+                DataTable dt = da.getPembayaranByID(kodepembayaran);
 
                 txtKodeBayar.Text = dt.Rows[0]["kodepembayaran"].ToString();
                 textNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
                 txtKodeKelas.Text = dt.Rows[0]["kodekelas"].ToString();
                 maskedTextBox1.Text = dt.Rows[0]["tanggalpembayaran"].ToString();
-                txtStatus.Text = dt.Rows[0]["status"].ToString();
+                cbstatus.Text = dt.Rows[0]["status"].ToString();
                 txtJumlahBayar.Text = dt.Rows[0]["jumlah"].ToString();
             }
         }
@@ -77,7 +82,7 @@ namespace bimbel
             this.textNoSiswa.BackColor = Color.AliceBlue;
             this.textNamaSiswa.BackColor = Color.AliceBlue;
             this.txtKodeKelas.BackColor = Color.AliceBlue;
-            this.txtStatus.BackColor = Color.AliceBlue;
+            this.cbstatus.BackColor = Color.AliceBlue;
             this.txtJumlahBayar.BackColor = Color.AliceBlue;
         }
 
@@ -87,11 +92,11 @@ namespace bimbel
 
             if (isEditPembayaran)
             {
-                da.updateDataPembayaran(txtKodeBayar.Text, textNoSiswa.Text, txtKodeKelas.Text, maskedTextBox1.Text, txtStatus.Text, txtJumlahBayar.Text);
+                da.updateDataPembayaran(txtKodeBayar.Text, textNoSiswa.Text, txtKodeKelas.Text, maskedTextBox1.Text, cbstatus.Text, txtJumlahBayar.Text);
             }
             else
             {
-                da.insertDataPembayaran(txtKodeBayar.Text, textNoSiswa.Text, txtKodeKelas.Text, maskedTextBox1.Text, txtStatus.Text, txtJumlahBayar.Text);
+                da.insertDataPembayaran(txtKodeBayar.Text, textNoSiswa.Text, txtKodeKelas.Text, maskedTextBox1.Text, cbstatus.Text, txtJumlahBayar.Text);
             }
 
             this.Close();

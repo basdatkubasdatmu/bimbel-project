@@ -29,90 +29,90 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblInputJadwalSiswa = new System.Windows.Forms.Label();
-            this.lblKodeJadwalPengajar = new System.Windows.Forms.Label();
-            this.txtKodeJadwalPengajar = new System.Windows.Forms.TextBox();
-            this.txtNoSiswa = new System.Windows.Forms.TextBox();
-            this.lblNoSiswa = new System.Windows.Forms.Label();
-            this.lblKodeJadwalSiswa = new System.Windows.Forms.Label();
-            this.txtKodeJadwalSiswa = new System.Windows.Forms.TextBox();
+            this.lblinput = new System.Windows.Forms.Label();
+            this.lblID = new System.Windows.Forms.Label();
+            this.txtid = new System.Windows.Forms.TextBox();
+            this.txtlink = new System.Windows.Forms.TextBox();
+            this.lblLink = new System.Windows.Forms.Label();
+            this.lblKode = new System.Windows.Forms.Label();
+            this.txtkode = new System.Windows.Forms.TextBox();
             this.btnBatal = new System.Windows.Forms.Button();
             this.btnSimpan = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblpasscode = new System.Windows.Forms.Label();
+            this.txtpass = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // lblInputJadwalSiswa
+            // lblinput
             // 
-            this.lblInputJadwalSiswa.AutoSize = true;
-            this.lblInputJadwalSiswa.Font = new System.Drawing.Font("Candara", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblInputJadwalSiswa.Location = new System.Drawing.Point(12, 9);
-            this.lblInputJadwalSiswa.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblInputJadwalSiswa.Name = "lblInputJadwalSiswa";
-            this.lblInputJadwalSiswa.Size = new System.Drawing.Size(230, 33);
-            this.lblInputJadwalSiswa.TabIndex = 34;
-            this.lblInputJadwalSiswa.Text = "Input Ruang Zoom";
+            this.lblinput.AutoSize = true;
+            this.lblinput.Font = new System.Drawing.Font("Candara", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblinput.Location = new System.Drawing.Point(12, 9);
+            this.lblinput.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblinput.Name = "lblinput";
+            this.lblinput.Size = new System.Drawing.Size(230, 33);
+            this.lblinput.TabIndex = 34;
+            this.lblinput.Text = "Input Ruang Zoom";
             // 
-            // lblKodeJadwalPengajar
+            // lblID
             // 
-            this.lblKodeJadwalPengajar.AutoSize = true;
-            this.lblKodeJadwalPengajar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblKodeJadwalPengajar.Location = new System.Drawing.Point(32, 157);
-            this.lblKodeJadwalPengajar.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblKodeJadwalPengajar.Name = "lblKodeJadwalPengajar";
-            this.lblKodeJadwalPengajar.Size = new System.Drawing.Size(83, 19);
-            this.lblKodeJadwalPengajar.TabIndex = 49;
-            this.lblKodeJadwalPengajar.Text = "Meeting ID";
+            this.lblID.AutoSize = true;
+            this.lblID.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblID.Location = new System.Drawing.Point(32, 157);
+            this.lblID.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblID.Name = "lblID";
+            this.lblID.Size = new System.Drawing.Size(83, 19);
+            this.lblID.TabIndex = 49;
+            this.lblID.Text = "Meeting ID";
             // 
-            // txtKodeJadwalPengajar
+            // txtid
             // 
-            this.txtKodeJadwalPengajar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtKodeJadwalPengajar.Location = new System.Drawing.Point(195, 154);
-            this.txtKodeJadwalPengajar.Margin = new System.Windows.Forms.Padding(5);
-            this.txtKodeJadwalPengajar.Name = "txtKodeJadwalPengajar";
-            this.txtKodeJadwalPengajar.Size = new System.Drawing.Size(243, 27);
-            this.txtKodeJadwalPengajar.TabIndex = 48;
+            this.txtid.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtid.Location = new System.Drawing.Point(195, 154);
+            this.txtid.Margin = new System.Windows.Forms.Padding(5);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(243, 27);
+            this.txtid.TabIndex = 48;
             // 
-            // txtNoSiswa
+            // txtlink
             // 
-            this.txtNoSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNoSiswa.Location = new System.Drawing.Point(195, 106);
-            this.txtNoSiswa.Margin = new System.Windows.Forms.Padding(4);
-            this.txtNoSiswa.Name = "txtNoSiswa";
-            this.txtNoSiswa.Size = new System.Drawing.Size(243, 27);
-            this.txtNoSiswa.TabIndex = 47;
+            this.txtlink.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtlink.Location = new System.Drawing.Point(195, 106);
+            this.txtlink.Margin = new System.Windows.Forms.Padding(4);
+            this.txtlink.Name = "txtlink";
+            this.txtlink.Size = new System.Drawing.Size(243, 27);
+            this.txtlink.TabIndex = 47;
             // 
-            // lblNoSiswa
+            // lblLink
             // 
-            this.lblNoSiswa.AutoSize = true;
-            this.lblNoSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNoSiswa.Location = new System.Drawing.Point(32, 109);
-            this.lblNoSiswa.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblNoSiswa.Name = "lblNoSiswa";
-            this.lblNoSiswa.Size = new System.Drawing.Size(37, 19);
-            this.lblNoSiswa.TabIndex = 46;
-            this.lblNoSiswa.Text = "Link";
+            this.lblLink.AutoSize = true;
+            this.lblLink.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblLink.Location = new System.Drawing.Point(32, 109);
+            this.lblLink.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblLink.Name = "lblLink";
+            this.lblLink.Size = new System.Drawing.Size(37, 19);
+            this.lblLink.TabIndex = 46;
+            this.lblLink.Text = "Link";
             // 
-            // lblKodeJadwalSiswa
+            // lblKode
             // 
-            this.lblKodeJadwalSiswa.AutoSize = true;
-            this.lblKodeJadwalSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblKodeJadwalSiswa.Location = new System.Drawing.Point(32, 62);
-            this.lblKodeJadwalSiswa.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblKodeJadwalSiswa.Name = "lblKodeJadwalSiswa";
-            this.lblKodeJadwalSiswa.Size = new System.Drawing.Size(86, 19);
-            this.lblKodeJadwalSiswa.TabIndex = 45;
-            this.lblKodeJadwalSiswa.Text = "Kode Zoom";
+            this.lblKode.AutoSize = true;
+            this.lblKode.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKode.Location = new System.Drawing.Point(32, 62);
+            this.lblKode.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblKode.Name = "lblKode";
+            this.lblKode.Size = new System.Drawing.Size(86, 19);
+            this.lblKode.TabIndex = 45;
+            this.lblKode.Text = "Kode Zoom";
             // 
-            // txtKodeJadwalSiswa
+            // txtkode
             // 
-            this.txtKodeJadwalSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtKodeJadwalSiswa.Location = new System.Drawing.Point(195, 59);
-            this.txtKodeJadwalSiswa.Margin = new System.Windows.Forms.Padding(5);
-            this.txtKodeJadwalSiswa.MaxLength = 5;
-            this.txtKodeJadwalSiswa.Name = "txtKodeJadwalSiswa";
-            this.txtKodeJadwalSiswa.Size = new System.Drawing.Size(243, 27);
-            this.txtKodeJadwalSiswa.TabIndex = 44;
+            this.txtkode.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtkode.Location = new System.Drawing.Point(195, 59);
+            this.txtkode.Margin = new System.Windows.Forms.Padding(5);
+            this.txtkode.MaxLength = 5;
+            this.txtkode.Name = "txtkode";
+            this.txtkode.Size = new System.Drawing.Size(243, 27);
+            this.txtkode.TabIndex = 44;
             // 
             // btnBatal
             // 
@@ -125,6 +125,7 @@ namespace bimbel
             this.btnBatal.TabIndex = 43;
             this.btnBatal.Text = "BATAL";
             this.btnBatal.UseVisualStyleBackColor = false;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // btnSimpan
             // 
@@ -139,25 +140,25 @@ namespace bimbel
             this.btnSimpan.UseVisualStyleBackColor = false;
             this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
-            // label1
+            // lblpasscode
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(32, 208);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 19);
-            this.label1.TabIndex = 51;
-            this.label1.Text = "Passcode";
+            this.lblpasscode.AutoSize = true;
+            this.lblpasscode.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblpasscode.Location = new System.Drawing.Point(32, 208);
+            this.lblpasscode.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblpasscode.Name = "lblpasscode";
+            this.lblpasscode.Size = new System.Drawing.Size(73, 19);
+            this.lblpasscode.TabIndex = 51;
+            this.lblpasscode.Text = "Passcode";
             // 
-            // textBox1
+            // txtpass
             // 
-            this.textBox1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(195, 205);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(243, 27);
-            this.textBox1.TabIndex = 50;
+            this.txtpass.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtpass.Location = new System.Drawing.Point(195, 205);
+            this.txtpass.Margin = new System.Windows.Forms.Padding(5);
+            this.txtpass.Name = "txtpass";
+            this.txtpass.Size = new System.Drawing.Size(243, 27);
+            this.txtpass.TabIndex = 50;
             // 
             // FormInputZoom
             // 
@@ -165,17 +166,17 @@ namespace bimbel
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(475, 318);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.lblKodeJadwalPengajar);
-            this.Controls.Add(this.txtKodeJadwalPengajar);
-            this.Controls.Add(this.txtNoSiswa);
-            this.Controls.Add(this.lblNoSiswa);
-            this.Controls.Add(this.lblKodeJadwalSiswa);
-            this.Controls.Add(this.txtKodeJadwalSiswa);
+            this.Controls.Add(this.lblpasscode);
+            this.Controls.Add(this.txtpass);
+            this.Controls.Add(this.lblID);
+            this.Controls.Add(this.txtid);
+            this.Controls.Add(this.txtlink);
+            this.Controls.Add(this.lblLink);
+            this.Controls.Add(this.lblKode);
+            this.Controls.Add(this.txtkode);
             this.Controls.Add(this.btnBatal);
             this.Controls.Add(this.btnSimpan);
-            this.Controls.Add(this.lblInputJadwalSiswa);
+            this.Controls.Add(this.lblinput);
             this.Name = "FormInputZoom";
             this.Text = "FormInputZoom";
             this.ResumeLayout(false);
@@ -185,16 +186,16 @@ namespace bimbel
 
         #endregion
 
-        private System.Windows.Forms.Label lblInputJadwalSiswa;
-        private System.Windows.Forms.Label lblKodeJadwalPengajar;
-        private System.Windows.Forms.TextBox txtKodeJadwalPengajar;
-        private System.Windows.Forms.TextBox txtNoSiswa;
-        private System.Windows.Forms.Label lblNoSiswa;
-        private System.Windows.Forms.Label lblKodeJadwalSiswa;
-        private System.Windows.Forms.TextBox txtKodeJadwalSiswa;
+        private System.Windows.Forms.Label lblinput;
+        private System.Windows.Forms.Label lblID;
+        private System.Windows.Forms.TextBox txtid;
+        private System.Windows.Forms.TextBox txtlink;
+        private System.Windows.Forms.Label lblLink;
+        private System.Windows.Forms.Label lblKode;
+        private System.Windows.Forms.TextBox txtkode;
         private System.Windows.Forms.Button btnBatal;
         private System.Windows.Forms.Button btnSimpan;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblpasscode;
+        private System.Windows.Forms.TextBox txtpass;
     }
 }

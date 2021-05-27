@@ -41,5 +41,23 @@ namespace bimbel
                 MessageBox.Show("Data " + Selectedkodezoom + " Telah Terhapus", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btnTambah_Click(object sender, EventArgs e)
+        {
+            FormInputZoom frm = new FormInputZoom();
+            frm.Show();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dgvRuang.SelectedRows.Count > 0)
+            {
+                string selectedkodezoom = dgvRuang.SelectedRows[0].Cells[0].Value.ToString();
+                FormInputZoom frm = new FormInputZoom();
+                frm.isEditZoom = true;
+                frm.kodezoom = selectedkodezoom;
+                frm.Show();
+            }
+        }
     }
 }
