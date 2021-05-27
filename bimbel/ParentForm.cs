@@ -102,7 +102,12 @@ namespace bimbel
 
         private void FormMenu_Load(object sender, EventArgs e)
         {
+            this.LoginAplikasi();
+        }
 
+        private void logout_Click(object sender, System.EventArgs e)
+        {
+            this.LoginAplikasi();
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -135,6 +140,11 @@ namespace bimbel
                 }
                 else
                 {
+                    dataSiswa.Visible = true;
+                    presensiSiswa.Visible = true;
+                    jadwalPengajar.Visible = true;
+                    mnPegawai.Visible = true;
+                    mnKasir.Visible = true;
                     noPegawaiLogin = frmLogin.noPegawaiLogin;
                 }
             }

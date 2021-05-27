@@ -11,7 +11,7 @@ namespace bimbel
     public partial class formInputSiswa : Form
     {
         public string noSiswa;
-        public bool isEditSiswa= false;
+        public bool isEditSiswa = false;
 
         public formInputSiswa()
         {
@@ -27,15 +27,17 @@ namespace bimbel
                 txtNoSiswa.ReadOnly = true;
 
                 DataTable dt = da.getSiswaByID(noSiswa);
-
-                txtNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
-                txtNamaSiswa.Text = dt.Rows[0]["nama"].ToString();
-                rbLakiLaki.Text = dt.Rows[0]["lakilaki"].ToString();
-                rdPerempuan.Text = dt.Rows[0]["perempuan"].ToString();
-                txtKodeKelas.Text = dt.Rows[0]["kodekelas"].ToString();
-                txtNohpSiswa.Text = dt.Rows[0]["nohp"].ToString();
-                txtEmailSiswa.Text = dt.Rows[0]["email"].ToString();
-                txtAsalSiswa.Text = dt.Rows[0]["asaldaerah"].ToString();
+                if (dt.Rows.Count > 0)
+                {
+                    txtNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
+                    txtNamaSiswa.Text = dt.Rows[0]["nama"].ToString();
+                    rbLakiLaki.Text = dt.Rows[0]["L"].ToString();
+                    rdPerempuan.Text = dt.Rows[0]["P"].ToString();
+                    txtKodeKelas.Text = dt.Rows[0]["kodekelas"].ToString();
+                    txtNohpSiswa.Text = dt.Rows[0]["nohp"].ToString();
+                    txtEmailSiswa.Text = dt.Rows[0]["email"].ToString();
+                    txtAsalSiswa.Text = dt.Rows[0]["asaldaerah"].ToString();
+                }
             }
         }
 
@@ -51,11 +53,11 @@ namespace bimbel
             string jenisKelamin = " ";
             if (rbLakiLaki.Checked)
             {
-                jenisKelamin = "Laki-laki";
+                jenisKelamin = "L";
             }
             else if (rdPerempuan.Checked)
             {
-                jenisKelamin = "Perempuan";
+                jenisKelamin = "P";
             }
 
             if (isEditSiswa)

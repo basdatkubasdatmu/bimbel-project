@@ -45,12 +45,15 @@ namespace bimbel
 
                 DataTable dt = da.getJadwalUjianByID(kodeujian);
 
-                txtKodeUjian.Text = dt.Rows[0]["kodeujian"].ToString();
-                txtNamaUjian.Text = dt.Rows[0]["nama"].ToString();
-                txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
-                maskedTextBox1.Text = dt.Rows[0]["tanggal"].ToString();
-                maskedTextBox3.Text = dt.Rows[0]["jammulai"].ToString();
-                maskedTextBox2.Text = dt.Rows[0]["durasi"].ToString();
+                if (dt.Rows.Count > 0)
+                {
+                    txtKodeUjian.Text = dt.Rows[0]["kodeujian"].ToString();
+                    txtNamaUjian.Text = dt.Rows[0]["nama"].ToString();
+                    txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
+                    maskedTextBox1.Text = dt.Rows[0]["tanggal"].ToString();
+                    maskedTextBox3.Text = dt.Rows[0]["jammulai"].ToString();
+                    maskedTextBox2.Text = dt.Rows[0]["durasi"].ToString();
+                }
             }
         }
 

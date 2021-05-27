@@ -44,9 +44,12 @@ namespace bimbel
 
                 DataTable dt = da.getJadwalSiswaByID(kodejadwalsiswa);
 
-                txtKodeJadwalSiswa.Text = dt.Rows[0]["kodejadwalsiswa"].ToString();
-                txtNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
-                txtKodeJadwalPengajar.Text = dt.Rows[0]["kodejadwalpengajar"].ToString();
+                if (dt.Rows.Count > 0)
+                {
+                    txtKodeJadwalSiswa.Text = dt.Rows[0]["kodejadwalsiswa"].ToString();
+                    txtNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
+                    txtKodeJadwalPengajar.Text = dt.Rows[0]["kodejadwalpengajar"].ToString();
+                }
             }
         }
 

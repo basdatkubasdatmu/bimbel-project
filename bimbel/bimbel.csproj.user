@@ -65,9 +65,6 @@
     <Compile Update="FormMatPel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormMenuSiswa.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="FormNilai.cs">
       <SubType>Form</SubType>
     </Compile>

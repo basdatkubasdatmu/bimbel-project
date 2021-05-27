@@ -60,7 +60,7 @@ namespace bimbel
 
                 if (dataSiswa.Rows.Count == 0)
                 {
-                    MessageBox.Show("Pegawai tersebut tidak terdaftar", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Siswa tersebut tidak terdaftar", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
@@ -97,7 +97,7 @@ namespace bimbel
 
                 if (dataPgw.Rows.Count == 0)
                 {
-                    MessageBox.Show("Pegawai tersebut tidak terdaftar", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Pegawai tidak terdaftar", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {

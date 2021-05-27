@@ -60,11 +60,14 @@ namespace bimbel
 
                 DataTable dt = da.getJadwalKelasByID(kodekelas);
 
-                tbNomorKelas.Text = dt.Rows[0]["kodekelas"].ToString();
-                tbNamaKelas.Text = dt.Rows[0]["nama"].ToString();
-                tbBiayaKelas.Text = dt.Rows[0]["biaya"].ToString();
-                tbKuotaKelas.Text = dt.Rows[0]["kuota"].ToString();
-                clbFasilitas.Text = dt.Rows[0]["fasilitas"].ToString(); 
+                if (dt.Rows.Count > 0)
+                {
+                    tbNomorKelas.Text = dt.Rows[0]["kodekelas"].ToString();
+                    tbNamaKelas.Text = dt.Rows[0]["nama"].ToString();
+                    tbBiayaKelas.Text = dt.Rows[0]["biaya"].ToString();
+                    tbKuotaKelas.Text = dt.Rows[0]["kuota"].ToString();
+                    clbFasilitas.Text = dt.Rows[0]["fasilitas"].ToString();
+                }
             }
         }
 

@@ -38,12 +38,15 @@ namespace bimbel
 
                 DataTable dt = da.getPembayaranByID(kodepembayaran);
 
-                txtKodeBayar.Text = dt.Rows[0]["kodepembayaran"].ToString();
-                textNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
-                txtKodeKelas.Text = dt.Rows[0]["kodekelas"].ToString();
-                maskedTextBox1.Text = dt.Rows[0]["tanggalpembayaran"].ToString();
-                cbstatus.Text = dt.Rows[0]["status"].ToString();
-                txtJumlahBayar.Text = dt.Rows[0]["jumlah"].ToString();
+                if (dt.Rows.Count > 0)
+                {
+                    txtKodeBayar.Text = dt.Rows[0]["kodepembayaran"].ToString();
+                    textNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
+                    txtKodeKelas.Text = dt.Rows[0]["kodekelas"].ToString();
+                    maskedTextBox1.Text = dt.Rows[0]["tanggalpembayaran"].ToString();
+                    cbstatus.Text = dt.Rows[0]["status"].ToString();
+                    txtJumlahBayar.Text = dt.Rows[0]["jumlah"].ToString();
+                }
             }
         }
 
