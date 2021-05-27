@@ -28,7 +28,21 @@ namespace bimbel
 
         private void FormInputPresensi_Load(object sender, EventArgs e)
         {
+            DataAccess da = new DataAccess();
+            if (isEditPresensi)
+            {
+                lblInputPresensiSiswa.Text = "Edit Presensi";
+                txtkodeJadwalSiswa.ReadOnly = true;
 
+                DataTable dt = da.getPresensiByID(kodejadwalsiswa);
+
+                if (dt.Rows.Count > 0)
+                {
+                    txtkodeJadwalSiswa.Text = dt.Rows[0]["kodejadwalsiswa"].ToString();
+                    txtNoSiswa.Text = dt.Rows[0]["nosiswa"].ToString();
+                    dtpPresensi.Text = dt.Rows[0]["waktupresensi"].ToString();
+                }
+            }
         }
 
         private void btnSimpan_Click(object sender, EventArgs e)

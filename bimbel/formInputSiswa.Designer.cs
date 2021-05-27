@@ -236,7 +236,7 @@ namespace bimbel
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(489, 379);
+            this.ClientSize = new System.Drawing.Size(489, 391);
             this.Controls.Add(this.lblDataSiswa);
             this.Controls.Add(this.rdPerempuan);
             this.Controls.Add(this.rbLakiLaki);

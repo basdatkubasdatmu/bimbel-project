@@ -102,7 +102,12 @@ namespace bimbel
 
         private void FormMenu_Load(object sender, EventArgs e)
         {
+            this.LoginAplikasi();
+        }
 
+        private void logout_Click(object sender, System.EventArgs e)
+        {
+            this.LoginAplikasi();
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)

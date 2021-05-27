@@ -45,9 +45,11 @@ namespace bimbel
 
                 DataTable dt = da.getMatPelByID(kodepelajaran);
 
-                txtKodeMapel.Text = dt.Rows[0]["kodepelajaran"].ToString();
-                textNamaMapel.Text = dt.Rows[0]["pelajaran"].ToString();
-                
+                if (dt.Rows.Count > 0)
+                {
+                    txtKodeMapel.Text = dt.Rows[0]["kodepelajaran"].ToString();
+                    textNamaMapel.Text = dt.Rows[0]["pelajaran"].ToString();
+                }
             }
         }
 

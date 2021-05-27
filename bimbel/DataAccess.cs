@@ -1199,7 +1199,7 @@ namespace bimbel
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
                 cmd.Connection = conn;
-                cmd.CommandText = "Select * pengajar ruangzoom where nopengajar = '" + nopengajar + "';";
+                cmd.CommandText = "Select * pengajar where nopengajar = '" + nopengajar + "';";
                 cmd.CommandType = CommandType.Text;
 
                 NpgsqlDataAdapter da = new NpgsqlDataAdapter(cmd);
@@ -1235,7 +1235,7 @@ namespace bimbel
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
                 cmd.Connection = conn;
-                cmd.CommandText = "Select * siswa ruangzoom where nosiswa = '" + nosiswa + "';";
+                cmd.CommandText = "Select * from siswa where nosiswa = '" + nosiswa + "';";
                 cmd.CommandType = CommandType.Text;
 
                 NpgsqlDataAdapter da = new NpgsqlDataAdapter(cmd);
@@ -1259,6 +1259,42 @@ namespace bimbel
 
             return dt;
 
+        }
+
+        public DataTable getPresensiByID(string kodejadwalsiswa)
+        {
+            NpgsqlConnection conn = new NpgsqlConnection();
+            DataTable dt = new DataTable();
+            try
+            {
+                conn.ConnectionString = strConnString;
+                conn.Open();
+
+                NpgsqlCommand cmd = new NpgsqlCommand();
+                cmd.Connection = conn;
+                cmd.CommandText = "Select * from presensisiswa where kodejadwalsiswa = '" + kodejadwalsiswa + "';";
+                cmd.CommandType = CommandType.Text;
+
+                NpgsqlDataAdapter da = new NpgsqlDataAdapter(cmd);
+                DataSet ds = new DataSet();
+
+
+                ds.Reset();
+                da.Fill(ds);
+                dt = ds.Tables[0];
+
+                cmd.Dispose();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Data gagal dibaca:" + ex.Message.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return dt;
         }
 
         public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status)

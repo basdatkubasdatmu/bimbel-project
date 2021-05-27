@@ -59,10 +59,13 @@ namespace bimbel
 
                 DataTable dt = da.getDataPegawaiByID(noPegawai);
 
-                tbKodePegawai.Text = dt.Rows[0]["kodePegawai"].ToString();
-                tbNamaPegawai.Text = dt.Rows[0]["namaPegawai"].ToString();
-                tbEmailPegawai.Text = dt.Rows[0]["email"].ToString();
-                tbNoHpPegawai.Text = dt.Rows[0]["noHp"].ToString();
+                if (dt.Rows.Count > 0)
+                {
+                    tbKodePegawai.Text = dt.Rows[0]["kodePegawai"].ToString();
+                    tbNamaPegawai.Text = dt.Rows[0]["namaPegawai"].ToString();
+                    tbEmailPegawai.Text = dt.Rows[0]["email"].ToString();
+                    tbNoHpPegawai.Text = dt.Rows[0]["noHp"].ToString();
+                }
             }
         }
 

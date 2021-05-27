@@ -42,15 +42,17 @@ namespace bimbel
                 txtKodeJadwalPengajar.ReadOnly = true;
 
                 DataTable dt = da.getJadwalPengajarByID(kodejadwalpengajar);
-
-                txtKodeJadwalPengajar.Text = dt.Rows[0]["kodejadwalpengajar"].ToString();
-                txtKodeKelas.Text = dt.Rows[0]["kodekelas"].ToString();
-                txtNoPengajar.Text = dt.Rows[0]["nopengajar"].ToString();
-                txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
-                maskedTextBox1.Text = dt.Rows[0]["tanggal"].ToString();
-                maskedTextBox3.Text = dt.Rows[0]["jammulai"].ToString();
-                maskedTextBox2.Text = dt.Rows[0]["durasi"].ToString();
-                txtKodeZoom.Text = dt.Rows[0]["kodezoom"].ToString();
+                if (dt.Rows.Count > 0)
+                {
+                    txtKodeJadwalPengajar.Text = dt.Rows[0]["kodejadwalpengajar"].ToString();
+                    txtKodeKelas.Text = dt.Rows[0]["kodekelas"].ToString();
+                    txtNoPengajar.Text = dt.Rows[0]["nopengajar"].ToString();
+                    txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
+                    maskedTextBox1.Text = dt.Rows[0]["tanggal"].ToString();
+                    maskedTextBox3.Text = dt.Rows[0]["jammulai"].ToString();
+                    maskedTextBox2.Text = dt.Rows[0]["durasi"].ToString();
+                    txtKodeZoom.Text = dt.Rows[0]["kodezoom"].ToString();
+                }
             }
         }
 
