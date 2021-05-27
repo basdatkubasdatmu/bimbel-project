@@ -132,6 +132,7 @@ namespace bimbel
             // 
             this.txtkodeJadwalSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtkodeJadwalSiswa.Location = new System.Drawing.Point(37, 76);
+            this.txtkodeJadwalSiswa.MaxLength = 10;
             this.txtkodeJadwalSiswa.Name = "txtkodeJadwalSiswa";
             this.txtkodeJadwalSiswa.Size = new System.Drawing.Size(262, 27);
             this.txtkodeJadwalSiswa.TabIndex = 11;
@@ -140,6 +141,7 @@ namespace bimbel
             // 
             this.txtNamaSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNamaSiswa.Location = new System.Drawing.Point(37, 198);
+            this.txtNamaSiswa.MaxLength = 30;
             this.txtNamaSiswa.Name = "txtNamaSiswa";
             this.txtNamaSiswa.Size = new System.Drawing.Size(262, 27);
             this.txtNamaSiswa.TabIndex = 12;
@@ -148,6 +150,7 @@ namespace bimbel
             // 
             this.txtNoSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNoSiswa.Location = new System.Drawing.Point(37, 137);
+            this.txtNoSiswa.MaxLength = 10;
             this.txtNoSiswa.Name = "txtNoSiswa";
             this.txtNoSiswa.Size = new System.Drawing.Size(262, 27);
             this.txtNoSiswa.TabIndex = 13;

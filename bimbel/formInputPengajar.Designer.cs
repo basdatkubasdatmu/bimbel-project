@@ -74,6 +74,7 @@ namespace bimbel
             // 
             this.txtNoPengajar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNoPengajar.Location = new System.Drawing.Point(24, 84);
+            this.txtNoPengajar.MaxLength = 10;
             this.txtNoPengajar.Name = "txtNoPengajar";
             this.txtNoPengajar.Size = new System.Drawing.Size(291, 27);
             this.txtNoPengajar.TabIndex = 9;
@@ -82,6 +83,7 @@ namespace bimbel
             // 
             this.txtKodePelajaran.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodePelajaran.Location = new System.Drawing.Point(24, 203);
+            this.txtKodePelajaran.MaxLength = 10;
             this.txtKodePelajaran.Name = "txtKodePelajaran";
             this.txtKodePelajaran.Size = new System.Drawing.Size(291, 27);
             this.txtKodePelajaran.TabIndex = 10;
@@ -90,6 +92,7 @@ namespace bimbel
             // 
             this.txtNoPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNoPegawai.Location = new System.Drawing.Point(24, 143);
+            this.txtNoPegawai.MaxLength = 10;
             this.txtNoPegawai.Name = "txtNoPegawai";
             this.txtNoPegawai.Size = new System.Drawing.Size(291, 27);
             this.txtNoPegawai.TabIndex = 11;

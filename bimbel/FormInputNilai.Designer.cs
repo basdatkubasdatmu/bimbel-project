@@ -42,6 +42,8 @@ namespace bimbel
             this.txtNilai = new System.Windows.Forms.TextBox();
             this.buttonBatal = new System.Windows.Forms.Button();
             this.buttonSimpan = new System.Windows.Forms.Button();
+            this.txtNamaSiswa = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // InputNilai
@@ -59,7 +61,7 @@ namespace bimbel
             // 
             this.KodeUjian.AutoSize = true;
             this.KodeUjian.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.KodeUjian.Location = new System.Drawing.Point(35, 81);
+            this.KodeUjian.Location = new System.Drawing.Point(35, 58);
             this.KodeUjian.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.KodeUjian.Name = "KodeUjian";
             this.KodeUjian.Size = new System.Drawing.Size(81, 19);
@@ -70,7 +72,7 @@ namespace bimbel
             // 
             this.noPengajar.AutoSize = true;
             this.noPengajar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.noPengajar.Location = new System.Drawing.Point(35, 177);
+            this.noPengajar.Location = new System.Drawing.Point(35, 192);
             this.noPengajar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.noPengajar.Name = "noPengajar";
             this.noPengajar.Size = new System.Drawing.Size(120, 19);
@@ -82,7 +84,7 @@ namespace bimbel
             // 
             this.noSiswa.AutoSize = true;
             this.noSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.noSiswa.Location = new System.Drawing.Point(35, 125);
+            this.noSiswa.Location = new System.Drawing.Point(35, 102);
             this.noSiswa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.noSiswa.Name = "noSiswa";
             this.noSiswa.Size = new System.Drawing.Size(98, 19);
@@ -93,7 +95,7 @@ namespace bimbel
             // 
             this.nilai.AutoSize = true;
             this.nilai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nilai.Location = new System.Drawing.Point(35, 273);
+            this.nilai.Location = new System.Drawing.Point(35, 288);
             this.nilai.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nilai.Name = "nilai";
             this.nilai.Size = new System.Drawing.Size(38, 19);
@@ -104,7 +106,7 @@ namespace bimbel
             // 
             this.kodePelajaran.AutoSize = true;
             this.kodePelajaran.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.kodePelajaran.Location = new System.Drawing.Point(35, 226);
+            this.kodePelajaran.Location = new System.Drawing.Point(35, 241);
             this.kodePelajaran.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.kodePelajaran.Name = "kodePelajaran";
             this.kodePelajaran.Size = new System.Drawing.Size(110, 19);
@@ -114,7 +116,7 @@ namespace bimbel
             // txtKodeUjian
             // 
             this.txtKodeUjian.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtKodeUjian.Location = new System.Drawing.Point(172, 78);
+            this.txtKodeUjian.Location = new System.Drawing.Point(172, 55);
             this.txtKodeUjian.Margin = new System.Windows.Forms.Padding(4);
             this.txtKodeUjian.MaxLength = 5;
             this.txtKodeUjian.Name = "txtKodeUjian";
@@ -124,17 +126,18 @@ namespace bimbel
             // txtNoSiswa
             // 
             this.txtNoSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNoSiswa.Location = new System.Drawing.Point(172, 122);
+            this.txtNoSiswa.Location = new System.Drawing.Point(172, 99);
             this.txtNoSiswa.Margin = new System.Windows.Forms.Padding(4);
             this.txtNoSiswa.MaxLength = 10;
             this.txtNoSiswa.Name = "txtNoSiswa";
             this.txtNoSiswa.Size = new System.Drawing.Size(224, 27);
             this.txtNoSiswa.TabIndex = 13;
+            this.txtNoSiswa.TextChanged += new System.EventHandler(this.txtNoSiswa_TextChanged);
             // 
             // txtNoPengajar
             // 
             this.txtNoPengajar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNoPengajar.Location = new System.Drawing.Point(172, 169);
+            this.txtNoPengajar.Location = new System.Drawing.Point(172, 184);
             this.txtNoPengajar.Margin = new System.Windows.Forms.Padding(4);
             this.txtNoPengajar.MaxLength = 10;
             this.txtNoPengajar.Name = "txtNoPengajar";
@@ -144,7 +147,7 @@ namespace bimbel
             // txtKodePelajaran
             // 
             this.txtKodePelajaran.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtKodePelajaran.Location = new System.Drawing.Point(172, 218);
+            this.txtKodePelajaran.Location = new System.Drawing.Point(172, 233);
             this.txtKodePelajaran.Margin = new System.Windows.Forms.Padding(4);
             this.txtKodePelajaran.MaxLength = 5;
             this.txtKodePelajaran.Name = "txtKodePelajaran";
@@ -154,7 +157,7 @@ namespace bimbel
             // txtNilai
             // 
             this.txtNilai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNilai.Location = new System.Drawing.Point(172, 265);
+            this.txtNilai.Location = new System.Drawing.Point(172, 280);
             this.txtNilai.Margin = new System.Windows.Forms.Padding(4);
             this.txtNilai.Name = "txtNilai";
             this.txtNilai.Size = new System.Drawing.Size(224, 27);
@@ -187,12 +190,35 @@ namespace bimbel
             this.buttonSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             this.buttonSimpan.MouseHover += new System.EventHandler(this.buttonSimpan_MouseHover);
             // 
+            // txtNamaSiswa
+            // 
+            this.txtNamaSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNamaSiswa.Location = new System.Drawing.Point(172, 141);
+            this.txtNamaSiswa.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNamaSiswa.MaxLength = 10;
+            this.txtNamaSiswa.Name = "txtNamaSiswa";
+            this.txtNamaSiswa.Size = new System.Drawing.Size(224, 27);
+            this.txtNamaSiswa.TabIndex = 19;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(35, 149);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(90, 19);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Nama Siswa";
+            // 
             // FormInputNilai
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(439, 370);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtNamaSiswa);
             this.Controls.Add(this.buttonSimpan);
             this.Controls.Add(this.buttonBatal);
             this.Controls.Add(this.txtNilai);
@@ -231,5 +257,7 @@ namespace bimbel
         private System.Windows.Forms.TextBox txtNilai;
         private System.Windows.Forms.Button buttonBatal;
         private System.Windows.Forms.Button buttonSimpan;
+        private System.Windows.Forms.TextBox txtNamaSiswa;
+        private System.Windows.Forms.Label label1;
     }
 }
