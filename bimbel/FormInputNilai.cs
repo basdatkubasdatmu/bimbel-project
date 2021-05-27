@@ -52,7 +52,6 @@ namespace bimbel
                 txtNoPengajar.Text = dt.Rows[0]["nopengajar"].ToString();
                 txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
                 txtNilai.Text = dt.Rows[0]["nilai"].ToString();
-
             }
         }
 
@@ -69,6 +68,26 @@ namespace bimbel
             this.txtKodePelajaran.BackColor = Color.AliceBlue;
             this.txtNilai.BackColor = Color.AliceBlue;
             
+        }
+
+        private void txtNoSiswa_TextChanged(object sender, EventArgs e)
+        {
+            if (txtNoSiswa.Text != "")
+            {
+                DataAccess da = new DataAccess();
+                DataTable dt = da.getSiswaByID(txtNoSiswa.Text);
+
+                if (dt.Rows.Count > 0)
+                {
+                    txtNamaSiswa.Text = dt.Rows[0]["namaSiswa"].ToString();
+                }
+                else
+                {
+                    txtNamaSiswa.Text = "Tidak Ditemukan";
+                }
+
+                txtNamaSiswa.ReadOnly = true;
+            }
         }
     }
 }
