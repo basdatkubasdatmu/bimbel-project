@@ -11,7 +11,7 @@ namespace bimbel
     public partial class formInputSiswa : Form
     {
         public string noSiswa;
-        public bool isEditSiswa= false;
+        public bool isEditSiswa = false;
 
         public formInputSiswa()
         {

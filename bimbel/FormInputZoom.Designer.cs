@@ -179,6 +179,7 @@ namespace bimbel
             this.Controls.Add(this.lblinput);
             this.Name = "FormInputZoom";
             this.Text = "FormInputZoom";
+            this.Load += new System.EventHandler(this.FormInputZoom_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

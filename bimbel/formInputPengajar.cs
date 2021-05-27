@@ -45,10 +45,13 @@ namespace bimbel
                 txtNoPengajar.ReadOnly = true;
 
                 DataTable dt = da.getPengajarByID(nopengajar);
-
-                txtNoPengajar.Text = dt.Rows[0]["nopengajar"].ToString();
-                txtNoPegawai.Text = dt.Rows[0]["nopegawai"].ToString();
-                txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
+                
+                if(dt.Rows.Count > 0)
+                {
+                    txtNoPengajar.Text = dt.Rows[0]["nopengajar"].ToString();
+                    txtNoPegawai.Text = dt.Rows[0]["nopegawai"].ToString();
+                    txtKodePelajaran.Text = dt.Rows[0]["kodepelajaran"].ToString();
+                }
             }
         }
 
