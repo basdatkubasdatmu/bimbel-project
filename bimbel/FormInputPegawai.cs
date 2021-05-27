@@ -80,13 +80,6 @@ namespace bimbel
             }
         }
 
-      
-
-        private void btBatalPegawai_Click_1(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void btSimpanPegawai_MouseHover(object sender, EventArgs e)
         {
             this.tbKodePegawai.BackColor = Color.AliceBlue;

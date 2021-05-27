@@ -439,6 +439,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -467,6 +468,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -495,6 +497,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -523,6 +526,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -551,6 +555,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -579,6 +584,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -607,6 +613,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -635,6 +642,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -663,6 +671,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -691,6 +700,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -719,6 +729,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -747,6 +758,7 @@ namespace bimbel
             NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -761,7 +773,6 @@ namespace bimbel
             }
             catch (Exception ex)
             {
-
                 MessageBox.Show("Silahkan coba lagi. Error : '" + ex.Message.ToString() + "'", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
@@ -772,9 +783,10 @@ namespace bimbel
 
         public void updateDataPresensi(string kodejadwalsiswa, string nosiswa, string waktupresensi)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -799,9 +811,10 @@ namespace bimbel
 
         public void updateDataPengajar(string nopengajar, string kodepelajaran, string nopegawai)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -826,9 +839,10 @@ namespace bimbel
 
         public void updateDataSiswa(string nosiswa, string nama, string jeniskelamin, string kodekelas, string nohp, string email, string asaldaerah)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -853,9 +867,10 @@ namespace bimbel
 
         public void updateDataJadwalPengajar(string kodejadwalpengajar, string kodekelas, string nopengajar, string kodepelajaran, string tanggal, string jammulai, string durasi, string kodezoom)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -880,9 +895,10 @@ namespace bimbel
 
         public void updateDataJadwalSiswa(string kodejadwalsiswa, string nosiswa, string kodejadwalpengajar)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -907,9 +923,10 @@ namespace bimbel
 
         public void updateDataJadwalUjian(string kodeujian, string nama, string kodepelajaran, string tanggal, string jammulai, string durasi)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -934,9 +951,10 @@ namespace bimbel
 
         public void updateDataKelas(string kodekelas, string nama, string biaya, string kuota, string fasilitas)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -961,9 +979,10 @@ namespace bimbel
 
         public void updateDataMatPel(string kodepelajaran, string pelajaran)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -988,9 +1007,10 @@ namespace bimbel
 
         public void updateDataNilai(string kodeujian, string nosiswa, string nopengajar, string kodepelajaran, string nilai)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -1015,9 +1035,10 @@ namespace bimbel
 
         public void updateDataPegawai(string nopegawai, string nama, string jeniskelamin, string nohp, string email, string posisi)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -1042,9 +1063,10 @@ namespace bimbel
 
         public void updateDataRuangZoom(string kodezoom, string link, string meetingid, string passcode)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -1069,9 +1091,10 @@ namespace bimbel
 
         public void updateDataPembayaran(string kodepembayaran, string nosiswa, string kodekelas, string tanggalpembayaran, string status, string jumlah)
         {
-            NpgsqlConnection conn = new NpgsqlConnection(strConnString);
+            NpgsqlConnection conn = new NpgsqlConnection();
             try
             {
+                conn.ConnectionString = strConnString;
                 conn.Open();
 
                 NpgsqlCommand cmd = new NpgsqlCommand();
@@ -1372,7 +1395,7 @@ namespace bimbel
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Data gagal dibaca:" + ex.Message.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        
             }
             finally
             {
@@ -1480,7 +1503,7 @@ namespace bimbel
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Data gagal dibaca:" + ex.Message.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                
             }
             finally
             {

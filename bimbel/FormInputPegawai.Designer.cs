@@ -57,7 +57,7 @@ namespace bimbel
             this.btBatalPegawai.TabIndex = 41;
             this.btBatalPegawai.Text = "BATAL";
             this.btBatalPegawai.UseVisualStyleBackColor = false;
-            this.btBatalPegawai.Click += new System.EventHandler(this.btBatalPegawai_Click_1);
+            this.btBatalPegawai.Click += new System.EventHandler(this.btBatalPegawai_Click);
             // 
             // btSimpanPegawai
             // 
