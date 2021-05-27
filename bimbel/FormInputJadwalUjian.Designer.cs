@@ -43,8 +43,8 @@ namespace bimbel
             this.txtNamaUjian = new System.Windows.Forms.TextBox();
             this.txtKodePelajaran = new System.Windows.Forms.TextBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.txtJamMulai = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // lblInputJadwalUjian
@@ -90,6 +90,7 @@ namespace bimbel
             this.txtKodeUjian.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodeUjian.Location = new System.Drawing.Point(160, 60);
             this.txtKodeUjian.Margin = new System.Windows.Forms.Padding(4);
+            this.txtKodeUjian.MaxLength = 5;
             this.txtKodeUjian.Name = "txtKodeUjian";
             this.txtKodeUjian.Size = new System.Drawing.Size(224, 27);
             this.txtKodeUjian.TabIndex = 4;
@@ -173,6 +174,7 @@ namespace bimbel
             // 
             this.txtNamaUjian.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNamaUjian.Location = new System.Drawing.Point(160, 99);
+            this.txtNamaUjian.MaxLength = 10;
             this.txtNamaUjian.Name = "txtNamaUjian";
             this.txtNamaUjian.Size = new System.Drawing.Size(224, 27);
             this.txtNamaUjian.TabIndex = 12;
@@ -181,6 +183,7 @@ namespace bimbel
             // 
             this.txtKodePelajaran.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodePelajaran.Location = new System.Drawing.Point(160, 140);
+            this.txtKodePelajaran.MaxLength = 5;
             this.txtKodePelajaran.Name = "txtKodePelajaran";
             this.txtKodePelajaran.Size = new System.Drawing.Size(224, 27);
             this.txtKodePelajaran.TabIndex = 13;
@@ -195,14 +198,6 @@ namespace bimbel
             this.maskedTextBox2.TabIndex = 14;
             this.maskedTextBox2.ValidatingType = typeof(int);
             // 
-            // txtJamMulai
-            // 
-            this.txtJamMulai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtJamMulai.Location = new System.Drawing.Point(160, 220);
-            this.txtJamMulai.Name = "txtJamMulai";
-            this.txtJamMulai.Size = new System.Drawing.Size(224, 27);
-            this.txtJamMulai.TabIndex = 15;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -213,14 +208,24 @@ namespace bimbel
             this.label1.TabIndex = 16;
             this.label1.Text = "menit";
             // 
+            // maskedTextBox3
+            // 
+            this.maskedTextBox3.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.maskedTextBox3.Location = new System.Drawing.Point(160, 220);
+            this.maskedTextBox3.Mask = "90:00";
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.Size = new System.Drawing.Size(224, 27);
+            this.maskedTextBox3.TabIndex = 37;
+            this.maskedTextBox3.ValidatingType = typeof(System.DateTime);
+            // 
             // FormInputJadwalUjian
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(414, 358);
+            this.Controls.Add(this.maskedTextBox3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtJamMulai);
             this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.txtKodePelajaran);
             this.Controls.Add(this.txtNamaUjian);
@@ -263,7 +268,7 @@ namespace bimbel
         private System.Windows.Forms.TextBox txtNamaUjian;
         private System.Windows.Forms.TextBox txtKodePelajaran;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.TextBox txtJamMulai;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
     }
 }

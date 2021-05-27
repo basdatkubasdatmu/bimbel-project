@@ -63,6 +63,7 @@ namespace bimbel
             this.txtKodeMapel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodeMapel.Location = new System.Drawing.Point(199, 52);
             this.txtKodeMapel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtKodeMapel.MaxLength = 5;
             this.txtKodeMapel.Name = "txtKodeMapel";
             this.txtKodeMapel.Size = new System.Drawing.Size(225, 27);
             this.txtKodeMapel.TabIndex = 2;
@@ -72,6 +73,7 @@ namespace bimbel
             this.textNamaMapel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textNamaMapel.Location = new System.Drawing.Point(199, 87);
             this.textNamaMapel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textNamaMapel.MaxLength = 20;
             this.textNamaMapel.Name = "textNamaMapel";
             this.textNamaMapel.Size = new System.Drawing.Size(225, 27);
             this.textNamaMapel.TabIndex = 4;

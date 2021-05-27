@@ -44,10 +44,10 @@ namespace bimbel
             this.lblKelas = new System.Windows.Forms.Label();
             this.lblNama = new System.Windows.Forms.Label();
             this.lbltgl = new System.Windows.Forms.Label();
-            this.txtStatus = new System.Windows.Forms.TextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
-
+            // 
             // lblKode
             // 
             this.lblKode.AutoSize = true;
@@ -73,24 +73,17 @@ namespace bimbel
             this.txtKodeBayar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodeBayar.Location = new System.Drawing.Point(146, 58);
             this.txtKodeBayar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtKodeBayar.MaxLength = 15;
             this.txtKodeBayar.Name = "txtKodeBayar";
             this.txtKodeBayar.Size = new System.Drawing.Size(316, 27);
             this.txtKodeBayar.TabIndex = 6;
-            // 
-            // txtStatus
-            // 
-            this.txtStatus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtStatus.Location = new System.Drawing.Point(146, 222);
-            this.txtStatus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(316, 27);
-            this.txtStatus.TabIndex = 7;
             // 
             // txtKodeKelas
             // 
             this.txtKodeKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodeKelas.Location = new System.Drawing.Point(146, 180);
             this.txtKodeKelas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtKodeKelas.MaxLength = 5;
             this.txtKodeKelas.Name = "txtKodeKelas";
             this.txtKodeKelas.Size = new System.Drawing.Size(316, 27);
             this.txtKodeKelas.TabIndex = 8;
@@ -100,6 +93,7 @@ namespace bimbel
             this.textNoSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textNoSiswa.Location = new System.Drawing.Point(146, 98);
             this.textNoSiswa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textNoSiswa.MaxLength = 10;
             this.textNoSiswa.Name = "textNoSiswa";
             this.textNoSiswa.Size = new System.Drawing.Size(316, 27);
             this.textNoSiswa.TabIndex = 10;
@@ -108,7 +102,6 @@ namespace bimbel
             // txtJumlahBayar
             // 
             this.txtJumlahBayar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtJumlahBayar.Location = new System.Drawing.Point(146, 263);
             this.txtJumlahBayar.Location = new System.Drawing.Point(146, 306);
             this.txtJumlahBayar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtJumlahBayar.Name = "txtJumlahBayar";
@@ -129,7 +122,6 @@ namespace bimbel
             // 
             this.btnSimpan.BackColor = System.Drawing.SystemColors.Info;
             this.btnSimpan.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSimpan.Location = new System.Drawing.Point(279, 299);
             this.btnSimpan.Location = new System.Drawing.Point(279, 348);
             this.btnSimpan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSimpan.Name = "btnSimpan";
@@ -137,14 +129,13 @@ namespace bimbel
             this.btnSimpan.TabIndex = 13;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = false;
-            this.btnSimpan.MouseHover += new System.EventHandler(this.btnSimpan_MouseHover);
             this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
+            this.btnSimpan.MouseHover += new System.EventHandler(this.btnSimpan_MouseHover);
             // 
             // btnBatal
             // 
             this.btnBatal.BackColor = System.Drawing.SystemColors.Info;
             this.btnBatal.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBatal.Location = new System.Drawing.Point(373, 299);
             this.btnBatal.Location = new System.Drawing.Point(373, 348);
             this.btnBatal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBatal.Name = "btnBatal";
@@ -159,6 +150,7 @@ namespace bimbel
             this.textNamaSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textNamaSiswa.Location = new System.Drawing.Point(146, 138);
             this.textNamaSiswa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textNamaSiswa.MaxLength = 30;
             this.textNamaSiswa.Name = "textNamaSiswa";
             this.textNamaSiswa.ReadOnly = true;
             this.textNamaSiswa.Size = new System.Drawing.Size(316, 27);
@@ -215,15 +207,6 @@ namespace bimbel
             this.lbltgl.TabIndex = 20;
             this.lbltgl.Text = "Tanggal";
             // 
-            // txtStatus
-            // 
-            this.txtStatus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtStatus.Location = new System.Drawing.Point(146, 265);
-            this.txtStatus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(316, 27);
-            this.txtStatus.TabIndex = 7;
-            // 
             // maskedTextBox1
             // 
             this.maskedTextBox1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -234,13 +217,22 @@ namespace bimbel
             this.maskedTextBox1.TabIndex = 21;
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(146, 265);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(316, 27);
+            this.comboBox1.TabIndex = 22;
+            // 
             // FormInputPembayaran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(486, 351);
             this.ClientSize = new System.Drawing.Size(486, 400);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.lbltgl);
             this.Controls.Add(this.lblstatus);
@@ -254,7 +246,6 @@ namespace bimbel
             this.Controls.Add(this.textNoSiswa);
             this.Controls.Add(this.textNamaSiswa);
             this.Controls.Add(this.txtKodeKelas);
-            this.Controls.Add(this.txtStatus);
             this.Controls.Add(this.txtKodeBayar);
             this.Controls.Add(this.lblNo);
             this.Controls.Add(this.lblKode);
@@ -287,7 +278,7 @@ namespace bimbel
         private System.Windows.Forms.Label lblKelas;
         private System.Windows.Forms.Label lblNama;
         private System.Windows.Forms.Label lbltgl;
-        private System.Windows.Forms.TextBox txtStatus;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

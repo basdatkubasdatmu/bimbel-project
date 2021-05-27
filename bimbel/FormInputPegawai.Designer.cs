@@ -100,6 +100,7 @@ namespace bimbel
             // 
             this.tbPosisiPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbPosisiPegawai.Location = new System.Drawing.Point(150, 209);
+            this.tbPosisiPegawai.MaxLength = 10;
             this.tbPosisiPegawai.Name = "tbPosisiPegawai";
             this.tbPosisiPegawai.Size = new System.Drawing.Size(200, 27);
             this.tbPosisiPegawai.TabIndex = 37;
@@ -118,6 +119,7 @@ namespace bimbel
             // 
             this.tbEmailPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbEmailPegawai.Location = new System.Drawing.Point(150, 180);
+            this.tbEmailPegawai.MaxLength = 30;
             this.tbEmailPegawai.Name = "tbEmailPegawai";
             this.tbEmailPegawai.Size = new System.Drawing.Size(200, 27);
             this.tbEmailPegawai.TabIndex = 35;
@@ -174,6 +176,7 @@ namespace bimbel
             // 
             this.tbNamaPegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbNamaPegawai.Location = new System.Drawing.Point(150, 89);
+            this.tbNamaPegawai.MaxLength = 30;
             this.tbNamaPegawai.Name = "tbNamaPegawai";
             this.tbNamaPegawai.Size = new System.Drawing.Size(200, 27);
             this.tbNamaPegawai.TabIndex = 29;
@@ -192,6 +195,7 @@ namespace bimbel
             // 
             this.tbKodePegawai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbKodePegawai.Location = new System.Drawing.Point(150, 58);
+            this.tbKodePegawai.MaxLength = 10;
             this.tbKodePegawai.Name = "tbKodePegawai";
             this.tbKodePegawai.Size = new System.Drawing.Size(200, 27);
             this.tbKodePegawai.TabIndex = 27;
