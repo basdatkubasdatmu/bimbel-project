@@ -29,7 +29,6 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtJamMulai = new System.Windows.Forms.TextBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.txtKodePelajaran = new System.Windows.Forms.TextBox();
             this.txtKodeKelas = new System.Windows.Forms.TextBox();
@@ -49,15 +48,8 @@ namespace bimbel
             this.txtKodeZoom = new System.Windows.Forms.TextBox();
             this.lblKodeZoom = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
-            // 
-            // txtJamMulai
-            // 
-            this.txtJamMulai.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtJamMulai.Location = new System.Drawing.Point(215, 255);
-            this.txtJamMulai.Name = "txtJamMulai";
-            this.txtJamMulai.Size = new System.Drawing.Size(224, 27);
-            this.txtJamMulai.TabIndex = 30;
             // 
             // maskedTextBox2
             // 
@@ -73,6 +65,7 @@ namespace bimbel
             // 
             this.txtKodePelajaran.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodePelajaran.Location = new System.Drawing.Point(215, 175);
+            this.txtKodePelajaran.MaxLength = 5;
             this.txtKodePelajaran.Name = "txtKodePelajaran";
             this.txtKodePelajaran.Size = new System.Drawing.Size(224, 27);
             this.txtKodePelajaran.TabIndex = 28;
@@ -81,6 +74,7 @@ namespace bimbel
             // 
             this.txtKodeKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodeKelas.Location = new System.Drawing.Point(215, 95);
+            this.txtKodeKelas.MaxLength = 5;
             this.txtKodeKelas.Name = "txtKodeKelas";
             this.txtKodeKelas.Size = new System.Drawing.Size(224, 27);
             this.txtKodeKelas.TabIndex = 27;
@@ -166,6 +160,7 @@ namespace bimbel
             this.txtKodeJadwalPengajar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodeJadwalPengajar.Location = new System.Drawing.Point(215, 55);
             this.txtKodeJadwalPengajar.Margin = new System.Windows.Forms.Padding(4);
+            this.txtKodeJadwalPengajar.MaxLength = 5;
             this.txtKodeJadwalPengajar.Name = "txtKodeJadwalPengajar";
             this.txtKodeJadwalPengajar.Size = new System.Drawing.Size(224, 27);
             this.txtKodeJadwalPengajar.TabIndex = 19;
@@ -213,6 +208,7 @@ namespace bimbel
             // 
             this.txtNoPengajar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNoPengajar.Location = new System.Drawing.Point(215, 135);
+            this.txtNoPengajar.MaxLength = 10;
             this.txtNoPengajar.Name = "txtNoPengajar";
             this.txtNoPengajar.Size = new System.Drawing.Size(224, 27);
             this.txtNoPengajar.TabIndex = 32;
@@ -232,6 +228,7 @@ namespace bimbel
             // 
             this.txtKodeZoom.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodeZoom.Location = new System.Drawing.Point(215, 335);
+            this.txtKodeZoom.MaxLength = 5;
             this.txtKodeZoom.Name = "txtKodeZoom";
             this.txtKodeZoom.Size = new System.Drawing.Size(224, 27);
             this.txtKodeZoom.TabIndex = 34;
@@ -257,18 +254,28 @@ namespace bimbel
             this.label1.TabIndex = 35;
             this.label1.Text = "menit";
             // 
+            // maskedTextBox3
+            // 
+            this.maskedTextBox3.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.maskedTextBox3.Location = new System.Drawing.Point(215, 255);
+            this.maskedTextBox3.Mask = "90:00";
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.Size = new System.Drawing.Size(224, 27);
+            this.maskedTextBox3.TabIndex = 36;
+            this.maskedTextBox3.ValidatingType = typeof(System.DateTime);
+            // 
             // FormInputJadwalPengajar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(479, 436);
+            this.Controls.Add(this.maskedTextBox3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtKodeZoom);
             this.Controls.Add(this.lblKodeZoom);
             this.Controls.Add(this.txtNoPengajar);
             this.Controls.Add(this.lblNoPengajar);
-            this.Controls.Add(this.txtJamMulai);
             this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.txtKodePelajaran);
             this.Controls.Add(this.txtKodeKelas);
@@ -294,8 +301,6 @@ namespace bimbel
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtJamMulai;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.TextBox txtKodePelajaran;
         private System.Windows.Forms.TextBox txtKodeKelas;
@@ -315,5 +320,6 @@ namespace bimbel
         private System.Windows.Forms.TextBox txtKodeZoom;
         private System.Windows.Forms.Label lblKodeZoom;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
     }
 }
