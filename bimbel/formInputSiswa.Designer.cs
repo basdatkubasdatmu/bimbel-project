@@ -123,6 +123,7 @@ namespace bimbel
             // 
             this.txtNoSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNoSiswa.Location = new System.Drawing.Point(174, 50);
+            this.txtNoSiswa.MaxLength = 10;
             this.txtNoSiswa.Name = "txtNoSiswa";
             this.txtNoSiswa.Size = new System.Drawing.Size(291, 27);
             this.txtNoSiswa.TabIndex = 8;
@@ -131,6 +132,7 @@ namespace bimbel
             // 
             this.txtNamaSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNamaSiswa.Location = new System.Drawing.Point(174, 90);
+            this.txtNamaSiswa.MaxLength = 30;
             this.txtNamaSiswa.Name = "txtNamaSiswa";
             this.txtNamaSiswa.Size = new System.Drawing.Size(291, 27);
             this.txtNamaSiswa.TabIndex = 9;
@@ -139,6 +141,7 @@ namespace bimbel
             // 
             this.txtKodeKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodeKelas.Location = new System.Drawing.Point(174, 170);
+            this.txtKodeKelas.MaxLength = 5;
             this.txtKodeKelas.Name = "txtKodeKelas";
             this.txtKodeKelas.Size = new System.Drawing.Size(291, 27);
             this.txtKodeKelas.TabIndex = 10;
@@ -155,6 +158,7 @@ namespace bimbel
             // 
             this.txtEmailSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtEmailSiswa.Location = new System.Drawing.Point(174, 250);
+            this.txtEmailSiswa.MaxLength = 30;
             this.txtEmailSiswa.Name = "txtEmailSiswa";
             this.txtEmailSiswa.Size = new System.Drawing.Size(291, 27);
             this.txtEmailSiswa.TabIndex = 12;
@@ -163,6 +167,7 @@ namespace bimbel
             // 
             this.txtAsalSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtAsalSiswa.Location = new System.Drawing.Point(174, 290);
+            this.txtAsalSiswa.MaxLength = 20;
             this.txtAsalSiswa.Name = "txtAsalSiswa";
             this.txtAsalSiswa.Size = new System.Drawing.Size(291, 27);
             this.txtAsalSiswa.TabIndex = 13;
