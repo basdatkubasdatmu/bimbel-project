@@ -45,7 +45,7 @@ namespace bimbel
             this.lblNama = new System.Windows.Forms.Label();
             this.lbltgl = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbstatus = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblKode
@@ -217,14 +217,14 @@ namespace bimbel
             this.maskedTextBox1.TabIndex = 21;
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
-            // comboBox1
+            // cbstatus
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(146, 265);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(316, 27);
-            this.comboBox1.TabIndex = 22;
+            this.cbstatus.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cbstatus.FormattingEnabled = true;
+            this.cbstatus.Location = new System.Drawing.Point(146, 265);
+            this.cbstatus.Name = "cbstatus";
+            this.cbstatus.Size = new System.Drawing.Size(316, 27);
+            this.cbstatus.TabIndex = 22;
             // 
             // FormInputPembayaran
             // 
@@ -232,7 +232,7 @@ namespace bimbel
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(486, 400);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbstatus);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.lbltgl);
             this.Controls.Add(this.lblstatus);
@@ -279,6 +279,6 @@ namespace bimbel
         private System.Windows.Forms.Label lblNama;
         private System.Windows.Forms.Label lbltgl;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbstatus;
     }
 }
