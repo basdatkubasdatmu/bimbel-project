@@ -34,7 +34,6 @@ namespace bimbel
             this.btBatalKelas = new System.Windows.Forms.Button();
             this.btSimpanKelas = new System.Windows.Forms.Button();
             this.lbFasilitasKelas = new System.Windows.Forms.Label();
-            this.tbKuotaKelas = new System.Windows.Forms.TextBox();
             this.lbKuotaKelas = new System.Windows.Forms.Label();
             this.tbBiayaKelas = new System.Windows.Forms.TextBox();
             this.lbBiaya = new System.Windows.Forms.Label();
@@ -42,6 +41,7 @@ namespace bimbel
             this.lbNamaKelas = new System.Windows.Forms.Label();
             this.tbNomorKelas = new System.Windows.Forms.TextBox();
             this.lbNomorKelas = new System.Windows.Forms.Label();
+            this.tbKuotaKelas = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // clbFasilitas
@@ -110,15 +110,6 @@ namespace bimbel
             this.lbFasilitasKelas.TabIndex = 51;
             this.lbFasilitasKelas.Text = "Fasilitas";
             // 
-            // tbKuotaKelas
-            // 
-            this.tbKuotaKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbKuotaKelas.Location = new System.Drawing.Point(119, 166);
-            this.tbKuotaKelas.Margin = new System.Windows.Forms.Padding(4);
-            this.tbKuotaKelas.Name = "tbKuotaKelas";
-            this.tbKuotaKelas.Size = new System.Drawing.Size(256, 27);
-            this.tbKuotaKelas.TabIndex = 50;
-            // 
             // lbKuotaKelas
             // 
             this.lbKuotaKelas.AutoSize = true;
@@ -157,6 +148,7 @@ namespace bimbel
             this.tbNamaKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbNamaKelas.Location = new System.Drawing.Point(119, 95);
             this.tbNamaKelas.Margin = new System.Windows.Forms.Padding(4);
+            this.tbNamaKelas.MaxLength = 30;
             this.tbNamaKelas.Name = "tbNamaKelas";
             this.tbNamaKelas.Size = new System.Drawing.Size(256, 27);
             this.tbNamaKelas.TabIndex = 46;
@@ -178,6 +170,7 @@ namespace bimbel
             this.tbNomorKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbNomorKelas.Location = new System.Drawing.Point(119, 60);
             this.tbNomorKelas.Margin = new System.Windows.Forms.Padding(4);
+            this.tbNomorKelas.MaxLength = 5;
             this.tbNomorKelas.Name = "tbNomorKelas";
             this.tbNomorKelas.Size = new System.Drawing.Size(256, 27);
             this.tbNomorKelas.TabIndex = 44;
@@ -190,9 +183,18 @@ namespace bimbel
             this.lbNomorKelas.Location = new System.Drawing.Point(15, 63);
             this.lbNomorKelas.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNomorKelas.Name = "lbNomorKelas";
-            this.lbNomorKelas.Size = new System.Drawing.Size(96, 19);
+            this.lbNomorKelas.Size = new System.Drawing.Size(83, 19);
             this.lbNomorKelas.TabIndex = 43;
-            this.lbNomorKelas.Text = "Nomor Kelas";
+            this.lbNomorKelas.Text = "Kode Kelas";
+            // 
+            // tbKuotaKelas
+            // 
+            this.tbKuotaKelas.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tbKuotaKelas.Location = new System.Drawing.Point(119, 166);
+            this.tbKuotaKelas.Margin = new System.Windows.Forms.Padding(4);
+            this.tbKuotaKelas.Name = "tbKuotaKelas";
+            this.tbKuotaKelas.Size = new System.Drawing.Size(256, 27);
+            this.tbKuotaKelas.TabIndex = 50;
             // 
             // FormInputKelas
             // 
@@ -231,7 +233,6 @@ namespace bimbel
         private System.Windows.Forms.Button btBatalKelas;
         private System.Windows.Forms.Button btSimpanKelas;
         private System.Windows.Forms.Label lbFasilitasKelas;
-        private System.Windows.Forms.TextBox tbKuotaKelas;
         private System.Windows.Forms.Label lbKuotaKelas;
         private System.Windows.Forms.TextBox tbBiayaKelas;
         private System.Windows.Forms.Label lbBiaya;
@@ -239,5 +240,6 @@ namespace bimbel
         private System.Windows.Forms.Label lbNamaKelas;
         private System.Windows.Forms.TextBox tbNomorKelas;
         private System.Windows.Forms.Label lbNomorKelas;
+        private System.Windows.Forms.TextBox tbKuotaKelas;
     }
 }

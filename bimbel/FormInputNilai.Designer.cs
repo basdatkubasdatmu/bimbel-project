@@ -116,6 +116,7 @@ namespace bimbel
             this.txtKodeUjian.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodeUjian.Location = new System.Drawing.Point(172, 78);
             this.txtKodeUjian.Margin = new System.Windows.Forms.Padding(4);
+            this.txtKodeUjian.MaxLength = 5;
             this.txtKodeUjian.Name = "txtKodeUjian";
             this.txtKodeUjian.Size = new System.Drawing.Size(224, 27);
             this.txtKodeUjian.TabIndex = 12;
@@ -125,6 +126,7 @@ namespace bimbel
             this.txtNoSiswa.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNoSiswa.Location = new System.Drawing.Point(172, 122);
             this.txtNoSiswa.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNoSiswa.MaxLength = 10;
             this.txtNoSiswa.Name = "txtNoSiswa";
             this.txtNoSiswa.Size = new System.Drawing.Size(224, 27);
             this.txtNoSiswa.TabIndex = 13;
@@ -134,6 +136,7 @@ namespace bimbel
             this.txtNoPengajar.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNoPengajar.Location = new System.Drawing.Point(172, 169);
             this.txtNoPengajar.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNoPengajar.MaxLength = 10;
             this.txtNoPengajar.Name = "txtNoPengajar";
             this.txtNoPengajar.Size = new System.Drawing.Size(224, 27);
             this.txtNoPengajar.TabIndex = 14;
@@ -143,6 +146,7 @@ namespace bimbel
             this.txtKodePelajaran.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtKodePelajaran.Location = new System.Drawing.Point(172, 218);
             this.txtKodePelajaran.Margin = new System.Windows.Forms.Padding(4);
+            this.txtKodePelajaran.MaxLength = 5;
             this.txtKodePelajaran.Name = "txtKodePelajaran";
             this.txtKodePelajaran.Size = new System.Drawing.Size(224, 27);
             this.txtKodePelajaran.TabIndex = 15;

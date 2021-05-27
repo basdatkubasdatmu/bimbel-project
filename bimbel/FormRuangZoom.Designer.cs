@@ -31,15 +31,15 @@ namespace bimbel
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvRuang = new System.Windows.Forms.DataGridView();
+            this.kodeZoom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.link = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.meetingId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.passcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtRuang = new System.Windows.Forms.Label();
             this.btnTambah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
-            this.kodeZoom = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.link = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.meetingId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.passcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRuang)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,6 +68,32 @@ namespace bimbel
             this.dgvRuang.Size = new System.Drawing.Size(776, 304);
             this.dgvRuang.TabIndex = 14;
             // 
+            // kodeZoom
+            // 
+            this.kodeZoom.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.kodeZoom.HeaderText = "Kode Zoom";
+            this.kodeZoom.Name = "kodeZoom";
+            this.kodeZoom.Width = 111;
+            // 
+            // link
+            // 
+            this.link.HeaderText = "Link";
+            this.link.Name = "link";
+            // 
+            // meetingId
+            // 
+            this.meetingId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.meetingId.HeaderText = "MeetingID";
+            this.meetingId.Name = "meetingId";
+            this.meetingId.Width = 105;
+            // 
+            // passcode
+            // 
+            this.passcode.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.passcode.HeaderText = "Passcode";
+            this.passcode.Name = "passcode";
+            this.passcode.Width = 98;
+            // 
             // txtRuang
             // 
             this.txtRuang.AutoSize = true;
@@ -83,16 +109,6 @@ namespace bimbel
             // 
             this.btnTambah.BackColor = System.Drawing.SystemColors.Info;
             this.btnTambah.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 18e187e3ac2e5d30b4940d2d1290be62609fc40f
-            this.btnTambah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTambah.Location = new System.Drawing.Point(603, 367);
-            this.btnTambah.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
->>>>>>> d62bc79f4b7f50b30467f3fa5f0747ed1783c02d
             this.btnTambah.Location = new System.Drawing.Point(602, 361);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(90, 44);
@@ -134,32 +150,6 @@ namespace bimbel
             this.btnEdit.TabIndex = 18;
             this.btnEdit.Text = "EDIT";
             this.btnEdit.UseVisualStyleBackColor = false;
-            // 
-            // kodeZoom
-            // 
-            this.kodeZoom.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.kodeZoom.HeaderText = "Kode Zoom";
-            this.kodeZoom.Name = "kodeZoom";
-            this.kodeZoom.Width = 111;
-            // 
-            // link
-            // 
-            this.link.HeaderText = "Link";
-            this.link.Name = "link";
-            // 
-            // meetingId
-            // 
-            this.meetingId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.meetingId.HeaderText = "MeetingID";
-            this.meetingId.Name = "meetingId";
-            this.meetingId.Width = 105;
-            // 
-            // passcode
-            // 
-            this.passcode.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.passcode.HeaderText = "Passcode";
-            this.passcode.Name = "passcode";
-            this.passcode.Width = 98;
             // 
             // FormRuangZoom
             // 

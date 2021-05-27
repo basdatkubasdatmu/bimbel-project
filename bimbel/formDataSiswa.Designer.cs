@@ -29,6 +29,7 @@ namespace bimbel
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvSiswa = new System.Windows.Forms.DataGridView();
             this.lblDatasiswa = new System.Windows.Forms.Label();
             this.btnTambah = new System.Windows.Forms.Button();
@@ -47,7 +48,17 @@ namespace bimbel
             // 
             // dgvSiswa
             // 
+            this.dgvSiswa.AllowUserToAddRows = false;
+            this.dgvSiswa.AllowUserToDeleteRows = false;
             this.dgvSiswa.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSiswa.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvSiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSiswa.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.noSiswa,
@@ -130,9 +141,11 @@ namespace bimbel
             // 
             // noSiswa
             // 
+            this.noSiswa.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.noSiswa.DataPropertyName = "noSiswa";
             this.noSiswa.HeaderText = "Nomor Siswa";
             this.noSiswa.Name = "noSiswa";
+            this.noSiswa.Width = 113;
             // 
             // nama
             // 
@@ -142,9 +155,11 @@ namespace bimbel
             // 
             // jenisKelamin
             // 
+            this.jenisKelamin.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.jenisKelamin.DataPropertyName = "jenisKelamin";
             this.jenisKelamin.HeaderText = "Jenis Kelamin";
             this.jenisKelamin.Name = "jenisKelamin";
+            this.jenisKelamin.Width = 115;
             // 
             // kodeKelas
             // 
@@ -154,9 +169,11 @@ namespace bimbel
             // 
             // noHP
             // 
+            this.noHP.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.noHP.DataPropertyName = "noHP";
             this.noHP.HeaderText = "No HP";
             this.noHP.Name = "noHP";
+            this.noHP.Width = 70;
             // 
             // email
             // 
