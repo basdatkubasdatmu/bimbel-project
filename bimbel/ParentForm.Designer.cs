@@ -83,21 +83,21 @@ namespace bimbel
             // dataSiswa
             // 
             this.dataSiswa.Name = "dataSiswa";
-            this.dataSiswa.Size = new System.Drawing.Size(167, 24);
+            this.dataSiswa.Size = new System.Drawing.Size(135, 24);
             this.dataSiswa.Text = "Data Diri";
             this.dataSiswa.Click += new System.EventHandler(this.datasiswa_Click);
             // 
             // presensiSiswa
             // 
             this.presensiSiswa.Name = "presensiSiswa";
-            this.presensiSiswa.Size = new System.Drawing.Size(167, 24);
-            this.presensiSiswa.Text = "Jadwal Siswa";
+            this.presensiSiswa.Size = new System.Drawing.Size(135, 24);
+            this.presensiSiswa.Text = "Presensi";
             this.presensiSiswa.Click += new System.EventHandler(this.presensi_Click);
             // 
             // jadwalsiswa
             // 
             this.jadwalsiswa.Name = "jadwalsiswa";
-            this.jadwalsiswa.Size = new System.Drawing.Size(167, 24);
+            this.jadwalsiswa.Size = new System.Drawing.Size(135, 24);
             this.jadwalsiswa.Text = "Jadwal";
             this.jadwalsiswa.Click += new System.EventHandler(this.jadwalsiswa_Click);
             // 
